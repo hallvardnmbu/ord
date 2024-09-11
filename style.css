@@ -1,0 +1,26 @@
+.orden {
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.orden main {
+    flex: 1;
+}
+
+.orden footer {
+    display: flex;
+    justify-content: left;
+}
+
+.orden footer a {
+    display: inline-block;
+    color: black;
+}
+
+.orden footer a:hover {
+    background-color: lightgray;
+}
