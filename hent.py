@@ -6,8 +6,12 @@ import requests
 from deep_translator import GoogleTranslator
 
 
-_URL = "https://phrontistery.info/{}.html"
-_PATTERN = re.compile(r"\r\n<tr><td>(.*?)<td>", re.DOTALL)
+_WORDS = "https://phrontistery.info/{}.html"
+_PATTERNS = {
+    'ord': re.compile(r"\r\n<tr><td>(.*?)<td>", re.DOTALL),
+    'uttale': re.compile(r"UTTALE<\/span>.*?<span>\[(.*?)\]<\/span>", re.DOTALL),
+    'etymologi': re.compile(r"ETYMOLOGY<\/span>.*?<div>(.*?)<\/div>", re.DOTALL),
+}
 
 _TRANSLATOR = GoogleTranslator(source='en', target='no')
 _DICTIONARY = "https://ord.uib.no/api/articles?w={}&dict=bm"
@@ -22,8 +26,8 @@ _DATABASE = _CLIENT['ord']['ord']
 
 
 def words(letter: str):
-    response = requests.get(_URL.format(letter))
-    return re.findall(_PATTERN, response.text) if response.ok else []
+    response = requests.get(_WORDS.format(letter))
+    return re.findall(_PATTERNS['ord'], response.text) if response.ok else []
 
 
 def fetch(letters: str = "abcdefghijklmnopqrstuvwxyz"):
