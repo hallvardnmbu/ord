@@ -14,7 +14,7 @@ _PATTERNS = {
 }
 
 _TRANSLATOR = GoogleTranslator(source='en', target='no')
-_DICTIONARY = "https://ord.uib.no/api/articles?w={}&dict=bm"
+_DICTIONARY = "https://ord.uib.no/api/articles?w={}&dict=bm&scope=e"
 _DESCRIPTION = "https://ord.uib.no/bm/article/{}.json"
 
 _CLIENT = pymongo.mongo_client.MongoClient(
@@ -56,19 +56,18 @@ def save(vocabulary):
 
 
 def clean():
-    words = _DATABASE.find({}, {'norsk': 1, '_id': 0})
+    words = _DATABASE.find({'ids': {'$exists': False}}, {'norsk': 1, '_id': 0})
     operations = []
     for word in words:
         response = requests.get(_DICTIONARY.format(word))
         if not response.ok:
-            operations.append(
-                pymongo.DeleteOne({'norsk': word['norsk']})
-            )
+            break
         response = response.json()
         if response['meta']['bm']['total'] == 0:
             operations.append(
                 pymongo.DeleteOne({'norsk': word['norsk']})
             )
+            continue
         operations.append(
             pymongo.UpdateOne(
                 {'norsk': word['norsk']},
@@ -77,10 +76,11 @@ def clean():
                 }}
             )
         )
+    _DATABASE.bulk_write(operations)
 
 
-def describe(word):
-    words = _DATABASE.find({'norsk': word}, {'norsk': 1, 'ids': 1, '_id': 0})
+def describe():
+    words = list(_DATABASE.find({}, {'norsk': 1, 'ids': 1, '_id': 0}))[0:10]
     operations = []
     for word in words:
         for id in word['ids']:
@@ -89,6 +89,7 @@ def describe(word):
                 operations.append(
                     pymongo.DeleteOne({'norsk': word['norsk']})
                 )
+                continue
             response = response.json()['body']
 
             operations.append(
@@ -97,12 +98,25 @@ def describe(word):
                     {'$set': {
                         'uttalelse': response['pronunciation'],
                         'etymologi': response['etymology'],
-                        'definisjoner': {
 
-                        }
+                        'beskrivelse': [
+                            element['content']
+                            for definition in response['definitions']
+                            for element in definition['elements']
+                            if element['_type'] == 'explanation'
+                            and '$' not in element['content']
+                        ],
+                        'eksempel': [
+                            element['quote']['content']
+                            for definition in response['definitions']
+                            for element in definition['elements']
+                            if element['_type'] == 'example'
+                            and '$' not in element['quote']['content']
+                        ]
                     }}
                 )
             )
+    _DATABASE.bulk_write(operations)
 
 
 
@@ -110,4 +124,5 @@ if __name__ == "__main__":
     # vocabulary = fetch("abcdefghijklmnopqrstuvwxyz")
     # vocabulary = translate(vocabulary)
     # save(vocabulary)
-    clean()
+    # clean()
+    # describe()
