@@ -1,3 +1,6 @@
 .DS_Store
 .idea/
 Icon?
+
+node_modules/
+bun.lockb
