@@ -4,8 +4,8 @@ import { MongoClient } from "mongodb";
 
 // Extract all words from the books and count their frequency
 
-const books = fs.readdirSync("books").map((book) => {
-  const content = fs.readFileSync(path.join("books", book), "utf-8").toLowerCase();
+const books = fs.readdirSync("books/text/").map((book) => {
+  const content = fs.readFileSync(path.join("books/text/", book), "utf-8").toLowerCase();
   return content.match(/\b\w+\b/g) || [];
 });
 
