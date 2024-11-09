@@ -1,0 +1,73 @@
+LOEPENR	BOY_NUMMER	BOY_GRUPPE	BOY_TEKST	ORDBOK_TEKST
+1	1	verb, normal	inf	infinitiv
+2	2	verb, normal	inf	infinitiv
+3	3	verb, normal	pres	presens
+4	4	verb, normal	inf pass	
+5	5	verb, normal	pret	preteritum
+6	6	verb, normal	perf-part	supinum
+7	7	verb, normal	adj <perf-part> nøyt ub eint	partisipp_inkje
+8	8	verb, normal	adj <perf-part> m/f ub eint	partisipp_hanho
+9	9	verb, normal	adj <perf-part> fem ub eint	partisipp_ho
+10	10	verb, normal	adj <perf-part> bu eint	partisipp_bunden
+11	11	verb, normal	adj <perf-part> fl	partisipp_fleirtal
+12	12	verb, normal	adj <pres-part>	partisipp_presens
+13	13	verb, normal	imp	imperativ
+14	14	verb, normal	imp	
+15	15	verb, normal	imp	
+16	6	determinativ, <adj>	komp	grad_komparativ
+17	1	verb, st-verb	inf <st-verb>	infinitiv
+18	2	verb, st-verb	pres <st-verb>	presens
+19	3	verb, st-verb	pret <st-verb>	preteritum
+20	4	verb, st-verb	perf-part <st-verb>	supinum
+21	1	adverb		adv
+22	1	pronomen, normal	nom	nominativ
+23	2	pronomen, normal	akk	objektsform
+24	1	determinativ	mask eint	eintal_han
+25	2	determinativ	fem eint	eintal_ho
+26	3	determinativ	nøyt eint	eintal_inkje
+27	4	determinativ	fl	fleirtal
+28	1	determinativ, <adj>	pos mask ub eint	eintal_han
+29	2	determinativ, <adj>	pos fem ub eint	eintal_ho
+30	3	determinativ, <adj>	pos nøyt ub eint	eintal_inkje
+31	4	determinativ, <adj>	pos bu eint	eintal_bunden
+32	5	determinativ, <adj>	fl	fleirtal
+33	1	adjektiv	pos m/f ub eint	eintal_hanho
+34	2	adjektiv	pos fl	fleirtal
+35	3	adjektiv	pos bu eint	eintal_bunden
+36	4	adjektiv	pos nøyt ub eint	eintal_inkje
+37	5	adjektiv	komp	grad_komparativ
+38	6	adjektiv	sup ub	grad_superlativ
+39	7	adjektiv	sup bu	grad_superlativ_bunden
+40	1	adjektiv, ulik m/f	pos mask ub eint	eintal_han
+41	2	adjektiv, ulik m/f	pos fem ub eint	eintal_ho
+42	3	adjektiv, ulik m/f	pos nøyt ub eint	eintal_inkje
+43	4	adjektiv, ulik m/f	pos bu eint	eintal_bunden
+44	5	adjektiv, ulik m/f	pos fl	fleirtal
+45	6	adjektiv, ulik m/f	komp	grad_komparativ
+46	7	adjektiv, ulik m/f	sup ub	grad_superlativ
+47	8	adjektiv, ulik m/f	sup bu	grad_superlativ_bunden
+48	1	adjektiv, adverbtype	pos	grad_pos
+49	2	adjektiv, adverbtype	komp	grad_komparativ
+50	3	adjektiv, adverbtype	sup	grad_superlativ
+51	1	substantiv	eint ub	eintal_ubunden
+52	2	substantiv	eint bu	eintal_bunden
+53	3	substantiv	fl ub	fleirtal_ubunden
+54	4	substantiv	fl bu	fleirtal_bunden
+55	1	substantiv, sv hokj	eint ub	eintal_ubunden
+56	2	substantiv, sv hokj	eint bu	eintal_bunden
+57	3	substantiv, sv hokj	fl ub	fleirtal_ubunden
+58	4	substantiv, sv hokj	fl bu	fleirtal_bunden
+59	7	determinativ, <adj>	sup ub	grad_superlativ
+60	8	determinativ, <adj>	sup bu	grad_superlativ_bunden
+61	1	determinativ, enkel		det
+62	1	infinitivsmerke		infinitivsmerke
+63	1	interjeksjon		interj
+64	1	konjunksjon		konj
+65	1	preposisjon		prep
+66	1	pronomen, enkel		pron
+67	1	subjunksjon		subjunksjon
+68	1	substantiv, ubøy		subst
+69	1	forkorting	fork	forkorting
+70	1	i samansetting	i sms	i_sms
+71	1	prefiks	pref	prefiks
+72	1	symbol	symb	symbol

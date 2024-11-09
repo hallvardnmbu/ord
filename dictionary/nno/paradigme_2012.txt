@@ -1,0 +1,1667 @@
+LOEPENR	PARADIGME_ID	BOY_GRUPPE	ORDKLASSE	ORDKLASSE_UTDYPING	FORKLARING	DOEME	ID
+1	001	verb, normal	verb	svak pret_A	fullst	bade	1
+2	001K1	verb, normal	verb	svak pret_A	fullst som 001, men med as-inf	bade	1044
+3	005	verb, normal	verb	svak MM pret_A	fullst	hemme	2
+4	005K1	verb, normal	verb	svak MM pret_A	fullst som 005, men med as-inf	hemme	1045
+5	015	verb, normal	verb	svak pret_DE perf_T	fullst	løyne	4
+6	015K1	verb, normal	verb	svak pret_DE perf_T	fullst som 015, men med as-inf	løyne	1046
+7	015X	verb, normal	verb			mune	1594
+8	019	verb, normal	verb	svak forenkl pret_DE perf_T	fullst	tenne	5
+9	019K1	verb, normal	verb	svak forenkl pret_DE perf_T	fullst som 019, men med as-inf	tenne	1047
+10	023	verb, normal	verb	svak MM pret_DE perf_T	fullst	tømme	6
+11	023K1	verb, normal	verb	svak MM pret_DE perf_T	fullst som 023, men med as-inf	tømme	1048
+12	027	verb, normal	verb	svak J-bortfall pret_DE perf_T	fullst	svelgje	7
+13	027K1	verb, normal	verb	svak J-bortfall pret_DE perf_T	fullst som 027, men med as-inf	svelgje	1049
+14	028	verb, normal	verb	svak J-bortfall pret_DE perf_D/T	fullst	lægje -	8
+15	028K1	verb, normal	verb	svak J-bortfall pret_DE perf_D/T	fullst som 028, men med as-inf	lægje -	1050
+16	030	verb, normal	verb	svak pret_DE perf_D/T	fullst	tide -	9
+17	030K1	verb, normal	verb	svak pret_DE perf_D/T	fullst som 030, men med as-inf	tide -	1051
+18	031	verb, normal	verb	svak forenkl J-bortfall pret_DE perf_D/T	fullst	byggje -	10
+19	031K1	verb, normal	verb	svak forenkl J-bortfall pret_DE perf_D/T	fullst som 031, men med as-inf	byggje -	1052
+20	032	verb, normal	verb	svak forenkl J-bortfall pret_DE perf_D/T	fullst	byggje -	11
+21	032K1	verb, normal	verb	svak forenkl J-bortfall pret_DE perf_D/T	fullst som 032, men med as-inf	byggje -	1053
+22	037	verb, normal	verb	svak pret_TE	fullst	kvele	12
+23	037B	verb, normal	verb	svak pret_TE	fullst som 037, men med ar-pres	kvele	1615
+24	037K1	verb, normal	verb	svak pret_TE	fullst som 037, men med as-inf	kvele	1054
+25	038	verb, normal	verb	sterk vokalskifte_E>A>U		slenge	853
+26	038K1	verb, normal	verb	sterk vokalskifte_E>A>U	 som 038, men med as-inf	slenge	1055
+27	038K2	verb, normal	verb	sterk vokalskifte_E>A>U	 som 038KL, men med as-inf	slenge	1056
+28	038KL	verb, normal	verb	sterk vokalskifte_E>A>U		slenge	865
+29	039	verb, normal	verb	sterk vokalskifte_E>A>U		slenge	854
+30	039K1	verb, normal	verb	sterk vokalskifte_E>A>U	 som 039, men med as-inf	slenge	1057
+31	039K2	verb, normal	verb	sterk vokalskifte_E>A>U	 som 039KL, men med as-inf	slenge	1058
+32	039KL	verb, normal	verb	sterk vokalskifte_E>A>U		slenge	866
+33	041	verb, normal	verb	svak forenkl pret_TE	fullst	stelle	13
+34	041K1	verb, normal	verb	svak forenkl pret_TE	fullst som 041, men med as-inf	stelle	1059
+35	041T	verb, normal	verb	svak forenkl pret_TE	fullst som 041, men med -ar i pres.	stelle	1616
+36	042	verb, normal	verb	svak forenkl pret_TE	fullst	sette -	14
+37	042K1	verb, normal	verb	svak forenkl pret_TE	fullst som 042, men med as-inf	sette -	1060
+38	042K2	verb, normal	verb	svak forenkl pret_TE som 042 men med -tt ipresens	fullst	sette -	1588
+39	043	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall forenkl pret_TE	fullst	strekke -	15
+40	043K1	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall forenkl pret_TE	fullst som 043, men med as-inf	strekke -	1061
+41	045	verb, normal	verb	svak J-bortfall pret_TE	fullst	tenkje	16
+42	045K1	verb, normal	verb	svak J-bortfall pret_TE	fullst som 045, men med as-inf	tenkje	1062
+43	046	verb, normal	verb	svak vokalskifte_Y>U>U J-bortfall pre_uten_J pret_TE	fullst	drysje	17
+44	046K1	verb, normal	verb	svak vokalskifte_Y>U>U J-bortfall pre_uten_J pret_TE	fullst som 046, men med as-inf	drysje	1063
+45	049	verb, normal	verb	svak forenkl J-bortfall pret_TE	fullst	rekkje	18
+46	049K1	verb, normal	verb	svak forenkl J-bortfall pret_TE	fullst som 049, men med as-inf	rekkje	1064
+47	052	verb, normal	verb	svak forenkl J-bortfallV pret_A		tryggje -	19
+48	052K1	verb, normal	verb	svak forenkl J-bortfallV pret_A	 som 052, men med as-inf	tryggje -	1065
+49	053	verb, normal	verb	svak forenkl J-bortfallV pret_A		belgje	20
+50	053K1	verb, normal	verb	svak forenkl J-bortfallV pret_A	 som 053, men med as-inf	belgje	1066
+51	067K1	verb, normal	verb	svak forenkl pret_A	fullst som 067, men med as-inf	forbanne -	1067
+52	069	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0		ligge -	22
+53	069K1	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0	 som 069, men med as-inf	ligge -	1068
+54	069K2	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0	 som 069KL, men med as-inf	ligge -	1069
+55	069KL	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0		ligge -	867
+56	070	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0		ligge -	23
+57	070K1	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0	 som 070, men med as-inf	ligge -	1070
+58	070K2	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0	 som 070KL, men med as-inf	ligge -	1071
+59	070KL	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0		ligge -	868
+60	078	verb, normal	verb	svak MM pret_DE	fullst	demme -	24
+61	078K1	verb, normal	verb	svak MM pret_DE	fullst som 078, men med as-inf	demme -	1072
+62	079	verb, normal	verb	svak MM pret_TE	fullst	bestemme -	25
+63	079K1	verb, normal	verb	svak MM pret_TE	fullst som 079, men med as-inf	bestemme -	1073
+64	080	verb, normal	verb	sterk vokalskifte_Y>AU>O på_rotvokal uten_attr pret_DDE perf_DD/TT		ry -	26
+65	080K1	verb, normal	verb	sterk vokalskifte_Y>AU>O på_rotvokal uten_attr pret_DDE perf_DD/TT	 som 080, men med as-inf	ry -	1074
+66	081	verb, normal	verb	sterk vokalskifte_Y>AU>O på_rotvokal uten_attr pret_DDE perf_DD/TT		ry -	27
+67	081K1	verb, normal	verb	sterk vokalskifte_Y>AU>O på_rotvokal uten_attr pret_DDE perf_DD/TT	 som 081, men med as-inf	ry -	1075
+68	084	verb, normal	verb	sterk vokalskifte_Y>AU>O på_rotvokal uten_attr pret_DDE perf_DD/TT		ry -	28
+69	084K1	verb, normal	verb	sterk vokalskifte_Y>AU>O på_rotvokal uten_attr pret_DDE perf_DD/TT	 som 084, men med as-inf	ry -	1076
+70	085	verb, normal	verb	sterk vokalskifte_Y>AU>O på_rotvokal uten_attr pret_DDE perf_DD/TT		ry -	29
+71	085K1	verb, normal	verb	sterk vokalskifte_Y>AU>O på_rotvokal uten_attr pret_DDE perf_DD/TT	 som 085, men med as-inf	ry -	1077
+72	087	verb, normal	verb	svak pret_E perf_T	fullst	sende	30
+73	087K1	verb, normal	verb	svak pret_E perf_T	fullst som 087, men med as-inf	sende	1078
+74	089	verb, normal	verb	svak på_rotvokal uten_attr	enkelttilfelle	pla	31
+75	090	verb, normal	verb	svak på_rotvokal pret_DDE	fullst	nå -	32
+76	090K1	verb, normal	verb	svak på_rotvokal pret_DDE	fullst som 090, men med as-inf	nå -	1079
+77	091	verb, normal	verb	svak på_rotvokal pret_DDE	fullst	nå -	33
+78	091K1	verb, normal	verb	svak på_rotvokal pret_DDE	fullst som 091, men med as-inf	nå -	1080
+79	094	verb, normal	verb	svak på_E pret_DDE	fullst	spreie -	34
+80	094K1	verb, normal	verb	svak på_E pret_DDE	fullst som 094, men med as-inf	spreie -	1081
+81	095	verb, normal	verb	svak på_E pret_DDE	fullst	spreie -	35
+82	095K1	verb, normal	verb	svak på_E pret_DDE	fullst som 095, men med as-inf	spreie -	1082
+83	098	verb, normal	verb	svak på_rotvokal pret_DDE perf_DD/DT	kortform_av_099 fullst	rå -	36
+84	098K1	verb, normal	verb	svak på_rotvokal pret_DDE perf_DD/DT	kortform_av_099 fullst som 098, men med as-inf	rå -	1083
+85	099	verb, normal	verb	svak på_rotvokal pret_DDE perf_DD/DT	kortform_av_099 fullst	rå -	37
+86	099K1	verb, normal	verb	svak på_rotvokal pret_DDE perf_DD/DT	kortform_av_099 fullst som 099, men med as-inf	rå -	1084
+87	099T	verb, normal	verb			tre	1610
+88	1001	forkorting	fork			NSB	1611
+89	1002	prefiks	pref			aero-	1612
+90	1003	i samansetting	i sms			avls-	1613
+91	1004	symbol	symb			Al	1614
+92	104	verb, normal	verb	svak uten_attr	modalverb enkelttilfelle	burde	38
+93	104K1	verb, normal	verb	svak uten_attr	modalverb enkelttilfelle som 104, men med as-inf	burde	1085
+94	105	verb, normal	verb	svak uten_attr	modalverb enkelttilfelle	burde	39
+95	105K1	verb, normal	verb	svak uten_attr	modalverb enkelttilfelle som 105, men med as-inf	burde	1086
+96	106	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0 pret_0/RK_DE	fullst enkelttilfelle	leggje -	40
+97	106K1	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0 pret_0/RK_DE	fullst enkelttilfelle som 106, men med as-inf	leggje -	1087
+98	107	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0 pret_0/RK_DE	fullst enkelttilfelle	leggje -	41
+99	107K1	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0 pret_0/RK_DE	fullst enkelttilfelle som 107, men med as-inf	leggje -	1088
+100	108	verb, normal	verb	svak J-bortfall pres_0 pret_DE perf_T	fullst	selje -	42
+101	108K1	verb, normal	verb	svak J-bortfall pres_0 pret_DE perf_T	fullst som 108, men med as-inf	selje -	1089
+102	109	verb, normal	verb	svak J-bortfall pres_0 pret_TE perf_D	fullst	selje -	43
+103	109K1	verb, normal	verb	svak J-bortfall pres_0 pret_TE perf_D	fullst som 109, men med as-inf	selje -	1090
+104	111	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0 pret_0/RK_DE	fullst enkelttilfelle	legge -	44
+105	111K1	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0 pret_0/RK_DE	fullst enkelttilfelle som 111, men med as-inf	legge -	1091
+106	112	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0 pret_0/RK_DE	fullst enkelttilfelle	legge -	45
+107	112K1	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0 pret_0/RK_DE	fullst enkelttilfelle som 112, men med as-inf	legge -	1092
+108	113	verb, normal	verb	svak J-bortfall pres_0 pret_TE perf_T	fullst	setje	46
+109	113K1	verb, normal	verb	svak J-bortfall pres_0 pret_TE perf_T	fullst som 113, men med as-inf	setje	1093
+110	114	verb, normal	verb	svak vokalskifte_Ø>U>U J-bortfall pres_0 pret_DE perf_T	fullst	smørje -	47
+111	114K1	verb, normal	verb	svak vokalskifte_Ø>U>U J-bortfall pres_0 pret_DE perf_T	fullst som 114, men med as-inf	smørje -	1094
+112	115	verb, normal	verb	svak vokalskifte_Ø>U>U J-bortfall pres_0 pret_DE perf_T	fullst	smørje -	48
+113	115K1	verb, normal	verb	svak vokalskifte_Ø>U>U J-bortfall pres_0 pret_DE perf_T	fullst som 115, men med as-inf	smørje -	1095
+114	116	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall forenkl pret_TE	fullst	strekkje -	49
+115	116K1	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall forenkl pret_TE	fullst som 116, men med as-inf	strekkje -	1096
+116	118	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0 pret_DE perf_T	fullst	telje	50
+117	118K1	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0 pret_DE perf_T	fullst som 118, men med as-inf	telje	1097
+118	119	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0 pret_TE perf_T	fullst	kvetje	51
+119	119K1	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0 pret_TE perf_T	fullst som 119, men med as-inf	kvetje	1098
+120	120	verb, normal	verb	svak	modalverb enkelttilfelle	tore -	52
+121	120K1	verb, normal	verb	svak	modalverb enkelttilfelle som 120, men med as-inf	tore -	1099
+122	121	verb, normal	verb	svak	modalverb enkelttilfelle	tore -	53
+123	121K1	verb, normal	verb	svak	modalverb enkelttilfelle som 121, men med as-inf	tore -	1100
+124	122	verb, normal	verb	svak J-bortfall pres_0	modalverb	vilje	54
+125	122K1	verb, normal	verb	svak J-bortfall pres_0	modalverb som 122, men med as-inf	vilje	1101
+126	123	verb, normal	verb	svak	modalverb enkelttilfelle	tore -	55
+127	123K1	verb, normal	verb	svak	modalverb enkelttilfelle som 123, men med as-inf	tore -	1102
+128	124	verb, normal	verb	svak vokalskifte_EI>A>A pret_0/RK_DE	som SEIE men uten_ST_i_pres fullst	avseie -	56
+129	124K1	verb, normal	verb	svak vokalskifte_EI>A>A pret_0/RK_DE	som SEIE men uten_ST_i_pres fullst som 124, men med as-inf	avseie -	1103
+130	125	verb, normal	verb	svak vokalskifte_EI>A>A pret_0/RK_DE	som SEIE men uten_ST_i_pres fullst	avseie -	57
+131	125K1	verb, normal	verb	svak vokalskifte_EI>A>A pret_0/RK_DE	som SEIE men uten_ST_i_pres fullst som 125, men med as-inf	avseie -	1104
+132	126	verb, normal	verb	svak vokalskifte_EI>A>A pret_0/RK_DE		teie -	58
+133	126K1	verb, normal	verb	svak vokalskifte_EI>A>A pret_0/RK_DE	 som 126, men med as-inf	teie -	1105
+134	129	verb, normal	verb	svak vokalskifte_E>O>O pres_0 pret_DE perf_T	fullst	gjere	59
+135	129K1	verb, normal	verb	svak vokalskifte_E>O>O pres_0 pret_DE perf_T	fullst som 129, men med as-inf	gjere	1106
+136	129K2	verb, normal	verb	svak vokalskifte_E>O>O pres_0 pret_DE perf_T	fullst som 129KL, men med as-inf	gjere	1107
+137	129KL	verb, normal	verb	svak vokalskifte_E>O>O pres_0 pret_DE perf_T	fullst	gjere	869
+138	130	verb, normal	verb	svak vokalskifte_E>O>O pres_0 pret_DE perf_T	fullst	gjere	60
+139	130K1	verb, normal	verb	svak vokalskifte_E>O>O pres_0 pret_DE perf_T	fullst som 130, men med as-inf	gjere	1108
+140	130K2	verb, normal	verb	svak vokalskifte_E>O>O pres_0 pret_DE perf_T	fullst som 130KL, men med as-inf	gjere	1109
+141	130KL	verb, normal	verb	svak vokalskifte_E>O>O pres_0 pret_DE perf_T	fullst	gjere	870
+142	131	verb, normal	verb	svak vokalskifte_E>O>O pres_0 pret_DE perf_T	fullst	gjøre	61
+143	131K1	verb, normal	verb	svak vokalskifte_E>O>O pres_0 pret_DE perf_T	fullst som 131, men med as-inf	gjøre	1110
+144	132	verb, normal	verb	svak pret_RK_DE perf_RK_D/T	fullst	vie -	62
+145	132K1	verb, normal	verb	svak pret_RK_DE perf_RK_D/T	fullst som 132, men med as-inf	vie -	1111
+146	133	verb, normal	verb	svak pret_RK_DE perf_RK_D/T	fullst	vie -	63
+147	133K1	verb, normal	verb	svak pret_RK_DE perf_RK_D/T	fullst som 133, men med as-inf	vie -	1112
+148	134	verb, normal	verb	svak vokalskifte_ØY>ØG>ØG pret_DE perf_D/T		sløye -	64
+149	134K1	verb, normal	verb	svak vokalskifte_ØY>ØG>ØG pret_DE perf_D/T	 som 134, men med as-inf	sløye -	1113
+150	135	verb, normal	verb	svak vokalskifte_ØY>ØG>ØG pret_DE perf_D/T		sløye -	65
+151	135K1	verb, normal	verb	svak vokalskifte_ØY>ØG>ØG pret_DE perf_D/T	 som 135, men med as-inf	sløye -	1114
+152	136	verb, normal	verb	svak	modalverb enkelttilfelle	skulle	66
+153	136K1	verb, normal	verb	svak	modalverb enkelttilfelle som 136, men med as-inf	skulle	1115
+154	140	verb, normal	verb	svak	modalverb enkelttilfelle	måtte -	67
+155	140K1	verb, normal	verb	svak	modalverb enkelttilfelle som 140, men med as-inf	måtte -	1116
+156	141	verb, normal	verb	svak	modalverb enkelttilfelle	måtte -	68
+157	141K1	verb, normal	verb	svak	modalverb enkelttilfelle som 141, men med as-inf	måtte -	1117
+158	142	verb, normal	verb	sterk uten_attr	preteritopresentisk enkelttilfelle	vete	69
+159	142K1	verb, normal	verb	sterk uten_attr	preteritopresentisk enkelttilfelle som 142, men med as-inf	vete	1118
+160	144	verb, normal	verb	sterk uten_attr	preteritopresentisk enkelttilfelle	vite	70
+161	144K1	verb, normal	verb	sterk uten_attr	preteritopresentisk enkelttilfelle som 144, men med as-inf	vite	1119
+162	146	verb, normal	verb	svak	fullst enkelttilfelle	eige	71
+163	146D	verb, normal	verb	svak	fullst. enkelttilfelle	eige	1607
+164	146DT	verb, normal	verb	svak	fullst. enkelttilfelle	eige	1608
+165	146K1	verb, normal	verb	svak	fullst enkelttilfelle som 146, men med as-inf	eige	1120
+166	148	verb, normal	verb	sterk uten_vokalskifte uten_attr	reduplikasjon enkelttilfelle	heite -	72
+167	148K1	verb, normal	verb	sterk uten_vokalskifte uten_attr	reduplikasjon enkelttilfelle som 148, men med as-inf	heite -	1121
+168	151	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal suppletivV prespart_RK_ANDE	''overgang fra en tilstand til en annen'' enkelttilfelle	bli -	73
+169	152	verb, normal	verb	på_rotvokal uten_attr	kortform_av_153 enkelttilfelle	ha	74
+170	152K1	verb, normal	verb	på_rotvokal uten_attr	kortform_av_153 enkelttilfelle som 152, men med as-inf	ha	1122
+171	153	verb, normal	verb	uten_attr	langform_av_152	have	75
+172	153K1	verb, normal	verb	uten_attr	langform_av_152 som 153, men med as-inf	have	1123
+173	154	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal suppletivV prespart_RK_ANDE	''overgang fra en tilstand til en annen'' enkelttilfelle	bli -	76
+174	154A	verb, normal	verb	sterk vokalskifte	"overgang fra en tilstand til en annen" enkelttilfelle	bli -	1654
+175	155	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal suppletivV prespart_RK_ANDE	''overgang fra en tilstand til en annen'' enkelttilfelle	bli -	77
+176	156	verb, normal	verb	sterk vokalskifte_I>EI>I	''drukne''	blive -	78
+177	156K1	verb, normal	verb	sterk vokalskifte_I>EI>I	''drukne'' som 156, men med as-inf	blive -	1124
+178	156K2	verb, normal	verb	sterk vokalskifte_I>EI>I	''drukne'' som 156KL, men med as-inf	blive -	1125
+179	156KL	verb, normal	verb	sterk vokalskifte_I>EI>I	''drukne''	blive -	871
+180	157	verb, normal	verb	sterk vokalskifte_I>EI>I	''drukne''	blive -	79
+181	157K1	verb, normal	verb	sterk vokalskifte_I>EI>I	''drukne'' som 157, men med as-inf	blive -	1126
+182	157K2	verb, normal	verb	sterk vokalskifte_I>EI>I	''drukne'' som 157KL, men med as-inf	blive -	1127
+183	157KL	verb, normal	verb	sterk vokalskifte_I>EI>I	''drukne''	blive -	872
+184	158	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst	overskride -	80
+185	158K1	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst som 158, men med as-inf	overskride -	1128
+186	158K2	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst som 158KL, men med as-inf	overskride -	1129
+187	158KL	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst	overskride -	873
+188	159	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst	overskride -	81
+189	159K1	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst som 159, men med as-inf	overskride -	1130
+190	159K2	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst som 159KL, men med as-inf	overskride -	1131
+191	159KL	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst	overskride -	874
+192	160	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst	overskride -	82
+193	160K1	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst som 160, men med as-inf	overskride -	1132
+194	160K2	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst som 160KL, men med as-inf	overskride -	1133
+195	160KL	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst	overskride -	875
+196	161	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst	overskride -	83
+197	161K1	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst som 161, men med as-inf	overskride -	1134
+198	161K2	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst som 161KL, men med as-inf	overskride -	1135
+199	161KL	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0/ER pret_DE perf_D/T	som 159 men fullst	overskride -	876
+200	163	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0	fullst	gripe -	84
+201	163K1	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0	fullst som 163, men med as-inf	gripe -	1136
+202	163K2	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0	fullst som 163KL, men med as-inf	gripe -	1137
+203	163KL	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0	fullst	gripe -	877
+204	164	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0	fullst	gripe -	85
+205	164K1	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0	fullst som 164, men med as-inf	gripe -	1138
+206	164K2	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0	fullst som 164KL, men med as-inf	gripe -	1139
+207	164KL	verb, normal	verb	sterk vokalskifte_I>EI>I pres_0	fullst	gripe -	878
+208	165	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal pres_R pret_RK_DE perf_RK_D/T	kortform_av_170 fullst	vri -	86
+209	165K1	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal pres_R pret_RK_DE perf_RK_D/T	kortform_av_170 fullst som 165, men med as-inf	vri -	1140
+210	166	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal pres_R pret_RK_DE perf_RK_D/T	kortform_av_170 fullst	vri -	87
+211	166K1	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal pres_R pret_RK_DE perf_RK_D/T	kortform_av_170 fullst som 166, men med as-inf	vri -	1141
+212	167	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal pres_R pret_RK_DE perf_RK_D/T	kortform_av_170 fullst	vri -	88
+213	167K1	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal pres_R pret_RK_DE perf_RK_D/T	kortform_av_170 fullst som 167, men med as-inf	vri -	1142
+214	168	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal pres_R pret_RK_DE perf_RK_D/T	kortform_av_170 fullst	vri -	89
+215	168K1	verb, normal	verb	sterk vokalskifte_I>EI>I på_rotvokal pres_R pret_RK_DE perf_RK_D/T	kortform_av_170 fullst som 168, men med as-inf	vri -	1143
+216	169	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst	lide -	90
+217	169K1	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst som 169, men med as-inf	lide -	1144
+218	169K2	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst som 169KL, men med as-inf	lide -	1145
+219	169KL	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst	lide -	879
+220	170	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst	lide -	91
+221	170K1	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst som 170, men med as-inf	lide -	1146
+222	170K2	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst som 170KL, men med as-inf	lide -	1147
+223	170KL	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst	lide -	880
+224	171	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst	lide -	92
+225	171K1	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst som 171, men med as-inf	lide -	1148
+226	171K2	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst som 171KL, men med as-inf	lide -	1149
+227	171KL	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst	lide -	881
+228	172	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst	lide -	93
+229	172K1	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst som 172, men med as-inf	lide -	1150
+230	172K2	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst som 172KL, men med as-inf	lide -	1151
+231	172KL	verb, normal	verb	sterk vokalskifte_I>EI>I uten_S-form pres_0 perf_D/T	langform_av_178 fullst	lide -	882
+232	173	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle	stande -	94
+233	173K1	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle som 173, men med as-inf	stande -	1152
+234	173K2	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle som 173KL, men med as-inf	stande -	1153
+235	173KL	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle	stande -	883
+236	174	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle	stande -	95
+237	174K1	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle som 174, men med as-inf	stande -	1154
+238	174K2	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle som 174KL, men med as-inf	stande -	1155
+239	174KL	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle	stande -	884
+240	175	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle	stande -	96
+241	175K1	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle som 175, men med as-inf	stande -	1156
+242	175K2	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle som 175KL, men med as-inf	stande -	1157
+243	175KL	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle	stande -	885
+244	176	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle	stande -	97
+245	176K1	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle som 176, men med as-inf	stande -	1158
+246	176K2	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle som 176KL, men med as-inf	stande -	1159
+247	176KL	verb, normal	verb	sterk vokalskifte_A>E>O dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle	stande -	886
+248	177	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike pres_0	fullst	synge -	98
+249	177K1	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike pres_0	fullst som 177, men med as-inf	synge -	1160
+250	177K2	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike pres_0	fullst som 177KL, men med as-inf	synge -	1161
+251	177KL	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike pres_0	fullst	synge -	887
+252	178	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike pres_0	fullst	synge -	99
+253	178K1	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike pres_0	fullst som 178, men med as-inf	synge -	1162
+254	178K2	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike pres_0	fullst som 178KL, men med as-inf	synge -	1163
+255	178KL	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike pres_0	fullst	synge -	888
+256	183	verb, normal	verb	svak på_D pret_A/E perf_A/T	fullst	skylde -	100
+257	183K1	verb, normal	verb	svak på_D pret_A/E perf_A/T	fullst som 183, men med as-inf	skylde -	1164
+258	187	verb, normal	verb	svak	modalverb enkelttilfelle	turve	101
+259	187K1	verb, normal	verb	svak	modalverb enkelttilfelle som 187, men med as-inf	turve	1165
+260	188	verb, normal	verb	sterk vokalskifte_l>A>A dobbeltkons_ulike pres_0 pret_assim imp_assim	fullst enkelttilfelle	binde -	1626
+261	189	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle	binde -	102
+262	189K1	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle som 189, men med as-inf	binde -	1166
+263	189K2	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle som 189KL, men med as-inf	binde -	1167
+264	189KL	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle	binde -	889
+265	190	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle	binde -	103
+266	190K1	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle som 190, men med as-inf	binde -	1168
+267	190K2	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle som 190KL, men med as-inf	binde -	1169
+268	190KL	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_assim	fullst enkelttilfelle	binde -	890
+269	194	verb, normal	verb	svak på_rotvokal pret_A/DDE pres_R/AR perf_A/DD/TT	dobbeltform_av_195 fullst	skru -	104
+270	194K1	verb, normal	verb	svak på_rotvokal pret_A/DDE pres_R/AR perf_A/DD/TT	dobbeltform_av_195 fullst som 194, men med as-inf	skru -	1170
+271	195	verb, normal	verb	svak pret_A/DDE pres_R/AR perf_A/DD/TT	dobbeltform_av_194 ulik inf fullst	skrue -	105
+272	195K1	verb, normal	verb	svak pret_A/DDE pres_R/AR perf_A/DD/TT	dobbeltform_av_194 ulik inf fullst som 195, men med as-inf	skrue -	1171
+273	196	verb, normal	verb	svak pret_A/DDE pres_R/AR perf_A/DD/TT	dobbeltform_av_194 ulik inf fullst	skrue -	106
+274	196K1	verb, normal	verb	svak pret_A/DDE pres_R/AR perf_A/DD/TT	dobbeltform_av_194 ulik inf fullst som 196, men med as-inf	skrue -	1172
+275	197	verb, normal	verb	sterk vokalskifte_Y>AU>O	fullst	fryse -	107
+276	197K1	verb, normal	verb	sterk vokalskifte_Y>AU>O	fullst som 197, men med as-inf	fryse -	1173
+277	197K2	verb, normal	verb	sterk vokalskifte_Y>AU>O	fullst som 197KL, men med as-inf	fryse -	1174
+278	197KL	verb, normal	verb	sterk vokalskifte_Y>AU>O	fullst	fryse -	891
+279	198	verb, normal	verb	sterk vokalskifte_Y>AU>O	fullst	fryse -	108
+280	198K1	verb, normal	verb	sterk vokalskifte_Y>AU>O	fullst som 198, men med as-inf	fryse -	1175
+281	198K2	verb, normal	verb	sterk vokalskifte_Y>AU>O	fullst som 198KL, men med as-inf	fryse -	1176
+282	198KL	verb, normal	verb	sterk vokalskifte_Y>AU>O	fullst	fryse -	892
+283	198S	verb, normal	verb	sterk vokalskifte_Y>AU>Y		nyte	1609
+284	199	verb, normal	verb	sterk vokalskifte_Y>AU>Y på_rotvokal pres_0 pret_RK_DE perf_RK_D/T	kortform_av_206 fullst	by -	109
+285	199K1	verb, normal	verb	sterk vokalskifte_Y>AU>Y på_rotvokal pres_0 pret_RK_DE perf_RK_D/T	kortform_av_206 fullst som 199, men med as-inf	by -	1177
+286	200	verb, normal	verb	sterk vokalskifte_Y>AU>Y på_rotvokal pres_0 pret_RK_DE perf_RK_D/T	kortform_av_206 fullst	by -	110
+287	200K1	verb, normal	verb	sterk vokalskifte_Y>AU>Y på_rotvokal pres_0 pret_RK_DE perf_RK_D/T	kortform_av_206 fullst som 200, men med as-inf	by -	1178
+288	201	verb, normal	verb	sterk vokalskifte_Y>AU>Y på_rotvokal pres_0 pret_RK_DE perf_RK_D/T	kortform_av_206 fullst	by -	111
+289	201K1	verb, normal	verb	sterk vokalskifte_Y>AU>Y på_rotvokal pres_0 pret_RK_DE perf_RK_D/T	kortform_av_206 fullst som 201, men med as-inf	by -	1179
+290	202	verb, normal	verb	sterk vokalskifte_Y>AU>Y på_rotvokal pres_0 pret_RK_DE perf_RK_D/T	kortform_av_206 fullst	by -	112
+291	202K1	verb, normal	verb	sterk vokalskifte_Y>AU>Y på_rotvokal pres_0 pret_RK_DE perf_RK_D/T	kortform_av_206 fullst som 202, men med as-inf	by -	1180
+292	206	verb, normal	verb	sterk vokalskifte_Y>AU>Y pres_0/R pret_DE perf_D/T	langform_av_205 fullst	byde -	113
+293	206K1	verb, normal	verb	sterk vokalskifte_Y>AU>Y pres_0/R pret_DE perf_D/T	langform_av_205 fullst som 206, men med as-inf	byde -	1181
+294	207	verb, normal	verb	sterk vokalskifte_Y>AU>Y pres_0/R pret_DE perf_D/T	langform_av_205 fullst	byde -	114
+295	207K1	verb, normal	verb	sterk vokalskifte_Y>AU>Y pres_0/R pret_DE perf_D/T	langform_av_205 fullst som 207, men med as-inf	byde -	1182
+296	208	verb, normal	verb	sterk ikke_vokalskifte forenkl pres_0/ER pret_DE perf_D/T	dobbeltkons_like fullst	hogge -	115
+297	208K1	verb, normal	verb	sterk ikke_vokalskifte forenkl pres_0/ER pret_DE perf_D/T	dobbeltkons_like fullst som 208, men med as-inf	hogge -	1183
+298	208K2	verb, normal	verb	sterk ikke_vokalskifte forenkl pres_0/ER pret_DE perf_D/T	dobbeltkons_like fullst som 208KL, men med as-inf	hogge -	1184
+299	208KL	verb, normal	verb	sterk ikke_vokalskifte forenkl pres_0/ER pret_DE perf_D/T	dobbeltkons_like fullst	hogge -	893
+300	209	verb, normal	verb	sterk ikke_vokalskifte forenkl pres_0/ER pret_DE perf_D/T	dobbeltkons_like fullst	hogge -	116
+301	209K1	verb, normal	verb	sterk ikke_vokalskifte forenkl pres_0/ER pret_DE perf_D/T	dobbeltkons_like fullst som 209, men med as-inf	hogge -	1185
+302	209K2	verb, normal	verb	sterk ikke_vokalskifte forenkl pres_0/ER pret_DE perf_D/T	dobbeltkons_like fullst som 209KL, men med as-inf	hogge -	1186
+303	209KL	verb, normal	verb	sterk ikke_vokalskifte forenkl pres_0/ER pret_DE perf_D/T	dobbeltkons_like fullst	hogge -	894
+304	210	verb, normal	verb	sterk ikke_vokalskifte forenkl pres_0/ER pret_DE perf_D/T	dobbeltkons_like fullst	hogge -	117
+305	210K1	verb, normal	verb	sterk ikke_vokalskifte forenkl pres_0/ER pret_DE perf_D/T	dobbeltkons_like fullst som 210, men med as-inf	hogge -	1187
+306	212	verb, normal	verb	sterk vokalskifte_Y>AU>O på_rotvokal pres_0/R	kortform_av_213 fullst	fly -	118
+307	212K1	verb, normal	verb	sterk vokalskifte_Y>AU>O på_rotvokal pres_0/R	kortform_av_213 fullst som 212, men med as-inf	fly -	1188
+308	213	verb, normal	verb	sterk vokalskifte_Y>AU>O på_rotvokal pres_0/R	kortform_av_213 fullst	fly -	119
+309	213G	verb, normal	verb	sterk vokalskifte_Y>AU>O på_rotvokal pres_0/R	kortform_av_213 fullst	fly	1600
+310	213K1	verb, normal	verb	sterk vokalskifte_Y>AU>O på_rotvokal pres_0/R	kortform_av_213 fullst som 213, men med as-inf	fly -	1189
+311	215	verb, normal	verb	svak uten_attr pres_R pret_DE perf_D/T		lyde -	120
+312	215K1	verb, normal	verb	svak uten_attr pres_R pret_DE perf_D/T	 som 215, men med as-inf	lyde -	1190
+313	216	verb, normal	verb	svak uten_attr pres_R pret_DE perf_D/T		lyde -	121
+314	216K1	verb, normal	verb	svak uten_attr pres_R pret_DE perf_D/T	 som 216, men med as-inf	lyde -	1191
+315	218	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like pres_0	fullst	knekke -	122
+316	218K1	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like pres_0	fullst som 218, men med as-inf	knekke -	1192
+317	218K2	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like pres_0	fullst som 218KL, men med as-inf	knekke -	1193
+318	218KL	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like pres_0	fullst	knekke -	895
+319	219	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like pres_0	fullst	knekke -	123
+320	219K1	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like pres_0	fullst som 219, men med as-inf	knekke -	1194
+321	219K2	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like pres_0	fullst som 219KL, men med as-inf	knekke -	1195
+322	219KL	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like pres_0	fullst	knekke -	896
+323	222	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like uten_attr J-bortfall pres_0		gjelle -	124
+324	222K1	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like uten_attr J-bortfall pres_0	 som 222, men med as-inf	gjelle -	1196
+325	222K2	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like uten_attr J-bortfall pres_0	 som 222KL, men med as-inf	gjelle -	1197
+326	222KL	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like uten_attr J-bortfall pres_0		gjelle -	897
+327	223	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like uten_attr J-bortfall pres_0		gjelle -	125
+328	223K1	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like uten_attr J-bortfall pres_0	 som 223, men med as-inf	gjelle -	1198
+329	223K2	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like uten_attr J-bortfall pres_0	 som 223KL, men med as-inf	gjelle -	1199
+330	223KL	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_like uten_attr J-bortfall pres_0		gjelle -	898
+331	224	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0	fullst	springe -	126
+332	224K1	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0	fullst som 224, men med as-inf	springe -	1200
+333	224K2	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0	fullst som 224KL, men med as-inf	springe -	1201
+334	224KL	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0	fullst	springe -	899
+335	225	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0	fullst	springe -	127
+336	225K1	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0	fullst som 225, men med as-inf	springe -	1202
+337	225K2	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0	fullst som 225KL, men med as-inf	springe -	1203
+338	225KL	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0	fullst	springe -	900
+339	226	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst	finne -	128
+340	226K1	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst som 226, men med as-inf	finne -	1204
+341	226K2	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst som 226KL, men med as-inf	finne -	1205
+342	226KL	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst	finne -	901
+343	227	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst	finne -	129
+344	227K1	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst som 227, men med as-inf	finne -	1206
+345	227K2	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst som 227KL, men med as-inf	finne -	1207
+346	227KL	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst	finne -	902
+347	228	verb, normal	verb	sterk vokalskifte_E>A>U dobbeltkons_like pres_0	fullst	renne -	130
+348	228K1	verb, normal	verb	sterk vokalskifte_E>A>U dobbeltkons_like pres_0	fullst som 228, men med as-inf	renne -	1208
+349	228K2	verb, normal	verb	sterk vokalskifte_E>A>U dobbeltkons_like pres_0	fullst som 228KL, men med as-inf	renne -	1209
+350	228KL	verb, normal	verb	sterk vokalskifte_E>A>U dobbeltkons_like pres_0	fullst	renne -	903
+351	229	verb, normal	verb	sterk vokalskifte_E>A>U dobbeltkons_like pres_0	fullst	renne -	131
+352	229K1	verb, normal	verb	sterk vokalskifte_E>A>U dobbeltkons_like pres_0	fullst som 229, men med as-inf	renne -	1210
+353	229K2	verb, normal	verb	sterk vokalskifte_E>A>U dobbeltkons_like pres_0	fullst som 229KL, men med as-inf	renne -	1211
+354	229KL	verb, normal	verb	sterk vokalskifte_E>A>U dobbeltkons_like pres_0	fullst	renne -	904
+355	230	verb, normal	verb	sterk vokalskifte_E>O>U dobbeltkons_ulike uten_attr pres_0		slenge -	132
+356	230K1	verb, normal	verb	sterk vokalskifte_E>O>U dobbeltkons_ulike uten_attr pres_0	 som 230, men med as-inf	slenge -	1212
+357	230K2	verb, normal	verb	sterk vokalskifte_E>O>U dobbeltkons_ulike uten_attr pres_0	 som 230KL, men med as-inf	slenge -	1213
+358	230KL	verb, normal	verb	sterk vokalskifte_E>O>U dobbeltkons_ulike uten_attr pres_0		slenge -	905
+359	231	verb, normal	verb	sterk vokalskifte_E>O>U dobbeltkons_ulike uten_attr pres_0		slenge -	133
+360	231K1	verb, normal	verb	sterk vokalskifte_E>O>U dobbeltkons_ulike uten_attr pres_0	 som 231, men med as-inf	slenge -	1214
+361	231K2	verb, normal	verb	sterk vokalskifte_E>O>U dobbeltkons_ulike uten_attr pres_0	 som 231KL, men med as-inf	slenge -	1215
+362	231KL	verb, normal	verb	sterk vokalskifte_E>O>U dobbeltkons_ulike uten_attr pres_0		slenge -	906
+363	232	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0 perf_T		gjelde -	134
+364	232K1	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0 perf_T	 som 232, men med as-inf	gjelde -	1216
+365	232K2	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0 perf_T	 som 232KL, men med as-inf	gjelde -	1217
+366	232KL	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0 perf_T		gjelde -	907
+367	233	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0 perf_T		gjelde -	135
+368	233K1	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0 perf_T	 som 233, men med as-inf	gjelde -	1218
+369	233K2	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0 perf_T	 som 233KL, men med as-inf	gjelde -	1219
+370	233KL	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0 perf_T		gjelde -	908
+371	234	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0 perf_T		gjelde -	136
+372	234K1	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0 perf_T	 som 234, men med as-inf	gjelde -	1220
+373	234K2	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0 perf_T	 som 234KL, men med as-inf	gjelde -	1221
+374	234KL	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0 perf_T		gjelde -	909
+375	235	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0		skjelve -	137
+376	235K1	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0	 som 235, men med as-inf	skjelve -	1222
+377	235K2	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0	 som 235KL, men med as-inf	skjelve -	1223
+378	235KL	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0		skjelve -	910
+379	236	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0		skjelve -	138
+380	236K1	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0	 som 236, men med as-inf	skjelve -	1224
+381	236K2	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0	 som 236KL, men med as-inf	skjelve -	1225
+382	236KL	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike uten_attr J-bortfall pres_0		skjelve -	911
+383	237	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike pres_0	fullst	breste -	139
+384	237K1	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike pres_0	fullst som 237, men med as-inf	breste -	1226
+385	237K2	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike pres_0	fullst som 237KL, men med as-inf	breste -	1227
+386	237KL	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike pres_0	fullst	breste -	912
+387	238	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike pres_0	fullst	breste -	140
+388	238K1	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike pres_0	fullst som 238, men med as-inf	breste -	1228
+389	238K2	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike pres_0	fullst som 238KL, men med as-inf	breste -	1229
+390	238KL	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike pres_0	fullst	breste -	913
+391	241	verb, normal	verb	sterk vokalskifte_I>A>I dobbeltkons_like pres_0/ER pret_A	fullst	tigge -	141
+392	241K1	verb, normal	verb	sterk vokalskifte_I>A>I dobbeltkons_like pres_0/ER pret_A	fullst som 241, men med as-inf	tigge -	1230
+393	241K2	verb, normal	verb	sterk vokalskifte_I>A>I dobbeltkons_like pres_0/ER pret_A	fullst som 241KL, men med as-inf	tigge -	1231
+394	241KL	verb, normal	verb	sterk vokalskifte_I>A>I dobbeltkons_like pres_0/ER pret_A	fullst	tigge -	914
+395	242	verb, normal	verb	sterk vokalskifte_I>A>I dobbeltkons_like pres_0/ER pret_A	fullst	tigge -	142
+396	242K1	verb, normal	verb	sterk vokalskifte_I>A>I dobbeltkons_like pres_0/ER pret_A	fullst som 242, men med as-inf	tigge -	1232
+397	242K2	verb, normal	verb	sterk vokalskifte_I>A>I dobbeltkons_like pres_0/ER pret_A	fullst som 242KL, men med as-inf	tigge -	1233
+398	242KL	verb, normal	verb	sterk vokalskifte_I>A>I dobbeltkons_like pres_0/ER pret_A	fullst	tigge -	915
+399	243	verb, normal	verb	sterk vokalskifte_Ø>O>O dobbeltkons_like uten_attr		støkke -	143
+400	243K1	verb, normal	verb	sterk vokalskifte_Ø>O>O dobbeltkons_like uten_attr	 som 243, men med as-inf	støkke -	1234
+401	243K2	verb, normal	verb	sterk vokalskifte_Ø>O>O dobbeltkons_like uten_attr	 som 243KL, men med as-inf	støkke -	1235
+402	243KL	verb, normal	verb	sterk vokalskifte_Ø>O>O dobbeltkons_like uten_attr		støkke -	916
+403	244	verb, normal	verb	sterk vokalskifte_Ø>O>O dobbeltkons_like uten_attr		støkke -	144
+404	244K1	verb, normal	verb	sterk vokalskifte_Ø>O>O dobbeltkons_like uten_attr	 som 244, men med as-inf	støkke -	1236
+405	244K2	verb, normal	verb	sterk vokalskifte_Ø>O>O dobbeltkons_like uten_attr	 som 244KL, men med as-inf	støkke -	1237
+406	244KL	verb, normal	verb	sterk vokalskifte_Ø>O>O dobbeltkons_like uten_attr		støkke -	917
+407	245	verb, normal	verb	sterk vokalskifte_Y>AU>Y pres_0/R pret_DE perf_D/T	langform_av_205 fullst	bjode -	145
+408	245K1	verb, normal	verb	sterk vokalskifte_Y>AU>Y pres_0/R pret_DE perf_D/T	langform_av_205 fullst som 245, men med as-inf	bjode -	1238
+409	245K2	verb, normal	verb	sterk vokalskifte_Y>AU>Y pres_0/R pret_DE perf_D/T	langform_av_205 fullst som 245KL, men med as-inf	bjode -	1239
+410	245KL	verb, normal	verb	sterk vokalskifte_Y>AU>Y pres_0/R pret_DE perf_D/T	langform_av_205 fullst	bjode -	918
+411	246	verb, normal	verb	sterk vokalskifte_Y>AU>Y pres_0/R pret_DE perf_D/T	langform_av_205 fullst	bjode -	146
+412	246K1	verb, normal	verb	sterk vokalskifte_Y>AU>Y pres_0/R pret_DE perf_D/T	langform_av_205 fullst som 246, men med as-inf	bjode -	1240
+413	246K2	verb, normal	verb	sterk vokalskifte_Y>AU>Y pres_0/R pret_DE perf_D/T	langform_av_205 fullst som 246KL, men med as-inf	bjode -	1241
+414	246KL	verb, normal	verb	sterk vokalskifte_Y>AU>Y pres_0/R pret_DE perf_D/T	langform_av_205 fullst	bjode -	919
+415	249K1	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike	 som 249, men med as-inf	verpe -	1242
+416	249K2	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike	 som 249KL, men med as-inf	verpe -	1243
+417	249KL	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike		verpe -	920
+418	249V	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike	spesial for verte	verte -	1040
+419	249VK	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike	spesial for verte	verte -	1042
+420	250K1	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike	 som 250, men med as-inf	verpe -	1244
+421	250K2	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike	 som 250KL, men med as-inf	verpe -	1245
+422	250KL	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike		verpe -	921
+423	250V	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike	spesial for verte	verte - 	1041
+424	250VK	verb, normal	verb	sterk vokalskifte_E>A>O dobbeltkons_ulike	spesial for verte	verte -	1043
+425	251	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst	drikke -	149
+426	251K1	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst som 251, men med as-inf	drikke -	1246
+427	251K2	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst som 251KL, men med as-inf	drikke -	1247
+428	251KL	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst	drikke -	922
+429	252	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst	drikke -	150
+430	252K1	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst som 252, men med as-inf	drikke -	1248
+431	252K2	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst som 252KL, men med as-inf	drikke -	1249
+432	252KL	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_like pres_0	fullst	drikke -	923
+433	255	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike J-bortfall pres_0	fullst	syngje -	151
+434	255K1	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike J-bortfall pres_0	fullst som 255, men med as-inf	syngje -	1250
+435	255K2	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike J-bortfall pres_0	fullst som 255KL, men med as-inf	syngje -	1251
+436	255KL	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike J-bortfall pres_0	fullst	syngje -	924
+437	256	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike J-bortfall pres_0	fullst	syngje -	152
+438	256K1	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike J-bortfall pres_0	fullst som 256, men med as-inf	syngje -	1252
+439	256K2	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike J-bortfall pres_0	fullst som 256KL, men med as-inf	syngje -	1253
+440	256KL	verb, normal	verb	sterk vokalskifte_Y>O>U dobbeltkons_ulike J-bortfall pres_0	fullst	syngje -	925
+441	260	verb, normal	verb	sterk vokalskifte_A>E>A dobbeltkons_ulike pres_0	som 259 men fullst	halde -	153
+442	260K1	verb, normal	verb	sterk vokalskifte_A>E>A dobbeltkons_ulike pres_0	som 259 men fullst som 260, men med as-inf	halde -	1254
+443	260K2	verb, normal	verb	sterk vokalskifte_A>E>A dobbeltkons_ulike pres_0	som 259 men fullst som 260KL, men med as-inf	halde -	1255
+444	260KL	verb, normal	verb	sterk vokalskifte_A>E>A dobbeltkons_ulike pres_0	som 259 men fullst	halde -	926
+445	261	verb, normal	verb	sterk vokalskifte_A>E>A dobbeltkons_ulike pres_0	som 259 men fullst	halde -	154
+446	261K1	verb, normal	verb	sterk vokalskifte_A>E>A dobbeltkons_ulike pres_0	som 259 men fullst som 261, men med as-inf	halde -	1256
+447	261K2	verb, normal	verb	sterk vokalskifte_A>E>A dobbeltkons_ulike pres_0	som 259 men fullst som 261KL, men med as-inf	halde -	1257
+448	261KL	verb, normal	verb	sterk vokalskifte_A>E>A dobbeltkons_ulike pres_0	som 259 men fullst	halde -	927
+449	262	verb, normal	verb	sterk vokalskifte_A>E>A dobbelkons_ulike pres_0 imp_t	som 260 men med -t i imper	halde -	1628
+450	263	verb, normal	verb	sterk vokalskifte_E>A>O pres_0	fullst	stele -	155
+451	263K1	verb, normal	verb	sterk vokalskifte_E>A>O pres_0	fullst som 263, men med as-inf	stele -	1258
+452	263K2	verb, normal	verb	sterk vokalskifte_E>A>O pres_0	fullst som 263KL, men med as-inf	stele -	1259
+453	263KL	verb, normal	verb	sterk vokalskifte_E>A>O pres_0	fullst	stele -	928
+454	264	verb, normal	verb	sterk vokalskifte_E>A>O pres_0	fullst	stele -	156
+455	264K1	verb, normal	verb	sterk vokalskifte_E>A>O pres_0	fullst som 264, men med as-inf	stele -	1260
+456	264K2	verb, normal	verb	sterk vokalskifte_E>A>O pres_0	fullst som 264KL, men med as-inf	stele -	1261
+457	264KL	verb, normal	verb	sterk vokalskifte_E>A>O pres_0	fullst	stele -	929
+458	265	verb, normal	verb	sterk vokalskifte_E>A>O pres_ER	fullst	unnvere -	157
+459	265K1	verb, normal	verb	sterk vokalskifte_E>A>O pres_ER	fullst som 265, men med as-inf	unnvere -	1262
+460	266	verb, normal	verb	sterk vokalskifte_E>A>O pres_ER	fullst	unnvere -	158
+461	266K1	verb, normal	verb	sterk vokalskifte_E>A>O pres_ER	fullst som 266, men med as-inf	unnvere -	1263
+462	267	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr		sitte -	159
+463	267K1	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr	 som 267, men med as-inf	sitte -	1264
+464	267K2	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr	 som 267KL, men med as-inf	sitte -	1265
+465	267KL	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr		sitte -	930
+466	268	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr		sitte -	160
+467	268J	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr		sitte -	1603
+468	268K1	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr	 som 268, men med as-inf	sitte -	1266
+469	268K2	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr	 som 268KL, men med as-inf	sitte -	1267
+470	268KL	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr		sitte -	931
+471	269	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst	skjere -	161
+472	269K1	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst som 269, men med as-inf	skjere -	1268
+473	269K2	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst som 269KL, men med as-inf	skjere -	1269
+474	269KL	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst	skjere -	932
+475	270	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst	skjere -	162
+476	270K1	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst som 270, men med as-inf	skjere -	1279
+477	270K2	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst som 270KL, men med as-inf	skjere -	1280
+478	270KL	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst	skjere -	937
+479	271	verb, normal	verb	sterk vokalskifte_A>E>A på_rotvokal uten_attr pres_RK_0	''få til; gi lov til'' kortform_av_272	la -	163
+480	271K1	verb, normal	verb	sterk vokalskifte_A>E>A på_rotvokal uten_attr pres_RK_0	''få til; gi lov til'' kortform_av_272 som 271, men med as-inf	la -	1281
+481	271K2	verb, normal	verb	sterk vokalskifte_A>E>A på_rotvokal uten_attr pres_RK_0	''få til; gi lov til'' kortform_av_272 som 271KL, men med as-inf	la -	1282
+482	271KL	verb, normal	verb	sterk vokalskifte_A>E>A på_rotvokal uten_attr pres_RK_0	''få til; gi lov til'' kortform_av_272	la -	938
+483	272	verb, normal	verb	sterk vokalskifte_A>E>A på_rotvokal uten_attr pres_RK_0	'få til; gi lov til' kortform_av_274	la -	164
+484	272A	verb, normal	verb	sterk vokalskifte_A>E>A på_rotvokal	Kortform_av_272 men utan aksentteikn i presens og pret	la -	1645
+485	272K1	verb, normal	verb	sterk vokalskifte_A>E>A på_rotvokal uten_attr pres_RK_0	''få til; gi lov til'' kortform_av_272 som 272, men med as-inf	la -	1283
+486	272K2	verb, normal	verb	sterk vokalskifte_A>E>A på_rotvokal uten_attr pres_RK_0	''få til; gi lov til'' kortform_av_272 som 272KL, men med as-inf	la -	1284
+487	272KL	verb, normal	verb	sterk vokalskifte_A>E>A på_rotvokal uten_attr pres_RK_0	''få til; gi lov til'' kortform_av_272	la -	939
+488	273	verb, normal	verb	sterk vokalskifte_A>E>A pres_0	som 288 men fullst	etterlate -	165
+489	273K1	verb, normal	verb	sterk vokalskifte_A>E>A pres_0	som 288 men fullst som 273, men med as-inf	etterlate -	1285
+490	273K2	verb, normal	verb	sterk vokalskifte_A>E>A pres_0	som 288 men fullst som 273KL, men med as-inf	etterlate -	1286
+491	273KL	verb, normal	verb	sterk vokalskifte_A>E>A pres_0	som 288 men fullst	etterlate -	940
+492	274	verb, normal	verb	sterk vokalskifte_A>E>A pres_0	som 288 men fullst	etterlate -	166
+493	274A	verb, normal	verb	sterk vokalskifte_A>E>A pres_0	som 274 men utan aksentteikn i pres og pret	etterlate -	1644
+494	274K1	verb, normal	verb	sterk vokalskifte_A>E>A pres_0	som 288 men fullst som 274, men med as-inf	etterlate -	1287
+495	274K2	verb, normal	verb	sterk vokalskifte_A>E>A pres_0	som 288 men fullst som 274KL, men med as-inf	etterlate -	1288
+496	274KL	verb, normal	verb	sterk vokalskifte_A>E>A pres_0	som 288 men fullst	etterlate -	941
+497	275	verb, normal	verb	sterk vokalskifte_A>E>A på_rotvokal uten_attr pres_RK_0	''få til; gi lov til'' kortform_av_272	la -	167
+498	275K1	verb, normal	verb	sterk vokalskifte_A>E>A på_rotvokal uten_attr pres_RK_0	''få til; gi lov til'' kortform_av_272 som 275, men med as-inf	la -	1289
+499	276	verb, normal	verb	sterk vokalskifte_E>O>O pres_0	fullst	veve -	168
+500	276K1	verb, normal	verb	sterk vokalskifte_E>O>O pres_0	fullst som 276, men med as-inf	veve -	1290
+501	276K2	verb, normal	verb	sterk vokalskifte_E>O>O pres_0	fullst som 276KL, men med as-inf	veve -	1291
+502	276KL	verb, normal	verb	sterk vokalskifte_E>O>O pres_0	fullst	veve -	942
+503	277	verb, normal	verb	sterk vokalskifte_E>O>O pres_0	fullst	veve -	169
+504	277K1	verb, normal	verb	sterk vokalskifte_E>O>O pres_0	fullst som 277, men med as-inf	veve -	1292
+505	277K2	verb, normal	verb	sterk vokalskifte_E>O>O pres_0	fullst som 277KL, men med as-inf	veve -	1293
+506	277KL	verb, normal	verb	sterk vokalskifte_E>O>O pres_0	fullst	veve -	943
+507	278	verb, normal	verb	sterk vokalskifte_O>O>O uten_attr pres_0		sove -	170
+508	278K1	verb, normal	verb	sterk vokalskifte_O>O>O uten_attr pres_0	 som 278, men med as-inf	sove -	1294
+509	278K2	verb, normal	verb	sterk vokalskifte_O>O>O uten_attr pres_0	 som 278KL, men med as-inf	sove -	1295
+510	278KL	verb, normal	verb	sterk vokalskifte_O>O>O uten_attr pres_0		sove -	944
+511	279	verb, normal	verb	sterk vokalskifte_O>O>O uten_attr pres_0		sove -	171
+512	279K1	verb, normal	verb	sterk vokalskifte_O>O>O uten_attr pres_0	 som 279, men med as-inf	sove -	1296
+513	279K2	verb, normal	verb	sterk vokalskifte_O>O>O uten_attr pres_0	 som 279KL, men med as-inf	sove -	1297
+514	279KL	verb, normal	verb	sterk vokalskifte_O>O>O uten_attr pres_0		sove -	945
+515	27A	verb, normal	verb			la	836
+516	27AK1	verb, normal	verb		 som 27A, men med as-inf	la	1270
+517	27AK2	verb, normal	verb		 som 27AKL, men med as-inf	la	1271
+518	27AKL	verb, normal	verb			la	933
+519	27B	verb, normal	verb			la	837
+520	27BK1	verb, normal	verb		 som 27B, men med as-inf	la	1272
+521	27BK2	verb, normal	verb		 som 27BKL, men med as-inf	la	1273
+522	27BKL	verb, normal	verb			la	934
+523	27C	verb, normal	verb			la	838
+524	27C1	verb, normal	verb	sterk vokalskifte_A>E>A på_rotvokal	Kortform_av_274 med aksentteikn i pret	la -	1646
+525	27CK1	verb, normal	verb		 som 27C, men med as-inf	la	1274
+526	27D	verb, normal	verb			late	839
+527	27DK1	verb, normal	verb		 som 27D, men med as-inf	late	1275
+528	27DK2	verb, normal	verb		 som 27DKL, men med as-inf	late	1276
+529	27DKL	verb, normal	verb			late	935
+530	27E	verb, normal	verb			late	840
+531	27EK1	verb, normal	verb		 som 27E, men med as-inf	late	1277
+532	27EK2	verb, normal	verb		 som 27EKL, men med as-inf	late	1278
+533	27EKL	verb, normal	verb			late	936
+534	280	verb, normal	verb	sterk vokalskifte_O>O>O MM pres_JE	dobbeltform_av_282 fullst	komme -	172
+535	280K1	verb, normal	verb	sterk vokalskifte_O>O>O MM pres_JE	dobbeltform_av_282 fullst som 280, men med as-inf	komme -	1300
+536	280K2	verb, normal	verb	sterk vokalskifte_O>O>O MM pres_JE	dobbeltform_av_282 fullst som 280KL, men med as-inf	komme -	1301
+537	280KL	verb, normal	verb	sterk vokalskifte_O>O>O MM pres_JE	dobbeltform_av_282 fullst	komme -	947
+538	281	verb, normal	verb	sterk vokalskifte_O>O>O MM pres_JE	dobbeltform_av_282 fullst	komme -	173
+539	281K1	verb, normal	verb	sterk vokalskifte_O>O>O MM pres_JE	dobbeltform_av_282 fullst som 281, men med as-inf	komme -	1302
+540	281K2	verb, normal	verb	sterk vokalskifte_O>O>O MM pres_JE	dobbeltform_av_282 fullst som 281KL, men med as-inf	komme -	1303
+541	281KL	verb, normal	verb	sterk vokalskifte_O>O>O MM pres_JE	dobbeltform_av_282 fullst	komme -	948
+542	282	verb, normal	verb	sterk vokalskifte_O>O>O pres_JE	dobbeltform_av_280 fullst	kome -	174
+543	282K1	verb, normal	verb	sterk vokalskifte_O>O>O pres_JE	dobbeltform_av_280 fullst som 282, men med as-inf	kome -	1304
+544	282K2	verb, normal	verb	sterk vokalskifte_O>O>O pres_JE	dobbeltform_av_280 fullst som 282KL, men med as-inf	kome -	1305
+545	282KL	verb, normal	verb	sterk vokalskifte_O>O>O pres_JE	dobbeltform_av_280 fullst	kome -	949
+546	283	verb, normal	verb	sterk vokalskifte_O>O>O pres_JE	dobbeltform_av_280 fullst	kome -	175
+547	283K1	verb, normal	verb	sterk vokalskifte_O>O>O pres_JE	dobbeltform_av_280 fullst som 283, men med as-inf	kome -	1306
+548	283K2	verb, normal	verb	sterk vokalskifte_O>O>O pres_JE	dobbeltform_av_280 fullst som 283KL, men med as-inf	kome -	1307
+549	283KL	verb, normal	verb	sterk vokalskifte_O>O>O pres_JE	dobbeltform_av_280 fullst	kome -	950
+550	284	verb, normal	verb	sterk vokalskifte_E>O>E pres_0	fullst	vege -	176
+551	284K1	verb, normal	verb	sterk vokalskifte_E>O>E pres_0	fullst som 284, men med as-inf	vege -	1308
+552	284K2	verb, normal	verb	sterk vokalskifte_E>O>E pres_0	fullst som 284KL, men med as-inf	vege -	1309
+553	284KL	verb, normal	verb	sterk vokalskifte_E>O>E pres_0	fullst	vege -	951
+554	285	verb, normal	verb	sterk vokalskifte_E>O>E pres_0	fullst	vege -	177
+555	285K1	verb, normal	verb	sterk vokalskifte_E>O>E pres_0	fullst som 285, men med as-inf	vege -	1310
+556	285K2	verb, normal	verb	sterk vokalskifte_E>O>E pres_0	fullst som 285KL, men med as-inf	vege -	1311
+557	285KL	verb, normal	verb	sterk vokalskifte_E>O>E pres_0	fullst	vege -	952
+558	286	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr J-bortfall		sitje -	178
+559	286K1	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr J-bortfall	 som 286, men med as-inf	sitje -	1312
+560	286K2	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr J-bortfall	 som 286KL, men med as-inf	sitje -	1313
+561	286KL	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr J-bortfall		sitje -	953
+562	287	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr J-bortfall		sitje -	179
+563	287K1	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr J-bortfall	 som 287, men med as-inf	sitje -	1314
+564	287K2	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr J-bortfall	 som 287KL, men med as-inf	sitje -	1315
+565	287KL	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr J-bortfall		sitje -	954
+566	289	verb, normal	verb	sterk vokalskifte_E>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_314	henge -	180
+567	289K1	verb, normal	verb	sterk vokalskifte_E>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_314 som 289, men med as-inf	henge -	1316
+568	289K2	verb, normal	verb	sterk vokalskifte_E>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_314 som 289KL, men med as-inf	henge -	1317
+569	289KL	verb, normal	verb	sterk vokalskifte_E>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_314	henge -	955
+570	28A	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr J-bortfall		sitje -	181
+571	28AK1	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr J-bortfall	 som 28A, men med as-inf	sitje -	1298
+572	28AK2	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr J-bortfall	 som 28AKL, men med as-inf	sitje -	1299
+573	28AKL	verb, normal	verb	sterk vokalskifte_I>A>E uten_attr J-bortfall		sitje -	946
+574	290	verb, normal	verb	sterk vokalskifte_E>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_314	henge -	182
+575	290K1	verb, normal	verb	sterk vokalskifte_E>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_314 som 290, men med as-inf	henge -	1320
+576	290K2	verb, normal	verb	sterk vokalskifte_E>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_314 som 290KL, men med as-inf	henge -	1321
+577	290KL	verb, normal	verb	sterk vokalskifte_E>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_314	henge -	956
+578	291	verb, normal	verb	sterk vokalskifte_E>A/E>A dobbelkons_ulike utan_attr_pres_0 pret_KK	dobbelform_av_314	henge -	1624
+579	293	verb, normal	verb	sterk vokalskifte_A>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_312	hange -	184
+580	293K1	verb, normal	verb	sterk vokalskifte_A>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_312 som 293, men med as-inf	hange -	1322
+581	293K2	verb, normal	verb	sterk vokalskifte_A>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_312 som 293KL, men med as-inf	hange -	1323
+582	293KL	verb, normal	verb	sterk vokalskifte_A>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_312	hange -	958
+583	294	verb, normal	verb	sterk vokalskifte_A>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_312	hange -	185
+584	294K1	verb, normal	verb	sterk vokalskifte_A>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_312 som 294, men med as-inf	hange -	1324
+585	294K2	verb, normal	verb	sterk vokalskifte_A>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_312 som 294KL, men med as-inf	hange -	1325
+586	294KL	verb, normal	verb	sterk vokalskifte_A>A/E>A dobbeltkons_ulike uten_attr pres_0 pret_KK	dobbeltform_av_312	hange -	959
+587	296	verb, normal	verb	sterk vokalskifte_I>A>I på_rotvokal pres_R perf_TT	jf 299 fullst	gi -	186
+588	296K1	verb, normal	verb	sterk vokalskifte_I>A>I på_rotvokal pres_R perf_TT	jf 299 fullst som 296, men med as-inf	gi -	1326
+589	297	verb, normal	verb	sterk vokalskifte_I>A>I på_rotvokal pres_R perf_TT	jf 299 fullst	gi -	187
+590	297K1	verb, normal	verb	sterk vokalskifte_I>A>I på_rotvokal pres_R perf_TT	jf 299 fullst som 297, men med as-inf	gi -	1327
+591	298	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal J-bortfall pres_RK_0	jf 298 kortform_av_300 som 295 men fullst	gje -	188
+592	298K1	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal J-bortfall pres_RK_0	jf 298 kortform_av_300 som 295 men fullst som 298, men med as-inf	gje -	1328
+593	298K2	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal J-bortfall pres_RK_0	jf 298 kortform_av_300 som 295 men fullst som 298KL, men med as-inf	gje -	1329
+594	298KL	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal J-bortfall pres_RK_0	jf 298 kortform_av_300 som 295 men fullst	gje -	960
+595	299	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal J-bortfall pres_RK_0	jf 298 kortform_av_300 som 295 men fullst	gje -	189
+596	299K1	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal J-bortfall pres_RK_0	jf 298 kortform_av_300 som 295 men fullst som 299, men med as-inf	gje -	1330
+597	299K2	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal J-bortfall pres_RK_0	jf 298 kortform_av_300 som 295 men fullst som 299KL, men med as-inf	gje -	1331
+598	299KL	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal J-bortfall pres_RK_0	jf 298 kortform_av_300 som 295 men fullst	gje -	961
+599	29AK1	verb, normal	verb		 som 29A, men med as-inf	gi	1318
+600	29BK1	verb, normal	verb		 som 29B, men med as-inf	gi	1319
+601	300	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 403 langform_av_299 som 296 men fullst	gjeve -	190
+602	300K1	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 403 langform_av_299 som 296 men fullst som 300, men med as-inf	gjeve -	1332
+603	300K2	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 403 langform_av_299 som 296 men fullst som 300KL, men med as-inf	gjeve -	1333
+604	300KL	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 403 langform_av_299 som 296 men fullst	gjeve -	962
+605	301	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 403 langform_av_299 som 296 men fullst	gjeve -	191
+606	301K1	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 403 langform_av_299 som 296 men fullst som 301, men med as-inf	gjeve -	1334
+607	301K2	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 403 langform_av_299 som 296 men fullst som 301KL, men med as-inf	gjeve -	1335
+608	301KL	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 403 langform_av_299 som 296 men fullst	gjeve -	963
+609	302	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0		liggje -	192
+610	302K1	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0	 som 302, men med as-inf	liggje -	1336
+611	302K2	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0	 som 302KL, men med as-inf	liggje -	1337
+612	302KL	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0		liggje -	964
+613	303	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0		liggje -	193
+614	303K1	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0	 som 303, men med as-inf	liggje -	1338
+615	303K2	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0	 som 303KL, men med as-inf	liggje -	1339
+616	303KL	verb, normal	verb	sterk vokalskifte_I>Å>E dobbeltkons_like uten_attr pres_0		liggje -	965
+617	304	verb, normal	verb	sterk vokalskifte_E>A>E pres_0	fullst	kvede -	194
+618	304K1	verb, normal	verb	sterk vokalskifte_E>A>E pres_0	fullst som 304, men med as-inf	kvede -	1340
+619	304K2	verb, normal	verb	sterk vokalskifte_E>A>E pres_0	fullst som 304KL, men med as-inf	kvede -	1341
+620	304KL	verb, normal	verb	sterk vokalskifte_E>A>E pres_0	fullst	kvede -	966
+621	305	verb, normal	verb	sterk vokalskifte_E>A>E pres_0	fullst	kvede -	195
+622	305K1	verb, normal	verb	sterk vokalskifte_E>A>E pres_0	fullst som 305, men med as-inf	kvede -	1342
+623	305K2	verb, normal	verb	sterk vokalskifte_E>A>E pres_0	fullst som 305KL, men med as-inf	kvede -	1343
+624	305KL	verb, normal	verb	sterk vokalskifte_E>A>E pres_0	fullst	kvede -	967
+625	306	verb, normal	verb	sterk vokalskifte_Å>Å>E på_rotvokal pres_E_R pret_G perf_TT	som 306 men fullst	sjå	196
+626	306K1	verb, normal	verb	sterk vokalskifte_Å>Å>E på_rotvokal pres_E_R pret_G perf_TT	som 306 men fullst som 306, men med as-inf	sjå	1344
+627	306NY	verb, normal	verb	sterk vokalskifte_Å>Å>E på_rotvokal pres_E_R pret_G perf_TT	som 306 men fullst	sjå	1589
+628	308	verb, normal	verb	sterk vokalskifte_E>A>O uten_attr suppletiv	enkelttilfelle	vere -	197
+629	309	verb, normal	verb	sterk vokalskifte_E>A>O uten_attr suppletiv	enkelttilfelle	vere -	198
+630	310	verb, normal	verb	sterk vokalskifte_E>Å>E pres_0	fullst	ete -	199
+631	310K1	verb, normal	verb	sterk vokalskifte_E>Å>E pres_0	fullst som 310, men med as-inf	ete -	1349
+632	310K2	verb, normal	verb	sterk vokalskifte_E>Å>E pres_0	fullst som 310KL, men med as-inf	ete -	1350
+633	310KL	verb, normal	verb	sterk vokalskifte_E>Å>E pres_0	fullst	ete -	970
+634	311	verb, normal	verb	sterk vokalskifte_E>Å>E pres_0	fullst	ete -	200
+635	311K1	verb, normal	verb	sterk vokalskifte_E>Å>E pres_0	fullst som 311, men med as-inf	ete -	1351
+636	311K2	verb, normal	verb	sterk vokalskifte_E>Å>E pres_0	fullst som 311KL, men med as-inf	ete -	1352
+637	311KL	verb, normal	verb	sterk vokalskifte_E>Å>E pres_0	fullst	ete -	971
+638	312	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal pres_R pret_RK perf_RK_D/T	kortform_av_317 fullst	be -	201
+639	312K1	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal pres_R pret_RK perf_RK_D/T	kortform_av_317 fullst som 312, men med as-inf	be -	1353
+640	313	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal pres_R pret_RK perf_RK_D/T	kortform_av_317 fullst	be -	202
+641	313K1	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal pres_R pret_RK perf_RK_D/T	kortform_av_317 fullst som 313, men med as-inf	be -	1354
+642	314	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal pres_R pret_RK perf_RK_D/T	kortform_av_317 fullst	be -	203
+643	314K1	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal pres_R pret_RK perf_RK_D/T	kortform_av_317 fullst som 314, men med as-inf	be -	1355
+644	315	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal pres_R pret_RK perf_RK_D/T	kortform_av_317 fullst	be -	204
+645	315K1	verb, normal	verb	sterk vokalskifte_E>A>E på_rotvokal pres_R pret_RK perf_RK_D/T	kortform_av_317 fullst som 315, men med as-inf	be -	1356
+646	316	verb, normal	verb	sterk vokalskifte_E>A>E pres_0 perf_D/T	langform_av_316 fullst	bede -	205
+647	316K1	verb, normal	verb	sterk vokalskifte_E>A>E pres_0 perf_D/T	langform_av_316 fullst som 316, men med as-inf	bede -	1357
+648	316K2	verb, normal	verb	sterk vokalskifte_E>A>E pres_0 perf_D/T	langform_av_316 fullst som 316KL, men med as-inf	bede -	1358
+649	316KL	verb, normal	verb	sterk vokalskifte_E>A>E pres_0 perf_D/T	langform_av_316 fullst	bede -	972
+650	317	verb, normal	verb	sterk vokalskifte_E>A>E pres_0 perf_D/T	langform_av_316 fullst	bede -	206
+651	317K1	verb, normal	verb	sterk vokalskifte_E>A>E pres_0 perf_D/T	langform_av_316 fullst som 317, men med as-inf	bede -	1359
+652	317K2	verb, normal	verb	sterk vokalskifte_E>A>E pres_0 perf_D/T	langform_av_316 fullst som 317KL, men med as-inf	bede -	1360
+653	317KL	verb, normal	verb	sterk vokalskifte_E>A>E pres_0 perf_D/T	langform_av_316 fullst	bede -	973
+654	318	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst	fare -	207
+655	318K1	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst som 318, men med as-inf	fare -	1361
+656	318K2	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst som 318KL, men med as-inf	fare -	1362
+657	318KL	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst	fare -	974
+658	319	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst	fare -	208
+659	319K1	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst som 319, men med as-inf	fare -	1363
+660	319K2	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst som 319KL, men med as-inf	fare -	1364
+661	319KL	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst	fare -	975
+662	31AK1	verb, normal	verb		 som 31A, men med as-inf	fare	1345
+663	31AK2	verb, normal	verb		 som 31AKL, men med as-inf	fare	1346
+664	31AKL	verb, normal	verb			fare	968
+665	31BK1	verb, normal	verb		 som 31B, men med as-inf	fare	1347
+666	31BK2	verb, normal	verb		 som 31BKL, men med as-inf	fare	1348
+667	31BKL	verb, normal	verb			fare	969
+668	320	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst	male -	209
+669	320K1	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst som 320, men med as-inf	male -	1365
+670	320K2	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst som 320KL, men med as-inf	male -	1366
+671	320KL	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst	male -	976
+672	321	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst	male -	210
+673	321K1	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst som 321, men med as-inf	male -	1367
+674	321K2	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst som 321KL, men med as-inf	male -	1368
+675	321KL	verb, normal	verb	sterk vokalskifte_A>O>A pres_0	som 329 men fullst	male -	977
+676	322	verb, normal	verb	sterk vokalskifte_A>O>A pres_0/AR pret_A	fullst	gnage -	211
+677	322K1	verb, normal	verb	sterk vokalskifte_A>O>A pres_0/AR pret_A	fullst som 322, men med as-inf	gnage -	1369
+678	322K2	verb, normal	verb	sterk vokalskifte_A>O>A pres_0/AR pret_A	fullst som 322KL, men med as-inf	gnage -	1370
+679	322KL	verb, normal	verb	sterk vokalskifte_A>O>A pres_0/AR pret_A	fullst	gnage -	978
+680	323	verb, normal	verb	sterk vokalskifte_A>O>A pres_0/AR pret_A	fullst	gnage -	212
+681	323K1	verb, normal	verb	sterk vokalskifte_A>O>A pres_0/AR pret_A	fullst som 323, men med as-inf	gnage -	1371
+682	323K2	verb, normal	verb	sterk vokalskifte_A>O>A pres_0/AR pret_A	fullst som 323KL, men med as-inf	gnage -	1372
+683	323KL	verb, normal	verb	sterk vokalskifte_A>O>A pres_0/AR pret_A	fullst	gnage -	979
+684	324	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_0	kortform_av_324 fullst	ta -	213
+685	324K1	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_0	kortform_av_324 fullst som 324, men med as-inf	ta -	1373
+686	324K2	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_0	kortform_av_324 fullst som 324KL, men med as-inf	ta -	1374
+687	324KL	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_0	kortform_av_324 fullst	ta -	980
+688	325	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_0	kortform_av_324 fullst	ta -	214
+689	325K1	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_0	kortform_av_324 fullst som 325, men med as-inf	ta -	1375
+690	325K2	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_0	kortform_av_324 fullst som 325KL, men med as-inf	ta -	1376
+691	325KL	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_0	kortform_av_324 fullst	ta -	981
+692	326	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_323 fullst	take -	215
+693	326K1	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_323 fullst som 326, men med as-inf	take -	1377
+694	326K2	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_323 fullst som 326KL, men med as-inf	take -	1378
+695	326KL	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_323 fullst	take -	982
+696	327	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_323 fullst	take -	216
+697	327K1	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_323 fullst som 327, men med as-inf	take -	1379
+698	327K2	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_323 fullst som 327KL, men med as-inf	take -	1380
+699	327KL	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_323 fullst	take -	983
+700	328	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_0	kortform_av_324 fullst	ta -	217
+701	328K1	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_0	kortform_av_324 fullst som 328, men med as-inf	ta -	1381
+702	328X	verb, normal	verb			ta	1595
+703	329	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_323 fullst	take -	218
+704	329K1	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_323 fullst som 329, men med as-inf	take -	1382
+705	330	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst	få -	219
+706	330K1	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst som 330, men med as-inf	få -	1383
+707	330K2	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst som 330KL, men med as-inf	få -	1384
+708	330KL	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst	få -	984
+709	331	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst	få -	220
+710	331K1	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst som 331, men med as-inf	få -	1385
+711	331K2	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst som 331KL, men med as-inf	få -	1386
+712	331KL	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst	få -	985
+713	333	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal J-flyt pres_R pret_KK perf_TT	som 337 men fullst	gå -	221
+714	333K1	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal J-flyt pres_R pret_KK perf_TT	som 337 men fullst som 333, men med as-inf	gå -	1387
+715	334	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal J-flyt pres_R pret_KK perf_TT	som 337 men fullst	gå -	222
+716	334K1	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal J-flyt pres_R pret_KK perf_TT	som 337 men fullst som 334, men med as-inf	gå -	1388
+717	335	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal pres_R pret_RK perf_TT	som 336 men fullst	stå -	223
+718	335K1	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal pres_R pret_RK perf_TT	som 336 men fullst som 335, men med as-inf	stå -	1389
+719	336	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal pres_R pret_RK perf_TT	som 336 men fullst	stå -	224
+720	336K1	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal pres_R pret_RK perf_TT	som 336 men fullst som 336, men med as-inf	stå -	1390
+721	337	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_RK_0/R pret_Å_RK_DE perf_Å_RK_D/T	kortform_av_351	tre -	225
+722	337K1	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_RK_0/R pret_Å_RK_DE perf_Å_RK_D/T	kortform_av_351 som 337, men med as-inf	tre -	1391
+723	338	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_RK_0/R pret_Å_RK_DE perf_Å_RK_D/T	kortform_av_351	tre -	226
+724	338K1	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_RK_0/R pret_Å_RK_DE perf_Å_RK_D/T	kortform_av_351 som 338, men med as-inf	tre -	1392
+725	340	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_RK_0 pret_RK	kortform_av_342 fullst	dra -	227
+726	340K1	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_RK_0 pret_RK	kortform_av_342 fullst som 340, men med as-inf	dra -	1393
+727	340K2	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_RK_0 pret_RK	kortform_av_342 fullst som 340KL, men med as-inf	dra -	1394
+728	340KL	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_RK_0 pret_RK	kortform_av_342 fullst	dra -	986
+729	341	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_RK_0 pret_RK	kortform_av_342 fullst	dra -	228
+730	341K1	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_RK_0 pret_RK	kortform_av_342 fullst som 341, men med as-inf	dra -	1395
+731	341K2	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_RK_0 pret_RK	kortform_av_342 fullst som 341KL, men med as-inf	dra -	1396
+732	341KL	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_RK_0 pret_RK	kortform_av_342 fullst	dra -	987
+733	342	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_341 fullst	drage -	229
+734	342K1	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_341 fullst som 342, men med as-inf	drage -	1397
+735	342K2	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_341 fullst som 342KL, men med as-inf	drage -	1398
+736	342KL	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_341 fullst	drage -	988
+737	343	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_341 fullst	drage -	230
+738	343K1	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_341 fullst som 343, men med as-inf	drage -	1399
+739	343K2	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_341 fullst som 343KL, men med as-inf	drage -	1400
+740	343KL	verb, normal	verb	sterk vokalskifte_A>O>E pres_0	langform_av_341 fullst	drage -	989
+741	344	verb, normal	verb	sterk vokalskifte_E>O>O J-bortfall	fullst	sverje -	231
+742	344K1	verb, normal	verb	sterk vokalskifte_E>O>O J-bortfall	fullst som 344, men med as-inf	sverje -	1401
+743	344K2	verb, normal	verb	sterk vokalskifte_E>O>O J-bortfall	fullst som 344KL, men med as-inf	sverje -	1402
+744	344KL	verb, normal	verb	sterk vokalskifte_E>O>O J-bortfall	fullst	sverje -	990
+745	345	verb, normal	verb	sterk vokalskifte_E>O>O J-bortfall	fullst	sverje -	232
+746	345K1	verb, normal	verb	sterk vokalskifte_E>O>O J-bortfall	fullst som 345, men med as-inf	sverje -	1403
+747	345K2	verb, normal	verb	sterk vokalskifte_E>O>O J-bortfall	fullst som 345KL, men med as-inf	sverje -	1404
+748	345KL	verb, normal	verb	sterk vokalskifte_E>O>O J-bortfall	fullst	sverje -	991
+749	346	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0		gale -	233
+750	346K1	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0	 som 346, men med as-inf	gale -	1405
+751	346K2	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0	 som 346KL, men med as-inf	gale -	1406
+752	346KL	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0		gale -	992
+753	347	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0		gale -	234
+754	347K1	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0	 som 347, men med as-inf	gale -	1407
+755	347K2	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0	 som 347KL, men med as-inf	gale -	1408
+756	347KL	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0		gale -	993
+757	348	verb, normal	verb	sterk vokalskifte_E>O>A J-bortfall pres_0 pret_DE perf_T	fullst	elje -	235
+758	348K1	verb, normal	verb	sterk vokalskifte_E>O>A J-bortfall pres_0 pret_DE perf_T	fullst som 348, men med as-inf	elje -	1409
+759	348K2	verb, normal	verb	sterk vokalskifte_E>O>A J-bortfall pres_0 pret_DE perf_T	fullst som 348KL, men med as-inf	elje -	1410
+760	348KL	verb, normal	verb	sterk vokalskifte_E>O>A J-bortfall pres_0 pret_DE perf_T	fullst	elje -	994
+761	349	verb, normal	verb	sterk vokalskifte_E>O>A J-bortfall pres_0 pret_DE perf_T	fullst	elje -	236
+762	349K1	verb, normal	verb	sterk vokalskifte_E>O>A J-bortfall pres_0 pret_DE perf_T	fullst som 349, men med as-inf	elje -	1411
+763	349K2	verb, normal	verb	sterk vokalskifte_E>O>A J-bortfall pres_0 pret_DE perf_T	fullst som 349KL, men med as-inf	elje -	1412
+764	349KL	verb, normal	verb	sterk vokalskifte_E>O>A J-bortfall pres_0 pret_DE perf_T	fullst	elje -	995
+765	351	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_0/R pret_Å_DE perf_Å_D/T	langform_av_350	trede -	237
+766	351K1	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_0/R pret_Å_DE perf_Å_D/T	langform_av_350 som 351, men med as-inf	trede -	1413
+767	351K2	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_0/R pret_Å_DE perf_Å_D/T	langform_av_350 som 351KL, men med as-inf	trede -	1414
+768	351KL	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_0/R pret_Å_DE perf_Å_D/T	langform_av_350	trede -	996
+769	352	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_0/R pret_Å_DE perf_Å_D/T	langform_av_350	trede -	238
+770	352K1	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_0/R pret_Å_DE perf_Å_D/T	langform_av_350 som 352, men med as-inf	trede -	1415
+771	352K2	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_0/R pret_Å_DE perf_Å_D/T	langform_av_350 som 352KL, men med as-inf	trede -	1416
+772	352KL	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_0/R pret_Å_DE perf_Å_D/T	langform_av_350	trede -	997
+773	353	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst	få -	239
+774	353K1	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst som 353, men med as-inf	få -	1417
+775	353K2	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst som 353KL, men med as-inf	få -	1418
+776	353KL	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst	få -	998
+777	354	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst	få -	240
+778	354K1	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst som 354, men med as-inf	få -	1419
+779	354K2	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst som 354KL, men med as-inf	få -	1420
+780	354KL	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal pres_R pret_KK perf_TT	fullst	få -	999
+781	355	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal J-flyt pres_R pret_KK perf_TT	som 337 men fullst	gå -	241
+782	355K1	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal J-flyt pres_R pret_KK perf_TT	som 337 men fullst som 355, men med as-inf	gå -	1421
+783	356	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal J-flyt pres_R pret_KK perf_TT	som 337 men fullst	gå -	242
+784	356K1	verb, normal	verb	sterk vokalskifte_Å>E>Å på_rotvokal J-flyt pres_R pret_KK perf_TT	som 337 men fullst som 356, men med as-inf	gå -	1422
+785	357	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0		gråte -	243
+786	357K1	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0	 som 357, men med as-inf	gråte -	1423
+787	357K2	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0	 som 357KL, men med as-inf	gråte -	1424
+788	357KL	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0		gråte -	1000
+789	358	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0		gråte -	244
+790	358K1	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0	 som 358, men med as-inf	gråte -	1425
+791	358K2	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0	 som 358KL, men med as-inf	gråte -	1426
+792	358KL	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0		gråte -	1001
+793	359	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_R perf_DD/TT		le -	245
+794	359K1	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_R perf_DD/TT	 som 359, men med as-inf	le -	1427
+795	360	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_R perf_DD/TT		le -	246
+796	360K1	verb, normal	verb	sterk vokalskifte_E>O>E på_rotvokal uten_attr pres_R perf_DD/TT	 som 360, men med as-inf	le -	1428
+797	361	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr J-bortfall pres_0		tyggje -	247
+798	361K1	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr J-bortfall pres_0	 som 361, men med as-inf	tyggje -	1429
+799	361K2	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr J-bortfall pres_0	 som 361KL, men med as-inf	tyggje -	1430
+800	361KL	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr J-bortfall pres_0		tyggje -	1002
+801	362	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr J-bortfall pres_0		tyggje -	248
+802	362K1	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr J-bortfall pres_0	 som 362, men med as-inf	tyggje -	1431
+803	362K2	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr J-bortfall pres_0	 som 362KL, men med as-inf	tyggje -	1432
+804	362KL	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr J-bortfall pres_0		tyggje -	1003
+805	363	verb, normal	verb	sterk vokalskifte_A>O>E J-flyt pres_0/AR pret_A	fullst	skake -	249
+806	363K1	verb, normal	verb	sterk vokalskifte_A>O>E J-flyt pres_0/AR pret_A	fullst som 363, men med as-inf	skake -	1433
+807	363K2	verb, normal	verb	sterk vokalskifte_A>O>E J-flyt pres_0/AR pret_A	fullst som 363KL, men med as-inf	skake -	1434
+808	363KL	verb, normal	verb	sterk vokalskifte_A>O>E J-flyt pres_0/AR pret_A	fullst	skake -	1004
+809	364	verb, normal	verb	sterk vokalskifte_A>O>E J-flyt pres_0/AR pret_A	fullst	skake -	250
+810	364K1	verb, normal	verb	sterk vokalskifte_A>O>E J-flyt pres_0/AR pret_A	fullst som 364, men med as-inf	skake -	1435
+811	364K2	verb, normal	verb	sterk vokalskifte_A>O>E J-flyt pres_0/AR pret_A	fullst som 364KL, men med as-inf	skake -	1436
+812	364KL	verb, normal	verb	sterk vokalskifte_A>O>E J-flyt pres_0/AR pret_A	fullst	skake -	1005
+813	365	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0		låte -	251
+814	365K1	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0	 som 365, men med as-inf	låte -	1437
+815	365K2	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0	 som 365KL, men med as-inf	låte -	1438
+816	365KL	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0		låte -	1006
+817	366	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0		låte -	252
+818	366K1	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0	 som 366, men med as-inf	låte -	1439
+819	366K2	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0	 som 366KL, men med as-inf	låte -	1440
+820	366KL	verb, normal	verb	sterk vokalskifte_Å>E>Å uten_attr pres_0		låte -	1007
+821	367	verb, normal	verb	sterk vokalskifte_U>AU>O uten_attr pres_0		ljuge -	253
+822	367K1	verb, normal	verb	sterk vokalskifte_U>AU>O uten_attr pres_0	 som 367, men med as-inf	ljuge -	1441
+823	367K2	verb, normal	verb	sterk vokalskifte_U>AU>O uten_attr pres_0	 som 367KL, men med as-inf	ljuge -	1442
+824	367KL	verb, normal	verb	sterk vokalskifte_U>AU>O uten_attr pres_0		ljuge -	1008
+825	368	verb, normal	verb	sterk vokalskifte_U>AU>O uten_attr pres_0		ljuge -	254
+826	368K1	verb, normal	verb	sterk vokalskifte_U>AU>O uten_attr pres_0	 som 368, men med as-inf	ljuge -	1443
+827	368K2	verb, normal	verb	sterk vokalskifte_U>AU>O uten_attr pres_0	 som 368KL, men med as-inf	ljuge -	1444
+828	368KL	verb, normal	verb	sterk vokalskifte_U>AU>O uten_attr pres_0		ljuge -	1009
+829	369	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal pres_R pret_RK perf_TT	som 336 men fullst	stå -	255
+830	369K1	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal pres_R pret_RK perf_TT	som 336 men fullst som 369, men med as-inf	stå -	1445
+831	370	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal pres_R pret_RK perf_TT	som 336 men fullst	stå -	256
+832	370K1	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal pres_R pret_RK perf_TT	som 336 men fullst som 370, men med as-inf	stå -	1446
+833	371	verb, normal	verb	sterk vokalskifte_E>O>A dobbeltkons_ulike uten_attr pres_0 uten_S-infinitiv		vekse -	257
+834	371K1	verb, normal	verb	sterk vokalskifte_E>O>A dobbeltkons_ulike uten_attr pres_0 uten_S-infinitiv	 som 371, men med as-inf	vekse -	1447
+835	371K2	verb, normal	verb	sterk vokalskifte_E>O>A dobbeltkons_ulike uten_attr pres_0 uten_S-infinitiv	 som 371KL, men med as-inf	vekse -	1448
+836	371KL	verb, normal	verb	sterk vokalskifte_E>O>A dobbeltkons_ulike uten_attr pres_0 uten_S-infinitiv		vekse -	1010
+837	372	verb, normal	verb	sterk vokalskifte_E>O>A dobbeltkons_ulike uten_attr pres_0 uten_S-infinitiv		vekse -	258
+838	372A	verb, normal	verb	sterk vokalskifte_E>A>A dobbeltkons_ulike uten_attr pres_0 uten_S-infinitiv	nytt frå 2021	vekse	1606
+839	372K1	verb, normal	verb	sterk vokalskifte_E>O>A dobbeltkons_ulike uten_attr pres_0 uten_S-infinitiv	 som 372, men med as-inf	vekse -	1449
+840	372K2	verb, normal	verb	sterk vokalskifte_E>O>A dobbeltkons_ulike uten_attr pres_0 uten_S-infinitiv	 som 372KL, men med as-inf	vekse -	1450
+841	372KL	verb, normal	verb	sterk vokalskifte_E>O>A dobbeltkons_ulike uten_attr pres_0 uten_S-infinitiv		vekse -	1011
+842	373	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_RK_0 pret_RK	kortform_av_342 fullst	dra -	259
+843	373K1	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_RK_0 pret_RK	kortform_av_342 fullst som 373, men med as-inf	dra -	1451
+844	374	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_RK_0 pret_RK	kortform_av_342 fullst	dra -	260
+845	374K1	verb, normal	verb	sterk vokalskifte_A>O>E på_rotvokal pres_RK_0 pret_RK	kortform_av_342 fullst som 374, men med as-inf	dra -	1452
+846	375	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst	slå -	261
+847	375K1	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst som 375, men med as-inf	slå -	1453
+848	375K2	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst som 375KL, men med as-inf	slå -	1454
+849	375KL	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst	slå -	1012
+850	376	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst	slå -	262
+851	376K1	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst som 376, men med as-inf	slå -	1455
+852	376K2	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst som 376KL, men med as-inf	slå -	1456
+853	376KL	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst	slå -	1013
+854	377	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst	slå -	263
+855	377K1	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst som 377, men med as-inf	slå -	1457
+856	377K2	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst som 377KL, men med as-inf	slå -	1458
+857	377KL	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst	slå -	1014
+858	378	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst	slå -	264
+859	378K1	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst som 378, men med as-inf	slå -	1459
+860	378K2	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst som 378KL, men med as-inf	slå -	1460
+861	378KL	verb, normal	verb	sterk vokalskifte_Å>O>E på_rotvokal pres_R perf_TT	som 338 men fullst	slå -	1015
+862	379	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351	trå -	265
+863	379K1	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351 som 379, men med as-inf	trå -	1461
+864	379K2	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351 som 379KL, men med as-inf	trå -	1462
+865	379KL	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351	trå -	1016
+866	380	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351	trå -	266
+867	380K1	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351 som 380, men med as-inf	trå -	1463
+868	380K2	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351 som 380KL, men med as-inf	trå -	1464
+869	380KL	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351	trå -	1017
+870	381	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351	trå -	267
+871	381K1	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351 som 381, men med as-inf	trå -	1465
+872	381K2	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351 som 381KL, men med as-inf	trå -	1466
+873	381KL	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351	trå -	1018
+874	382	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351	trå -	268
+875	382K1	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351 som 382, men med as-inf	trå -	1467
+876	382K2	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351 som 382KL, men med as-inf	trå -	1468
+877	382KL	verb, normal	verb	sterk vokalskifte_Å>O>Å på_rotvokal uten_attr pres_R pret_RK_DE perf_RK_D/T	jf 351	trå -	1019
+878	383	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0		gange -	269
+879	383K1	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0	 som 383, men med as-inf	gange -	1469
+880	383K2	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0	 som 383KL, men med as-inf	gange -	1470
+881	383KL	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0		gange -	1020
+882	384	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0		gange -	270
+883	384K1	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0	 som 384, men med as-inf	gange -	1471
+884	384K2	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0	 som 384KL, men med as-inf	gange -	1472
+885	384KL	verb, normal	verb	sterk vokalskifte_A>O>A uten_attr J-flyt pres_0		gange -	1021
+886	393	verb, normal	verb	svak på_T pres_AR/ER pret_A/E	som 395 men fullst	trøyste -	271
+887	393K1	verb, normal	verb	svak på_T pres_AR/ER pret_A/E	som 395 men fullst som 393, men med as-inf	trøyste -	1473
+888	393T	verb, normal	verb	svak på_T pres_AR/ER pret_A/E		trøyste	1617
+889	394	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr pres_0		tygge -	272
+890	394K1	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr pres_0	 som 394, men med as-inf	tygge -	1474
+891	394K2	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr pres_0	 som 394KL, men med as-inf	tygge -	1475
+892	394KL	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr pres_0		tygge -	1022
+893	395	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr pres_0		tygge -	273
+894	395K1	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr pres_0	 som 395, men med as-inf	tygge -	1476
+895	395K2	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr pres_0	 som 395KL, men med as-inf	tygge -	1477
+896	395KL	verb, normal	verb	sterk vokalskifte_Y>O>O dobbeltkons_like uten_attr pres_0		tygge -	1023
+897	399	verb, normal	verb	sterk vokalskifte_A>A>A dobbeltkons_like forenkl pres_0 pret_0	fullst	falle -	274
+898	399K1	verb, normal	verb	sterk vokalskifte_A>A>A dobbeltkons_like forenkl pres_0 pret_0	fullst som 399, men med as-inf	falle -	1478
+899	399K2	verb, normal	verb	sterk vokalskifte_A>A>A dobbeltkons_like forenkl pres_0 pret_0	fullst som 399KL, men med as-inf	falle -	1479
+900	399KL	verb, normal	verb	sterk vokalskifte_A>A>A dobbeltkons_like forenkl pres_0 pret_0	fullst	falle -	1024
+901	400	verb, normal	verb	sterk vokalskifte_A>A>A dobbeltkons_like forenkl pres_0 pret_0	fullst	falle -	275
+902	400K1	verb, normal	verb	sterk vokalskifte_A>A>A dobbeltkons_like forenkl pres_0 pret_0	fullst som 400, men med as-inf	falle -	1480
+903	400K2	verb, normal	verb	sterk vokalskifte_A>A>A dobbeltkons_like forenkl pres_0 pret_0	fullst som 400KL, men med as-inf	falle -	1481
+904	400KL	verb, normal	verb	sterk vokalskifte_A>A>A dobbeltkons_like forenkl pres_0 pret_0	fullst	falle -	1025
+905	401	verb, normal	verb	svak dobbeltkons_ulike pret_A/E perf_A/T	fullst	avhende -	276
+906	401K1	verb, normal	verb	svak dobbeltkons_ulike pret_A/E perf_A/T	fullst som 401, men med as-inf	avhende -	1482
+907	401ny	verb, normal	verb	svak dobbeltkons_ulike pret_A/E perf_A/0	fullst	herde	1623
+908	402	verb, normal	verb	svak dobbeltkons_ulike pret_A/E perf_A/-T	fullst	sælde -	277
+909	402K1	verb, normal	verb	svak dobbeltkons_ulike pret_A/E perf_A/-T	fullst som 402, men med as-inf	sælde -	1483
+910	403	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 300 fullst	gjete -	278
+911	403K1	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 300 fullst som 403, men med as-inf	gjete -	1484
+912	403K2	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 300 fullst som 403KL, men med as-inf	gjete -	1485
+913	403KL	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 300 fullst	gjete -	1026
+914	404	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 300 fullst	gjete -	279
+915	404K1	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 300 fullst som 404, men med as-inf	gjete -	1486
+916	404K2	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 300 fullst som 404KL, men med as-inf	gjete -	1487
+917	404KL	verb, normal	verb	sterk vokalskifte_E>A>E J-bortfall pres_0	jf 300 fullst	gjete -	1027
+918	405	verb, normal	verb	sterk vokalskifte_Y>U>U J-bortfall pres_0 pret_DE perf_T	som 405 men fullst	symje -	280
+919	405K1	verb, normal	verb	sterk vokalskifte_Y>U>U J-bortfall pres_0 pret_DE perf_T	som 405 men fullst som 405, men med as-inf	symje -	1488
+920	406	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst	svemje -	281
+921	406K1	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst som 406, men med as-inf	svemje -	1489
+922	406K2	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst som 406KL, men med as-inf	svemje -	1490
+923	406KL	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst	svemje -	1028
+924	407	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst	svemje -	282
+925	407K1	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst som 407, men med as-inf	svemje -	1491
+926	407K2	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst som 407KL, men med as-inf	svemje -	1492
+927	407KL	verb, normal	verb	sterk vokalskifte_E>A>O J-bortfall pres_0	fullst	svemje -	1029
+928	408	verb, normal	verb	svak vokalskifte_Y>U>U J-bortfall pres_0 pret_DE perf_D/T	fullst	rydje -	283
+929	408K1	verb, normal	verb	svak vokalskifte_Y>U>U J-bortfall pres_0 pret_DE perf_D/T	fullst som 408, men med as-inf	rydje -	1493
+930	409	verb, normal	verb	svak vokalskifte_Y>U>U uten_attr pres_0		byrje -	284
+931	409K1	verb, normal	verb	svak vokalskifte_Y>U>U uten_attr pres_0	 som 409, men med as-inf	byrje -	1494
+932	40A	verb, st-verb	verb	på_s		låss	285
+933	40B	verb, st-verb	verb	på_s		slåss -	286
+934	40C	verb, st-verb	verb	på_s		slåss -	287
+935	40CK1	verb, st-verb	verb	på_s	 som 40C, men med es-presens	slåss -	1523
+936	40D	verb, st-verb	verb	på_s		slåss -	288
+937	40DK1	verb, st-verb	verb	på_s	 som 40D, men med es-presens	slåss -	1524
+938	40E	verb, st-verb	verb	på_s		komas -	289
+939	40EK1	verb, st-verb	verb	på_s	 som 40E, men med es-presens	komas -	1525
+940	40F	verb, st-verb	verb	på_s		komas -	290
+941	40FK1	verb, st-verb	verb	på_s	 som 40F, men med es-presens	komas -	1526
+942	40I	verb, st-verb	verb	på_s		kommas -	291
+943	40IK1	verb, st-verb	verb	på_s	 som 40I, men med es-presens	kommas -	1527
+944	40J	verb, st-verb	verb	på_s		kommas 	292
+945	40JK1	verb, st-verb	verb	på_s	 som 40J, men med es-presens	kommas 	1528
+946	40M	verb, st-verb	verb	på_s		hoggas -	293
+947	40MK1	verb, st-verb	verb	på_s	 som 40M, men med es-presens	hoggas -	1529
+948	40N	verb, st-verb	verb	på_s		hoggas -	294
+949	40NK1	verb, st-verb	verb	på_s	 som 40N, men med es-presens	hoggas -	1530
+950	410	verb, normal	verb	svak vokalskifte_Y>U>U uten_attr pres_0		byrje -	295
+951	410K1	verb, normal	verb	svak vokalskifte_Y>U>U uten_attr pres_0	 som 410, men med as-inf	byrje -	1495
+952	411	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0 pret_DE perf_D/T	fullst	krevje -	296
+953	411K1	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0 pret_DE perf_D/T	fullst som 411, men med as-inf	krevje -	1496
+954	412	verb, normal	verb	sterk vokalskifte_Y(O)>AU>O J-flyt uten_attr pres_0	dobbeltform_av_425	lyte -	297
+955	412K1	verb, normal	verb	sterk vokalskifte_Y(O)>AU>O J-flyt uten_attr pres_0	dobbeltform_av_425 som 412, men med as-inf	lyte -	1497
+956	412K2	verb, normal	verb	sterk vokalskifte_Y(O)>AU>O J-flyt uten_attr pres_0	dobbeltform_av_425 som 412KL, men med as-inf	lyte -	1498
+957	412KL	verb, normal	verb	sterk vokalskifte_Y(O)>AU>O J-flyt uten_attr pres_0	dobbeltform_av_425	lyte -	1030
+958	413	verb, normal	verb	sterk vokalskifte_Y(O)>AU>O J-flyt uten_attr pres_0	dobbeltform_av_425	lyte -	298
+959	413K1	verb, normal	verb	sterk vokalskifte_Y(O)>AU>O J-flyt uten_attr pres_0	dobbeltform_av_425 som 413, men med as-inf	lyte -	1499
+960	413K2	verb, normal	verb	sterk vokalskifte_Y(O)>AU>O J-flyt uten_attr pres_0	dobbeltform_av_425 som 413KL, men med as-inf	lyte -	1500
+961	413KL	verb, normal	verb	sterk vokalskifte_Y(O)>AU>O J-flyt uten_attr pres_0	dobbeltform_av_425	lyte -	1031
+962	414	verb, normal	verb	sterk vokalskifte_O>AU>O J-flyt uten_attr pres_0	dobbeltform_av_424	ljote -	299
+963	414K1	verb, normal	verb	sterk vokalskifte_O>AU>O J-flyt uten_attr pres_0	dobbeltform_av_424 som 414, men med as-inf	ljote -	1501
+964	414K2	verb, normal	verb	sterk vokalskifte_O>AU>O J-flyt uten_attr pres_0	dobbeltform_av_424 som 414KL, men med as-inf	ljote -	1502
+965	414KL	verb, normal	verb	sterk vokalskifte_O>AU>O J-flyt uten_attr pres_0	dobbeltform_av_424	ljote -	1032
+966	415	verb, normal	verb	sterk vokalskifte_O>AU>O J-flyt uten_attr pres_0	dobbeltform_av_424	ljote -	300
+967	415K1	verb, normal	verb	sterk vokalskifte_O>AU>O J-flyt uten_attr pres_0	dobbeltform_av_424 som 415, men med as-inf	ljote -	1503
+968	415K2	verb, normal	verb	sterk vokalskifte_O>AU>O J-flyt uten_attr pres_0	dobbeltform_av_424 som 415KL, men med as-inf	ljote -	1504
+969	415KL	verb, normal	verb	sterk vokalskifte_O>AU>O J-flyt uten_attr pres_0	dobbeltform_av_424	ljote -	1033
+970	417	verb, normal	verb	sterk vokalskifte_U>AU>O pres_0/ER pret_TE	som 417 men fullst	strupe -	301
+971	417K1	verb, normal	verb	sterk vokalskifte_U>AU>O pres_0/ER pret_TE	som 417 men fullst som 417, men med as-inf	strupe -	1505
+972	417K2	verb, normal	verb	sterk vokalskifte_U>AU>O pres_0/ER pret_TE	som 417 men fullst som 417KL, men med as-inf	strupe -	1506
+973	417KL	verb, normal	verb	sterk vokalskifte_U>AU>O pres_0/ER pret_TE	som 417 men fullst	strupe -	1034
+974	418	verb, normal	verb	sterk vokalskifte_U>AU>O pres_0/ER pret_TE	som 417 men fullst	strupe -	302
+975	418K1	verb, normal	verb	sterk vokalskifte_U>AU>O pres_0/ER pret_TE	som 417 men fullst som 418, men med as-inf	strupe -	1507
+976	418K2	verb, normal	verb	sterk vokalskifte_U>AU>O pres_0/ER pret_TE	som 417 men fullst som 418KL, men med as-inf	strupe -	1508
+977	418KL	verb, normal	verb	sterk vokalskifte_U>AU>O pres_0/ER pret_TE	som 417 men fullst	strupe -	1035
+978	419	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0/AR pret_A/DE	fullst	verje -	303
+979	419K1	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0/AR pret_A/DE	fullst som 419, men med as-inf	verje -	1509
+980	41A	verb, st-verb	verb	på_s		forfaras -	304
+981	41AK1	verb, st-verb	verb	på_s	 som 41A, men med es-presens	forfaras -	1531
+982	41B	verb, st-verb	verb	på_s		forfaras -	305
+983	41BK1	verb, st-verb	verb	på_s	 som 41B, men med es-presens	forfaras -	1532
+984	41E	verb, st-verb	verb	på_s		trivas -	306
+985	41EK1	verb, st-verb	verb	på_s	 som 41E, men med es-presens	trivas -	1533
+986	41F	verb, st-verb	verb	på_s		trivas -	307
+987	41FK1	verb, st-verb	verb	på_s	 som 41F, men med es-presens	trivas -	1534
+988	41G	verb, st-verb	verb	på_st sterk		gjevast	852
+989	41GK1	verb, st-verb	verb	på_s		gjevas	1521
+990	41I	verb, st-verb	verb	på_s		semjas -	308
+991	41J	verb, st-verb	verb	på_s		semjas -	309
+992	41K	verb, st-verb	verb	på_s		vemjas -	310
+993	41L	verb, st-verb	verb	på_s		vemjas -	311
+994	41M	verb, st-verb	verb	på_s		spørjas -	312
+995	41N	verb, st-verb	verb	på_s		spørjas -	313
+996	41O	verb, st-verb	verb	på_s		leggas	314
+997	41P	verb, st-verb	verb	på_s		leggjas	315
+998	41Q	verb, st-verb	verb	på_s		rennas -	316
+999	41QK1	verb, st-verb	verb	på_s	 som 41Q, men med es-presens	rennas -	1535
+1000	41R	verb, st-verb	verb	på_s		rennas -	317
+1001	41RK1	verb, st-verb	verb	på_s	 som 41R, men med es-presens	rennas -	1536
+1002	41U	verb, st-verb	verb	på_s		seias	318
+1003	41V	verb, st-verb	verb	på_s		trengas -	319
+1004	41VK1	verb, st-verb	verb	på_s	 som 41V, men med es-presens	trengas -	1537
+1005	41W	verb, st-verb	verb	på_s		trengas -	320
+1006	41WK1	verb, st-verb	verb	på_s	 som 41W, men med es-presens	trengas -	1538
+1007	41Z	verb, st-verb	verb	på_s		turvas	321
+1008	420	verb, normal	verb	sterk vokalskifte_Y>U>U J-bortfall pres_0 pret_DE perf_T	som 405 men fullst	symje -	322
+1009	420K1	verb, normal	verb	sterk vokalskifte_Y>U>U J-bortfall pres_0 pret_DE perf_T	som 405 men fullst som 420, men med as-inf	symje -	1510
+1010	421	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0/AR pret_A/DE	fullst	verje -	323
+1011	421K1	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0/AR pret_A/DE	fullst som 421, men med as-inf	verje -	1511
+1012	422	verb, normal	verb	sterk vokalskifte_A>O>A J-flyt pres_0/AR pret_A	fullst	skave -	324
+1013	422K1	verb, normal	verb	sterk vokalskifte_A>O>A J-flyt pres_0/AR pret_A	fullst som 422, men med as-inf	skave -	1512
+1014	422K2	verb, normal	verb	sterk vokalskifte_A>O>A J-flyt pres_0/AR pret_A	fullst som 422KL, men med as-inf	skave -	1513
+1015	422KL	verb, normal	verb	sterk vokalskifte_A>O>A J-flyt pres_0/AR pret_A	fullst	skave -	1036
+1016	423	verb, normal	verb	sterk vokalskifte_A>O>A J-flyt pres_0/AR pret_A	fullst	skave -	325
+1017	423K1	verb, normal	verb	sterk vokalskifte_A>O>A J-flyt pres_0/AR pret_A	fullst som 423, men med as-inf	skave -	1514
+1018	423K2	verb, normal	verb	sterk vokalskifte_A>O>A J-flyt pres_0/AR pret_A	fullst som 423KL, men med as-inf	skave -	1515
+1019	423KL	verb, normal	verb	sterk vokalskifte_A>O>A J-flyt pres_0/AR pret_A	fullst	skave -	1037
+1020	426	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_KK	fullst	stinge -	326
+1021	426K1	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_KK	fullst som 426, men med as-inf	stinge -	1516
+1022	426K2	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_KK	fullst som 426KL, men med as-inf	stinge -	1517
+1023	426KL	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_KK	fullst	stinge -	1038
+1024	427	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_KK	fullst	stinge -	327
+1025	427A	verb, normal	verb	sterk vokalskifte_I>AAU	fullst som 427, men med ikk-imp	stinge -	1633
+1026	427K1	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_KK	fullst som 427, men med as-inf	stinge -	1518
+1027	427K2	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_KK	fullst som 427KL, men med as-inf	stinge -	1519
+1028	427KL	verb, normal	verb	sterk vokalskifte_I>A>U dobbeltkons_ulike pres_0 pret_KK	fullst	stinge -	1039
+1029	428	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0/AR 	fullst	telje -	862
+1030	428K1	verb, normal	verb	svak vokalskifte_E>A>A J-bortfall pres_0/AR 	fullst som 428, men med as-inf	telje -	1520
+1031	429	verb, st-verb	verb	på st		aldrast	328
+1032	42A	verb, st-verb	verb	på_st		gjørast -	329
+1033	42B	verb, st-verb	verb	på_st		gjørast -	330
+1034	42C	verb, st-verb	verb	på_st		gjøras -	331
+1035	42D	verb, st-verb	verb	på_st		gjøras -	332
+1036	42E	verb, st-verb	verb	på_st		ljugast -	333
+1037	42EK1	verb, st-verb	verb	på_st	 som 42E, men med es-presens	ljugast -	1539
+1038	42F	verb, st-verb	verb	på_st		ljugast -	334
+1039	42FK1	verb, st-verb	verb	på_st	 som 42F, men med es-presens	ljugast -	1540
+1040	42G	verb, st-verb	verb	på_st		lygast -	335
+1041	42GK1	verb, st-verb	verb	på_st	 som 42G, men med es-presens	lygast -	1541
+1042	42H	verb, st-verb	verb	på_st		lygast -	336
+1043	42HK1	verb, st-verb	verb	på_st	 som 42H, men med es-presens	lygast -	1542
+1044	42I	verb, st-verb	verb	på_st		torast -	337
+1045	42J	verb, st-verb	verb	på_st		turvast	338
+1046	42K	verb, st-verb	verb	på_s		gjeras -	339
+1047	42KK1	verb, st-verb	verb	på_s	 som 42K, men med es-presens	gjeras -	1543
+1048	42L	verb, st-verb	verb	på_s		gjeras -	340
+1049	42LK1	verb, st-verb	verb	på_s	 som 42L, men med es-presens	gjeras -	1544
+1050	42M	verb, st-verb	verb	på_s		ljugas -	341
+1051	42MK1	verb, st-verb	verb	på_s	 som 42M, men med es-presens	ljugas -	1545
+1052	42N	verb, st-verb	verb	på_s		ljugas -	342
+1053	42NK1	verb, st-verb	verb	på_s	 som 42N, men med es-presens	ljugas -	1546
+1054	42Q	verb, st-verb	verb	på_s		lygas -	343
+1055	42QK1	verb, st-verb	verb	på_s	 som 42Q, men med es-presens	lygas -	1547
+1056	42R	verb, st-verb	verb	på_s		lygas -	344
+1057	42RK1	verb, st-verb	verb	på_s	 som 42R, men med es-presens	lygas -	1548
+1058	42T	verb, st-verb	verb	på_st svak pret_DE J-bortfall pres_ST		vemjast -	345
+1059	42U	verb, st-verb	verb	på_st		rekas -	346
+1060	42UK1	verb, st-verb	verb	på_st	 som 42U, men med es-presens	rekas -	1549
+1061	42V	verb, st-verb	verb	på_s		rekas -	347
+1062	42VK1	verb, st-verb	verb	på_s	 som 42V, men med es-presens	rekas -	1550
+1063	42W	verb, st-verb	verb	på_st sterk		omgåast -	348
+1064	42X	verb, st-verb	verb	på_st sterk		munnhoggast	349
+1065	42XK1	verb, st-verb	verb	på_st sterk	 som 42X, men med es-presens	munnhoggast	1551
+1066	42Y	verb, st-verb	verb	på_s sterk		munnhoggas	350
+1067	42YK1	verb, st-verb	verb	på_s sterk	 som 42Y, men med es-presens	munnhoggas	1552
+1068	42Z	verb, st-verb	verb	på_s sterk		munnhoggas	351
+1069	42ZK1	verb, st-verb	verb	på_s sterk	 som 42Z, men med es-presens	munnhoggas	1553
+1070	430	verb, st-verb	verb	på_st svak pret_DE J-bortfall		blygjast	352
+1071	431	verb, st-verb	verb	på_st svak pret_DE J-bortfall pres_ST		vemjast -	353
+1072	432	verb, st-verb	verb	på_st svak pret_DE J-bortfall forenkl		styggjast	354
+1073	433	verb, st-verb	verb	på_st svak pret_A/TE på_T		ordskiftast -	355
+1074	434	verb, st-verb	verb	på_st svak pret_TE		synast	356
+1075	434A	verb, st-verb	verb	på_st svak pres ast pret est	blanda bøying	tynnast	1665
+1076	435	verb, st-verb	verb	på_st svak pret_TE forenkl		dimmast -	357
+1077	436	verb, st-verb	verb	på_st svak pret_TE J		likjast	358
+1078	437	verb, st-verb	verb	på_st svak pret_TE forenkl J		tekkjast	359
+1079	438	verb, st-verb	verb	på_st svak på_D pret_D		lydast	360
+1080	439	verb, st-verb	verb	på_st svak på_D		eldast	361
+1081	43A	verb, st-verb	verb	på_st sterk		munnhoggast	362
+1082	43AK1	verb, st-verb	verb	på_st sterk	 som 43A, men med es-presens	munnhoggast	1554
+1083	43B	verb, st-verb	verb	på_st sterk		seiast	363
+1084	43C	verb, st-verb	verb	på_st sterk		forkomast -	364
+1085	43CK1	verb, st-verb	verb	på_st sterk	 som 43C, men med es-presens	forkomast -	1555
+1086	43D	verb, st-verb	verb	på_st sterk		forkomast -	365
+1087	43DK1	verb, st-verb	verb	på_st sterk	 som 43D, men med es-presens	forkomast -	1556
+1088	43E	verb, st-verb	verb	på_st sterk		forkommast -	366
+1089	43EK1	verb, st-verb	verb	på_st sterk	 som 43E, men med es-presens	forkommast -	1557
+1090	43F	verb, st-verb	verb	på_st sterk		forkommast -	367
+1091	43FK1	verb, st-verb	verb	på_st sterk	 som 43F, men med es-presens	forkommast -	1558
+1092	43G	verb, st-verb	verb	på_st sterk		leiast -	368
+1093	43H	verb, st-verb	verb	på_st sterk		leiast -	369
+1094	43I	verb, st-verb	verb	på_st sterk		bøyast	370
+1095	43J	verb, st-verb	verb	på_st sterk		rennast -	371
+1096	43JK1	verb, st-verb	verb	på_st sterk	 som 43J, men med es-presens	rennast -	1559
+1097	43K	verb, st-verb	verb	på_st sterk		rennast -	372
+1098	43KK1	verb, st-verb	verb	på_st sterk	 som 43K, men med es-presens	rennast -	1560
+1099	43L	verb, st-verb	verb	på_st sterk		rekast -	373
+1100	43LK1	verb, st-verb	verb	på_st sterk	 som 43L, men med es-presens	rekast -	1561
+1101	43M	verb, st-verb	verb	på_st sterk		rekast -	374
+1102	43MK1	verb, st-verb	verb	på_st sterk	 som 43M, men med es-presens	rekast -	1562
+1103	43N	verb, st-verb	verb	på_s		aldras	375
+1104	43O	verb, st-verb	verb	på_s		bøyas	376
+1105	43P	verb, st-verb	verb	på_s		dimmas -	377
+1106	43Q	verb, st-verb	verb	på_s		dimmas -	378
+1107	43R	verb, st-verb	verb	på_s		lydas	379
+1108	43S	verb, st-verb	verb	på_s		synas	380
+1109	43T	verb, st-verb	verb	på_s		blygjas	381
+1110	43U	verb, st-verb	verb	på_s		likjas	382
+1111	43V	verb, st-verb	verb	på_s		eldas -	383
+1112	43W	verb, st-verb	verb	på_s		finnas -	384
+1113	43WK1	verb, st-verb	verb	på_s	 som 43W, men med es-presens	finnas -	1563
+1114	43X	verb, st-verb	verb	på_s		finnas -	385
+1115	43XK1	verb, st-verb	verb	på_s	 som 43X, men med es-presens	finnas -	1564
+1116	43Y	verb, st-verb	verb	på_st sterk		spørjast -	386
+1117	43Z	verb, st-verb	verb	på_st sterk		semjast -	387
+1118	440	verb, st-verb	verb	på_st svak forenkl pret_D		dimmast -	388
+1119	441	verb, st-verb	verb	på_st sterk		finnast -	389
+1120	441K1	verb, st-verb	verb	på_st sterk	 som 441, men med es-presens	finnast -	1576
+1121	442	verb, st-verb	verb	på_st sterk		finnast -	390
+1122	442K1	verb, st-verb	verb	på_st sterk	 som 442, men med es-presens	finnast -	1577
+1123	443	verb, st-verb	verb	på_st sterk		leggjast	391
+1124	444	verb, st-verb	verb	på_st sterk		dragast -	392
+1125	444K1	verb, st-verb	verb	på_st sterk	 som 444, men med es-presens	dragast -	1578
+1126	445	verb, st-verb	verb	på_st sterk		dragast -	393
+1127	445K1	verb, st-verb	verb	på_st sterk	 som 445, men med es-presens	dragast -	1579
+1128	447	verb, st-verb	verb	på_st sterk		semjast -	394
+1129	448	verb, st-verb	verb	på_st sterk		sjåast	395
+1130	449	verb, st-verb	verb	på_st sterk		spørjast -	396
+1131	44A	verb, st-verb	verb	på_st sterk		trengast -	397
+1132	44AK1	verb, st-verb	verb	på_st sterk	 som 44A, men med es-presens	trengast -	1565
+1133	44B	verb, st-verb	verb	på_st sterk		trengast -	398
+1134	44BK1	verb, st-verb	verb	på_st sterk	 som 44B, men med es-presens	trengast -	1566
+1135	44C	verb, st-verb	verb	på_st sterk		slåst -	399
+1136	44CK1	verb, st-verb	verb	på_st sterk	 som 44C, men med es-presens	slåst -	1567
+1137	44D	verb, st-verb	verb	på_st sterk		slåst -	400
+1138	44DK1	verb, st-verb	verb	på_st sterk	 som 44D, men med es-presens	slåst -	1568
+1139	44E	verb, st-verb	verb	på_st sterk		slåst -	401
+1140	44F	verb, st-verb	verb	på_st sterk		trivast -	402
+1141	44FK1	verb, st-verb	verb	på_st sterk	 som 44F, men med es-presens	trivast -	1569
+1142	44G	verb, st-verb	verb	på_st sterk		trivast -	403
+1143	44GK1	verb, st-verb	verb	på_st sterk	 som 44G, men med es-presens	trivast -	1570
+1144	44H	verb, st-verb	verb	på_st sterk		omgåast -	404
+1145	44I	verb, st-verb	verb	på_st sterk		låst	405
+1146	44J	verb, st-verb	verb	på_st sterk		omfarast -	406
+1147	44JK1	verb, st-verb	verb	på_st sterk	 som 44J, men med es-presens	omfarast -	1571
+1148	44K	verb, st-verb	verb	på_st sterk		omfarast -	407
+1149	44KK1	verb, st-verb	verb	på_st sterk	 som 44K, men med es-presens	omfarast -	1572
+1150	44L	verb, st-verb	verb	på_st sterk		gjerast -	408
+1151	44LK1	verb, st-verb	verb	på_st sterk	 som 44L, men med es-presens	gjerast -	1573
+1152	44N	verb, st-verb	verb	på_s		gåas -	409
+1153	44O	verb, st-verb	verb	på_s		gåas -	410
+1154	44P	verb, st-verb	verb	på_s		styggjas	411
+1155	44Q	verb, st-verb	verb	på_s		sjåas	412
+1156	44R	verb, st-verb	verb	på_s		leias -	413
+1157	44S	verb, st-verb	verb	på_s		leias -	414
+1158	44T	verb, st-verb	verb	på_s		ordskiftas -	415
+1159	44U	verb, st-verb	verb	på_s		tekkjas	416
+1160	44V	verb, st-verb	verb	på_s		dragas -	417
+1161	44VK1	verb, st-verb	verb	på_s	 som 44V, men med es-presens	dragas -	1574
+1162	44W	verb, st-verb	verb	på_s		dragas -	418
+1163	44WK1	verb, st-verb	verb	på_s	 som 44W, men med es-presens	dragas -	1575
+1164	44X	verb, st-verb	verb	på_st sterk		leggast	419
+1165	44Y	verb, st-verb	verb	på_s		toras -	420
+1166	44Z	verb, st-verb	verb	på_st sterk		givast	1598
+1167	44ZK1	verb, st-verb	verb	på_s		givas	1599
+1168	44ZZ	verb, st-verb	verb	på_st sterk		forgangast	1605
+1169	450	pronomen, normal	pron pers 1 eint hum			eg	421
+1170	451	pronomen, normal	pron pers 2 eint hum			du	422
+1171	452	pronomen, normal	pron pers 3 eint mask			han -	423
+1172	453	pronomen, normal	pron pers 3 eint fem			ho -	424
+1173	454	pronomen, normal	pron pers 3 eint nøyt			det	425
+1174	455	pronomen, normal	pron pers 1 fl hum			vi	426
+1175	456	pronomen, normal	pron pers 1 fl hum			me	427
+1176	457	pronomen, normal	pron pers 2 fl hum			de	428
+1177	458	pronomen, normal	pron pers 3 fl hum			dei	429
+1178	459	pronomen, normal	pron refl eint/fl			seg	430
+1179	45A	pronomen, normal	pron pers 3 eint mask fem			den	826
+1180	45B	pronomen, normal	pron pers 3 eint mask			nokon	828
+1181	45C	pronomen, normal	pron pers 3 fl			desse	827
+1182	45D	pronomen, normal	pron pers 3 eint fem			noka	830
+1183	45E	pronomen, normal	pron pers 3 eint mask fem			denne	1592
+1184	45F	pronomen, normal	pron pers 2 fl hum			dokker	1593
+1185	45G	pronomen, enkel	pron	objektsform		dykk	1682
+1186	460	pronomen, normal	pron pers 3 eint hum			ein	431
+1187	461	pronomen, normal	pron pers 2 fl høflig			De	432
+1188	462	pronomen, normal	pron pers 3 eint mask			han -	433
+1189	463	pronomen, normal	pron pers 3 eint fem			ho -	434
+1190	464	pronomen, normal	pron res fl hum			kvarandre	435
+1191	465	pronomen, enkel	pron sp poss hum			kvens	825
+1192	466	pronomen, normal	pron sp hum			kven	436
+1193	467	pronomen, normal	pron sp ikke-hum			kva	437
+1194	468	pronomen, normal	pron fl			flestalle	438
+1195	469	pronomen, normal	pron eint			ingenting	439
+1196	46A	determinativ	det kvant			korgje	440
+1197	470	determinativ	det poss			min	441
+1198	471	pronomen, normal	pron pers 3 eint mask				848
+1199	472	determinativ	det poss			din	442
+1200	473	determinativ	det	før ubunden artikkel		ein	1604
+1201	474	determinativ	det poss			sin	443
+1202	475	determinativ	det dem			hin	444
+1203	476	determinativ	det dem			såvoren -	445
+1204	477	determinativ	det poss			vår	446
+1205	478	determinativ	det dem			såvoren -	447
+1206	479	determinativ	det dem			såvoren -	448
+1207	47A	determinativ	det poss		Kan slås sammen	hans	449
+1208	47B	determinativ	det poss			hennar	450
+1209	47C	determinativ	det poss			hennes	451
+1210	47D	determinativ	det poss			dess	452
+1211	47E	determinativ	det poss			dykkar	453
+1212	47F	determinativ	det poss			deira	454
+1213	47G	determinativ	det poss			deires	455
+1214	47H	determinativ	det poss høflig			Dykkar	456
+1215	47I	determinativ	det poss res			kvarandres	856
+1216	484	determinativ	det sp			hokken	457
+1217	485	determinativ, enkel	det sp			kva	458
+1218	486	determinativ	det kvant		også mang går slik	kvar	459
+1219	487	determinativ, enkel	det dem mask eint			denne	460
+1220	488	determinativ	det kvant			ingen -	461
+1221	489	determinativ	det kvant			nokon -	462
+1222	48A	determinativ	det kvant			nokon -	463
+1223	48B	determinativ	det kvant			nokon -	464
+1224	48C	determinativ	det kvant			noen	465
+1225	48D	determinativ, enkel	det dem fem eint			denne	466
+1226	48E	determinativ, enkel	det dem nøyt eint			dette	467
+1227	48F	determinativ, enkel	det dem fl			desse	468
+1228	48G	determinativ, <adj>	det forst <adj>	nøyt_0_flt_0	fullst	sjølv	1635
+1229	48GA	determinativ, <adj>	det forst <adj>	nøyt0_flt_0	uten_plur	sjølv	1670
+1230	48GB	determinativ, <adj>	det forst <adj>	nøyt_0_pl_e	utan_grad	sjølv	1671
+1231	48H	determinativ, enkel	det dem nøyt eint			det	469
+1232	48I	determinativ, <adj>	det forst <adj>		enkelttilfelle	eigen -	470
+1233	48J	determinativ, <adj>	det forst <adj>		enkelttilfelle	eigen -	471
+1234	48K	determinativ, <adj>	det dem <adj>		enkelttilfelle	annan -	472
+1235	48KK	determinativ	det dem		enkelttilfelle	kvarannan	1601
+1236	48L	determinativ, <adj>	det dem <adj>		enkelttilfelle	annan -	473
+1237	48M	determinativ, <adj>	det dem <adj>		enkelttilfelle	annen	474
+1238	48N	determinativ	det kvant		enkelttilfelle	halvannan -	475
+1239	48O	determinativ	det kvant		enkelttilfelle	halvannan -	476
+1240	48P	determinativ	det kvant		enkelttilfelle	halvannen	477
+1241	48Q	determinativ, enkel	det dem fl			dei	478
+1242	48R	determinativ	det kvant			noko	829
+1243	48SJV	determinativ, <adj>	det forst <adj>	nøyt_0	fullst	sjølv	1591
+1244	490	determinativ	det dem			slik	479
+1245	491	determinativ, enkel	det dem mask eint			den	480
+1246	492	determinativ	det kvant			ingen -	481
+1247	493	determinativ	det kvant			all	482
+1248	494	determinativ	det kvant			annankvar -	483
+1249	495	determinativ	det kvant			einkvan	484
+1250	496	determinativ	det kvant			annankvar -	485
+1251	497	determinativ	det kvant			sum	486
+1252	498	determinativ	det kvant			som	487
+1253	499	determinativ, enkel	det dem bu <adj>			same	488
+1254	49A	determinativ, enkel	det forst <adj>			sjølv	489
+1255	49B	determinativ, enkel	det bu			sjølve	490
+1256	49C	determinativ	det kvant			annenkvar	491
+1257	49D	determinativ	det kvant			tredjekvar	492
+1258	49E	determinativ	det dem			sånn	493
+1259	49F	determinativ	det kvant			begge	494
+1260	49G	determinativ	det kvant			ein	495
+1261	49H	determinativ	det kvant			ein	496
+1262	49I	determinativ	det kvant			to	497
+1263	49J	determinativ, enkel	det kvant bu eint			eine	824
+1264	49K	determinativ	det kvant			som	845
+1265	49L	determinativ, enkel	det kvant bu <adj>			einaste	855
+1266	49P	determinativ	det kvant			éin	858
+1267	49Q	determinativ	det kvant			éin	859
+1268	49R	determinativ	det kvant	uttr med_dobbel_bøying	enkelttilfelle	mang ein	1621
+1269	49S	determinativ	det kvant	uttr med_dobbel_bøying	enkelttilfelle	mang éin	1622
+1270	49T	determinativ	det kvant			éin	1650
+1271	500	adjektiv	adj	nøyt_T	fullst	bleik	498
+1272	501	adjektiv	adj	nøyt_T u_gradbøy	fullst	definitiv	1619
+1273	502	adjektiv	adj	nøyt_0	fullst	distré -	860
+1274	503	adjektiv	adj	02_0/E nøyt_0/TT	fullst	distré -	861
+1275	506	adjektiv	adj	utskyt_A_04V_05V_06V nøyt_T	fullst	høg -	499
+1276	510	adjektiv	adj	nøyt_0	fullst	svart	500
+1277	511	adjektiv	adj	nøyt_0 u_gradbøy	fullst	synst	501
+1278	515	adjektiv	adj <ordenstal>			første	502
+1279	518	adjektiv	adj	suppletiv	enkelttilfelle	dårleg	1660
+1280	519	adjektiv	adj		enkelttilfelle	verre	846
+1281	520	adjektiv	adj	utskyt_A_05V_06V nøyt_0		heilag -	503
+1282	525	adjektiv, ulik m/f	adj	u_gradbøying	enkelttilfelle	litenvoren	1672
+1283	529	adjektiv	adj	nøyt_TT	einskilddøme	små -	1629
+1284	530	adjektiv	adj	nøyt_TT	fullst	fri	504
+1285	531	adjektiv	adj	02_0/E nøyt_TT	fullst	trå-	505
+1286	532	adjektiv	adj	ubøy		aparte - 	506
+1287	533	adjektiv	adj	02_0/E nøyt_0/TT	fullst	trendy -	507
+1288	534	adjektiv	adj	utan komparasjon	gammal i sms	eldgammal	1655
+1289	535	adjektiv	adj	utan komparasjon	gamal i samasetjingar	eldgamal	1656
+1290	536	adjektiv	adj	nøyt_TT uten komparasjon som_530	adj på vokal i sms utan komparasjon	ansvarsfri	1668
+1291	537	adjektiv	adj	nøyt_TT uten komparasjon pos_lik_531	adj på vokal i sms uten komparasjon	-blå	1669
+1292	540	adjektiv	adj	nøyt_-T	fullst	frekk	508
+1293	541	adjektiv	adj	bare pos nøyt_-t	bare pos	eventuell	1653
+1294	550	adjektiv	adj	MM	fullst	tam	509
+1295	551	adjektiv	adj	som 550 uten gradbøying	på  _M	tom i sms	1679
+1296	553	adjektiv	adj	MM bare_positiv nøyt_0/T		omfram -	510
+1297	554	adjektiv	adj		MM som 553_med gradbøying	hot	1680
+1298	556	adjektiv	adj		enkelttilfelle	ymis	511
+1299	557	adjektiv	adj		enkelttilfelle	emeritus	512
+1300	558	adjektiv	adj			ufredt	513
+1301	559	adjektiv	adj	sup_ub_0 sup_bu_E	bare_sup	mellomst	514
+1302	560	adjektiv	adj	MM redusertend_komp_sup	fullst	fornem	515
+1303	564	adjektiv	adj	på_EN bare_positiv utskyt_E_02V nøyt_--E/--I		svimren -	516
+1304	564T	adjektiv	adj	på_EN bare_positiv utskyt_E_02V nøyt_--ENT til erstatning for feilaktig -i padigmer		svimren -	1580
+1305	565	adjektiv	adj	på_EN bare_positiv utskyt_E_02V nøyt_--E/--I		svimren -	517
+1306	570	adjektiv	adj	på_ER utskyt_E	fullst	diger	518
+1307	571	adjektiv	adj	på_E+ utskyt_E u_gradbøy	positiv	kapabel	1651
+1308	572	adjektiv	adj	på_EN utskyt_E nøyt_--E/--I	fullst	kresen -	519
+1309	572G	adjektiv	adj	på_EN utskyt_E nøyt_--E/--I u_gradbøy			1636
+1310	572H	adjektiv	adj	på_EN utskyt_E nøyt_--ENT u_gradbøy	som 572G uten gradbøyning	andpusten	1661
+1311	572T	adjektiv	adj	på_EN utskyt_E nøyt_--ENT til erstating for paradigmer fra i-mål	fullst	kresen -	1581
+1312	573	adjektiv	adj	på_EN utskyt_E nøyt_--E/--I	fullst	kresen -	520
+1313	575	adjektiv	adj	dobbeltkons_like på_ER utskyt_E forenkl	fullst	bitter	521
+1314	575G	adjektiv	adj	dobbeltkons_like på_ER _EL utskyt_E forenkl	som 575 uten komparasjon	femdobbel	1673
+1315	577	adjektiv	adj	dobbeltkons_like på_EN utskyt_E forenkl nøyt_--E/--I	fullst	guffen -	522
+1316	577T	adjektiv	adj	dobbeltkons_like på_EN utskyt_E forenkl nøyt_--E/--I	fullst	guffen -	1582
+1317	578	adjektiv	adj	dobbeltkons_like på_EN utskyt_E forenkl nøyt_--E/--I	fullst	guffen -	523
+1318	579	adjektiv	adj	dobbeltkons_like på_EN utskyt_E forenkl	utan komparasjon	innåtkommen	1652
+1319	583	adjektiv	adj	på_EN bare_positiv utskyt_E 02_--E nøyt_--E/--I		grinen -	524
+1320	583T	adjektiv	adj	på_EN bare_positiv utskyt_E 02_--E nøyt_--E/--I		grinen -	1583
+1321	584	adjektiv	adj	på_EN bare_positiv utskyt_E 02_--E nøyt_--E/--I		grinen -	525
+1322	585	adjektiv	adj	på_EN vokalskifte_Y>Ø G utskyt_E nøyt_E/I		smøyen -	526
+1323	585T	adjektiv	adj	på_EN vokalskifte_Y>Ø G utskyt_E nøyt_E/I		smøyen -	1584
+1324	586	adjektiv	adj	på_EN vokalskifte_Y>Ø G utskyt_E nøyt_E/I		smøyen -	527
+1325	593	adjektiv	adj	på_DD bare_positiv nøyt_--TT		budd	528
+1326	595	adjektiv	adj	på_VD bare_positiv nøyt_--TT		medhavd	529
+1327	598	adjektiv	adj	omlyd_Å/Æ uten_sing		få	530
+1328	599	adjektiv	adj	på_AN utskyt_A nøyt_0	fullst enkelttilfelle	sjeldan	531
+1329	600	adjektiv	adj	omlyd_Å/Æ uten_sing		få	532
+1330	601	adjektiv	adj	omlyd_A/E redusertend_komp_sup	fullst	lang	533
+1331	602	adjektiv	adj	omlyd_O/Ø redusertend_komp_sup	fullst	stor	534
+1332	603	adjektiv	adj	omlyd_U/Y redusertend_komp_sup	fullst	tung	535
+1333	604	adjektiv	adj	omlydV_Å/Æ redusertend_kompV_og_supV		små-	536
+1334	605	adjektiv	adj	omlydV_Å/Æ redusertend_kompV_og_supV		små-	537
+1335	606	adjektiv	adj	omlydV_Å/Æ redusertend_kompV_og_supV		låg -	538
+1336	607	adjektiv	adj	suppletiv	fullst enkelttilfelle	bra	539
+1337	608	adjektiv	adj	omlyd_A>E		lang	834
+1338	609	adjektiv	adj	på_D bare_positiv nøyt_-T		blodsprengd	540
+1339	610	adjektiv	adj	suppletiv	fullst enkelttilfelle	gammal	541
+1340	611	adjektiv	adj	suppletiv	fullst enkelttilfelle	gamal	542
+1341	612	adjektiv	adj	suppletiv	fullst enkelttilfelle	god	543
+1342	613	adjektiv	adj	suppletiv	fullst enkelttilfelle	ill	544
+1343	614	adjektiv	adj	uten_02 uten_nøyt	enkelttilfelle	sør -	545
+1344	615	adjektiv	adj	uten_02 uten_nøyt	enkelttilfelle	sør -	546
+1345	616	adjektiv	adj	suppletiv	fullst enkelttilfelle	mang	547
+1346	616A	determinativ, <adj>	det kvant <adj>		fullst enkelttilfelle	mange	1649
+1347	617	adjektiv	adj	suppletiv uten_02 uten_nøyt	dobbeltform_av_618	mye	548
+1348	618	adjektiv	adj	suppletiv	dobbeltform_av_617	mykje	549
+1349	619	adjektiv	adj		fullst enkelttilfelle	vond	550
+1350	620	adjektiv	adj	uten bf_og_pl	enkelttilfelle	mykjen	1666
+1351	620A	adjektiv, ulik m/f	adj	enkelttilfelle		mykjen	1667
+1352	621	adjektiv	adj	uten_positiv			847
+1353	622	adjektiv	adj	uten_positiv redusertend_supV	enkelttilfelle	undre -	551
+1354	623	adjektiv	adj	uten_positiv redusertend_sup		øvre	552
+1355	624	adjektiv	adj	uten_positiv forenkl redusertend_supV	enkelttilfelle	ytre -	553
+1356	625	adjektiv	adj	uten_positiv redusertend_supV	enkelttilfelle	indre -	554
+1357	626	adjektiv	adj	uten_positiv redusertend_supV	enkelttilfelle	indre -	555
+1358	628	adjektiv	adj	på_E nøyt_0	fullst	nøye	556
+1359	629	adjektiv	adj	uten_positiv redusertend_komp	dobbeltform_av_631	hitare	557
+1360	630	adjektiv	adj	uten_positiv redusertend_komp	dobbeltform_av_631	hitre	558
+1361	631	adjektiv	adj	omlydV_O/Ø uten_02 uten_nøyt redusertend_komp_sup	enkelttilfelle	nord -	559
+1362	632	adjektiv	adj	omlydV_O/Ø uten_02 uten_nøyt redusertend_komp_sup	enkelttilfelle	nord -	560
+1363	633	adjektiv	adj		fullst enkelttilfelle	nær -	561
+1364	634	adjektiv	adj	nøyt_-T	fullst enkelttilfelle	jamn	562
+1365	647	adjektiv	adj	omlydV_O/Ø redusertend_kompV_supV		grov -	563
+1366	649	adjektiv	adj	på_EN vokalskifte_Y>Ø G utskyt_E nøyt_E/I		nøyen -	564
+1367	649T	adjektiv	adj	på_EN vokalskifte_Y>Ø G utskyt_E nøyt_E/I		nøyen -	1585
+1368	650	adjektiv	adj	på_EN vokalskifte_Y>Ø G utskyt_E nøyt_E/I		nøyen -	565
+1369	651	adjektiv	adj	uten_positiv redusertend_supV	enkelttilfelle	bakre -	566
+1370	652	adjektiv	adj	uten_positiv	dobbeltform_av_653 enkelttilfelle	bakre -	567
+1371	653	adjektiv	adj	uten_positiv	dobbeltform_av_652 enkelttilfelle	bakare -	568
+1372	654	adjektiv	adj	uten_positiv	dobbeltform_av_652 enkelttilfelle	bakare -	569
+1373	661	adjektiv, ulik m/f	adj	på_EN bare_positiv	enkelttilfelle	liveigen	570
+1374	662	adjektiv, ulik m/f	adj	på_EN bare_positiv	enkelttilfelle	liveigen	571
+1375	663	adjektiv, ulik m/f	adj	uten gradbøying	liten i sms	ørliten	1674
+1376	664	adjektiv, ulik m/f	adj	uten gradbøying	liten i sms	ørliten	1675
+1377	665	adjektiv, ulik m/f	adj	uten gradbøying	liten i sms	ørliten	1676
+1378	666	adjektiv, ulik m/f	adj	uten gradbøying	liten i sms	ørliten	1677
+1379	667	adjektiv, ulik m/f	adj	uten gradbøying	liten i sms	ørliten	1678
+1380	669	adjektiv, adverbtype	adj <adv>			lenge	835
+1381	66A	adjektiv, ulik m/f	adj	suppletiv	fullst enkelttilfelle	liten -	572
+1382	66AE	adjektiv, ulik m/f	adj	suppletiv	fullst enkelttilfelle	liten -	1586
+1383	66B	adjektiv, ulik m/f	adj	suppletiv	fullst enkelttilfelle	liten -	573
+1384	66C	adjektiv, ulik m/f	adj	suppletiv	fullst enkelttilfelle, bf vesle og fl småe	liten -	1647
+1385	66D	adjektiv, ulik m/f	adj	suppletiv	fullst enkelttilfelle, bf vesle fl vesle	liten -	1648
+1386	66E	adjektiv, ulik m/f	adj	suppletiv	fullst enkelttilfelle	liten -	574
+1387	66EE	adjektiv	adj	suppletiv	fullst enkelttilfelle	små	1638
+1388	66EF	adjektiv	adj	suppletiv	fullst enkelttilfelle	små	1639
+1389	66EG	adjektiv	adj	suppletiv	fullst enkelttilfelle	små	1640
+1390	66EH	adjektiv	adj	suppletiv	fullst enkelttilfelle	små	1641
+1391	66G	adjektiv, ulik m/f	adj	suppletiv	fullst enkelttilfelle	liten -	575
+1392	66M	adjektiv, ulik m/f	adj	på_EN utskyt_E nøyt_--E/--I	fullst	kresen -	576
+1393	66N	adjektiv, ulik m/f	adj	på_EN bare_positiv utskyt_E_02V nøyt_--E/--I		svimren -	577
+1394	66O	adjektiv, ulik m/f	adj	på_EN bare_positiv utskyt_E 02_--E nøyt_--E/--I		grinen -	578
+1395	66P	adjektiv, ulik m/f	adj	på_EN vokalskifte_Y>Ø G utskyt_E nøyt_E/I		smøyen -	579
+1396	66Q	adjektiv, ulik m/f	adj	på_EN vokalskifte_Y>Ø G utskyt_E nøyt_E/I		nøyen -	580
+1397	66R	adjektiv, ulik m/f	adj	dobbeltkons_like på_EN utskyt_E forenkl nøyt_--E/--I	fullst	guffen -	581
+1398	66S	adjektiv, ulik m/f	adj	på_EN bare_positiv utskyt_E_02V nøyt_--E/--I		vaksen -	582
+1399	66T	adjektiv, ulik m/f	adj	på_EN bare_positiv utskyt_E_02V nøyt_--E/--I		vaksen -	583
+1400	66U	adjektiv, ulik m/f	adj	dobbeltkons_like på_EN utskyt_E forenkl nøyt_--E/--I	fullst	drukken -	584
+1401	66V	adjektiv, ulik m/f	adj	dobbeltkons_like på_EN utskyt_E forenkl nøyt_--E/--I	fullst	drukken -	585
+1402	670	adjektiv, adverbtype	adv		regelmessig	svint	586
+1403	671	adjektiv, adverbtype	adv			lenge	587
+1404	672	adjektiv, adverbtype	adv			ofte	588
+1405	673	adjektiv, adverbtype	adv			tidt	589
+1406	674	adjektiv, adverbtype	adv			titt	590
+1407	675	adjektiv, adverbtype	adv	på_E	m gradbøying	ofte -	1632
+1408	676	adjektiv, adverbtype	adv		enkelttilfelle, m gradbøying	langt	1637
+1409	677	adjektiv, adverbtype	adv			nær	1643
+1410	678	adjektiv, adverbtype	adv		enkelttilfelle	ille	1658
+1411	679	adjektiv, adverbtype	adv		eneklttilfelle	gjerne	1659
+1412	680	adverb	adv			akkurat	591
+1413	681	adjektiv, adverbtype	adv		enkeltilfelle	lenge	1625
+1414	683	adjektiv, adverbtype	adv			sjeldan	592
+1415	684	adjektiv, adverbtype	adj <adv>			attre	593
+1416	684R	adjektiv, adverbtype	adj <adv>			attre	1587
+1417	685	adjektiv, adverbtype	adj <adv>			attare	594
+1418	686	preposisjon	prep			av	595
+1419	687	infinitivsmerke	inf-merke			å	596
+1420	688	konjunksjon	konj			og	597
+1421	689	konjunksjon	konj <adv>			anten	598
+1422	690	interjeksjon	interj			hysj	599
+1423	691	subjunksjon	sbu			at	600
+1424	692	konjunksjon	CLB konj			og	601
+1425	700	substantiv	subst mask appell		fullst	bil	602
+1426	701	substantiv	subst mask appell	aksent	fullst	allé	603
+1427	702	substantiv	subst mask appell	på_E	fullst	time	604
+1428	703	substantiv	subst mask appell	på_E plur_ER	fullst	dane	605
+1429	704	substantiv	subst mask appell	med bindestrek	fullst	a	606
+1430	705	substantiv	subst mask appell	plur_ER	fullst	månad	607
+1431	706	substantiv	subst mask appell		fullst	yankee	608
+1432	707	substantiv	subst mask appell	på_EN  ub_NE fl_ub_NE fl_b_NE	fullst	kristen	1620
+1433	708	substantiv	subst mask appell		enkelttilfelle UNORM	messias	857
+1434	710	substantiv	subst mask appell	plur_0 bplur_I	fullst	ting -	609
+1435	711	substantiv	subst mask appell	plur_0 bplur_A	fullst	øre -	610
+1436	715	substantiv	subst mask appell	med bindestrek uten_plur	regulær sg	EDB	1662
+1437	716	substantiv	subst mask appell	uten_plural	regulær singular	alzheimer	1663
+1438	720	substantiv	subst mask appell	utskyt_E_03_04	fullst	regel	611
+1439	721	substantiv	subst mask appell	forenkl utskyt_E_03_04	fullst	tittel	612
+1440	722	substantiv	subst mask appell	utskyt_A_03_04	fullst	aftan	613
+1441	724	substantiv	subst mask appell	på_ER utskyt_E_03_04 plur_E bplur_A		forelder	614
+1442	727	substantiv	subst mask appell	på_ON utskyt_O_03V_04V plur_AR	fullst	morgon -	615
+1443	728	substantiv	subst mask appell	på_UN utskyt_U_03_04	fullst	jotun	616
+1444	730	substantiv	subst mask appell	MM	fullst	kam	617
+1445	733	substantiv	subst mask appell	fl_ub_S_--0_fl_b_S_--ENE_fransk	fullst enkelttilfelle	%affaires	1642
+1446	734	substantiv	subst mask appell	MMV plur_ER	fullst	medlem -	618
+1447	735	substantiv	subst mask appell	plur_S bplur_ANE engelsk	fullst	spesies -	619
+1448	736	substantiv	subst mask appell	plur_S bplur_ANE engelsk	fullst	slide	620
+1449	737	substantiv	subst mask appell	plur_S bplur_ANE engelsk	fullst	guinea -	621
+1450	738	substantiv	subst mask appell	plur_AR/S bplur_ANE/S engelsk	fullst enkelttilfelle	commando -	622
+1451	739	substantiv	subst mask appell	på_AR forenkl utskyt_A_03_04	fullst	hammar	623
+1452	740	substantiv	subst mask appell	plur_0 bplur_ANE	fullst	volt	624
+1453	741	substantiv	subst mask appell	på_ER utskyt_E_04V plur_0 bplur_ANE	fullst	liter -	625
+1454	743	substantiv	subst mask appell	på_E plur_0	fullst	ampere	626
+1455	745	substantiv	subst mask appell	på_AR plur_0/AR bplur_-NE/ANE	fullst enkelttilfelle	fønikar -	627
+1456	746	substantiv	subst mask appell	på_US plur_AR/--AR bplur_ANE/--ANE latin	fullst enkelttilfelle	papyrus -	628
+1457	747	substantiv	subst mask appell	på_ER plur_0/AR bplur_-NE/ANE	fullst enkelttilfelle	trønder -	629
+1458	748	substantiv	subst mask appell	plur_0 bplur_A	fullst	øre -	630
+1459	749	substantiv	subst mask appell	plur_0 bplur_A	fullst	ting -	631
+1460	750	substantiv	subst mask appell	på_O plur_I/OAR italiensk	fullst enkelttilfelle	konto -	632
+1461	751	substantiv	subst mask appell	på_O plur_I/OAR italiensk	fullst enkelttilfelle	imago -	633
+1462	752	substantiv	subst mask appell	på_US bsing_EN/--EN plur_-AR bplur_--ANE latin	fullst enkelttilfelle	radius -	634
+1463	753	substantiv	subst mask appell	plur_-AR bplur_--ANE latin	fullst enkelttilfelle	auksjonarius	635
+1464	754	substantiv	subst mask appell	på_rotvokal plur_R bplur_RNE/A	fullst enkelttilfelle	sko -	636
+1465	756	substantiv	subst mask appell	på_US plur_--I bplur_--IANE latin	fullst enkelttilfelle	modus	637
+1466	757	substantiv	subst mask appell	på_MUM plur_AR/--AR bplur_ANE/--ANE latin	fullst enkelttilfelle	krysantemum -	638
+1467	758	substantiv	subst mask appell	på_IS latin	fullst enkelttilfelle	amanuensis	639
+1468	759	substantiv	subst mask appell	latin	fullst enkelttilfelle	falanks -	640
+1469	760	substantiv	subst mask appell	omlyd_O/Ø dobbeltkons_ulike	fullst	bonde	641
+1470	761	substantiv	subst mask appell	omlyd_O/Ø	fullst	bror	642
+1471	762	substantiv	subst mask appell	omlyd_A/E	fullst	far	643
+1472	763	substantiv	subst mask appell	omlyd_O/Ø	fullst	fot	644
+1473	763T	substantiv	subst mask appell	omlyd_Ó/Ø	fullst	hóv -	1634
+1474	764	substantiv	subst mask appell	omlyd_A/E	fullst	mann -	645
+1475	765	substantiv	subst mask appell	omlyd_A/E	fullst	mann	646
+1476	766	substantiv	subst mask appell	omlyd_A/E dobbeltkons_ulike	fullst	nagl	647
+1477	767	substantiv	subst mask appell	omlyd_Å/Æ	fullst	ås	648
+1478	768	substantiv	subst mask appell	omlyd_A/E	fullst enkelttilfelle	fader	649
+1479	769	substantiv	subst mask appell	på_US plur_--AR/--IAR bplur_--ANE/--IANE latin	fullst enkelttilfelle	dinosaurus -	650
+1480	770	substantiv	subst mask appell	på_US plur_0/-ERA bplur_A/ANE/--ERA/--ERAA latin	fullst	genus -	651
+1481	771	substantiv	subst mask appell	på_US plur_0/-ERA bplur_A/ANE/--ERA/--ERAA latin	fullst	genus -	652
+1482	772	substantiv	subst mask appell	på_IS latin	fullst enkelttilfelle	apsis -	653
+1483	773	substantiv	subst mask appell	på_IS latin	fullst enkelttilfelle	taksis -	654
+1484	774	substantiv	subst mask appell	på_UM bsing_EN/--EN plur_-AR bplur_--ANE latin	fullst enkelttilfelle	kaprifolium -	655
+1485	775	substantiv	subst mask appell	på_UM bsing_EN/--EN plur_-AR bplur_--ANE latin	fullst enkelttilfelle	kaprifolium -	656
+1486	776	substantiv	subst mask appell	omlyd_Å/Æ	fullst	tått -	657
+1487	777	substantiv	subst mask appell			kollega	849
+1488	778	substantiv	subst mask appell			kollega	850
+1489	779	substantiv	subst mask appell	fransk	fullst	monsieur	658
+1490	780	substantiv	subst mask appell	uten_sing		opptøyar	659
+1491	781	substantiv	subst mask appell	plur_0/ER bplur_ENE	fullst enkelttilfelle	pagina -	660
+1492	781A	substantiv	subst mask appell	plur_0/AR bplur_ANE	fullst enkelttilfelle	pagina -	1657
+1493	782	substantiv	subst mask appell	omlyd_O/Ø på_ER utskyt_E_03_04	fullst	broder	661
+1494	783	substantiv	subst mask appell	uten_sing		leggings	662
+1495	784	substantiv	subst mask appell	plur_S bplur_ANE engelsk	fullst	centime -	663
+1496	785	substantiv	subst mask appell	plur_S bplur_ANE engelsk	fullst	paperback	664
+1497	785A	substantiv	subst mask appell	plur_S bplur_ENE engelsk	fullst	scrapbook	1631
+1498	786	substantiv	subst mask appell	på_OR plur_ES bplur_ES latin	fullst enkelttilfelle	doctor	665
+1499	787	substantiv	subst mask appell	på_Y plur_-IES bplur_-IES	fullst enkelttilfelle	royalty -	666
+1500	788	substantiv	subst mask appell	engelsk	fullst enkelttilfelle	gentleman	667
+1501	789	substantiv	subst mask appell	på_UM plur_0/--A bplur_A/--A/--AA	fullst	datum -	668
+1502	790	substantiv	subst mask appell	på_UM plur_0/--A bplur_A/--A/--AA	fullst	datum -	669
+1503	791	substantiv	subst mask appell	på_OR plur_ES bplur_ES latin	fullst enkelttilfelle	frater -	670
+1504	792	substantiv	subst mask appell	på_OR plur_ES bplur_ES latin	fullst enkelttilfelle	grosz	671
+1505	793	substantiv	subst mask appell	på_Y plur_-IES bplur_-IES	fullst enkelttilfelle	penny -	672
+1506	794	substantiv	subst mask appell	på_Y plur_-IES bplur_-IES	fullst enkelttilfelle	penny -	673
+1507	795	substantiv	subst mask appell	uten_sing		ryger	674
+1508	796	substantiv	subst mask appell	uten_sing		foreldre	675
+1509	797	substantiv	subst mask appell	ubøy		svarten	676
+1510	798	substantiv	subst mask appell	ubøy		tropane	677
+1511	799	substantiv	subst mask appell	på_US bsing_--EN plur_--AR bplur_--ANE	fullst enkelttilfelle	dekanus	678
+1512	79A	substantiv, ubøy	subst mask appell	ubøy		haltefan	679
+1513	79B	substantiv, ubøy	subst mask prop			Arne	822
+1514	800	substantiv	subst nøyt appell		fullst	tak	680
+1515	801	substantiv	subst nøyt appell	aksent	fullst	jubilé	681
+1516	802	substantiv	subst nøyt appell	på_E	fullst	styre -	682
+1517	803	substantiv	subst nøyt appell	på_E plur_0 bplur_A/ANE	fullst	øre -	683
+1518	804	substantiv	subst nøyt appell	på_US plur_0/-ERA bplur_A/ANE/--ERA/--ERAA latin	fullst	genus -	684
+1519	805	substantiv	subst nøyt appell		fullst	wc -	685
+1520	806	substantiv	subst nøyt appell		fullst	wc -	686
+1521	807	substantiv	subst nøyt appell	uten plural	regulær singular	bor	1664
+1522	808	substantiv	subst nøyt appell			auge	851
+1523	809	substantiv	subst nøyt appell	plur_0/ER bplur_A/ENE	fullst	skrift -	687
+1524	810	substantiv	subst nøyt appell		fullst	datum -	688
+1525	811	substantiv	subst nøyt appell	på_E	fullst	styre -	689
+1526	812	substantiv	subst nøyt appell	aksent	fullst	jubilé	690
+1527	814	substantiv	subst nøyt appell	på_EL utskyt_A_02V_03V_04V plur_0/AR bplur_A/ANE	fullst	møbel -	691
+1528	815	substantiv	subst nøyt appell	på_EL utskyt_A_02V_03V_04V plur_0/AR bplur_A/ANE	fullst	møbel -	692
+1529	816	substantiv	subst nøyt appell	på_EL utskyt_A_02V_03V_04V plur_0/AR bplur_A/ANE	fullst	møbel -	693
+1530	817	substantiv	subst nøyt appell	på_EL utskyt_A_02V_03V_04V plur_0/AR bplur_A/ANE	fullst	møbel -	694
+1531	818	substantiv	substantiv	plur_AR bplur_ANE	fullst	ne	1681
+1532	822	substantiv	subst nøyt appell	på_ER utskyt_E_02V_04V forenkl	fullst	gitter -	695
+1533	823	substantiv	subst nøyt appell	på_ER utskyt_E_04V forenkl	fullst	siffer -	696
+1534	825	substantiv	subst nøyt appell	på_ER utskyt_E_02V	fullst	mørker -	697
+1535	830	substantiv	subst nøyt appell	MM	fullst	rom -	698
+1536	841	substantiv	subst nøyt appell	på_A bplur_0/A	fullst	drama -	699
+1537	843	substantiv	subst nøyt appell	på_UM plur_0/--A bplur_A/--A/--AA latin	fullst	passivum -	700
+1538	844	substantiv	subst nøyt appell	på_UM plur_0/--A bplur_A/--A/--AA latin	fullst	passivum -	701
+1539	847	substantiv	subst nøyt appell	på_UM bsing_ET/--ET latin	fullst	monstrum -	702
+1540	850	substantiv	subst nøyt appell	på_IUM bsing_--ET bplur_--A	fullst	indisium -	703
+1541	854	substantiv	subst nøyt appell	omlyd_A/E dobbeltkons_ulike	fullst	stand -	704
+1542	856	substantiv	subst nøyt appell	på_A uten_sing plur_0 bplur_0/A		universalia -	705
+1543	857	substantiv	subst nøyt appell	på_A uten_sing plur_0 bplur_0/A		universalia -	706
+1544	858	substantiv	subst nøyt appell	plur_-O bplur_-O	fullst enkelttilfelle	auga	707
+1545	859	substantiv	subst nøyt appell	uten_sing plur_-O bplur_-O	enkelttilfelle	argusaugo	708
+1546	861	substantiv	subst nøyt appell	på_E uten_sing	enkelttilfelle	argusauge	709
+1547	862	substantiv	subst nøyt appell	på_UM bsing_ET/--ET plur_0/--A bplur_A/--A/--AA latin	fullst	spektrum -	710
+1548	863	substantiv	subst nøyt appell	på_UM bsing_ET/--ET plur_0/--A bplur_A/--A/--AA latin	fullst	spektrum -	711
+1549	864	substantiv	subst nøyt appell	omlydV_A/O	fullst enkelttilfelle	barn -	712
+1550	874	substantiv	subst nøyt appell	på_ON plur_0/--A bplur_A/--A/--AA gresk	fullst	leksikon -	713
+1551	875	substantiv	subst nøyt appell	på_ON plur_0/--A bplur_A/--A/--AA gresk	fullst	leksikon -	714
+1552	876	substantiv	subst nøyt appell	på_US plur_0/-ERA bplur_A/ANE/--ERA/--ERAA latin	fullst	genus -	715
+1553	877	substantiv	subst nøyt appell	på_US plur_0/-ERA bplur_A/ANE/--ERA/--ERAA latin	fullst	genus -	716
+1554	878	substantiv	subst nøyt appell	på_US plur_0/-ERA bplur_A/ANE/--ERA/--ERAA latin	fullst	genus -	717
+1555	879	substantiv	subst nøyt appell	på_ER utskyt_E_02V	fullst	mørker -	718
+1556	880	substantiv	subst nøyt appell	uten_sing plur_0		høns -	719
+1557	881	substantiv	subst nøyt appell	på_US plur_0/--ORA bplur_A/--ORA/--ORAA latin	fullst enkelttilfelle	tempus -	720
+1558	882	substantiv	subst nøyt appell	på_US plur_0/--ORA bplur_A/--ORA/--ORAA latin	fullst enkelttilfelle	tempus -	721
+1559	883	substantiv	subst nøyt appell	omlydV_A/O	fullst enkelttilfelle	barn -	722
+1560	884	substantiv	subst nøyt appell	uten_sing plur_0		abortiva -	723
+1561	885	substantiv	subst nøyt appell	på_UM bsing_ET/--ET plur_--A bplur_--AI latin	fullst	passivum -	724
+1562	886	substantiv	subst nøyt appell	på_ON plur_--A bplur_--AI gresk	fullst	leksikon -	725
+1563	887	substantiv	subst nøyt appell	MM	fullst	rom -	726
+1564	888	substantiv	subst nøyt appell	på_IUM bsing_--ET bplur_--I	fullst	indisium -	727
+1565	889	substantiv	subst nøyt appell	på_EL utskyt_A_02V_03V_04V plur_0/AR bplur_A/ANE	fullst	møbel -	728
+1566	890	substantiv	subst nøyt appell	på_ER utskyt_E_02V_04V forenkl	fullst	gitter -	729
+1567	891	substantiv	subst nøyt appell	på_ER utskyt_E_04V forenkl	fullst	siffer -	730
+1568	892	substantiv	subst nøyt appell	på_EL utskyt_A_02V_03V_04V plur_0/AR bplur_A/ANE	fullst	møbel -	731
+1569	893	substantiv	subst nøyt appell	plur_S bplur_SI	fullst enkelttilfelle	still	732
+1570	894	substantiv	subst nøyt appell	på_UM bsing_ET/--ET plur_0/--A bplur_A/--A/--AA latin	fullst	spektrum -	733
+1571	895	substantiv	subst nøyt appell	uten_sing plur_0		høns -	734
+1572	896	substantiv	subst nøyt appell	på_US plur_0/--ORA bplur_A/--ORA/--ORAA latin	fullst enkelttilfelle	tempus -	735
+1573	897	substantiv	subst nøyt appell	ubøy		CGS-systemet	736
+1574	898	substantiv	subst nøyt appell	uten_sing plur_0		skofot	737
+1575	899	substantiv	subst nøyt appell	plur_S bplur_SA	fullst enkelttilfelle	still	738
+1576	89A	substantiv, ubøy	subst nøyt appell	ubøy		bynytt	739
+1577	89B	substantiv, ubøy	subst nøyt prop			Atlanterhavet	832
+1578	900	substantiv	subst fem appell		fullst	dør	740
+1579	902	substantiv	subst fem appell	på_E	fullst	kvinne -	741
+1580	903	substantiv	subst fem appell	plur_0/ER bplur_A/ENE	fullst	slalåmski -	742
+1581	904	substantiv	subst fem appell		fullst	abc -	743
+1582	905	substantiv, sv hokj	subst fem appell	på_E	fullst	kvinne -	744
+1583	905B	substantiv, sv hokj	subst fem appell	på_E	fulllst	kvinne -	864
+1584	907	substantiv	subst fem appell	plur_AR bplur_ANE	fullst	dys -	745
+1585	908	substantiv	subst fem appell	plur_AR bplur_ANE	fullst	dronning	746
+1586	909	substantiv	subst fem appell	på_A bsing_0/A italiensk	fullst	mamma -	747
+1587	911	substantiv	subst fem appell		fullst	elv -	748
+1588	912	substantiv	subst fem appell	plur_AR bplur_ANE	fullst	elv -	749
+1589	913	substantiv	subst fem appell	på_ER utskyt_E_02 plur_0 bplur_--ENE	fullst	erter -	750
+1590	914	substantiv	subst fem appell	plur_0/ER bplur_A/ENE	fullst	slalåmski -	751
+1591	915	substantiv	subst fem appell	plur_AR bplur_ANE	fullst	dys -	752
+1592	916	substantiv	subst fem appell		fullst	abc -	753
+1593	919	substantiv	subst fem appell	på_ER utskyt_E_02 plur_0 bplur_--ENE	fullst	erter -	754
+1594	920	substantiv	subst fem appell	på_ER utskyt_E_02_03_04	fullst	hulder -	755
+1595	921	substantiv	subst fem appell	på_ER utskyt_E_02_03_04	fullst	hulder -	756
+1596	922	substantiv	subst fem appell	på_ER utskyt_E_02_03_04 plur_AR bplur_ANE	fullst	seter	757
+1597	923	substantiv	subst fem appell	på_ER utskyt_E_03_04	fullst	syster -	758
+1598	924	substantiv	subst fem appell	likekons_MM på_AR utskyt_E_02_03_04	fullst	klammer -	759
+1599	925	substantiv	subst fem appell	likekons_MM på_AR utskyt_E_02_03_04	fullst	klammer -	760
+1600	926	substantiv	subst fem appell	likekons_MM på_ER utskyt_E_02_03_04	fullst	gimmer -	761
+1601	927	substantiv	subst fem appell	på_ER utskyt_E_02_03_04 plur_AR bplur_ANE	fullst	seter	762
+1602	930	substantiv	subst fem appell	MM	fullst	madam -	763
+1603	931	substantiv	subst fem appell	MM	fullst	madam -	764
+1604	932	substantiv	subst fem appell	omlydV_O/E MM	fullst	vom -	765
+1605	933	substantiv	subst fem appell	MM	fullst	rim -	766
+1606	934	substantiv	subst fem appell	omlydV_O/E MM	fullst	vom -	767
+1607	935	substantiv	subst fem appell	MM	fullst	rim -	768
+1608	936	substantiv	subst fem appell	likekons_MM på_ER utskyt_E_02_03_04	fullst	gimmer -	769
+1609	938	substantiv	subst fem appell	omlyd_O/A dobbeltkons_ulike	fullst	gorn -	770
+1610	939	substantiv	subst fem appell	omlydV_O/E dobbeltkons_like	fullst	drok -	771
+1611	940	substantiv	subst fem appell	plur_0 bplur_ENE	''mynt'' fullst	mark -	772
+1612	941	substantiv	subst fem appell	omlydV_A/E	''mynt'' fullst	mark -	773
+1613	942	substantiv	subst fem appell	omlyd_O/Ø	fullst	bok -	774
+1614	943	substantiv	subst fem appell	omlyd_O/E dobbeltkons_ulike	fullst	tong -	775
+1615	944	substantiv	subst fem appell	plur_0 bplur_ENE	''mynt'' fullst	mark -	776
+1616	945	substantiv	subst fem appell	omlydV_U/Y	fullst	lus -	777
+1617	946	substantiv	subst fem appell	omlyd_A/E dobbeltkons_like	fullst	natt -	778
+1618	947	substantiv	subst fem appell	vokalskifte_O/A	fullst	nos -	779
+1619	948	substantiv	subst fem appell	omlyd_Å/Æ plur_R bplur_RNE	fullst	tå-	780
+1620	949	substantiv	subst fem appell	omlyd_O/Ø på_ER utskyt_E_03_04 forenkl	fullst	dotter -	781
+1621	950	substantiv	subst fem appell	omlydV_O/Ø	fullst	flo -	782
+1622	951	substantiv	subst fem appell	omlyd_Å/Æ J-flyt	fullst	gås -	783
+1623	952	substantiv	subst fem appell	omlyd_U/Y plur_R bplur_RNE	fullst	ku -	784
+1624	953	substantiv	subst fem appell	omlyd_O/Ø	fullst enkelttilfelle	mor -	785
+1625	954	substantiv	subst fem appell	omlydV_A/E	''mynt'' fullst	skank -	786
+1626	955	substantiv	subst fem appell	vokalskifte_ñ/A	fullst	kòs -	787
+1627	956	substantiv	subst fem appell	omlyd_O/Ø	fullst enkelttilfelle	moder -	788
+1628	957	substantiv	subst fem appell	på_ER utskyt_E_03_04	fullst	syster -	789
+1629	958	substantiv	subst fem appell	omlydV_O/E dobbeltkons_like	fullst	tåg -	790
+1630	959	substantiv	subst fem appell	vokalskifte_ñ/A	fullst	kòs -	791
+1631	960	substantiv	subst fem appell	vokalskifte_O/A	fullst	nos -	792
+1632	961	substantiv	subst fem appell	omlydV_O/Ø	fullst	flo -	793
+1633	962	substantiv	subst fem appell	omlydV_A/E	''mynt'' fullst	mark -	794
+1634	963	substantiv	subst fem appell	omlydV_U/Y	fullst	lus -	795
+1635	964	substantiv	subst fem appell	omlyd_O/Ø på_ER utskyt_E_03_04 forenkl	fullst	dotter -	796
+1636	965	substantiv	subst fem appell	omlyd_O/Ø	fullst enkelttilfelle	mor -	797
+1637	966	substantiv	subst fem appell	omlyd_O/Ø	fullst enkelttilfelle	moder -	798
+1638	967	substantiv	subst fem appell	omlyd_A/E dobbeltkons_like	fullst	natt -	799
+1639	968	substantiv	subst fem appell	omlyd_O/Ø	fullst	bok -	800
+1640	969	substantiv	subst fem appell	omlyd_"/Ø	fullst	nót -	801
+1641	970	substantiv	subst fem appell	omlyd_Å/Æ plur_R bplur_RNE	fullst	tå-	802
+1642	971	substantiv	subst fem appell	omlyd_Å/Æ J-flyt	fullst	gås -	803
+1643	972	substantiv	subst fem appell	omlyd_U/Y plur_R bplur_RNE	fullst	ku -	804
+1644	973	substantiv	subst fem appell	omlyd_O/E dobbeltkons_ulike	fullst	tong -	805
+1645	974	substantiv	subst fem appell	omlydV_O/E dobbeltkons_like	fullst	fonn -	806
+1646	975	substantiv	subst fem appell	omlydV_O/E dobbeltkons_like	fullst	fonn -	807
+1647	976	substantiv	subst fem appell	omlydV_O/E dobbeltkons_like	fullst	drok -	808
+1648	976A	substantiv	subst fem appell		omlyd grav aksent	nòt	1596
+1649	976AK	substantiv	subst fem appell	subst fem appell	omlyd aksent i	nòt	1597
+1650	977	substantiv	subst fem appell	omlydV_O/E dobbeltkons_like	fullst	tåg -	809
+1651	978	substantiv	subst fem appell	omlyd_O/A dobbeltkons_ulike	fullst	gorn -	810
+1652	979	substantiv	subst fem appell	omlydV_A/E	''mynt'' fullst	skank -	811
+1653	980	substantiv	subst fem appell	uten_sing		skrivesaker	812
+1654	981	substantiv	subst fem appell	uten_sing		nupereller	813
+1655	982	substantiv	subst fem appell	ubøy		svarta	814
+1656	983	substantiv	subst fem appell	omlyd_"/Ø	fullst	nót -	815
+1657	985	substantiv	subst fem appell	bf_A, plur_S bf plur_ENE	fullst, eng plur. UNORM!	scrapbook	1630
+1658	989	substantiv, ubøy	subst fem appell	ubøy		callgirl	816
+1659	990	substantiv, ubøy	subst appell ubøy	ubøy	ubøyd	april	817
+1660	991	substantiv	subst appell	uten_sing		skuler	818
+1661	992	substantiv	subst appell	uten_sing		regalia	819
+1662	994	substantiv, ubøy	subst prop gen			Jesu	823
+1663	997	substantiv, ubøy	subst prop			Oslo	820
+1664	998	substantiv, ubøy	subst prop	fl		Atlasfjella	833
+1665	99A	substantiv, ubøy	subst fem prop	genitiv_S		Anna	821
+1666	99B	substantiv, ubøy	subst fem prop			Anna	831
