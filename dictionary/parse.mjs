@@ -116,5 +116,8 @@ async function saveToDatabase(words) {
 }
 
 // Store all words of wordgroups with `verb` in the name.
-const verbs = words.filter((word) => word.wordgroup?.includes("verb") && !word.word?.includes("-"));
+const verbs = words.filter(
+  (word) =>
+    word.wordgroup?.includes("verb") && !word.word?.includes("-") && !word.word?.includes(" "),
+);
 saveToDatabase(verbs).catch(console.error);
