@@ -12,34 +12,50 @@ try {
   process.exit(1);
 }
 
-async function getRandomWord(){
+async function getRandomWord() {
   try {
     await client.connect();
     const db = client.db("ord");
     const collection = db.collection("ord");
 
-    // Retrieve a random document from the collection
-    const randomWord = await collection.aggregate([{ $sample: { size: 1 } }]).toArray();
-    console.log("Random word:", randomWord);
+    let randomWord;
+    let validDefinition = false;
 
+    let count = 0;
+    while (!validDefinition) {
+      count++;
+      console.log("Attempts to get word with definition", count);
+      // Retrieve a random document from the collection
+      randomWord = await collection.aggregate([{ $sample: { size: 1 } }]).toArray();
 
-    // Check if we have a result and return the word data or a default message
-    if (randomWord.length > 0) {
-      const word = randomWord[0].word;
-      const group = randomWord[0].group;
-      //const definition_type = randomWord[0].definitions[0].type;
-      const definition = randomWord[0].definitions[0].text;
-      return { word, definition, group};
-    } else {
-      return { word: "No words found", meaning: "", type: "" };
+      if (randomWord.length > 0) {
+        // Check if the word has a definitions array with an item of type "definition"
+        const definitions = randomWord[0].definitions || [];
+        const definitionObj = definitions.find(def => def.text != null);
+
+        if (definitionObj) {
+          // Found a valid word with a "definition" type
+          validDefinition = true;
+          const word = randomWord[0].word;
+          const group = randomWord[0].group;
+          const definition = definitionObj.text;
+          console.log("Word with definition found:", randomWord[0]);
+
+          return { word, definition, group };
+        }
+      }
     }
-    } catch (error) {
+
+    // In case no valid word is found (though unlikely in a populated collection)
+    return { word: "No words with definition found", definition: "", group: "" };
+  } catch (error) {
     console.error("Error fetching data from MongoDB:", error);
-    return { word: "Error fetching data", meaning: "", type: "" };
-    } finally {
+    return { word: "Error fetching data", definition: "", group: "" };
+  } finally {
     await client.close();
   }
 }
+
 
 const server = serve({
   port: 3000,
