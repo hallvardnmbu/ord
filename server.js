@@ -17,7 +17,7 @@ const server = serve({
 
     if (url.pathname === "/" || url.pathname === "/page.html") {
       try {
-        const words = await COLLECTION.find({}).limit(1).toArray();
+        const words = await COLLECTION.aggregate([{ $sample: { size: 1 } }]).toArray();
         const html = await ejs.renderFile("page.ejs", { words, error: null });
         return new Response(html, {
           headers: {

@@ -17,6 +17,8 @@
                     <section>
                         <div class="word"><%= item.word %></div>
 
+                        <div class="group"><%= item.group %></div>
+
                         <% item.definitions.forEach(function(definition) { %>
                             <% if (definition.text) { %>
                                 <div class="definition">
@@ -32,6 +34,36 @@
                                 </div>
                             <% } %>
                         <% }); %>
+
+                        <% item.lemmas.forEach(function(lemma) { %>
+                            <% if (lemma.inflection) { %>
+                                <table class="inflection" style="display: none;">
+                                    <tbody>
+                                        <% lemma.inflection.inflections.forEach(function(inflect) { %>
+                                            <% if (inflect.word_form) { %>
+                                                <tr>
+                                                    <td class="form-cell"><%= inflect.tags ? inflect.tags.join(' ') : '' %></td>
+                                                    <td class="word-cell"><%= inflect.word_form %></td>
+                                                </tr>
+                                            <% } %>
+                                        <% }); %>
+                                    </tbody>
+                                </table>
+                            <% } %>
+                        <% }); %>
+
+                        <button id="toggleInflection" onclick="toggleInflection()">Vis bøyninger</button>
+
+                        <script>
+                        function toggleInflection() {
+                            const button = document.getElementById('toggleInflection');
+                            button.textContent = button.textContent === 'Vis bøyninger' ? 'Skjul bøyninger' : 'Vis bøyninger';
+                            const inflections = document.querySelectorAll('.inflection');
+                            inflections.forEach((inflection) => {
+                                inflection.style.display = inflection.style.display === 'block' ? 'none' : 'block';
+                            });
+                        }
+                        </script>
                     </section>
                 <% }); %>
             <% } else { %>
