@@ -12,9 +12,13 @@
         </header>
 
         <main>
-            <p>Her er en liste over alle ordene i teksten:</p>
+            <p>Her er dagens ord:</p>
 
-            <div id="ord"></div>
+            <div id="ord">
+                <p><strong>Word:</strong> <span id="word"></span></p>
+                <p><strong>Meaning:</strong> <span id="description"></span></p>
+                <p><strong>Type:</strong> <span id="group"></span></p>
+            </div>
         </main>
 
         <footer>
@@ -27,13 +31,13 @@
             try {
                 const response = await fetch("http://localhost:3000/data");
                 const data = await response.json();
-                const dataContainer = document.getElementById("data-container");
 
-                data.forEach((item) => {
-                    const p = document.createElement("p");
-                    p.textContent = JSON.stringify(item);
-                    dataContainer.appendChild(p);
-                });
+                // Set the content of the elements with the fetched data
+                document.getElementById("word").textContent = data.word || "N/A";
+                document.getElementById("description").textContent = data.description || "N/A";
+                document.getElementById("group").textContent = data.group || "N/A";
+
+            
             } catch (error) {
                 console.error("Error fetching data:", error);
             }
