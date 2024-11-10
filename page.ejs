@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Orden</title>
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body>
+        <header>
+            <p>Dagens orden</p>
+        </header>
+
+        <main id="words">
+            <% if (words && words.length > 0) { %>
+                <% words.forEach(function(item) { %>
+                    <section>
+                        <div class="word"><%= item.word %></div>
+
+                        <% item.definitions.forEach(function(definition) { %>
+                            <% if (definition.text) { %>
+                                <div class="definition">
+                                    <%= definition.type %>: <%= definition.text %>
+                                </div>
+                            <% } %>
+                        <% }); %>
+
+                        <% item.etymology.forEach(function(etymology) { %>
+                            <% if (etymology.text) { %>
+                                <div class="etymology">
+                                    <%= etymology.text %>
+                                </div>
+                            <% } %>
+                        <% }); %>
+                    </section>
+                <% }); %>
+            <% } else { %>
+                <section>Noe gikk galt.</section>
+            <% } %>
+
+            <% if (error) { %>
+                <section class="error">
+                    Noe gikk galt: <%= error %>
+                </section>
+            <% } %>
+        </main>
+
+        <footer>
+            <p>(C) <a href="https://dilettant.no" target="_blank">Hallvard H. Lavik</a></p>
+        </footer>
+    </body>
+</html>
