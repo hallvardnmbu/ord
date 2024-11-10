@@ -1,26 +1,95 @@
-.orden {
-    font-family: monospace;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    padding: 20px;
-    box-sizing: border-box;
+:root {
+    --padding: 10px;
+
+    --black: #000;
+    --darkgray: #333;
+    --gray: #ccc;
 }
 
-.orden main {
+body {
+    font-family: monospace;
+    color: var(--black);
+
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: var(--padding);
+}
+main {
     flex: 1;
 }
 
-.orden footer {
+header,
+footer {
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 
-.orden footer a {
+a {
     display: inline-block;
     color: black;
 }
-
-.orden footer a:hover {
+a:hover {
     background-color: lightgray;
+}
+
+section {
+    margin: var(--padding);
+    padding: var(--padding);
+    border: 1px solid var(--gray);
+}
+.word {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: var(--padding);
+}
+.definition {
+    margin: var(--padding) 0;
+}
+.etymology {
+    margin-top: var(--padding) 0;
+    font-style: italic;
+}
+
+button {
+    width: 100%;
+    padding: var(--padding);
+    margin-top: var(--padding);
+    border: 1px solid var(--gray);
+    background-color: white;
+}
+button:hover {
+    background-color: var(--gray);
+    cursor: pointer;
+}
+
+.inflection {
+    width: 100%;
+    margin-top: var(--padding);
+    border-collapse: collapse;
+    table-layout: fixed;
+    border: 1px solid var(--gray);
+}
+
+.inflection tr {
+    text-align: left;
+    border-bottom: 1px solid var(--gray);
+}
+.inflection td {
+    padding: var(--padding);
+}
+
+.form-cell {
+    color: var(--darkgray);
+    font-style: italic;
+    width: 40%;
+}
+
+.inflection tbody tr:hover {
+    background-color: var(--gray);
+}
+.inflection tbody tr:last-child {
+    border-bottom: none;
 }
