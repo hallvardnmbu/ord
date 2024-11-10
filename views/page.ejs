@@ -8,7 +8,7 @@
     </head>
     <body>
         <header>
-            <p>Dagens orden</p>
+            <p>Heisann!</p>
         </header>
 
         <main id="words">
@@ -42,8 +42,8 @@
                                         <% lemma.inflection.inflections.forEach(function(inflect) { %>
                                             <% if (inflect.word_form) { %>
                                                 <tr>
-                                                    <td class="form-cell"><%= inflect.tags ? inflect.tags.join(' ') : '' %></td>
                                                     <td class="word-cell"><%= inflect.word_form %></td>
+                                                    <td class="form-cell"><%= inflect.tags ? inflect.tags.join(' ') : '' %></td>
                                                 </tr>
                                             <% } %>
                                         <% }); %>
@@ -60,7 +60,7 @@
                             button.textContent = button.textContent === 'Vis bøyninger' ? 'Skjul bøyninger' : 'Vis bøyninger';
                             const inflections = document.querySelectorAll('.inflection');
                             inflections.forEach((inflection) => {
-                                inflection.style.display = inflection.style.display === 'block' ? 'none' : 'block';
+                                inflection.style.display = inflection.style.display === 'table' ? 'none' : 'table';
                             });
                         }
                         </script>

@@ -66,11 +66,11 @@ button:hover {
 }
 
 .inflection {
-    width: 100%;
     margin-top: var(--padding);
     border-collapse: collapse;
     table-layout: fixed;
     border: 1px solid var(--gray);
+    width: 100%;
 }
 
 .inflection tr {
@@ -84,7 +84,6 @@ button:hover {
 .form-cell {
     color: var(--darkgray);
     font-style: italic;
-    width: 40%;
 }
 
 .inflection tbody tr:hover {
