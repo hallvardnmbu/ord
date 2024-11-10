@@ -25,8 +25,11 @@ async function getRandomWord(){
 
     // Check if we have a result and return the word data or a default message
     if (randomWord.length > 0) {
-      const { word, description, group } = randomWord[0];
-      return { word, description, group };
+      const word = randomWord[0].word;
+      const group = randomWord[0].group;
+      //const definition_type = randomWord[0].definitions[0].type;
+      const definition = randomWord[0].definitions[0].text;
+      return { word, definition, group};
     } else {
       return { word: "No words found", meaning: "", type: "" };
     }

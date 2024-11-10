@@ -16,7 +16,7 @@
 
             <div id="ord">
                 <p><strong>Ord:</strong> <span id="word"></span></p>
-                <p><strong>Beskrivelse:</strong> <span id="description"></span></p>
+                <p><strong>Beskrivelse:</strong> <span id="definition"></span></p>
                 <p><strong>Gruppe:</strong> <span id="group"></span></p>
             </div>
         </main>
@@ -34,7 +34,7 @@
 
                 // Set the content of the elements with the fetched data
                 document.getElementById("word").textContent = data.word || "N/A";
-                document.getElementById("description").textContent = data.description || "N/A";
+                document.getElementById("definition").textContent = data.definition || "N/A";
                 document.getElementById("group").textContent = data.group || "N/A";
 
             
