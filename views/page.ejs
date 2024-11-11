@@ -8,7 +8,13 @@
     </head>
     <body>
         <header>
-            <p>Heisann!</p>
+          <p><%=
+            new Date().toLocaleDateString('en-GB', {
+              day: '2-digit', month: '2-digit', year: 'numeric'
+            })
+              .split('/')
+              .join('-')
+          %></p>
         </header>
 
         <main id="words">
@@ -17,7 +23,19 @@
                     <section>
                         <div class="word"><%= item.word %></div>
 
-                        <div class="group"><%= item.group %></div>
+                        <div class="group">(<%= item.group %>)</div>
+
+                        <% if (item.etymology) { %>
+                          <% item.etymology.forEach(function(etymology) { %>
+                              <% if (etymology.text) { %>
+                                  <div class="etymology">
+                                      <%= etymology.text %>
+                                  </div>
+                              <% } %>
+                          <% }); %>
+                        <% } %>
+
+                        <hr />
 
                         <% if (item.definitions) { %>
                           <% item.definitions.forEach(function(definition) { %>
@@ -29,15 +47,20 @@
                           <% }); %>
                         <% } %>
 
-                        <% if (item.etymology) { %>
-                          <% item.etymology.forEach(function(etymology) { %>
-                              <% if (etymology.text) { %>
-                                  <div class="etymology">
-                                      <%= etymology.text %>
-                                  </div>
-                              <% } %>
-                          <% }); %>
-                        <% } %>
+                        <button id="toggleInflection" onclick="toggleInflection()">
+                          hallo, hvordan bøyes det?
+                        </button>
+
+                        <script>
+                        function toggleInflection() {
+                            const button = document.getElementById('toggleInflection');
+                            button.textContent = button.textContent.trim() === 'hallo, hvordan bøyes det?' ? 'jaja ok, jeg forstår' : 'hallo, hvordan bøyes det?';
+                            const inflections = document.querySelectorAll('.inflection');
+                            inflections.forEach((inflection) => {
+                                inflection.style.display = inflection.style.display === 'table' ? 'none' : 'table';
+                            });
+                        }
+                        </script>
 
                         <% if (item.lemmas) { %>
                           <% item.lemmas.forEach(function(lemma) { %>
@@ -57,20 +80,6 @@
                               <% } %>
                           <% }); %>
 
-                          <button id="toggleInflection" onclick="toggleInflection()">
-                            Vis bøyninger
-                          </button>
-
-                          <script>
-                          function toggleInflection() {
-                              const button = document.getElementById('toggleInflection');
-                              button.textContent = button.textContent === 'Vis bøyninger' ? 'Skjul bøyninger' : 'Vis bøyninger';
-                              const inflections = document.querySelectorAll('.inflection');
-                              inflections.forEach((inflection) => {
-                                  inflection.style.display = inflection.style.display === 'table' ? 'none' : 'table';
-                              });
-                          }
-                          </script>
                         <% } %>
 
                     </section>
@@ -82,6 +91,8 @@
             <% } else { %>
                 <section>Noe gikk galt.</section>
             <% } %>
+
+            <button id="new" onclick="window.location.reload()">gi meg et nytt ord</button>
         </main>
 
         <footer>

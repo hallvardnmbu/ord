@@ -1,5 +1,6 @@
 :root {
     --padding: 10px;
+    --height: 40px;
 
     --black: #000;
     --darkgray: #333;
@@ -37,39 +38,57 @@ a:hover {
 
 section {
     margin: var(--padding);
-    padding: var(--padding);
     border: 1px solid var(--gray);
+    box-shadow: 0 0 var(--padding) rgba(0, 0, 0, 0.15);
 }
-.word {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-bottom: var(--padding);
-}
-.definition {
-    margin: var(--padding) 0;
-}
-.etymology {
-    margin-top: var(--padding) 0;
-    font-style: italic;
+hr {
+    margin: 0;
+    border: none;
+    border-top: 1px solid var(--gray);
 }
 
-button {
-    width: 100%;
+.word {
+    display: flex;
+    align-items: center;
+    height: var(--height);
+    padding-left: var(--padding);
+
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 1px solid var(--gray);
+}
+.word:hover {
+    background-color: var(--gray);
+}
+.etymology {
+    font-style: italic;
+}
+.group,
+.etymology,
+.definition {
     padding: var(--padding);
-    margin-top: var(--padding);
-    border: 1px solid var(--gray);
+}
+
+#toggleInflection {
+    width: 100%;
+    height: var(--height);
+    padding: var(--padding);
+    text-align: left;
+    font-family: monospace;
+    font-size: 1em;
+    border: none;
+    border-top: 1px solid var(--gray);
     background-color: white;
 }
-button:hover {
+#toggleInflection:hover {
     background-color: var(--gray);
     cursor: pointer;
 }
 
 .inflection {
-    margin-top: var(--padding);
     border-collapse: collapse;
     table-layout: fixed;
-    border: 1px solid var(--gray);
+    border-top: 1px solid var(--gray);
     width: 100%;
 }
 
@@ -91,6 +110,22 @@ button:hover {
 }
 .inflection tbody tr:last-child {
     border-bottom: none;
+}
+
+#new {
+    width: calc(100% - 2 * var(--padding));
+    margin: var(--height) var(--padding) 0 var(--padding);
+    height: var(--height);
+    box-shadow: 0 0 var(--padding) rgba(0, 0, 0, 0.15);
+    text-align: left;
+    font-family: monospace;
+    font-size: 1em;
+    border: 1px solid var(--gray);
+    background-color: white;
+}
+#new:hover {
+    background-color: var(--gray);
+    cursor: pointer;
 }
 
 footer {
