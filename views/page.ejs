@@ -19,66 +19,80 @@
 
                         <div class="group"><%= item.group %></div>
 
-                        <% item.definitions.forEach(function(definition) { %>
-                            <% if (definition.text) { %>
-                                <div class="definition">
-                                    <%= definition.type %>: <%= definition.text %>
-                                </div>
-                            <% } %>
-                        <% }); %>
+                        <% if (item.definitions) { %>
+                          <% item.definitions.forEach(function(definition) { %>
+                              <% if (definition.text) { %>
+                                  <div class="definition">
+                                    <%= definition.type %>: <%= formatDefinition(definition) %>
+                                  </div>
+                              <% } %>
+                          <% }); %>
+                        <% } %>
 
-                        <% item.etymology.forEach(function(etymology) { %>
-                            <% if (etymology.text) { %>
-                                <div class="etymology">
-                                    <%= etymology.text %>
-                                </div>
-                            <% } %>
-                        <% }); %>
+                        <% if (item.etymology) { %>
+                          <% item.etymology.forEach(function(etymology) { %>
+                              <% if (etymology.text) { %>
+                                  <div class="etymology">
+                                      <%= etymology.text %>
+                                  </div>
+                              <% } %>
+                          <% }); %>
+                        <% } %>
 
-                        <% item.lemmas.forEach(function(lemma) { %>
-                            <% if (lemma.inflection) { %>
-                                <table class="inflection" style="display: none;">
-                                    <tbody>
-                                        <% lemma.inflection.inflections.forEach(function(inflect) { %>
-                                            <% if (inflect.word_form) { %>
-                                                <tr>
-                                                    <td class="word-cell"><%= inflect.word_form %></td>
-                                                    <td class="form-cell"><%= inflect.tags ? inflect.tags.join(' ') : '' %></td>
-                                                </tr>
-                                            <% } %>
-                                        <% }); %>
-                                    </tbody>
-                                </table>
-                            <% } %>
-                        <% }); %>
+                        <% if (item.lemmas) { %>
+                          <% item.lemmas.forEach(function(lemma) { %>
+                              <% if (lemma.inflection) { %>
+                                  <table class="inflection" style="display: none;">
+                                      <tbody>
+                                          <% lemma.inflection.inflections.forEach(function(inflect) { %>
+                                              <% if (inflect.word_form) { %>
+                                                  <tr>
+                                                      <td class="word-cell"><%= inflect.word_form %></td>
+                                                      <td class="form-cell"><%= inflect.tags ? inflect.tags.join(' ') : '' %></td>
+                                                  </tr>
+                                              <% } %>
+                                          <% }); %>
+                                      </tbody>
+                                  </table>
+                              <% } %>
+                          <% }); %>
 
-                        <button id="toggleInflection" onclick="toggleInflection()">Vis bøyninger</button>
+                          <button id="toggleInflection" onclick="toggleInflection()">
+                            Vis bøyninger
+                          </button>
 
-                        <script>
-                        function toggleInflection() {
-                            const button = document.getElementById('toggleInflection');
-                            button.textContent = button.textContent === 'Vis bøyninger' ? 'Skjul bøyninger' : 'Vis bøyninger';
-                            const inflections = document.querySelectorAll('.inflection');
-                            inflections.forEach((inflection) => {
-                                inflection.style.display = inflection.style.display === 'table' ? 'none' : 'table';
-                            });
-                        }
-                        </script>
+                          <script>
+                          function toggleInflection() {
+                              const button = document.getElementById('toggleInflection');
+                              button.textContent = button.textContent === 'Vis bøyninger' ? 'Skjul bøyninger' : 'Vis bøyninger';
+                              const inflections = document.querySelectorAll('.inflection');
+                              inflections.forEach((inflection) => {
+                                  inflection.style.display = inflection.style.display === 'table' ? 'none' : 'table';
+                              });
+                          }
+                          </script>
+                        <% } %>
+
                     </section>
                 <% }); %>
-            <% } else { %>
-                <section>Noe gikk galt.</section>
-            <% } %>
-
-            <% if (error) { %>
+            <% } else if (error) { %>
                 <section class="error">
                     Noe gikk galt: <%= error %>
                 </section>
+            <% } else { %>
+                <section>Noe gikk galt.</section>
             <% } %>
         </main>
 
         <footer>
-            <p>(C) <a href="https://dilettant.no" target="_blank">Hallvard H. Lavik</a></p>
+          <div class="copyright">
+              (C)
+              <div class="names">
+                  <div><a href="https://dilettant.no" target="_blank" style="color: var(--black)">Hallvard H. Lavik</a></div>
+                  <div>Kim Son Ly</div>
+              </div>
+          </div>
+          <a href="https://github.com/hallvardnmbu/ord" target="_blank">Kildekode</a>
         </footer>
     </body>
 </html>

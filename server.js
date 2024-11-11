@@ -1,5 +1,4 @@
 import express from "express";
-import fs from "fs/promises";
 import { MongoClient, ServerApiVersion } from "mongodb";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -36,14 +35,29 @@ try {
 const db = client.db("ord");
 let collection = db.collection("ord");
 
+function formatDefinition(definition) {
+  if (Array.isArray(definition.text)) {
+    return definition.text
+      .map((subDef) => formatDefinition(subDef))
+      .filter(Boolean)
+      .join(" | ");
+  }
+  return definition.text;
+}
+
 app.get("/", async (req, res) => {
   try {
     const words = await collection.aggregate([{ $sample: { size: 1 } }]).toArray();
-    res.render("page", { words, error: null });
+    res.render("page", {
+      words,
+      error: null,
+      formatDefinition: formatDefinition,
+    });
   } catch (error) {
     res.status(500).render("page", {
       words: [],
       error: error.message,
+      formatDefinition: formatDefinition,
     });
   }
 });

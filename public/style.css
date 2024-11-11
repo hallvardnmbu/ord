@@ -92,3 +92,24 @@ button:hover {
 .inflection tbody tr:last-child {
     border-bottom: none;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: calc(2 * var(--padding));
+    margin: var(--padding);
+    font-size: var(--font-description);
+    line-height: 1.1rem;
+}
+.copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--padding);
+}
+.names {
+    display: flex;
+    flex-direction: column;
+}

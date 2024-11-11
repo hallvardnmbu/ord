@@ -56,8 +56,34 @@ const createLookupMap = (array, key) => {
   return new Map(array.map((item) => [item[key], item]));
 };
 
+async function saveToDatabase(words) {
+  const uri = `mongodb+srv://${process.env.MONGO_USR}:${process.env.MONGO_PWD}@ord.c8trc.mongodb.net/?retryWrites=true&w=majority&appName=ord`;
+
+  const client = new MongoClient(uri);
+
+  try {
+    await client.connect();
+    const database = client.db("ord");
+    const collection = database.collection("ord");
+
+    await collection.deleteMany({});
+
+    const bulkOps = words.map((word) => ({
+      updateOne: {
+        filter: { word: word.word },
+        update: { $set: { word: word.word, description: word.description, group: word.wordgroup } },
+        upsert: true,
+      },
+    }));
+
+    await collection.bulkWrite(bulkOps);
+  } finally {
+    await client.close();
+  }
+}
+
 // Assign the paradigms to the words based on their mapping.
-const main = () => {
+const getWords = () => {
   try {
     const words = parseWords();
     const mappings = parseMapping();
@@ -84,40 +110,11 @@ const main = () => {
   }
 };
 
-const words = main();
-
-async function saveToDatabase(words) {
-  const uri =
-    `mongodb+srv://${process.env.MONGO_USR}:${process.env.MONGO_PWD}` +
-    "@ord.c8trc.mongodb.net/" +
-    "?retryWrites=true&w=majority&appName=ord";
-
-  const client = new MongoClient(uri);
-
-  try {
-    await client.connect();
-    const database = client.db("ord");
-    const collection = database.collection("ord");
-
-    collection.deleteMany({});
-
-    const bulkOps = words.map((word) => ({
-      updateOne: {
-        filter: { word: word.word },
-        update: { $set: { word: word.word, description: word.description, group: word.wordgroup } },
-        upsert: true,
-      },
-    }));
-
-    await collection.bulkWrite(bulkOps);
-  } finally {
-    await client.close();
-  }
-}
-
-// Store all words of wordgroups with `verb` in the name.
-const verbs = words.filter(
+let words = getWords();
+words = words.filter(
   (word) =>
-    word.wordgroup?.includes("verb") && !word.word?.includes("-") && !word.word?.includes(" "),
+    /^\p{L}+$/u.test(word.word) &&
+    word.word?.length > 5 &&
+    /^(verb|interjeksjon|subjunksjon)\b/.test(word.wordgroup),
 );
-saveToDatabase(verbs).catch(console.error);
+await saveToDatabase(words).catch(console.error);

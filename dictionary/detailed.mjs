@@ -44,9 +44,19 @@ function placeholders(content, items) {
     if (item.type_ === "language") {
       replacement = item.id;
     } else if (item.type_ === "usage") {
-      replacement = item.text;
+      if (item.text.includes("$")) {
+        replacement = placeholders(item.text, item.items);
+      } else {
+        replacement = item.text;
+      }
     } else if (item.type_ === "article_ref") {
       replacement = item.lemmas[0].lemma;
+    } else if (item.type_ === "entity") {
+      replacement = item.id;
+    } else if (item.type_ === "explanation") {
+      replacement = placeholders(item.content, item.items);
+    } else if (item.type_ === "superscript") {
+      replacement = `<sup>${item.text}</sup>`;
     }
 
     result = result.replace("$", replacement);
@@ -56,67 +66,80 @@ function placeholders(content, items) {
   return result.trim();
 }
 
+function parse(element) {
+  const parsed = {
+    type:
+      {
+        definition: "definisjon",
+        example: "eksempel",
+        explanation: "forklaring",
+      }[element.type_] || element.type_,
+    meta: element,
+  };
+
+  if (element.content) {
+    parsed.text = placeholders(element.content, element.items);
+  } else if (element.quote) {
+    parsed.text = placeholders(element.quote.content, element.quote.items);
+  } else if (element.elements) {
+    parsed.text = element.elements.map((sub) => parse(sub));
+  }
+
+  return parsed;
+}
+
 function clean(element) {
   const article = {
     id: element.article_id,
     pronunciation: element.body.pronunciation,
   };
 
-  // Parse lemmas and inflections.
-  const lemmas = element.lemmas.map((data) => {
-    const lemma = {
-      meta: {
-        lemma: data.lemma,
-        id: data.id,
-        hgno: data.hgno,
-        class: data.inflection_class,
-      },
-    };
-
-    const inflection = data.paradigm_info ? data.paradigm_info[0] : null;
-    lemma.inflection = inflection
-      ? {
-          tags: inflection.tags,
-          inflections: inflection.inflection,
-        }
-      : {};
-
-    return lemma;
-  });
-  article.lemmas = lemmas;
-
-  // Parse etymology.
-  article.etymology = element.body.etymology
-    ? element.body.etymology.map((etym) => ({
+  try {
+    // Parse lemmas and inflections.
+    const lemmas = element.lemmas.map((data) => {
+      const lemma = {
         meta: {
-          type: etym.type_,
-          content: etym.content,
-          items: etym.items,
+          lemma: data.lemma,
+          id: data.id,
+          hgno: data.hgno,
+          class: data.inflection_class,
         },
-        text: placeholders(etym.content, etym.items),
-      }))
-    : [];
-
-  // Parse definitions.
-  article.definitions = element.body.definitions.flatMap((def) =>
-    def.elements.map((element) => {
-      const parsed = {
-        type: element.type_,
-        meta: { items: element.items, lemmas: element.lemmas },
       };
 
-      parsed.text = placeholders(element.content, element.items);
+      const inflection = data.paradigm_info ? data.paradigm_info[0] : null;
+      lemma.inflection = inflection
+        ? {
+            tags: inflection.tags,
+            inflections: inflection.inflection,
+          }
+        : {};
 
-      // Handle explanation if present.
-      if (element.explanation) {
-        parsed.explanation = placeholders(element.explanation.content, element.explanation.items);
-      }
+      return lemma;
+    });
+    article.lemmas = lemmas;
 
-      return parsed;
-    }),
-  );
+    // Parse etymology.
+    article.etymology = element.body.etymology
+      ? element.body.etymology.map((etym) => ({
+          meta: {
+            type: etym.type_,
+            content: etym.content,
+            items: etym.items,
+          },
+          text: placeholders(etym.content, etym.items),
+        }))
+      : [];
 
-  return article;
+    // Parse definitions.
+    article.definitions = element.body.definitions
+      ? element.body.definitions.flatMap((def) => def.elements.map((element) => parse(element)))
+      : [];
+
+    return article;
+  } catch (error) {
+    console.log(`Error: ${JSON.stringify(element)}`);
+    process.exit(1);
+  }
 }
 
 async function describe(words) {
@@ -124,7 +147,10 @@ async function describe(words) {
 
   for (const word of words) {
     const response = await fetch(DESCRIPTION.replace("{}", word.id));
-    if (!response.ok) break;
+    if (!response.ok) {
+      console.log(`Error ${response.status}: ${JSON.stringify(word)}`);
+      break;
+    }
     const element = await response.json();
 
     if (!element.body.definitions || element.body.definitions.length === 0) {
@@ -164,15 +190,21 @@ async function detail() {
     // Extract the ID for the words.
     words = await collection.find({ id: { $exists: false } }, { word: 1, _id: 0 }).toArray();
     operations = await id(words);
-    await collection.bulkWrite(operations);
+    if (operations.length > 0) {
+      await collection.bulkWrite(operations);
+    }
 
     // Extract the details for the words.
-    words = await collection.find({}, { word: 1, id: 1, _id: 0 }).toArray();
+    words = await collection
+      .find({ lemmas: { $exists: false }, id: { $exists: true } }, { word: 1, id: 1, _id: 0 })
+      .toArray();
     operations = await describe(words);
-    await collection.bulkWrite(operations);
+    if (operations.length > 0) {
+      await collection.bulkWrite(operations);
+    }
   } finally {
     await client.close();
   }
 }
 
-detail();
+await detail();
