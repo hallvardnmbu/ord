@@ -9,12 +9,12 @@ dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const app = express();
+const ord = express();
 const port = 3000;
 
-app.set("view engine", "ejs");
-app.set("views", path.join(__dirname, "views"));
-app.use(express.static(path.join(__dirname, "public")));
+ord.set("view engine", "ejs");
+ord.set("views", path.join(__dirname, "views"));
+ord.use(express.static(path.join(__dirname, "public")));
 
 let client;
 try {
@@ -32,8 +32,8 @@ try {
   console.error("Failed to connect to MongoDB", err);
   process.exit(1);
 }
-const db = client.db("ord");
-let collection = db.collection("ord");
+const dbWord = client.db("ord");
+let collectionWord = dbWord.collection("ord");
 
 function formatDefinition(definition) {
   if (Array.isArray(definition.text)) {
@@ -66,7 +66,81 @@ function processDefinitions(words) {
   return words;
 }
 
-app.get("/", async (req, res) => {
+ord.get("/random", async (req, res) => {
+  try {
+    const words = await collectionWord.aggregate([{ $sample: { size: 1 } }]).toArray();
+    res.render("page", {
+      words: processDefinitions(words),
+      date: null,
+      week: null,
+      day: null,
+      error: null,
+    });
+  } catch (error) {
+    res.status(500).render("page", {
+      words: [],
+      date: null,
+      week: null,
+      day: null,
+      error: error.message,
+    });
+  }
+});
+
+ord.get("/search", async (req, res) => {
+  const word = req.query.word.trim().toLowerCase();
+  try {
+    const words = await collectionWord
+      .aggregate([
+        {
+          $search: {
+            index: "word",
+            compound: {
+              should: [
+                {
+                  text: {
+                    query: word,
+                    path: "word",
+                    score: { boost: { value: 10 } },
+                  },
+                },
+                {
+                  text: {
+                    query: word,
+                    path: "word",
+                    fuzzy: {
+                      maxEdits: 2,
+                      prefixLength: 1,
+                      maxExpansions: 1,
+                    },
+                  },
+                },
+              ],
+            },
+          },
+        },
+        { $limit: 1 },
+      ])
+      .toArray();
+    res.render("page", {
+      words: processDefinitions(words),
+      date: null,
+      week: null,
+      day: word,
+      error: null,
+    });
+  } catch (error) {
+    res.status(500).render("page", {
+      words: [],
+      date: null,
+      week: null,
+      day: word,
+      error: error.message,
+    });
+  }
+});
+
+ord.get("/", async (req, res) => {
   const date = new Date();
   const week = Math.ceil(((date - new Date(date.getFullYear(), 0, 1)) / 86400000 + 1) / 7);
   const day = date.toLocaleDateString("no-NB", { weekday: "long" }).toLowerCase();
@@ -79,7 +153,7 @@ app.get("/", async (req, res) => {
     .split(".")
     .join("-");
   try {
-    const words = await collection.find({ date: today }).toArray();
+    const words = await collectionWord.find({ date: today }).toArray();
     res.render("page", {
       words: processDefinitions(words),
       date: today,
@@ -98,6 +172,6 @@ app.get("/", async (req, res) => {
   }
 });
 
-app.listen(port, () => {
+ord.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
