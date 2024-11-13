@@ -13,7 +13,7 @@ async function date() {
   try {
     await client.connect();
     const database = client.db("ord");
-    const collection = database.collection("ord");
+    const collection = database.collection("ordbok");
 
     // 1. First get count of documents
     const count = await collection.countDocuments();
@@ -41,10 +41,10 @@ async function date() {
     );
 
     // 3. Bulk assign the pre-shuffled unique dates
-    const documents = await collection.find({}, { _id: 0, id: 1 }).toArray();
+    const documents = await collection.find({}, { _id: 0, word: 1 }).toArray();
     const operations = documents.map((doc, i) => ({
       updateOne: {
-        filter: { id: doc.id },
+        filter: { word: doc.word },
         update: { $set: { date: dates[i] } },
       },
     }));

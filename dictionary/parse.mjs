@@ -3,12 +3,12 @@ import path from "path";
 import { MongoClient } from "mongodb";
 
 const ENCODING = "latin1";
-const DICTIONARY = "nob";
+const DICTIONARIES = ["nob", "nno"];
 
 // Helper function to read and parse files.
-const parseFile = (file, mapper) => {
+const parseFile = (dictionary, file, mapper) => {
   try {
-    const content = fs.readFileSync(path.join("dictionary", DICTIONARY, file), ENCODING);
+    const content = fs.readFileSync(path.join("dictionary", dictionary, file), ENCODING);
     return content
       .trim()
       .split("\n")
@@ -22,22 +22,23 @@ const parseFile = (file, mapper) => {
 };
 
 // Parse words file.
-const parseWords = () =>
-  parseFile("lemma.txt", ([_, lemmaid, word]) => ({
+const parseWords = (dictionary) =>
+  parseFile(dictionary, "lemma.txt", ([_, lemmaid, word]) => ({
     lemmaid: parseInt(lemmaid, 10),
     word,
   }));
 
 // Parse mapping file.
-const parseMapping = () =>
-  parseFile("lemma_paradigme.txt", ([_, lemmaid, paradigmid]) => ({
+const parseMapping = (dictionary) =>
+  parseFile(dictionary, "lemma_paradigme.txt", ([_, lemmaid, paradigmid]) => ({
     lemmaid: parseInt(lemmaid, 10),
     paradigmid: parseInt(paradigmid, 10),
   }));
 
 // Parse paradigm file.
-const parseParadigm = () =>
+const parseParadigm = (dictionary) =>
   parseFile(
+    dictionary,
     "paradigme.txt",
     ([_, paradigmid, wordgroup, boygroup, wordclass, classinfo, description, doeme, id]) => ({
       paradigmid: parseInt(paradigmid, 10),
@@ -56,38 +57,12 @@ const createLookupMap = (array, key) => {
   return new Map(array.map((item) => [item[key], item]));
 };
 
-async function saveToDatabase(words) {
-  const uri = `mongodb+srv://${process.env.MONGO_USR}:${process.env.MONGO_PWD}@ord.c8trc.mongodb.net/?retryWrites=true&w=majority&appName=ord`;
-
-  const client = new MongoClient(uri);
-
-  try {
-    await client.connect();
-    const database = client.db("ord");
-    const collection = database.collection("ord");
-
-    await collection.deleteMany({});
-
-    const bulkOps = words.map((word) => ({
-      updateOne: {
-        filter: { word: word.word },
-        update: { $set: { word: word.word, description: word.description, group: word.wordgroup } },
-        upsert: true,
-      },
-    }));
-
-    await collection.bulkWrite(bulkOps);
-  } finally {
-    await client.close();
-  }
-}
-
 // Assign the paradigms to the words based on their mapping.
-const getWords = () => {
+const getWords = (dictionary) => {
   try {
-    const words = parseWords();
-    const mappings = parseMapping();
-    const paradigms = parseParadigm();
+    const words = parseWords(dictionary);
+    const mappings = parseMapping(dictionary);
+    const paradigms = parseParadigm(dictionary);
 
     // Create lookup maps.
     const mappingsByLemmaId = createLookupMap(mappings, "lemmaid");
@@ -110,11 +85,65 @@ const getWords = () => {
   }
 };
 
-let words = getWords();
+// Process both dictionaries and merge results
+const processAllDictionaries = () => {
+  const wordMap = new Map();
+
+  DICTIONARIES.forEach((dictionary) => {
+    const dictionaryWords = getWords(dictionary);
+
+    dictionaryWords.forEach((word) => {
+      if (!wordMap.has(word.word)) {
+        wordMap.set(word.word, {
+          word: word.word,
+          bm: {},
+          nn: {},
+        });
+      }
+
+      // Store dictionary-specific data under the appropriate key
+      wordMap.get(word.word)[{ nob: "bm", nno: "nn" }[dictionary]] = {
+        wordgroup: word.wordgroup,
+      };
+    });
+  });
+
+  return Array.from(wordMap.values());
+};
+
+let words = processAllDictionaries();
 words = words.filter(
   (word) =>
     /^\p{L}+$/u.test(word.word) &&
     word.word?.length > 5 &&
-    /^(verb|interjeksjon|subjunksjon)\b/.test(word.wordgroup),
+    (/^(verb|interjeksjon|subjunksjon)\b/.test(word.bm?.wordgroup) ||
+      /^(verb|interjeksjon|subjunksjon)\b/.test(word.nn?.wordgroup)),
 );
+
+async function saveToDatabase(words) {
+  const uri = `mongodb+srv://${process.env.MONGO_USR}:${process.env.MONGO_PWD}@ord.c8trc.mongodb.net/?retryWrites=true&w=majority&appName=ord`;
+
+  const client = new MongoClient(uri);
+
+  try {
+    await client.connect();
+    const database = client.db("ord");
+    const collection = database.collection("ordbok");
+
+    await collection.deleteMany({});
+
+    const bulkOps = words.map((word) => ({
+      updateOne: {
+        filter: { word: word.word },
+        update: { $set: word },
+        upsert: true,
+      },
+    }));
+
+    await collection.bulkWrite(bulkOps);
+  } finally {
+    await client.close();
+  }
+}
+
 await saveToDatabase(words).catch(console.error);

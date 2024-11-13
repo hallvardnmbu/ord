@@ -13,19 +13,33 @@ async function duplicates() {
   try {
     await client.connect();
     const database = client.db("ord");
-    const collection = database.collection("ord");
+    const collection = database.collection("ordbok");
 
     // Remove duplicates (on `id`), keeping those with `{lemmas: {$exists: true}}`
     const duplicates = await collection
       .aggregate([
-        { $group: { _id: "$id", count: { $sum: 1 }, docs: { $push: "$$ROOT" } } },
+        { $group: { _id: "$word", count: { $sum: 1 }, docs: { $push: "$$ROOT" } } },
         { $match: { count: { $gt: 1 } } },
       ])
       .toArray();
 
+    // Log duplicates
+    console.log(duplicates);
+
     for (const group of duplicates) {
-      // Sort docs to keep the one with lemmas if it exists
-      const sorted = group.docs.sort((a, b) => (b.lemmas ? 1 : 0) - (a.lemmas ? 1 : 0));
+      // Sort docs to keep the one with both `nb` and `nn` first
+      const sorted = group.docs.sort((a, b) => {
+        // If a has both and b doesn't, a should come first (-1)
+        if (a.nb && a.nn && (!b.nb || !b.nn)) return -1;
+        // If b has both and a doesn't, b should come first (1)
+        if (b.nb && b.nn && (!a.nb || !a.nn)) return 1;
+        // If a has either and b has neither, a should come first (-1)
+        if ((a.nb || a.nn) && !b.nb && !b.nn) return -1;
+        // If b has either and a has neither, b should come first (1)
+        if ((b.nb || b.nn) && !a.nb && !a.nn) return 1;
+        // Otherwise, keep original order
+        return 0;
+      });
       const [keep, ...remove] = sorted;
 
       // Delete all except the one to keep

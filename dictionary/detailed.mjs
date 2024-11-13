@@ -1,8 +1,9 @@
 import { MongoClient } from "mongodb";
 import fetch from "node-fetch";
 
-const INDEX = "https://ord.uib.no/api/articles?w={}&dict=bm&scope=e";
-const DESCRIPTION = "https://ord.uib.no/bm/article/{}.json";
+const INDEX = "https://ord.uib.no/api/articles?w={}&dict=bm,nn&scope=e";
+const BM = "https://ord.uib.no/bm/article/{}.json";
+const NN = "https://ord.uib.no/nn/article/{}.json";
 
 async function id(words) {
   const operations = [];
@@ -12,7 +13,7 @@ async function id(words) {
     if (response.status != 200) break;
     const data = await response.json();
 
-    if (data.meta.bm.total === 0) {
+    if (data.meta.bm.total === 0 && data.meta.nn.total === 0) {
       operations.push({
         deleteOne: { filter: { word: word.word } },
       });
@@ -22,7 +23,12 @@ async function id(words) {
     operations.push({
       updateOne: {
         filter: { word: word.word },
-        update: { $set: { id: data.articles.bm[0] } },
+        update: {
+          $set: {
+            "bm.id": data.articles.bm ? data.articles.bm[0] : null,
+            "nn.id": data.articles.nn ? data.articles.nn[0] : null,
+          },
+        },
       },
     });
   }
@@ -65,6 +71,9 @@ function placeholders(content, items) {
         break;
       case "superscript":
         replacement = `<sup>${item.text}</sup>`;
+        break;
+      case "subscript":
+        replacement = `<sub>${item.text}</sub>`;
         break;
       case "grammar":
         replacement = item.id;
@@ -208,7 +217,6 @@ function clean(element) {
     return article;
   } catch (error) {
     console.log(`Error: ${error} for element: ${JSON.stringify(element)}`);
-    process.exit(1);
   }
 }
 
@@ -216,26 +224,54 @@ async function describe(words) {
   const operations = [];
 
   for (const word of words) {
-    const response = await fetch(DESCRIPTION.replace("{}", word.id));
-    if (!response.ok) {
-      console.log(`Error ${response.status}: ${JSON.stringify(word)}`);
-      break;
-    }
-    const element = await response.json();
+    try {
+      for (const dictionary of ["bm", "nn"]) {
+        if (!word[dictionary] || !word[dictionary].id) {
+          word[dictionary] = null;
+          continue;
+        }
 
-    if (!element.body.definitions || element.body.definitions.length === 0) {
-      operations.push({
-        deleteOne: { filter: { id: word.id } },
-      });
-      continue;
-    }
+        let response;
+        switch (dictionary) {
+          case "bm":
+            response = await fetch(BM.replace("{}", word[dictionary].id));
+            break;
+          case "nn":
+            response = await fetch(NN.replace("{}", word[dictionary].id));
+            break;
+        }
+        if (!response.ok) {
+          console.log(`Error ${response.status}: ${JSON.stringify(word)}`);
+          break;
+        }
+        const element = await response.json();
 
-    operations.push({
-      updateOne: {
-        filter: { id: word.id },
-        update: { $set: clean(element) },
-      },
-    });
+        if (!element.body.definitions || element.body.definitions.length === 0) {
+          word[dictionary] = null;
+          continue;
+        }
+
+        word[dictionary] = {
+          id: word[dictionary].id,
+          wordgroup: word[dictionary].wordgroup,
+          ...clean(element),
+        };
+      }
+
+      if (!word.bm && !word.nn) {
+        operations.push({ deleteOne: { filter: { word: word.word } } });
+      } else {
+        operations.push({
+          updateOne: {
+            filter: { word: word.word },
+            update: { $set: word },
+          },
+        });
+      }
+    } catch (error) {
+      console.log(`Error: ${error} for word: ${JSON.stringify(word)}`);
+      return operations;
+    }
   }
 
   return operations;
@@ -252,13 +288,20 @@ async function detail() {
   try {
     await client.connect();
     const database = client.db("ord");
-    const collection = database.collection("ord");
+    const collection = database.collection("ordbok");
 
     let words;
     let operations;
 
     // Extract the ID for the words.
-    words = await collection.find({ id: { $exists: false } }, { word: 1, _id: 0 }).toArray();
+    words = await collection
+      .find(
+        {
+          $or: [{ "bm.id": { $exists: false } }, { "nn.id": { $exists: false } }],
+        },
+        { word: 1, _id: 0 },
+      )
+      .toArray();
     operations = await id(words);
     if (operations.length > 0) {
       await collection.bulkWrite(operations);
@@ -266,7 +309,10 @@ async function detail() {
 
     // Extract the details for the words.
     words = await collection
-      .find({ lemmas: { $exists: false }, id: { $exists: true } }, { id: 1, _id: 0 })
+      .find(
+        { $or: [{ "bm.id": { $exists: true } }, { "nn.id": { $exists: true } }] },
+        { word: 1, _id: 0 },
+      )
       .toArray();
     operations = await describe(words);
     if (operations.length > 0) {
