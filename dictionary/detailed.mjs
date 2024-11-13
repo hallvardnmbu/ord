@@ -40,23 +40,49 @@ function placeholders(content, items) {
     const item = items[itemIndex];
     let replacement = "";
 
-    // Handle different item types
-    if (item.type_ === "language") {
-      replacement = item.id;
-    } else if (item.type_ === "usage") {
-      if (item.text.includes("$")) {
-        replacement = placeholders(item.text, item.items);
-      } else {
-        replacement = item.text;
-      }
-    } else if (item.type_ === "article_ref") {
-      replacement = item.lemmas[0].lemma;
-    } else if (item.type_ === "entity") {
-      replacement = item.id;
-    } else if (item.type_ === "explanation") {
-      replacement = placeholders(item.content, item.items);
-    } else if (item.type_ === "superscript") {
-      replacement = `<sup>${item.text}</sup>`;
+    // Handle different item types.
+    switch (item.type_) {
+      case "language":
+        replacement = item.id;
+        break;
+      case "relation":
+        replacement = item.id;
+        break;
+      case "usage":
+        replacement = item.text.includes("$") ? placeholders(item.text, item.items) : item.text;
+        break;
+      case "rhetoric":
+        replacement = item.id;
+        break;
+      case "article_ref":
+        replacement = item.lemmas[0].lemma;
+        break;
+      case "entity":
+        replacement = item.id;
+        break;
+      case "explanation":
+        replacement = placeholders(item.content, item.items);
+        break;
+      case "superscript":
+        replacement = `<sup>${item.text}</sup>`;
+        break;
+      case "grammar":
+        replacement = item.id;
+        break;
+      case "domain":
+        replacement = item.id;
+        break;
+      case "temporal":
+        replacement = item.id;
+        break;
+      case "quote_inset":
+        replacement = ` «${placeholders(item.content, item.items).trim()}» `;
+        break;
+      case "fraction":
+        replacement = `${item.numerator}/${item.denominator}`;
+        break;
+      default:
+        throw new Error(`Unknown type: ${item.type_}`);
     }
 
     result = result.replace("$", replacement);
@@ -64,6 +90,33 @@ function placeholders(content, items) {
   }
 
   return result.trim();
+}
+
+function formatDefinition(definition) {
+  if (Array.isArray(definition.text)) {
+    return definition.text.flatMap((subDef) => formatDefinition(subDef)).filter(Boolean);
+  }
+  return [definition.text];
+}
+
+function processDefinitions(definitions) {
+  const formattedDefinitions = {};
+  for (const definition of definitions) {
+    if (Array.isArray(definition.text)) {
+      for (const element of definition.text) {
+        const formattedDefinition = formatDefinition(element);
+        formattedDefinitions[element.type] = formattedDefinitions[element.type]
+          ? formattedDefinitions[element.type].concat(formattedDefinition)
+          : formattedDefinition;
+      }
+    } else {
+      const formattedDefinition = formatDefinition(definition);
+      formattedDefinitions[definition.type] = formattedDefinitions[definition.type]
+        ? formattedDefinitions[definition.type].concat(formattedDefinition)
+        : formattedDefinition;
+    }
+  }
+  return formattedDefinitions;
 }
 
 function parse(element) {
@@ -91,10 +144,15 @@ function parse(element) {
 function clean(element) {
   const article = {
     id: element.article_id,
-    pronunciation: element.body.pronunciation,
   };
 
   try {
+    // Parse pronunciation.
+    article.pronunciation =
+      element.body.pronunciation && element.body.pronunciation.length > 0
+        ? placeholders(element.body.pronunciation[0].content, element.body.pronunciation[0].items)
+        : null;
+
     // Parse lemmas and inflections.
     const lemmas = element.lemmas.map((data) => {
       const lemma = {
@@ -135,9 +193,11 @@ function clean(element) {
       ? element.body.definitions.flatMap((def) => def.elements.map((element) => parse(element)))
       : [];
 
+    article.definitions = processDefinitions(article.definitions);
+
     return article;
   } catch (error) {
-    console.log(`Error: ${JSON.stringify(element)}`);
+    console.log(`Error: ${error} for element: ${JSON.stringify(element)}`);
     process.exit(1);
   }
 }
@@ -195,9 +255,7 @@ async function detail() {
     }
 
     // Extract the details for the words.
-    words = await collection
-      .find({ lemmas: { $exists: false }, id: { $exists: true } }, { id: 1, _id: 0 })
-      .toArray();
+    words = await collection.find({ id: { $exists: true } }, { id: 1, _id: 0 }).toArray();
     operations = await describe(words);
     if (operations.length > 0) {
       await collection.bulkWrite(operations);
