@@ -111,6 +111,9 @@ function processDefinitions(definitions) {
       }
     } else {
       const formattedDefinition = formatDefinition(definition);
+      if (definition.word) {
+        formattedDefinition[0].word = definition.word;
+      }
       formattedDefinitions[definition.type] = formattedDefinitions[definition.type]
         ? formattedDefinitions[definition.type].concat(formattedDefinition)
         : formattedDefinition;
@@ -126,6 +129,7 @@ function parse(element) {
         definition: "definisjon",
         example: "eksempel",
         explanation: "forklaring",
+        sub_article: "underartikkel",
       }[element.type_] || element.type_,
     meta: element,
   };
@@ -136,6 +140,12 @@ function parse(element) {
     parsed.text = placeholders(element.quote.content, element.quote.items);
   } else if (element.elements) {
     parsed.text = element.elements.map((sub) => parse(sub));
+  } else if (element.article) {
+    parsed.text = clean(element.article);
+    parsed.text.word =
+      element.article.lemmas && element.article.lemmas.length > 0
+        ? element.article.lemmas[0].lemma
+        : null;
   }
 
   return parsed;
@@ -255,7 +265,12 @@ async function detail() {
     }
 
     // Extract the details for the words.
-    words = await collection.find({ id: { $exists: true } }, { id: 1, _id: 0 }).toArray();
+    words = await collection
+      .find(
+        { "definitions.underartikkel": { $exists: true }, id: { $exists: true } },
+        { id: 1, _id: 0 },
+      )
+      .toArray();
     operations = await describe(words);
     if (operations.length > 0) {
       await collection.bulkWrite(operations);
