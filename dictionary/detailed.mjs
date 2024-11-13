@@ -266,10 +266,7 @@ async function detail() {
 
     // Extract the details for the words.
     words = await collection
-      .find(
-        { "definitions.underartikkel": { $exists: true }, id: { $exists: true } },
-        { id: 1, _id: 0 },
-      )
+      .find({ lemmas: { $exists: false }, id: { $exists: true } }, { id: 1, _id: 0 })
       .toArray();
     operations = await describe(words);
     if (operations.length > 0) {
