@@ -40,7 +40,7 @@ ord.get("/random", async (req, res) => {
     const words = await collectionWord.aggregate([{ $sample: { size: 1 } }]).toArray();
     res.render("page", {
       words: words,
-      dictionary: req.query.dictionary || "bm",
+      dictionary: req.query.dictionary || "bm,nn",
       date: null,
       week: null,
       day: null,
@@ -49,7 +49,7 @@ ord.get("/random", async (req, res) => {
   } catch (error) {
     res.status(500).render("page", {
       words: [],
-      dictionary: req.query.dictionary || "bm",
+      dictionary: req.query.dictionary || "bm,nn",
       date: null,
       week: null,
       day: null,
@@ -95,7 +95,7 @@ ord.get("/search", async (req, res) => {
       .toArray();
     res.render("page", {
       words: words,
-      dictionary: req.query.dictionary || "bm",
+      dictionary: req.query.dictionary || "bm,nn",
       date: null,
       week: null,
       day: word,
@@ -104,7 +104,7 @@ ord.get("/search", async (req, res) => {
   } catch (error) {
     res.status(500).render("page", {
       words: [],
-      dictionary: req.query.dictionary || "bm",
+      dictionary: req.query.dictionary || "bm,nn",
       date: null,
       week: null,
       day: word,
@@ -114,7 +114,6 @@ ord.get("/search", async (req, res) => {
 });
 
 ord.get("/", async (req, res) => {
-  const dictionary = req.query.dictionary || "bm";
   const date = new Date();
   const week = Math.ceil(((date - new Date(date.getFullYear(), 0, 1)) / 86400000 + 1) / 7);
   const day = date.toLocaleDateString("no-NB", { weekday: "long" }).toLowerCase();
@@ -130,7 +129,7 @@ ord.get("/", async (req, res) => {
     const words = await collectionWord.find({ date: today }).toArray();
     res.render("page", {
       words: words,
-      dictionary: dictionary,
+      dictionary: req.query.dictionary || "bm,nn",
       date: today,
       week: week,
       day: day,
@@ -139,7 +138,7 @@ ord.get("/", async (req, res) => {
   } catch (error) {
     res.status(500).render("page", {
       words: [],
-      dictionary: dictionary,
+      dictionary: req.query.dictionary || "bm,nn",
       date: today,
       week: week,
       day: day,
