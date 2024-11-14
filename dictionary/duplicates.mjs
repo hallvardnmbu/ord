@@ -13,39 +13,33 @@ async function duplicates() {
   try {
     await client.connect();
     const database = client.db("ord");
-    const collection = database.collection("ordbok");
 
-    // Remove duplicates (on `id`), keeping those with `{lemmas: {$exists: true}}`
-    const duplicates = await collection
-      .aggregate([
-        { $group: { _id: "$word", count: { $sum: 1 }, docs: { $push: "$$ROOT" } } },
-        { $match: { count: { $gt: 1 } } },
-      ])
-      .toArray();
+    for (const dictionary of ["bm", "nn"]) {
+      // Remove duplicates (on `id`), keeping those with `{lemmas: {$exists: true}}`
+      const duplicates = await database[dictionary]
+        .aggregate([
+          { $group: { _id: "$word", count: { $sum: 1 }, docs: { $push: "$$ROOT" } } },
+          { $match: { count: { $gt: 1 } } },
+        ])
+        .toArray();
 
-    // Log duplicates
-    console.log(duplicates);
+      // Log duplicates
+      console.log(duplicates);
 
-    for (const group of duplicates) {
-      // Sort docs to keep the one with both `nb` and `nn` first
-      const sorted = group.docs.sort((a, b) => {
-        // If a has both and b doesn't, a should come first (-1)
-        if (a.nb && a.nn && (!b.nb || !b.nn)) return -1;
-        // If b has both and a doesn't, b should come first (1)
-        if (b.nb && b.nn && (!a.nb || !a.nn)) return 1;
-        // If a has either and b has neither, a should come first (-1)
-        if ((a.nb || a.nn) && !b.nb && !b.nn) return -1;
-        // If b has either and a has neither, b should come first (1)
-        if ((b.nb || b.nn) && !a.nb && !a.nn) return 1;
-        // Otherwise, keep original order
-        return 0;
-      });
-      const [keep, ...remove] = sorted;
+      for (const group of duplicates) {
+        // Sort docs to keep the one with lemmas.
+        const sorted = group.docs.sort((a, b) => {
+          if (a.lemmas && !b.lemmas) return -1;
+          if (!a.lemmas && b.lemmas) return 1;
+          return 0;
+        });
+        const [keep, ...remove] = sorted;
 
-      // Delete all except the one to keep
-      await collection.deleteMany({
-        _id: { $in: remove.map((doc) => doc._id) },
-      });
+        // Delete all except the one to keep
+        await collection.deleteMany({
+          _id: { $in: remove.map((doc) => doc._id) },
+        });
+      }
     }
   } finally {
     await client.close();

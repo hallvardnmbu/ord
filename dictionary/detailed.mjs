@@ -5,7 +5,7 @@ const INDEX = "https://ord.uib.no/api/articles?w={}&dict=bm,nn&scope=e";
 const BM = "https://ord.uib.no/bm/article/{}.json";
 const NN = "https://ord.uib.no/nn/article/{}.json";
 
-async function id(words) {
+async function id(words, dictionary) {
   const operations = [];
 
   for (const word of words) {
@@ -13,7 +13,7 @@ async function id(words) {
     if (response.status != 200) break;
     const data = await response.json();
 
-    if (data.meta.bm.total === 0 && data.meta.nn.total === 0) {
+    if (data.meta.dictionary.total === 0) {
       operations.push({
         deleteOne: { filter: { word: word.word } },
       });
@@ -25,8 +25,7 @@ async function id(words) {
         filter: { word: word.word },
         update: {
           $set: {
-            "bm.id": data.articles.bm ? data.articles.bm[0] : null,
-            "nn.id": data.articles.nn ? data.articles.nn[0] : null,
+            id: data.articles[dictionary] ? data.articles[dictionary][0] : null,
           },
         },
       },
@@ -220,54 +219,43 @@ function clean(element) {
   }
 }
 
-async function describe(words) {
+async function describe(words, dictionary) {
   const operations = [];
 
   for (const word of words) {
     try {
-      for (const dictionary of ["bm", "nn"]) {
-        if (!word[dictionary] || !word[dictionary].id) {
-          word[dictionary] = null;
-          continue;
-        }
-
-        let response;
-        switch (dictionary) {
-          case "bm":
-            response = await fetch(BM.replace("{}", word[dictionary].id));
-            break;
-          case "nn":
-            response = await fetch(NN.replace("{}", word[dictionary].id));
-            break;
-        }
-        if (!response.ok) {
-          console.log(`Error ${response.status}: ${JSON.stringify(word)}`);
-          break;
-        }
-        const element = await response.json();
-
-        if (!element.body.definitions || element.body.definitions.length === 0) {
-          word[dictionary] = null;
-          continue;
-        }
-
-        word[dictionary] = {
-          id: word[dictionary].id,
-          wordgroup: word[dictionary].wordgroup,
-          ...clean(element),
-        };
-      }
-
-      if (!word.bm && !word.nn) {
+      if (!word.id) {
         operations.push({ deleteOne: { filter: { word: word.word } } });
-      } else {
-        operations.push({
-          updateOne: {
-            filter: { word: word.word },
-            update: { $set: word },
-          },
-        });
+        continue;
       }
+
+      let response;
+      const url = dictionary === "bm" ? BM : NN;
+      response = await fetch(url.replace("{}", word.id));
+      if (!response.ok) {
+        console.log(`Error ${response.status}: ${JSON.stringify(word)}`);
+        continue;
+      }
+
+      const element = await response.json();
+
+      if (!element.body.definitions || element.body.definitions.length === 0) {
+        operations.push({ deleteOne: { filter: { word: word.word } } });
+        continue;
+      }
+
+      operations.push({
+        updateOne: {
+          filter: { word: word.word },
+          update: {
+            $set: {
+              id: word.id,
+              wordgroup: word.wordgroup,
+              ...clean(element),
+            },
+          },
+        },
+      });
     } catch (error) {
       console.log(`Error: ${error} for word: ${JSON.stringify(word)}`);
       return operations;
@@ -288,38 +276,38 @@ async function detail() {
   try {
     await client.connect();
     const database = client.db("ord");
-    const collection = database.collection("ordbok");
 
-    let words;
-    let operations;
+    try {
+      await client.connect();
+      const database = client.db("ord");
 
-    // Extract the ID for the words.
-    words = await collection
-      .find(
-        {
-          $or: [{ "bm.id": { $exists: false } }, { "nn.id": { $exists: false } }],
-        },
-        { word: 1, _id: 0 },
-      )
-      .toArray();
-    operations = await id(words);
-    if (operations.length > 0) {
-      await collection.bulkWrite(operations);
+      // Process each dictionary separately
+      for (const dictionary of ["bm", "nn"]) {
+        const collection = database.collection(`${dictionary}`);
+        let words;
+        let operations;
+
+        // Extract the ID for the words
+        words = await collection.find({ id: { $exists: false } }, { word: 1, _id: 0 }).toArray();
+        operations = await id(words, dictionary);
+        if (operations.length > 0) {
+          await collection.bulkWrite(operations);
+        }
+
+        // Extract the details for the words
+        words = await collection
+          .find({ id: { $exists: true } }, { word: 1, id: 1, _id: 0 })
+          .toArray();
+        operations = await describe(words, dictionary);
+        if (operations.length > 0) {
+          await collection.bulkWrite(operations);
+        }
+      }
+    } finally {
+      await client.close();
     }
-
-    // Extract the details for the words.
-    words = await collection
-      .find(
-        { $or: [{ "bm.id": { $exists: true } }, { "nn.id": { $exists: true } }] },
-        { word: 1, _id: 0 },
-      )
-      .toArray();
-    operations = await describe(words);
-    if (operations.length > 0) {
-      await collection.bulkWrite(operations);
-    }
-  } finally {
-    await client.close();
+  } catch (error) {
+    console.log(`Error: ${error}`);
   }
 }
 
