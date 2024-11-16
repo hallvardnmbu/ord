@@ -35,6 +35,13 @@ async function id(words, dictionary) {
   return operations;
 }
 
+const LANGUAGE = {
+  "lat.": "latin",
+};
+const ENTITY = {
+  o_l: "og lignende",
+};
+
 function placeholders(content, items) {
   if (!content || !items || !items.length) return content;
 
@@ -53,17 +60,26 @@ function placeholders(content, items) {
       case "relation":
         replacement = item.id;
         break;
-      case "usage":
-        replacement = item.text.includes("$") ? placeholders(item.text, item.items) : item.text;
+      case "grammar":
+        replacement = item.id;
+        break;
+      case "domain":
+        replacement = item.id;
+        break;
+      case "temporal":
+        replacement = item.id;
         break;
       case "rhetoric":
+        replacement = item.id;
+        break;
+      case "entity":
         replacement = item.id;
         break;
       case "article_ref":
         replacement = item.lemmas[0].lemma;
         break;
-      case "entity":
-        replacement = item.id;
+      case "usage":
+        replacement = item.text.includes("$") ? placeholders(item.text, item.items) : item.text;
         break;
       case "explanation":
         replacement = placeholders(item.content, item.items);
@@ -73,15 +89,6 @@ function placeholders(content, items) {
         break;
       case "subscript":
         replacement = `<sub>${item.text}</sub>`;
-        break;
-      case "grammar":
-        replacement = item.id;
-        break;
-      case "domain":
-        replacement = item.id;
-        break;
-      case "temporal":
-        replacement = item.id;
         break;
       case "quote_inset":
         replacement = ` «${placeholders(item.content, item.items).trim()}» `;
@@ -277,37 +284,32 @@ async function detail() {
     await client.connect();
     const database = client.db("ord");
 
-    try {
-      await client.connect();
-      const database = client.db("ord");
+    // Process each dictionary separately
+    for (const dictionary of ["bm", "nn"]) {
+      const collection = database.collection(`${dictionary}`);
+      let words;
+      let operations;
 
-      // Process each dictionary separately
-      for (const dictionary of ["bm", "nn"]) {
-        const collection = database.collection(`${dictionary}`);
-        let words;
-        let operations;
-
-        // Extract the ID for the words
-        words = await collection.find({ id: { $exists: false } }, { word: 1, _id: 0 }).toArray();
-        operations = await id(words, dictionary);
-        if (operations.length > 0) {
-          await collection.bulkWrite(operations);
-        }
-
-        // Extract the details for the words
-        words = await collection
-          .find({ id: { $exists: true } }, { word: 1, id: 1, _id: 0 })
-          .toArray();
-        operations = await describe(words, dictionary);
-        if (operations.length > 0) {
-          await collection.bulkWrite(operations);
-        }
+      // Extract the ID for the words
+      words = await collection.find({ id: { $exists: false } }, { word: 1, _id: 0 }).toArray();
+      operations = await id(words, dictionary);
+      if (operations.length > 0) {
+        await collection.bulkWrite(operations);
       }
-    } finally {
-      await client.close();
+
+      // Extract the details for the words
+      words = await collection
+        .find({ id: { $exists: true } }, { word: 1, id: 1, _id: 0 })
+        .toArray();
+      operations = await describe(words, dictionary);
+      if (operations.length > 0) {
+        await collection.bulkWrite(operations);
+      }
     }
   } catch (error) {
     console.log(`Error: ${error}`);
+  } finally {
+    await client.close();
   }
 }
 

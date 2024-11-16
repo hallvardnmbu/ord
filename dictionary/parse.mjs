@@ -141,6 +141,8 @@ async function saveToDatabase(words) {
     }));
 
     await collection.bulkWrite(bulkOps);
+  } catch (error) {
+    console.log(`Error: ${error}`);
   } finally {
     await client.close();
   }

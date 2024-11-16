@@ -41,6 +41,8 @@ async function duplicates() {
         });
       }
     }
+  } catch (error) {
+    console.log(`Error: ${error}`);
   } finally {
     await client.close();
   }

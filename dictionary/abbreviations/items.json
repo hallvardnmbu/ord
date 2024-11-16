@@ -1,0 +1,1147 @@
+[
+  {
+    "type_": "language",
+    "id": "fr.",
+    "url": "https://ordbokene.no/nob/bm/12"
+  },
+  {
+    "type_": "language",
+    "id": "lat.",
+    "url": "https://ordbokene.no/nob/bm/19"
+  },
+  {
+    "type_": "relation",
+    "id": "gj",
+    "url": "https://ordbokene.no/nob/bm/51"
+  },
+  {
+    "type_": "language",
+    "id": "ty.",
+    "url": "https://ordbokene.no/nob/bm/51"
+  },
+  {
+    "type_": "rhetoric",
+    "id": "overf",
+    "url": "https://ordbokene.no/nob/bm/80"
+  },
+  {
+    "type_": "relation",
+    "id": "mots",
+    "url": "https://ordbokene.no/nob/bm/143"
+  },
+  {
+    "type_": "entity",
+    "id": "saerl",
+    "url": "https://ordbokene.no/nob/bm/240"
+  },
+  {
+    "type_": "relation",
+    "id": "el",
+    "url": "https://ordbokene.no/nob/bm/3118"
+  },
+  {
+    "type_": "grammar",
+    "id": "refl",
+    "url": "https://ordbokene.no/nob/bm/3118"
+  },
+  {
+    "type_": "entity",
+    "id": "lat.",
+    "url": "https://ordbokene.no/nob/bm/358"
+  },
+  {
+    "type_": "relation",
+    "id": "t_forsk_f",
+    "url": "https://ordbokene.no/nob/bm/358"
+  },
+  {
+    "type_": "relation",
+    "id": "besl",
+    "url": "https://ordbokene.no/nob/bm/372"
+  },
+  {
+    "type_": "relation",
+    "id": "jf",
+    "url": "https://ordbokene.no/nob/bm/454"
+  },
+  {
+    "type_": "language",
+    "id": "senlat.",
+    "url": "https://ordbokene.no/nob/bm/465"
+  },
+  {
+    "type_": "grammar",
+    "id": "adj",
+    "url": "https://ordbokene.no/nob/bm/471"
+  },
+  {
+    "type_": "language",
+    "id": "eng.",
+    "url": "https://ordbokene.no/nob/bm/792"
+  },
+  {
+    "type_": "grammar",
+    "id": "pf_pt",
+    "url": "https://ordbokene.no/nob/bm/819"
+  },
+  {
+    "type_": "domain",
+    "id": "mus",
+    "url": "https://ordbokene.no/nob/bm/1384"
+  },
+  {
+    "type_": "language",
+    "id": "da.",
+    "url": "https://ordbokene.no/nob/bm/1637"
+  },
+  {
+    "type_": "relation",
+    "id": "bet",
+    "url": "https://ordbokene.no/nob/bm/1637"
+  },
+  {
+    "type_": "language",
+    "id": "nederl",
+    "url": "https://ordbokene.no/nob/bm/1728"
+  },
+  {
+    "type_": "language",
+    "id": "norr.",
+    "url": "https://ordbokene.no/nob/bm/1730"
+  },
+  {
+    "type_": "language",
+    "id": "l.ty.",
+    "url": "https://ordbokene.no/nob/bm/1760"
+  },
+  {
+    "type_": "temporal",
+    "id": "foreld",
+    "url": "https://ordbokene.no/nob/bm/1848"
+  },
+  {
+    "type_": "entity",
+    "id": "e_l",
+    "url": "https://ordbokene.no/nob/bm/2171"
+  },
+  {
+    "type_": "entity",
+    "id": "o_l",
+    "url": "https://ordbokene.no/nob/bm/2201"
+  },
+  {
+    "type_": "entity",
+    "id": "jur",
+    "url": "https://ordbokene.no/nob/bm/2390"
+  },
+  {
+    "type_": "entity",
+    "id": "jf",
+    "url": "https://ordbokene.no/nob/bm/2390"
+  },
+  {
+    "type_": "entity",
+    "id": "i_idr",
+    "url": "https://ordbokene.no/nob/bm/2425"
+  },
+  {
+    "type_": "language",
+    "id": "gr.",
+    "url": "https://ordbokene.no/nob/bm/2652"
+  },
+  {
+    "type_": "entity",
+    "id": "fr.",
+    "url": "https://ordbokene.no/nob/bm/2739"
+  },
+  {
+    "type_": "entity",
+    "id": "i_mus",
+    "url": "https://ordbokene.no/nob/bm/2739"
+  },
+  {
+    "type_": "language",
+    "id": "g.fr.",
+    "url": "https://ordbokene.no/nob/bm/2745"
+  },
+  {
+    "type_": "relation",
+    "id": "sm_o_s",
+    "url": "https://ordbokene.no/nob/bm/2752"
+  },
+  {
+    "type_": "domain",
+    "id": "i_fysiol",
+    "url": "https://ordbokene.no/nob/bm/2946"
+  },
+  {
+    "type_": "language",
+    "id": "m.lat.",
+    "url": "https://ordbokene.no/nob/bm/2966"
+  },
+  {
+    "type_": "entity",
+    "id": "f_eks",
+    "url": "https://ordbokene.no/nob/bm/3576"
+  },
+  {
+    "type_": "domain",
+    "id": "i_spraakv",
+    "url": "https://ordbokene.no/nob/bm/3618"
+  },
+  {
+    "type_": "domain",
+    "id": "i_mil",
+    "url": "https://ordbokene.no/nob/bm/3644"
+  },
+  {
+    "type_": "grammar",
+    "id": "pass",
+    "url": "https://ordbokene.no/nob/bm/3684"
+  },
+  {
+    "type_": "entity",
+    "id": "trol",
+    "url": "https://ordbokene.no/nob/bm/3832"
+  },
+  {
+    "type_": "entity",
+    "id": "nyd",
+    "url": "https://ordbokene.no/nob/bm/4071"
+  },
+  {
+    "type_": "domain",
+    "id": "jur",
+    "url": "https://ordbokene.no/nob/bm/8591"
+  },
+  {
+    "type_": "entity",
+    "id": "ty.",
+    "url": "https://ordbokene.no/nob/bm/4792"
+  },
+  {
+    "type_": "grammar",
+    "id": "subst",
+    "url": "https://ordbokene.no/nob/bm/4973"
+  },
+  {
+    "type_": "grammar",
+    "id": "upers",
+    "url": "https://ordbokene.no/nob/bm/4974"
+  },
+  {
+    "type_": "grammar",
+    "id": "subj",
+    "url": "https://ordbokene.no/nob/bm/4974"
+  },
+  {
+    "type_": "language",
+    "id": "nederl.",
+    "url": "https://ordbokene.no/nob/bm/5163"
+  },
+  {
+    "type_": "entity",
+    "id": "l.ty.",
+    "url": "https://ordbokene.no/nob/bm/5212"
+  },
+  {
+    "type_": "entity",
+    "id": "overf",
+    "url": "https://ordbokene.no/nob/bm/5323"
+  },
+  {
+    "type_": "language",
+    "id": "fr",
+    "url": "https://ordbokene.no/nob/bm/5446"
+  },
+  {
+    "type_": "temporal",
+    "id": "e",
+    "url": "https://ordbokene.no/nob/bm/5449"
+  },
+  {
+    "type_": "entity",
+    "id": "eng.",
+    "url": "https://ordbokene.no/nob/bm/5486"
+  },
+  {
+    "type_": "entity",
+    "id": "norr.",
+    "url": "https://ordbokene.no/nob/bm/6260"
+  },
+  {
+    "type_": "entity",
+    "id": "uttr_t",
+    "url": "https://ordbokene.no/nob/bm/6588"
+  },
+  {
+    "type_": "entity",
+    "id": "besl",
+    "url": "https://ordbokene.no/nob/bm/6606"
+  },
+  {
+    "type_": "entity",
+    "id": "uttr_et",
+    "url": "https://ordbokene.no/nob/bm/6610"
+  },
+  {
+    "type_": "language",
+    "id": "nyno.",
+    "url": "https://ordbokene.no/nob/bm/6907"
+  },
+  {
+    "type_": "entity",
+    "id": "adj",
+    "url": "https://ordbokene.no/nob/bm/7337"
+  },
+  {
+    "type_": "language",
+    "id": "it.",
+    "url": "https://ordbokene.no/nob/bm/7342"
+  },
+  {
+    "type_": "grammar",
+    "id": "superl",
+    "url": "https://ordbokene.no/nob/bm/7342"
+  },
+  {
+    "type_": "entity",
+    "id": "el",
+    "url": "https://ordbokene.no/nob/bm/7433"
+  },
+  {
+    "type_": "entity",
+    "id": "gj",
+    "url": "https://ordbokene.no/nob/bm/7530"
+  },
+  {
+    "type_": "entity",
+    "id": "it.",
+    "url": "https://ordbokene.no/nob/bm/7530"
+  },
+  {
+    "type_": "entity",
+    "id": "da.",
+    "url": "https://ordbokene.no/nob/bm/7565"
+  },
+  {
+    "type_": "language",
+    "id": "germ.",
+    "url": "https://ordbokene.no/nob/bm/7582"
+  },
+  {
+    "type_": "language",
+    "id": "m.no.",
+    "url": "https://ordbokene.no/nob/bm/7818"
+  },
+  {
+    "type_": "language",
+    "id": "lydord",
+    "url": "https://ordbokene.no/nob/bm/8066"
+  },
+  {
+    "type_": "entity",
+    "id": "el_l",
+    "url": "https://ordbokene.no/nob/bm/8818"
+  },
+  {
+    "type_": "language",
+    "id": "nylat.",
+    "url": "https://ordbokene.no/nob/bm/10153"
+  },
+  {
+    "type_": "domain",
+    "id": "i_mat",
+    "url": "https://ordbokene.no/nob/bm/10388"
+  },
+  {
+    "type_": "domain",
+    "id": "med",
+    "url": "https://ordbokene.no/nob/bm/10814"
+  },
+  {
+    "type_": "language",
+    "id": "sv.",
+    "url": "https://ordbokene.no/nob/bm/11022"
+  },
+  {
+    "type_": "entity",
+    "id": "vha",
+    "url": "https://ordbokene.no/nob/bm/12452"
+  },
+  {
+    "type_": "entity",
+    "id": "fris.",
+    "url": "https://ordbokene.no/nob/bm/112651"
+  },
+  {
+    "type_": "grammar",
+    "id": "pr_pt",
+    "url": "https://ordbokene.no/nob/bm/14337"
+  },
+  {
+    "type_": "entity",
+    "id": "i_rel",
+    "url": "https://ordbokene.no/nob/bm/16096"
+  },
+  {
+    "type_": "entity",
+    "id": "s_subst",
+    "url": "https://ordbokene.no/nob/bm/16096"
+  },
+  {
+    "type_": "language",
+    "id": "lty",
+    "url": "https://ordbokene.no/nob/bm/16133"
+  },
+  {
+    "type_": "entity",
+    "id": "egl",
+    "url": "https://ordbokene.no/nob/bm/16173"
+  },
+  {
+    "type_": "entity",
+    "id": "sj",
+    "url": "https://ordbokene.no/nob/bm/17082"
+  },
+  {
+    "type_": "language",
+    "id": "g.da.",
+    "url": "https://ordbokene.no/nob/bm/17243"
+  },
+  {
+    "type_": "entity",
+    "id": "i_norr_myt",
+    "url": "https://ordbokene.no/nob/bm/18492"
+  },
+  {
+    "type_": "language",
+    "id": "navnet",
+    "url": "https://ordbokene.no/nob/bm/18947"
+  },
+  {
+    "type_": "language",
+    "id": "it",
+    "url": "https://ordbokene.no/nob/bm/18947"
+  },
+  {
+    "type_": "entity",
+    "id": "adv",
+    "url": "https://ordbokene.no/nob/bm/19083"
+  },
+  {
+    "type_": "language",
+    "id": "lat",
+    "url": "https://ordbokene.no/nob/bm/19769"
+  },
+  {
+    "type_": "domain",
+    "id": "i_rel",
+    "url": "https://ordbokene.no/nob/bm/19769"
+  },
+  {
+    "type_": "language",
+    "id": "fris.",
+    "url": "https://ordbokene.no/nob/bm/20276"
+  },
+  {
+    "type_": "entity",
+    "id": "varemerke",
+    "url": "https://ordbokene.no/nob/bm/109168"
+  },
+  {
+    "type_": "entity",
+    "id": "m.lat.",
+    "url": "https://ordbokene.no/nob/bm/20587"
+  },
+  {
+    "type_": "entity",
+    "id": "utenl",
+    "url": "https://ordbokene.no/nob/bm/20603"
+  },
+  {
+    "type_": "entity",
+    "id": "forh",
+    "url": "https://ordbokene.no/nob/bm/20603"
+  },
+  {
+    "type_": "grammar",
+    "id": "dim",
+    "url": "https://ordbokene.no/nob/bm/20697"
+  },
+  {
+    "type_": "grammar",
+    "id": "adv",
+    "url": "https://ordbokene.no/nob/bm/21477"
+  },
+  {
+    "type_": "language",
+    "id": "isl.",
+    "url": "https://ordbokene.no/nob/bm/22287"
+  },
+  {
+    "type_": "language",
+    "id": "nord.",
+    "url": "https://ordbokene.no/nob/bm/25462"
+  },
+  {
+    "type_": "relation",
+    "id": "smbl",
+    "url": "https://ordbokene.no/nob/bm/24733"
+  },
+  {
+    "type_": "domain",
+    "id": "i_med",
+    "url": "https://ordbokene.no/nob/bm/26147"
+  },
+  {
+    "type_": "entity",
+    "id": "no",
+    "url": "https://ordbokene.no/nob/bm/26499"
+  },
+  {
+    "type_": "entity",
+    "id": "subst",
+    "url": "https://ordbokene.no/nob/bm/26514"
+  },
+  {
+    "type_": "entity",
+    "id": "e",
+    "url": "https://ordbokene.no/nob/bm/28227"
+  },
+  {
+    "type_": "language",
+    "id": "arab.",
+    "url": "https://ordbokene.no/nob/bm/28287"
+  },
+  {
+    "type_": "language",
+    "id": "g.lat.",
+    "url": "https://ordbokene.no/nob/bm/28331"
+  },
+  {
+    "type_": "entity",
+    "id": "nederl.",
+    "url": "https://ordbokene.no/nob/bm/28583"
+  },
+  {
+    "type_": "entity",
+    "id": "gr.",
+    "url": "https://ordbokene.no/nob/bm/28684"
+  },
+  {
+    "type_": "language",
+    "id": "g.sv.",
+    "url": "https://ordbokene.no/nob/bm/30045"
+  },
+  {
+    "type_": "domain",
+    "id": "i_idr",
+    "url": "https://ordbokene.no/nob/bm/30188"
+  },
+  {
+    "type_": "entity",
+    "id": "nyno.",
+    "url": "https://ordbokene.no/nob/bm/30507"
+  },
+  {
+    "type_": "entity",
+    "id": "senlat.",
+    "url": "https://ordbokene.no/nob/bm/30919"
+  },
+  {
+    "type_": "entity",
+    "id": "i_gramm",
+    "url": "https://ordbokene.no/nob/bm/31023"
+  },
+  {
+    "type_": "entity",
+    "id": "gramm",
+    "url": "https://ordbokene.no/nob/bm/31213"
+  },
+  {
+    "type_": "grammar",
+    "id": "gramm",
+    "url": "https://ordbokene.no/nob/bm/31226"
+  },
+  {
+    "type_": "domain",
+    "id": "bio",
+    "url": "https://ordbokene.no/nob/bm/31226"
+  },
+  {
+    "type_": "domain",
+    "id": "mat",
+    "url": "https://ordbokene.no/nob/bm/31226"
+  },
+  {
+    "type_": "entity",
+    "id": "sv",
+    "url": "https://ordbokene.no/nob/bm/31936"
+  },
+  {
+    "type_": "language",
+    "id": "g.eng.",
+    "url": "https://ordbokene.no/nob/bm/32202"
+  },
+  {
+    "type_": "entity",
+    "id": "fær.",
+    "url": "https://ordbokene.no/nob/bm/32378"
+  },
+  {
+    "type_": "entity",
+    "id": "mots",
+    "url": "https://ordbokene.no/nob/bm/32433"
+  },
+  {
+    "type_": "entity",
+    "id": "i_jus",
+    "url": "https://ordbokene.no/nob/bm/32743"
+  },
+  {
+    "type_": "entity",
+    "id": "sms_er",
+    "url": "https://ordbokene.no/nob/bm/33223"
+  },
+  {
+    "type_": "entity",
+    "id": "gda",
+    "url": "https://ordbokene.no/nob/bm/34796"
+  },
+  {
+    "type_": "entity",
+    "id": "sm_o_s",
+    "url": "https://ordbokene.no/nob/bm/36776"
+  },
+  {
+    "type_": "entity",
+    "id": "germ.",
+    "url": "https://ordbokene.no/nob/bm/37116"
+  },
+  {
+    "type_": "entity",
+    "id": "arab.",
+    "url": "https://ordbokene.no/nob/bm/37304"
+  },
+  {
+    "type_": "entity",
+    "id": "gen",
+    "url": "https://ordbokene.no/nob/bm/39171"
+  },
+  {
+    "type_": "entity",
+    "id": "pf_pt",
+    "url": "https://ordbokene.no/nob/bm/40533"
+  },
+  {
+    "type_": "entity",
+    "id": "s_adj",
+    "url": "https://ordbokene.no/nob/bm/40533"
+  },
+  {
+    "type_": "entity",
+    "id": "i_typ",
+    "url": "https://ordbokene.no/nob/bm/42063"
+  },
+  {
+    "type_": "entity",
+    "id": "pga",
+    "url": "https://ordbokene.no/nob/bm/42138"
+  },
+  {
+    "type_": "entity",
+    "id": "ty",
+    "url": "https://ordbokene.no/nob/bm/42254"
+  },
+  {
+    "type_": "entity",
+    "id": "i_bibl",
+    "url": "https://ordbokene.no/nob/bm/42610"
+  },
+  {
+    "type_": "domain",
+    "id": "i_kjem",
+    "url": "https://ordbokene.no/nob/bm/43054"
+  },
+  {
+    "type_": "entity",
+    "id": "o_a",
+    "url": "https://ordbokene.no/nob/bm/43720"
+  },
+  {
+    "type_": "entity",
+    "id": "g.fr.",
+    "url": "https://ordbokene.no/nob/bm/44266"
+  },
+  {
+    "type_": "entity",
+    "id": "fr",
+    "url": "https://ordbokene.no/nob/bm/44297"
+  },
+  {
+    "type_": "entity",
+    "id": "lat",
+    "url": "https://ordbokene.no/nob/bm/44297"
+  },
+  {
+    "type_": "entity",
+    "id": "malayisk",
+    "url": "https://ordbokene.no/nob/bm/44371"
+  },
+  {
+    "type_": "entity",
+    "id": "t_forsk_f",
+    "url": "https://ordbokene.no/nob/bm/44376"
+  },
+  {
+    "type_": "entity",
+    "id": "lydord",
+    "url": "https://ordbokene.no/nob/bm/45093"
+  },
+  {
+    "type_": "relation",
+    "id": "i_forb",
+    "url": "https://ordbokene.no/nob/bm/45871"
+  },
+  {
+    "type_": "domain",
+    "id": "o_norr_forh",
+    "url": "https://ordbokene.no/nob/bm/46188"
+  },
+  {
+    "type_": "entity",
+    "id": "mat",
+    "url": "https://ordbokene.no/nob/bm/46455"
+  },
+  {
+    "type_": "entity",
+    "id": "i_kjem",
+    "url": "https://ordbokene.no/nob/bm/47728"
+  },
+  {
+    "type_": "entity",
+    "id": "i_mat",
+    "url": "https://ordbokene.no/nob/bm/47728"
+  },
+  {
+    "type_": "entity",
+    "id": "eng",
+    "url": "https://ordbokene.no/nob/bm/48031"
+  },
+  {
+    "type_": "entity",
+    "id": "oppr",
+    "url": "https://ordbokene.no/nob/bm/49584"
+  },
+  {
+    "type_": "entity",
+    "id": "mus",
+    "url": "https://ordbokene.no/nob/bm/50009"
+  },
+  {
+    "type_": "entity",
+    "id": "navnet",
+    "url": "https://ordbokene.no/nob/bm/50091"
+  },
+  {
+    "type_": "domain",
+    "id": "dial",
+    "url": "https://ordbokene.no/nob/bm/51508"
+  },
+  {
+    "type_": "language",
+    "id": "hebr.",
+    "url": "https://ordbokene.no/nob/bm/51818"
+  },
+  {
+    "type_": "language",
+    "id": "eng",
+    "url": "https://ordbokene.no/nob/bm/52713"
+  },
+  {
+    "type_": "grammar",
+    "id": "s_adj",
+    "url": "https://ordbokene.no/nob/bm/52794"
+  },
+  {
+    "type_": "entity",
+    "id": "da",
+    "url": "https://ordbokene.no/nob/bm/53197"
+  },
+  {
+    "type_": "grammar",
+    "id": "fl",
+    "url": "https://ordbokene.no/nob/bm/53300"
+  },
+  {
+    "type_": "entity",
+    "id": "smh",
+    "url": "https://ordbokene.no/nob/bm/53581"
+  },
+  {
+    "type_": "entity",
+    "id": "sv.",
+    "url": "https://ordbokene.no/nob/bm/53659"
+  },
+  {
+    "type_": "language",
+    "id": "da",
+    "url": "https://ordbokene.no/nob/bm/53671"
+  },
+  {
+    "type_": "domain",
+    "id": "i_dial",
+    "url": "https://ordbokene.no/nob/bm/53723"
+  },
+  {
+    "type_": "entity",
+    "id": "uttr",
+    "url": "https://ordbokene.no/nob/bm/53801"
+  },
+  {
+    "type_": "entity",
+    "id": "intr",
+    "url": "https://ordbokene.no/nob/bm/54385"
+  },
+  {
+    "type_": "relation",
+    "id": "forb_r",
+    "url": "https://ordbokene.no/nob/bm/54481"
+  },
+  {
+    "type_": "grammar",
+    "id": "tr",
+    "url": "https://ordbokene.no/nob/bm/55240"
+  },
+  {
+    "type_": "grammar",
+    "id": "s_subst",
+    "url": "https://ordbokene.no/nob/bm/55846"
+  },
+  {
+    "type_": "relation",
+    "id": "opphl",
+    "url": "https://ordbokene.no/nob/bm/56311"
+  },
+  {
+    "type_": "relation",
+    "id": "sms_er",
+    "url": "https://ordbokene.no/nob/bm/56340"
+  },
+  {
+    "type_": "grammar",
+    "id": "s_adv",
+    "url": "https://ordbokene.no/nob/bm/56510"
+  },
+  {
+    "type_": "rhetoric",
+    "id": "iron",
+    "url": "https://ordbokene.no/nob/bm/56964"
+  },
+  {
+    "type_": "entity",
+    "id": "pr_pt",
+    "url": "https://ordbokene.no/nob/bm/57856"
+  },
+  {
+    "type_": "entity",
+    "id": "eg",
+    "url": "https://ordbokene.no/nob/bm/58670"
+  },
+  {
+    "type_": "domain",
+    "id": "i_bibl",
+    "url": "https://ordbokene.no/nob/bm/59309"
+  },
+  {
+    "type_": "relation",
+    "id": "opph",
+    "url": "https://ordbokene.no/nob/bm/61681"
+  },
+  {
+    "type_": "language",
+    "id": "sv",
+    "url": "https://ordbokene.no/nob/bm/61786"
+  },
+  {
+    "type_": "relation",
+    "id": "i_forb_m",
+    "url": "https://ordbokene.no/nob/bm/62469"
+  },
+  {
+    "type_": "language",
+    "id": "ty",
+    "url": "https://ordbokene.no/nob/bm/62590"
+  },
+  {
+    "type_": "language",
+    "id": "norr",
+    "url": "https://ordbokene.no/nob/bm/62948"
+  },
+  {
+    "type_": "rhetoric",
+    "id": "arkais",
+    "url": "https://ordbokene.no/nob/bm/63117"
+  },
+  {
+    "type_": "entity",
+    "id": "ev",
+    "url": "https://ordbokene.no/nob/bm/64396"
+  },
+  {
+    "type_": "domain",
+    "id": "i_fys",
+    "url": "https://ordbokene.no/nob/bm/65487"
+  },
+  {
+    "type_": "domain",
+    "id": "i_fag",
+    "url": "https://ordbokene.no/nob/bm/70120"
+  },
+  {
+    "type_": "domain",
+    "id": "i_mus",
+    "url": "https://ordbokene.no/nob/bm/66692"
+  },
+  {
+    "type_": "domain",
+    "id": "i_jus",
+    "url": "https://ordbokene.no/nob/bm/67933"
+  },
+  {
+    "type_": "relation",
+    "id": "avl",
+    "url": "https://ordbokene.no/nob/nn/284"
+  },
+  {
+    "type_": "relation",
+    "id": "smh",
+    "url": "https://ordbokene.no/nob/nn/370"
+  },
+  {
+    "type_": "language",
+    "id": "seinlat.",
+    "url": "https://ordbokene.no/nob/nn/459"
+  },
+  {
+    "type_": "entity",
+    "id": "t_d",
+    "url": "https://ordbokene.no/nob/nn/550"
+  },
+  {
+    "type_": "entity",
+    "id": "utr",
+    "url": "https://ordbokene.no/nob/nn/908"
+  },
+  {
+    "type_": "language",
+    "id": "bm.",
+    "url": "https://ordbokene.no/nob/nn/101227"
+  },
+  {
+    "type_": "entity",
+    "id": "bm.",
+    "url": "https://ordbokene.no/nob/nn/119277"
+  },
+  {
+    "type_": "domain",
+    "id": "idr",
+    "url": "https://ordbokene.no/nob/nn/2122"
+  },
+  {
+    "type_": "domain",
+    "id": "mil",
+    "url": "https://ordbokene.no/nob/nn/2445"
+  },
+  {
+    "type_": "domain",
+    "id": "spraakv",
+    "url": "https://ordbokene.no/nob/nn/2693"
+  },
+  {
+    "type_": "entity",
+    "id": "nyl",
+    "url": "https://ordbokene.no/nob/nn/4102"
+  },
+  {
+    "type_": "entity",
+    "id": "tyd",
+    "url": "https://ordbokene.no/nob/nn/5223"
+  },
+  {
+    "type_": "entity",
+    "id": "m.no.",
+    "url": "https://ordbokene.no/nob/nn/8902"
+  },
+  {
+    "type_": "entity",
+    "id": "inf",
+    "url": "https://ordbokene.no/nob/nn/8902"
+  },
+  {
+    "type_": "entity",
+    "id": "inv",
+    "url": "https://ordbokene.no/nob/nn/12693"
+  },
+  {
+    "type_": "entity",
+    "id": "nlat.",
+    "url": "https://ordbokene.no/nob/nn/19716"
+  },
+  {
+    "type_": "domain",
+    "id": "rel",
+    "url": "https://ordbokene.no/nob/nn/20166"
+  },
+  {
+    "type_": "entity",
+    "id": "namnet",
+    "url": "https://ordbokene.no/nob/nn/23927"
+  },
+  {
+    "type_": "entity",
+    "id": "eigl",
+    "url": "https://ordbokene.no/nob/nn/25110"
+  },
+  {
+    "type_": "entity",
+    "id": "utanl",
+    "url": "https://ordbokene.no/nob/nn/26415"
+  },
+  {
+    "type_": "entity",
+    "id": "nord.",
+    "url": "https://ordbokene.no/nob/nn/28965"
+  },
+  {
+    "type_": "entity",
+    "id": "opph",
+    "url": "https://ordbokene.no/nob/nn/30271"
+  },
+  {
+    "type_": "entity",
+    "id": "fys",
+    "url": "https://ordbokene.no/nob/nn/33694"
+  },
+  {
+    "type_": "temporal",
+    "id": "eldre",
+    "url": "https://ordbokene.no/nob/nn/34325"
+  },
+  {
+    "type_": "rhetoric",
+    "id": "neds",
+    "url": "https://ordbokene.no/nob/nn/38840"
+  },
+  {
+    "type_": "entity",
+    "id": "seinlat.",
+    "url": "https://ordbokene.no/nob/nn/40192"
+  },
+  {
+    "type_": "entity",
+    "id": "bibl",
+    "url": "https://ordbokene.no/nob/nn/42277"
+  },
+  {
+    "type_": "language",
+    "id": "fær.",
+    "url": "https://ordbokene.no/nob/nn/42376"
+  },
+  {
+    "type_": "entity",
+    "id": "sms",
+    "url": "https://ordbokene.no/nob/nn/43597"
+  },
+  {
+    "type_": "language",
+    "id": "sp.",
+    "url": "https://ordbokene.no/nob/nn/44755"
+  },
+  {
+    "type_": "language",
+    "id": "namnet",
+    "url": "https://ordbokene.no/nob/nn/47891"
+  },
+  {
+    "type_": "entity",
+    "id": "t_skiln",
+    "url": "https://ordbokene.no/nob/nn/56719"
+  },
+  {
+    "type_": "entity",
+    "id": "latsk",
+    "url": "https://ordbokene.no/nob/nn/60588"
+  },
+  {
+    "type_": "entity",
+    "id": "it",
+    "url": "https://ordbokene.no/nob/nn/61968"
+  },
+  {
+    "type_": "entity",
+    "id": "fork_a",
+    "url": "https://ordbokene.no/nob/nn/65601"
+  },
+  {
+    "type_": "entity",
+    "id": "bm",
+    "url": "https://ordbokene.no/nob/nn/126020"
+  },
+  {
+    "type_": "entity",
+    "id": "m",
+    "url": "https://ordbokene.no/nob/nn/68248"
+  },
+  {
+    "type_": "entity",
+    "id": "kol",
+    "url": "https://ordbokene.no/nob/nn/69940"
+  },
+  {
+    "type_": "language",
+    "id": "jy.",
+    "url": "https://ordbokene.no/nob/nn/70219"
+  },
+  {
+    "type_": "language",
+    "id": "m.h.ty.",
+    "url": "https://ordbokene.no/nob/nn/81247"
+  },
+  {
+    "type_": "grammar",
+    "id": "subs_isk",
+    "url": "https://ordbokene.no/nob/nn/81702"
+  },
+  {
+    "type_": "grammar",
+    "id": "inf",
+    "url": "https://ordbokene.no/nob/nn/85147"
+  },
+  {
+    "type_": "rhetoric",
+    "id": "litt",
+    "url": "https://ordbokene.no/nob/nn/87498"
+  },
+  {
+    "type_": "relation",
+    "id": "sms",
+    "url": "https://ordbokene.no/nob/nn/90408"
+  },
+  {
+    "type_": "entity",
+    "id": "jy.",
+    "url": "https://ordbokene.no/nob/nn/45837"
+  },
+  {
+    "type_": "entity",
+    "id": "rel",
+    "url": "https://ordbokene.no/nob/nn/61513"
+  },
+  {
+    "type_": "entity",
+    "id": "filos",
+    "url": "https://ordbokene.no/nob/nn/64087"
+  }
+]

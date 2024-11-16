@@ -58,6 +58,8 @@ async function date() {
       await dictionaries[dictionary].bulkWrite(operations);
       await dictionaries[dictionary].createIndex({ date: 1 });
     }
+  } catch (error) {
+    console.log(`Error: ${error}`);
   } finally {
     await client.close();
   }
