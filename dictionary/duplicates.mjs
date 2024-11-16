@@ -15,10 +15,12 @@ async function duplicates() {
     const database = client.db("ord");
 
     for (const dictionary of ["bm", "nn"]) {
+      const collection = database.collection(dictionary);
+
       // Remove duplicates (on `id`), keeping those with `{lemmas: {$exists: true}}`
-      const duplicates = await database[dictionary]
+      const duplicates = await collection
         .aggregate([
-          { $group: { _id: "$word", count: { $sum: 1 }, docs: { $push: "$$ROOT" } } },
+          { $group: { _id: "$id", count: { $sum: 1 }, docs: { $push: "$$ROOT" } } },
           { $match: { count: { $gt: 1 } } },
         ])
         .toArray();

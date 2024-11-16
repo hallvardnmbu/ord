@@ -2,20 +2,26 @@ import { MongoClient } from "mongodb";
 import fetch from "node-fetch";
 import fs from "fs";
 
-const INDEX = "https://ord.uib.no/api/articles?w={}&dict=bm,nn&scope=e";
+const INDEX = "https://ord.uib.no/api/articles?w={}&dict={DICT}&scope=e";
 const BM = "https://ord.uib.no/bm/article/{}.json";
 const NN = "https://ord.uib.no/nn/article/{}.json";
 const MAPPING = JSON.parse(fs.readFileSync("dictionary/abbreviations/mappings.json"));
+const TYPES = {
+  definition: "definisjon",
+  example: "eksempel",
+  explanation: "forklaring",
+  sub_article: "underartikkel",
+};
 
 async function id(words, dictionary) {
   const operations = [];
 
   for (const word of words) {
-    const response = await fetch(INDEX.replace("{}", word.word));
+    const response = await fetch(INDEX.replace("{}", word.word).replace("{DICT}", dictionary));
     if (response.status != 200) break;
     const data = await response.json();
 
-    if (data.meta.dictionary.total === 0) {
+    if (data.meta[dictionary].total === 0) {
       operations.push({
         deleteOne: { filter: { word: word.word } },
       });
@@ -102,56 +108,53 @@ function placeholders(content, items) {
   return result.trim();
 }
 
-function formatDefinition(definition) {
-  if (Array.isArray(definition.text)) {
-    return definition.text.flatMap((subDef) => formatDefinition(subDef)).filter(Boolean);
+function formatDefinition(definition, word) {
+  if (Array.isArray(definition.content)) {
+    return definition.content.flatMap((subDef) => formatDefinition(subDef, word)).filter(Boolean);
+  } else if (typeof definition.content === "object" && definition.content !== null) {
+    return [
+      {
+        id: definition.content.id || null,
+        word: word,
+        definitions: definition.content.definitions || definition.content,
+      },
+    ];
   }
-  return [definition.text];
+  return [definition.content];
 }
 
 function processDefinitions(definitions) {
   const formattedDefinitions = {};
+
   for (const definition of definitions) {
-    if (Array.isArray(definition.text)) {
-      for (const element of definition.text) {
-        const formattedDefinition = formatDefinition(element);
-        formattedDefinitions[element.type] = formattedDefinitions[element.type]
-          ? formattedDefinitions[element.type].concat(formattedDefinition)
-          : formattedDefinition;
-      }
+    let formattedDefinition;
+    if (Array.isArray(definition.content)) {
+      formattedDefinition = [processDefinitions(definition.content)];
     } else {
-      const formattedDefinition = formatDefinition(definition);
-      if (definition.word) {
-        formattedDefinition[0].word = definition.word;
-      }
-      formattedDefinitions[definition.type] = formattedDefinitions[definition.type]
-        ? formattedDefinitions[definition.type].concat(formattedDefinition)
-        : formattedDefinition;
+      formattedDefinition = formatDefinition(definition, definition.word);
     }
+    formattedDefinitions[definition.type] = formattedDefinitions[definition.type]
+      ? formattedDefinitions[definition.type].concat(formattedDefinition)
+      : formattedDefinition;
   }
+
   return formattedDefinitions;
 }
 
-function parse(element) {
+function definititons(element) {
   const parsed = {
-    type:
-      {
-        definition: "definisjon",
-        example: "eksempel",
-        explanation: "forklaring",
-        sub_article: "underartikkel",
-      }[element.type_] || element.type_,
+    type: TYPES[element.type_] || element.type_,
   };
 
   if (element.content) {
-    parsed.text = placeholders(element.content, element.items);
+    parsed.content = placeholders(element.content, element.items);
   } else if (element.quote) {
-    parsed.text = placeholders(element.quote.content, element.quote.items);
+    parsed.content = `<i>${placeholders(element.quote.content, element.quote.items)}</i>`;
   } else if (element.elements) {
-    parsed.text = element.elements.map((sub) => parse(sub));
+    parsed.content = element.elements.map((subelement) => definititons(subelement));
   } else if (element.article) {
-    parsed.text = clean(element.article);
-    parsed.text.word =
+    parsed.content = clean(element.article);
+    parsed.word =
       element.article.lemmas && element.article.lemmas.length > 0
         ? element.article.lemmas[0].lemma
         : null;
@@ -173,36 +176,25 @@ function clean(element) {
         : null;
 
     // Parse lemmas and inflections.
-    const lemmas = element.lemmas.map((data) => {
-      const lemma = {};
-
-      const inflection = data.paradigm_info ? data.paradigm_info[0] : null;
-      lemma.inflection = inflection
-        ? {
-            tags: inflection.tags,
-            inflections: inflection.inflection,
-          }
-        : {};
-
-      return lemma;
-    });
-    article.lemmas = lemmas;
+    article.inflection = element.lemmas
+      .map((data) => {
+        const inflection = data.paradigm_info
+          ? data.paradigm_info[data.paradigm_info.length - 1]
+          : null;
+        return inflection ? inflection.inflection : null;
+      })
+      .filter(Boolean);
 
     // Parse etymology.
     article.etymology = element.body.etymology
-      ? element.body.etymology.map((etym) => ({
-          meta: {
-            type: etym.type_,
-            content: etym.content,
-            items: etym.items,
-          },
-          text: placeholders(etym.content, etym.items),
-        }))
+      ? element.body.etymology.map((etym) => placeholders(etym.content, etym.items))
       : [];
 
     // Parse definitions.
     article.definitions = element.body.definitions
-      ? element.body.definitions.flatMap((def) => def.elements.map((element) => parse(element)))
+      ? element.body.definitions.flatMap((def) =>
+          def.elements.map((element) => definititons(element)),
+        )
       : [];
 
     article.definitions = processDefinitions(article.definitions);
@@ -241,13 +233,7 @@ async function describe(words, dictionary) {
       operations.push({
         updateOne: {
           filter: { word: word.word },
-          update: {
-            $set: {
-              id: word.id,
-              wordgroup: word.wordgroup,
-              ...clean(element),
-            },
-          },
+          update: { $set: { ...clean(element) } },
         },
       });
     } catch (error) {
@@ -272,8 +258,8 @@ async function detail() {
     const database = client.db("ord");
 
     // Process each dictionary separately
-    for (const dictionary of ["bm", "nn"]) {
-      const collection = database.collection(`${dictionary}`);
+    for (const dictionary of ["bm"]) {
+      const collection = database.collection(dictionary);
       let words;
       let operations;
 

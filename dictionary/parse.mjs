@@ -3,12 +3,15 @@ import path from "path";
 import { MongoClient } from "mongodb";
 
 const ENCODING = "latin1";
-const DICTIONARIES = ["nob", "nno"];
+const DICTIONARIES = { bm: "nob", nn: "nno" };
 
 // Helper function to read and parse files.
 const parseFile = (dictionary, file, mapper) => {
   try {
-    const content = fs.readFileSync(path.join("dictionary", dictionary, file), ENCODING);
+    const content = fs.readFileSync(
+      path.join("dictionary", DICTIONARIES[dictionary], file),
+      ENCODING,
+    );
     return content
       .trim()
       .split("\n")
@@ -85,42 +88,20 @@ const getWords = (dictionary) => {
   }
 };
 
-// Process both dictionaries and merge results
-const processAllDictionaries = () => {
-  const wordMap = new Map();
+const processDictionary = (dictionary) => {
+  let words = getWords(dictionary);
 
-  DICTIONARIES.forEach((dictionary) => {
-    const dictionaryWords = getWords(dictionary);
+  words = words.filter(
+    (word) =>
+      /^\p{L}+$/u.test(word.word) &&
+      word.word?.length > 5 &&
+      /^(verb|interjeksjon|subjunksjon)\b/.test(word.wordgroup),
+  );
 
-    dictionaryWords.forEach((word) => {
-      if (!wordMap.has(word.word)) {
-        wordMap.set(word.word, {
-          word: word.word,
-          bm: {},
-          nn: {},
-        });
-      }
-
-      // Store dictionary-specific data under the appropriate key
-      wordMap.get(word.word)[{ nob: "bm", nno: "nn" }[dictionary]] = {
-        wordgroup: word.wordgroup,
-      };
-    });
-  });
-
-  return Array.from(wordMap.values());
+  return words;
 };
 
-let words = processAllDictionaries();
-words = words.filter(
-  (word) =>
-    /^\p{L}+$/u.test(word.word) &&
-    word.word?.length > 5 &&
-    (/^(verb|interjeksjon|subjunksjon)\b/.test(word.bm?.wordgroup) ||
-      /^(verb|interjeksjon|subjunksjon)\b/.test(word.nn?.wordgroup)),
-);
-
-async function saveToDatabase(words) {
+async function saveToDatabase(dictionary) {
   const uri = `mongodb+srv://${process.env.MONGO_USR}:${process.env.MONGO_PWD}@ord.c8trc.mongodb.net/?retryWrites=true&w=majority&appName=ord`;
 
   const client = new MongoClient(uri);
@@ -128,14 +109,15 @@ async function saveToDatabase(words) {
   try {
     await client.connect();
     const database = client.db("ord");
-    const collection = database.collection("ordbok");
+    const collection = database.collection(dictionary);
 
     await collection.deleteMany({});
 
+    const words = processDictionary(dictionary);
     const bulkOps = words.map((word) => ({
       updateOne: {
         filter: { word: word.word },
-        update: { $set: word },
+        update: { $set: { word: word.word, wordgroup: word.wordgroup, dictionary: dictionary } },
         upsert: true,
       },
     }));
@@ -148,4 +130,6 @@ async function saveToDatabase(words) {
   }
 }
 
-await saveToDatabase(words).catch(console.error);
+for (const dictionary of ["bm", "nn"]) {
+  await saveToDatabase(dictionary).catch(console.error);
+}
