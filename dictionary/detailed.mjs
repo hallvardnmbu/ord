@@ -1,9 +1,11 @@
 import { MongoClient } from "mongodb";
 import fetch from "node-fetch";
+import fs from "fs";
 
 const INDEX = "https://ord.uib.no/api/articles?w={}&dict=bm,nn&scope=e";
 const BM = "https://ord.uib.no/bm/article/{}.json";
 const NN = "https://ord.uib.no/nn/article/{}.json";
+const MAPPING = JSON.parse(fs.readFileSync("dictionary/abbreviations/mappings.json"));
 
 async function id(words, dictionary) {
   const operations = [];
@@ -35,13 +37,6 @@ async function id(words, dictionary) {
   return operations;
 }
 
-const LANGUAGE = {
-  "lat.": "latin",
-};
-const ENTITY = {
-  o_l: "og lignende",
-};
-
 function placeholders(content, items) {
   if (!content || !items || !items.length) return content;
 
@@ -55,25 +50,25 @@ function placeholders(content, items) {
     // Handle different item types.
     switch (item.type_) {
       case "language":
-        replacement = item.id;
+        replacement = MAPPING["language"][item.id] || item.id;
         break;
       case "relation":
-        replacement = item.id;
+        replacement = MAPPING["relation"][item.id] || item.id;
         break;
       case "grammar":
-        replacement = item.id;
+        replacement = MAPPING["grammar"][item.id] || item.id;
         break;
       case "domain":
-        replacement = item.id;
+        replacement = MAPPING["domain"][item.id] || item.id;
         break;
       case "temporal":
-        replacement = item.id;
+        replacement = MAPPING["temporal"][item.id] || item.id;
         break;
       case "rhetoric":
-        replacement = item.id;
+        replacement = MAPPING["rhetoric"][item.id] || item.id;
         break;
       case "entity":
-        replacement = item.id;
+        replacement = MAPPING["entity"][item.id] || item.id;
         break;
       case "article_ref":
         replacement = item.lemmas[0].lemma;
