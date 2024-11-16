@@ -141,7 +141,6 @@ function parse(element) {
         explanation: "forklaring",
         sub_article: "underartikkel",
       }[element.type_] || element.type_,
-    meta: element,
   };
 
   if (element.content) {
@@ -175,14 +174,7 @@ function clean(element) {
 
     // Parse lemmas and inflections.
     const lemmas = element.lemmas.map((data) => {
-      const lemma = {
-        meta: {
-          lemma: data.lemma,
-          id: data.id,
-          hgno: data.hgno,
-          class: data.inflection_class,
-        },
-      };
+      const lemma = {};
 
       const inflection = data.paradigm_info ? data.paradigm_info[0] : null;
       lemma.inflection = inflection
