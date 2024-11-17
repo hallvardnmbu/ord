@@ -258,7 +258,7 @@ async function detail() {
     const database = client.db("ord");
 
     // Process each dictionary separately
-    for (const dictionary of ["bm"]) {
+    for (const dictionary of ["bm", "nn"]) {
       const collection = database.collection(dictionary);
       let words;
       let operations;
