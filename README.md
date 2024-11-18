@@ -1,25 +1,23 @@
-# ord
+# dagsord.no
 
-To install bun:
+Kodebasen bak [dagsord.no](https://dagsord.no).
 
-```bash
-curl -fsSL https://bun.sh/install | bash
-```
+## Data
 
-or
+Selve ordene er hentet fra [Nasjonalbibliotekets språkbank](https://www.nb.no/sprakbanken/ressurskatalog/).
 
-```bash
-brew install oven-sh/bun/bun
-```
+Tilhørende data er hentet fra [ordbokene.no](https://ordbokene.no) sitt [API](https://v1.ordbokene.no/api).
 
-To install dependencies:
+## Kjør lokalt
 
-```bash
-bun install
-```
+### Hent data
 
-To run:
+1. Sett opp MongoDB.
+2. For plug-and-play, lag en database kalt `ord` og to collections derunder kalt `bm` og `nn`.
+3. Følg stegene i [dictionary/README](dictionary/README.txt).
 
-```bash
-bun run server.js
-```
+### Åpne nettsiden
+
+1. Installer ønsket runtime (à la [Node.js](https://nodejs.org/)).
+2. Installer nødvendige pakker (à la `npm install`).
+3. Kjør `server.js` (à la `node server.js`).
