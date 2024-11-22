@@ -262,12 +262,16 @@ async function detail() {
       const collection = database.collection(dictionary);
       let words;
       let operations;
+      let result;
 
       // Extract the ID for the words
       words = await collection.find({ id: { $exists: false } }, { word: 1, _id: 0 }).toArray();
       operations = await id(words, dictionary);
       if (operations.length > 0) {
-        await collection.bulkWrite(operations);
+        result = await collection.bulkWrite(operations);
+        console.log(
+          `Inserted ${result.insertedCount} new records and modified ${result.modifiedCount} existing ones.`,
+        );
       }
 
       // Extract the details for the words
@@ -276,7 +280,10 @@ async function detail() {
         .toArray();
       operations = await describe(words, dictionary);
       if (operations.length > 0) {
-        await collection.bulkWrite(operations);
+        result = await collection.bulkWrite(operations);
+        console.log(
+          `Inserted ${result.insertedCount} new records and modified ${result.modifiedCount} existing ones.`,
+        );
       }
     }
   } catch (error) {

@@ -94,8 +94,8 @@ const processDictionary = (dictionary) => {
   words = words.filter(
     (word) =>
       /^\p{L}+$/u.test(word.word) &&
-      word.word?.length > 5 &&
-      /^(verb|interjeksjon|subjunksjon)\b/.test(word.wordgroup),
+      word.word?.length > 6 &&
+      !/^(substantiv)\b/.test(word.wordgroup),
   );
 
   return words;
@@ -111,7 +111,8 @@ async function saveToDatabase(dictionary) {
     const database = client.db("ord");
     const collection = database.collection(dictionary);
 
-    await collection.deleteMany({});
+    // Uncomment this for a fresh start.
+    // await collection.deleteMany({});
 
     const words = processDictionary(dictionary);
     const bulkOps = words.map((word) => ({
@@ -122,7 +123,10 @@ async function saveToDatabase(dictionary) {
       },
     }));
 
-    await collection.bulkWrite(bulkOps);
+    const result = await collection.bulkWrite(bulkOps);
+    console.log(
+      `Dictionary ${dictionary} processed. Inserted ${result.insertedCount} new records and modified ${result.modifiedCount} existing ones.`,
+    );
   } catch (error) {
     console.log(`Error: ${error}`);
   } finally {
