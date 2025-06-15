@@ -14,12 +14,7 @@
               <div class="pronunciation">[<%= word.pronunciation %>]</div>
           <% } %>
         </div>
-        <!-- <div class="group"><%= word.wordgroup.includes(',') ? word.wordgroup.split(",")[0] : word.wordgroup %></div> -->
-        <% if (word.definitions && word.definitions.length > 0) { %>
-          <% word.definitions.forEach(function(definition) { %>
-            <div class="group"><%= definition.wordgroup %></div>
-          <% }); %>
-        <% } %>
+        <div class="group"><%= word.wordgroup.includes(',') ? word.wordgroup.split(",")[0] : word.wordgroup %></div>
       </div>
 
       <% if (word.etymology) { %>

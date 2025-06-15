@@ -15,7 +15,7 @@ async function duplicates() {
 
   try {
     await client.connect();
-    const database = client.db("dev");
+    const database = client.db("ord");
 
     for (const dictionary of ["bm", "nn"]) {
       const collection = database.collection(dictionary);

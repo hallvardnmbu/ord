@@ -29,7 +29,7 @@ async function date() {
 
   try {
     await client.connect();
-    const database = client.db("dev");
+    const database = client.db("ord");
     const dictionaries = {
       bm: database.collection("bm"),
       nn: database.collection("nn"),

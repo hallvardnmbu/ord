@@ -37,6 +37,7 @@ async function id(words, dictionary) {
         update: {
           $set: {
             id: data.articles[dictionary] ? data.articles[dictionary][0] : null,
+            ids: data.articles[dictionary] || [],
           },
         },
       },
@@ -258,7 +259,7 @@ async function detail() {
 
   try {
     await client.connect();
-    const database = client.db("dev");
+    const database = client.db("ord");
 
     // Process each dictionary separately
     for (const dictionary of ["bm", "nn"]) {
@@ -273,7 +274,7 @@ async function detail() {
       if (operations.length > 0) {
         result = await collection.bulkWrite(operations);
         console.log(
-          `Inserted ${result.insertedCount} new records and modified ${result.modifiedCount} existing ones.`,
+          `Inserted ${result.insertedCount} new records, modified ${result.modifiedCount} existing ones, and deleted ${result.deletedCount}.`,
         );
       }
 
@@ -285,7 +286,7 @@ async function detail() {
       if (operations.length > 0) {
         result = await collection.bulkWrite(operations);
         console.log(
-          `Inserted ${result.insertedCount} new records and modified ${result.modifiedCount} existing ones.`,
+          `Inserted ${result.insertedCount} new records, modified ${result.modifiedCount} existing ones, and deleted ${result.deletedCount}.`,
         );
       }
     }

@@ -98,8 +98,15 @@ const processDictionary = (dictionary) => {
     (word) =>
       /^\p{L}+$/u.test(word.word) &&
       word.word?.length > 6 &&
-      !/^(substantiv)\b/.test(word.wordgroup),
+      !/^(substantiv)\b/.test(word.wordgroup) &&
+      !word.wordgroup?.includes("_GRUPPE"),
   );
+
+  // Make all words lowercase.
+  words = words.map((word) => ({
+    ...word,
+    word: word.word.toLowerCase(),
+  }));
 
   return words;
 };
@@ -111,7 +118,7 @@ async function saveToDatabase(dictionary) {
 
   try {
     await client.connect();
-    const database = client.db("dev");
+    const database = client.db("ord");
     const collection = database.collection(dictionary);
 
     // Uncomment this for a fresh start.
@@ -128,7 +135,7 @@ async function saveToDatabase(dictionary) {
 
     const result = await collection.bulkWrite(bulkOps);
     console.log(
-      `Dictionary ${dictionary} processed. Inserted ${result.insertedCount} new records and modified ${result.modifiedCount} existing ones.`,
+      `Dictionary ${dictionary} processed. Inserted ${result.insertedCount + result.upsertedCount} new records and modified ${result.modifiedCount} existing ones.`,
     );
   } catch (error) {
     console.log(`Error: ${error}`);
