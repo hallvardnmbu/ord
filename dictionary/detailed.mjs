@@ -1,6 +1,9 @@
 import { MongoClient } from "mongodb";
 import fetch from "node-fetch";
+import dotenv from "dotenv";
 import fs from "fs";
+
+dotenv.config();
 
 const INDEX = "https://ord.uib.no/api/articles?w={}&dict={DICT}&scope=e";
 const BM = "https://ord.uib.no/bm/article/{}.json";
@@ -34,6 +37,7 @@ async function id(words, dictionary) {
         update: {
           $set: {
             id: data.articles[dictionary] ? data.articles[dictionary][0] : null,
+            ids: data.articles[dictionary] || [],
           },
         },
       },
@@ -270,7 +274,7 @@ async function detail() {
       if (operations.length > 0) {
         result = await collection.bulkWrite(operations);
         console.log(
-          `Inserted ${result.insertedCount} new records and modified ${result.modifiedCount} existing ones.`,
+          `Inserted ${result.insertedCount} new records, modified ${result.modifiedCount} existing ones, and deleted ${result.deletedCount}.`,
         );
       }
 
@@ -282,7 +286,7 @@ async function detail() {
       if (operations.length > 0) {
         result = await collection.bulkWrite(operations);
         console.log(
-          `Inserted ${result.insertedCount} new records and modified ${result.modifiedCount} existing ones.`,
+          `Inserted ${result.insertedCount} new records, modified ${result.modifiedCount} existing ones, and deleted ${result.deletedCount}.`,
         );
       }
     }

@@ -1,6 +1,9 @@
 // Remove duplicated `id`'s, keeping the one with `lemmas` if it exists.
 
 import { MongoClient } from "mongodb";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 async function duplicates() {
   const uri =

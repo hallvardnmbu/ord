@@ -1,6 +1,9 @@
 // Assign a random (unique) date to each document in the collection starting from today.
 
 import { MongoClient } from "mongodb";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
