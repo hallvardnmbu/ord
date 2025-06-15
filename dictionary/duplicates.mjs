@@ -1,6 +1,9 @@
 // Remove duplicated `id`'s, keeping the one with `lemmas` if it exists.
 
 import { MongoClient } from "mongodb";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 async function duplicates() {
   const uri =
@@ -12,7 +15,7 @@ async function duplicates() {
 
   try {
     await client.connect();
-    const database = client.db("ord");
+    const database = client.db("dev");
 
     for (const dictionary of ["bm", "nn"]) {
       const collection = database.collection(dictionary);

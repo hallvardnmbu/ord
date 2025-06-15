@@ -1,9 +1,12 @@
 import fs from "fs";
 import path from "path";
+import dotenv from "dotenv";
 import { MongoClient } from "mongodb";
 
 const ENCODING = "latin1";
 const DICTIONARIES = { bm: "nob", nn: "nno" };
+
+dotenv.config();
 
 // Helper function to read and parse files.
 const parseFile = (dictionary, file, mapper) => {
@@ -108,7 +111,7 @@ async function saveToDatabase(dictionary) {
 
   try {
     await client.connect();
-    const database = client.db("ord");
+    const database = client.db("dev");
     const collection = database.collection(dictionary);
 
     // Uncomment this for a fresh start.

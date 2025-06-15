@@ -1,6 +1,9 @@
 import { MongoClient } from "mongodb";
 import fetch from "node-fetch";
+import dotenv from "dotenv";
 import fs from "fs";
+
+dotenv.config();
 
 const INDEX = "https://ord.uib.no/api/articles?w={}&dict={DICT}&scope=e";
 const BM = "https://ord.uib.no/bm/article/{}.json";
@@ -255,7 +258,7 @@ async function detail() {
 
   try {
     await client.connect();
-    const database = client.db("ord");
+    const database = client.db("dev");
 
     // Process each dictionary separately
     for (const dictionary of ["bm", "nn"]) {

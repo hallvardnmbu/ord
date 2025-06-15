@@ -32,7 +32,7 @@ try {
   console.error("Failed to connect to MongoDB", err);
   process.exit(1);
 }
-const dbWord = client.db("ord");
+const dbWord = client.db("dev");
 let collectionWord = {
   bm: dbWord.collection("bm"),
   nn: dbWord.collection("nn"),

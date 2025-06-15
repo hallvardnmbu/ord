@@ -29,7 +29,7 @@ export async function ordAPP() {
       },
     },
   );
-  const dbWord = client.db("ord");
+  const dbWord = client.db("dev");
   let collectionWord = {
     bm: dbWord.collection("bm"),
     nn: dbWord.collection("nn"),
