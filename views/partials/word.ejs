@@ -61,7 +61,7 @@
                 <% if (key === "underartikkel") { %>
                   <% for (const element of value) { %>
                     <div class="definition" style="--indent: <%= indent %>;">
-                      <a href="https://ordbokene.no/nob/bm/<%= element.id %>" target="_blank"><%= element.word %></a>
+                      <a href="https://ordbokene.no/<%= dictionaryType === 'bm' ? 'nob' : 'nno' %>/<%= dictionaryType %>/<%= element.id %>" target="_blank"><%= element.word %></a>
                     </div>
                     <%= renderDefinitions(element.definitions, indent, dictionaryType) %>
                   <% } %>
@@ -83,7 +83,7 @@
             <% if (type === "underartikkel") { %>
               <% for (const element of values) { %>
                 <div class="define" style="--indent: 2;">
-                  <a href="https://ordbokene.no/nob/bm/<%= element.id %>" target="_blank"><%= element.word %></a>
+                  <a href="https://ordbokene.no/<%= word.dictionary === 'bm' ? 'nob' : 'nno' %>/<%= word.dictionary %>/<%= element.id %>" target="_blank"><%= element.word %></a>
                 </div>
                 <%= renderDefinitions(element.definitions, 1, word.dictionary) %>
               <% } %>
