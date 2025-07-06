@@ -418,7 +418,7 @@ function renderWord(word) {
 
 const ordApp = new Elysia()
   .use(staticPlugin({
-    assets: "public",
+    assets: "src/other/ord/public",
     prefix: "/"
   }))
   .use(html())
