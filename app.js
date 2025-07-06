@@ -564,8 +564,7 @@ const ordApp = new Elysia()
         error: error.message,
       });
     }
-  })
-  .listen(3000);
+  });
 
 export default ordApp;
 
