@@ -3,6 +3,13 @@ import { staticPlugin } from "@elysiajs/static";
 import { html } from "@elysiajs/html";
 import { MongoClient, ServerApiVersion } from "mongodb";
 import dotenv from "dotenv";
+import { dirname, join } from 'path';
+
+let __dirname = dirname(new URL(import.meta.url).pathname);
+__dirname = __dirname.startsWith('/') && __dirname.includes(':') 
+  ? __dirname.replace(/^\/([A-Z]):/, '$1:\\').replace(/\//g, '\\')
+  : __dirname;
+
 
 dotenv.config();
 
@@ -418,7 +425,7 @@ function renderWord(word) {
 
 const ordApp = new Elysia()
   .use(staticPlugin({
-    assets: "src/other/ord/public",
+    assets: join(__dirname, "public"),
     prefix: "/"
   }))
   .use(html())
