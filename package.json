@@ -2,11 +2,10 @@
   "name": "ord",
   "module": "app.js",
   "dependencies": {
-    "elysia": "^1.0.0",
-    "@elysiajs/static": "^1.0.0",
     "@elysiajs/html": "^1.0.0",
-    "mongodb": "^6.10.0",
-    "dotenv": "^16.5.0"
+    "@elysiajs/static": "^1.0.0",
+    "elysia": "^1.0.0",
+    "mongodb": "^6.10.0"
   },
   "devDependencies": {
     "@types/bun": "latest"
