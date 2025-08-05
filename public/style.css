@@ -1,4 +1,5 @@
 :root {
+    --font-mono: "Roboto Mono", monospace;
     --padding: 10px;
     --height: 40px;
 
@@ -17,7 +18,7 @@
 body {
     background-color: var(--background);
     color: var(--contrast);
-    font-family: monospace;
+    font-family: var(--font-mono);
     font-size: 1.1em;
 
     display: flex;
@@ -120,7 +121,7 @@ hr {
     min-height: var(--height);
     padding: var(--padding);
     text-align: left;
-    font-family: monospace;
+    font-family: var(--font-mono);
     font-size: 1em;
     border: none;
     border-top: 1px solid var(--contrast);
@@ -187,7 +188,7 @@ input {
     border: none;
     border-radius: 0;
     border-right: 1px solid var(--contrast);
-    font-family: monospace;
+    font-family: var(--font-mono);
     background-color: var(--background);
     color: var(--contrast);
 }
@@ -206,7 +207,7 @@ select {
     padding: var(--padding);
     color: var(--contrast);
     background-color: var(--tint);
-    font-family: monospace;
+    font-family: var(--font-mono);
     cursor: pointer;
 
     border: none;
