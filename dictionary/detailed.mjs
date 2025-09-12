@@ -8,7 +8,9 @@ dotenv.config();
 const INDEX = "https://ord.uib.no/api/articles?w={}&dict={DICT}&scope=e";
 const BM = "https://ord.uib.no/bm/article/{}.json";
 const NN = "https://ord.uib.no/nn/article/{}.json";
-const MAPPING = JSON.parse(fs.readFileSync("dictionary/abbreviations/mappings.json"));
+const MAPPING = JSON.parse(
+  fs.readFileSync("dictionary/abbreviations/mappings.json"),
+);
 const TYPES = {
   definition: "definisjon",
   example: "eksempel",
@@ -20,7 +22,9 @@ async function id(words, dictionary) {
   const operations = [];
 
   for (const word of words) {
-    const response = await fetch(INDEX.replace("{}", word.word).replace("{DICT}", dictionary));
+    const response = await fetch(
+      INDEX.replace("{}", word.word).replace("{DICT}", dictionary),
+    );
     if (response.status != 200) break;
     const data = await response.json();
 
@@ -84,7 +88,9 @@ function placeholders(content, items) {
         replacement = item.lemmas[0].lemma;
         break;
       case "usage":
-        replacement = item.text.includes("$") ? placeholders(item.text, item.items) : item.text;
+        replacement = item.text.includes("$")
+          ? placeholders(item.text, item.items)
+          : item.text;
         break;
       case "explanation":
         replacement = placeholders(item.content, item.items);
@@ -114,8 +120,13 @@ function placeholders(content, items) {
 
 function formatDefinition(definition, word) {
   if (Array.isArray(definition.content)) {
-    return definition.content.flatMap((subDef) => formatDefinition(subDef, word)).filter(Boolean);
-  } else if (typeof definition.content === "object" && definition.content !== null) {
+    return definition.content
+      .flatMap((subDef) => formatDefinition(subDef, word))
+      .filter(Boolean);
+  } else if (
+    typeof definition.content === "object" &&
+    definition.content !== null
+  ) {
     return [
       {
         id: definition.content.id || null,
@@ -137,7 +148,9 @@ function processDefinitions(definitions) {
     } else {
       formattedDefinition = formatDefinition(definition, definition.word);
     }
-    formattedDefinitions[definition.type] = formattedDefinitions[definition.type]
+    formattedDefinitions[definition.type] = formattedDefinitions[
+      definition.type
+    ]
       ? formattedDefinitions[definition.type].concat(formattedDefinition)
       : formattedDefinition;
   }
@@ -155,7 +168,9 @@ function definititons(element) {
   } else if (element.quote) {
     parsed.content = `<i>${placeholders(element.quote.content, element.quote.items)}</i>`;
   } else if (element.elements) {
-    parsed.content = element.elements.map((subelement) => definititons(subelement));
+    parsed.content = element.elements.map((subelement) =>
+      definititons(subelement),
+    );
   } else if (element.article) {
     parsed.content = clean(element.article);
     parsed.word =
@@ -176,7 +191,10 @@ function clean(element) {
     // Parse pronunciation.
     article.pronunciation =
       element.body.pronunciation && element.body.pronunciation.length > 0
-        ? placeholders(element.body.pronunciation[0].content, element.body.pronunciation[0].items)
+        ? placeholders(
+            element.body.pronunciation[0].content,
+            element.body.pronunciation[0].items,
+          )
         : null;
 
     // Parse lemmas and inflections.
@@ -191,7 +209,9 @@ function clean(element) {
 
     // Parse etymology.
     article.etymology = element.body.etymology
-      ? element.body.etymology.map((etym) => placeholders(etym.content, etym.items))
+      ? element.body.etymology.map((etym) =>
+          placeholders(etym.content, etym.items),
+        )
       : [];
 
     // Parse definitions.
@@ -251,7 +271,7 @@ async function describe(words, dictionary) {
 
 async function detail() {
   const uri =
-    `mongodb+srv://${process.env.MONGO_USR}:${process.env.MONGO_PWD}` +
+    `mongodb+srv://${process.env.MONGO_USR.trim()}:${process.env.MONGO_PWD.trim()}` +
     "@ord.c8trc.mongodb.net/" +
     "?retryWrites=true&w=majority&appName=ord";
 
@@ -269,7 +289,9 @@ async function detail() {
       let result;
 
       // Extract the ID for the words
-      words = await collection.find({ id: { $exists: false } }, { word: 1, _id: 0 }).toArray();
+      words = await collection
+        .find({ id: { $exists: false } }, { word: 1, _id: 0 })
+        .toArray();
       operations = await id(words, dictionary);
       if (operations.length > 0) {
         result = await collection.bulkWrite(operations);

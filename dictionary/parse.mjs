@@ -46,7 +46,17 @@ const parseParadigm = (dictionary) =>
   parseFile(
     dictionary,
     "paradigme.txt",
-    ([_, paradigmid, wordgroup, boygroup, wordclass, classinfo, description, doeme, id]) => ({
+    ([
+      _,
+      paradigmid,
+      wordgroup,
+      boygroup,
+      wordclass,
+      classinfo,
+      description,
+      doeme,
+      id,
+    ]) => ({
       paradigmid: parseInt(paradigmid, 10),
       wordgroup,
       boygroup,
@@ -112,7 +122,7 @@ const processDictionary = (dictionary) => {
 };
 
 async function saveToDatabase(dictionary) {
-  const uri = `mongodb+srv://${process.env.MONGO_USR}:${process.env.MONGO_PWD}@ord.c8trc.mongodb.net/?retryWrites=true&w=majority&appName=ord`;
+  const uri = `mongodb+srv://${process.env.MONGO_USR.trim()}:${process.env.MONGO_PWD.trim()}@ord.c8trc.mongodb.net/?retryWrites=true&w=majority&appName=ord`;
 
   const client = new MongoClient(uri);
 
@@ -128,7 +138,13 @@ async function saveToDatabase(dictionary) {
     const bulkOps = words.map((word) => ({
       updateOne: {
         filter: { word: word.word },
-        update: { $set: { word: word.word, wordgroup: word.wordgroup, dictionary: dictionary } },
+        update: {
+          $set: {
+            word: word.word,
+            wordgroup: word.wordgroup,
+            dictionary: dictionary,
+          },
+        },
         upsert: true,
       },
     }));

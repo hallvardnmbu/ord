@@ -2,16 +2,16 @@ import { Elysia } from "elysia";
 import { staticPlugin } from "@elysiajs/static";
 import { html } from "@elysiajs/html";
 import { MongoClient, ServerApiVersion } from "mongodb";
-import { dirname, join } from 'path';
+import { dirname, join } from "path";
 
 let __dirname = dirname(new URL(import.meta.url).pathname);
-__dirname = __dirname.startsWith('/') && __dirname.includes(':') 
-  ? __dirname.replace(/^\/([A-Z]):/, '$1:\\').replace(/\//g, '\\')
-  : __dirname;
-
+__dirname =
+  __dirname.startsWith("/") && __dirname.includes(":")
+    ? __dirname.replace(/^\/([A-Z]):/, "$1:\\").replace(/\//g, "\\")
+    : __dirname;
 
 const client = await MongoClient.connect(
-  `mongodb+srv://${process.env.MONGO_USR}:${process.env.MONGO_PWD}@ord.c8trc.mongodb.net/?retryWrites=true&w=majority&appName=ord`,
+  `mongodb+srv://${process.env.MONGO_USR.trim()}:${process.env.MONGO_PWD.trim()}@ord.c8trc.mongodb.net/?retryWrites=true&w=majority&appName=ord`,
   {
     serverApi: {
       version: ServerApiVersion.v1,
@@ -29,7 +29,7 @@ let collectionWord = {
 // Helper function to render the page template
 function renderPage(data) {
   const { words, dictionary, date, week, day, error } = data;
-  
+
   return `<!doctype html>
 <html lang="nb">
     <head>
@@ -58,81 +58,87 @@ function renderPage(data) {
     </head>
     <body>
         <header>
-          ${day && week && date ? 
-            `<div>${day.charAt(0).toUpperCase() + day.slice(1)}</div>
+          ${
+            day && week && date
+              ? `<div>${day.charAt(0).toUpperCase() + day.slice(1)}</div>
             <div>•</div>
             <div>Uke ${week}</div>
             <div>•</div>
-            <div>${date}</div>` : 
-            day ? 
-            `<div>Søkte etter <b>${day}</b>.</div>` : 
-            `<div></div>`
+            <div>${date}</div>`
+              : day
+                ? `<div>Søkte etter <b>${day}</b>.</div>`
+                : `<div></div>`
           }
         </header>
 
         <main id="words">
-            ${words && words.length > 0 ? 
-              words.map(item => {
-                const dictName = {bm: "bokmåls", nn: "nynorsk"}[item.dictionary];
-                let heading = "";
-                
-                if (day && week && date) {
-                  heading = `Dagens ${dictName}ord: <b><a href="https://ordbokene.no/nob/${item.dictionary}/${item.id}" target="_blank">${item.word}</a></b>.`;
-                } else if (day) {
-                  heading = `Fant ord: <b><a href="https://ordbokene.no/nob/${item.dictionary}/${item.id}" target="_blank">${item.word}</a></b> i ${dictName}ordboka.`;
-                } else {
-                  heading = `Tilfeldig ord: <b><a href="https://ordbokene.no/nob/${item.dictionary}/${item.id}" target="_blank">${item.word}</a></b> i ${dictName}ordboka.`;
-                }
-                
-                return `<div class="heading">${heading}</div>
+            ${
+              words && words.length > 0
+                ? words
+                    .map((item) => {
+                      const dictName = { bm: "bokmåls", nn: "nynorsk" }[
+                        item.dictionary
+                      ];
+                      let heading = "";
+
+                      if (day && week && date) {
+                        heading = `Dagens ${dictName}ord: <b><a href="https://ordbokene.no/nob/${item.dictionary}/${item.id}" target="_blank">${item.word}</a></b>.`;
+                      } else if (day) {
+                        heading = `Fant ord: <b><a href="https://ordbokene.no/nob/${item.dictionary}/${item.id}" target="_blank">${item.word}</a></b> i ${dictName}ordboka.`;
+                      } else {
+                        heading = `Tilfeldig ord: <b><a href="https://ordbokene.no/nob/${item.dictionary}/${item.id}" target="_blank">${item.word}</a></b> i ${dictName}ordboka.`;
+                      }
+
+                      return `<div class="heading">${heading}</div>
                 ${renderWord(item)}`;
-              }).join('') : 
-              error ? 
-              `<section><div class="message">Noe gikk galt: ${error}</div></section>` : 
-              `<section><div class="message">Fant ikke dette ordet i databasen.</div></section>`
+                    })
+                    .join("")
+                : error
+                  ? `<section><div class="message">Noe gikk galt: ${error}</div></section>`
+                  : `<section><div class="message">Fant ikke dette ordet i databasen.</div></section>`
             }
         </main>
 
         <div id="wide" class="find">
           <form action="/" method="get">
-            <input type="hidden" name="dictionary" value="${dictionary || 'bm'}">
+            <input type="hidden" name="dictionary" value="${dictionary || "bm"}">
             <button type="submit">dagens</button>
           </form>
 
           <form>
             <div class="select">
               <select name="dictionary">
-                <option value="bm" ${dictionary === 'bm' ? 'selected' : ''}>bokmål</option>
-                <option value="nn" ${dictionary === 'nn' ? 'selected' : ''}>nynorsk</option>
-                <option value="bm,nn" ${dictionary === 'bm,nn' ? 'selected' : ''}>begge</option>
+                <option value="bm" ${dictionary === "bm" ? "selected" : ""}>bokmål</option>
+                <option value="nn" ${dictionary === "nn" ? "selected" : ""}>nynorsk</option>
+                <option value="bm,nn" ${dictionary === "bm,nn" ? "selected" : ""}>begge</option>
               </select>
             </div>
           </form>
 
           <form action="/search" method="get">
-            <input type="hidden" name="dictionary" value="${dictionary || 'bm'}">
+            <input type="hidden" name="dictionary" value="${dictionary || "bm"}">
             <input type="text" name="word" placeholder="ord" />
             <button type="submit">søk</button>
           </form>
 
           <form action="/random" method="get">
-            <input type="hidden" name="dictionary" value="${dictionary || 'bm'}">
+            <input type="hidden" name="dictionary" value="${dictionary || "bm"}">
             <button type="submit">tilfeldig</button>
           </form>
         </div>
         <div id="long" class="find">
           <div>
             <form action="/" method="get">
-              <input type="hidden" name="dictionary" value="${dictionary || 'bm'}">
+              <input type="hidden" name="dictionary" value="${dictionary || "bm"}">
               <button type="submit">dagens</button>
             </form>
 
             <form>
               <div class="select">
                 <select name="dictionary">
-                  <option value="bm" ${dictionary === 'bm' ? 'selected' : ''}>bokmål</option>
-                  <option value="nn" ${dictionary === 'nn' ? 'selected' : ''}>nynorsk</option>
-                  <option value="bm,nn" ${dictionary === 'bm,nn' ? 'selected' : ''}>begge</option>
+                  <option value="bm" ${dictionary === "bm" ? "selected" : ""}>bokmål</option>
+                  <option value="nn" ${dictionary === "nn" ? "selected" : ""}>nynorsk</option>
+                  <option value="bm,nn" ${dictionary === "bm,nn" ? "selected" : ""}>begge</option>
                 </select>
               </div>
             </form>
@@ -140,12 +146,12 @@ function renderPage(data) {
 
           <div>
             <form action="/random" method="get">
-              <input type="hidden" name="dictionary" value="${dictionary || 'bm'}">
+              <input type="hidden" name="dictionary" value="${dictionary || "bm"}">
               <button type="submit">tilfeldig</button>
             </form>
 
             <form action="/search" method="get">
-              <input type="hidden" name="dictionary" value="${dictionary || 'bm'}">
+              <input type="hidden" name="dictionary" value="${dictionary || "bm"}">
               <input type="text" name="word" placeholder="ord" />
               <button type="submit">søk</button>
             </form>
@@ -222,15 +228,19 @@ function renderWord(word) {
   }
 
   const keyMappings = {
-    'nn': {
-      'eksempel': 'døme',
-      'forklaring': 'tyding og bruk',
-      'underartikkel': 'faste uttrykk'
-    }
+    nn: {
+      eksempel: "døme",
+      forklaring: "tyding og bruk",
+      underartikkel: "faste uttrykk",
+    },
   };
 
   function translateKey(key, dictionaryType) {
-    if (dictionaryType && keyMappings[dictionaryType] && keyMappings[dictionaryType][key]) {
+    if (
+      dictionaryType &&
+      keyMappings[dictionaryType] &&
+      keyMappings[dictionaryType][key]
+    ) {
       return keyMappings[dictionaryType][key];
     }
     return key;
@@ -238,26 +248,32 @@ function renderWord(word) {
 
   function renderDefinitions(data, indent = 1, dictionaryType = "bm") {
     if (Array.isArray(data)) {
-      return data.map(item => {
-        if (typeof item === 'object' && item !== null) {
-          return renderDefinitions(item, indent, dictionaryType);
-        } else {
-          return `<div class="definition" style="--indent: ${indent};">${item}</div>`;
-        }
-      }).join('');
-    } else if (typeof data === 'object' && data !== null) {
-      let result = '';
+      return data
+        .map((item) => {
+          if (typeof item === "object" && item !== null) {
+            return renderDefinitions(item, indent, dictionaryType);
+          } else {
+            return `<div class="definition" style="--indent: ${indent};">${item}</div>`;
+          }
+        })
+        .join("");
+    } else if (typeof data === "object" && data !== null) {
+      let result = "";
       for (const [key, value] of Object.entries(data)) {
         indent += 1;
         const translatedKey = translateKey(key, dictionaryType);
         result += `<div class="define" style="--indent: ${indent};"><b>${translatedKey}</b></div>`;
-        
+
         if (key === "underartikkel") {
           for (const element of value) {
             result += `<div class="definition" style="--indent: ${indent};">
               <a href="https://ordbokene.no/nob/${dictionaryType}/${element.id}" target="_blank">${element.word}</a>
             </div>`;
-            result += renderDefinitions(element.definitions, indent, dictionaryType);
+            result += renderDefinitions(
+              element.definitions,
+              indent,
+              dictionaryType,
+            );
           }
         } else if (key === "eksempel") {
           result += renderDefinitions(value, indent, dictionaryType);
@@ -276,15 +292,17 @@ function renderWord(word) {
       <div class="top">
         <div class="words">
           <div class="word">${word.word}</div>
-          ${word.pronunciation && word.pronunciation.length > 0 ? 
-            `<div class="pronunciation">[${word.pronunciation}]</div>` : ''
+          ${
+            word.pronunciation && word.pronunciation.length > 0
+              ? `<div class="pronunciation">[${word.pronunciation}]</div>`
+              : ""
           }
         </div>
-        <div class="group">${word.wordgroup.includes(',') ? word.wordgroup.split(",")[0] : word.wordgroup}</div>
+        <div class="group">${word.wordgroup.includes(",") ? word.wordgroup.split(",")[0] : word.wordgroup}</div>
       </div>`;
 
   if (word.etymology) {
-    word.etymology.forEach(etymology => {
+    word.etymology.forEach((etymology) => {
       wordHtml += `<div class="etymology">${etymology}</div>`;
     });
   }
@@ -295,13 +313,17 @@ function renderWord(word) {
     for (const [type, values] of Object.entries(word.definitions)) {
       const translatedType = translateKey(type, word.dictionary);
       wordHtml += `<div class="define"><b>${translatedType}</b></div>`;
-      
+
       if (type === "underartikkel") {
         for (const element of values) {
           wordHtml += `<div class="define" style="--indent: 2;">
             <a href="https://ordbokene.no/nob/${word.dictionary}/${element.id}" target="_blank">${element.word}</a>
           </div>`;
-          wordHtml += renderDefinitions(element.definitions, 1, word.dictionary);
+          wordHtml += renderDefinitions(
+            element.definitions,
+            1,
+            word.dictionary,
+          );
         }
       } else {
         wordHtml += renderDefinitions(values, 1, word.dictionary);
@@ -312,62 +334,62 @@ function renderWord(word) {
   // Add inflection table if available
   if (word.inflection && word.inflection[0] && word.inflection[0].length > 1) {
     const inflectionMappings = {
-      'bm': {
-        'Inf': 'infinitiv',
-        'Pres': 'presens',
-        'Past': 'preteritum',
-        'Imp': 'imperativ',
-        '<PerfPart>': 'perfektum partisipp',
-        'PerfPart': 'perfektum partisipp',
-        'Perf Part': 'perfektum partisipp',
-        '<PresPart>': 'presens partisipp',
-        'PresPart': 'presens partisipp',
-        'Pres Part': 'presens partisipp',
-        'Sing': 'entall',
-        'Pos': '',
-        'Ind': '',
-        'Adj': '',
-        '<SPass>': '',
-        'Cmp': 'komparativ',
-        'Sup': 'superlativ',
-        'Pass': 'passiv',
-        'Plur': 'flertall',
-        'Masc': 'hankjønn',
-        'Fem': 'hunkjønn',
-        'Masc/Fem': 'hankjønn/hunkjønn',
-        'Neut': 'intetkjønn',
-        'Neuter': 'intetkjønn',
-        'Def': 'bestemt',
-        'Indef': 'ubestemt'
+      bm: {
+        Inf: "infinitiv",
+        Pres: "presens",
+        Past: "preteritum",
+        Imp: "imperativ",
+        "<PerfPart>": "perfektum partisipp",
+        PerfPart: "perfektum partisipp",
+        "Perf Part": "perfektum partisipp",
+        "<PresPart>": "presens partisipp",
+        PresPart: "presens partisipp",
+        "Pres Part": "presens partisipp",
+        Sing: "entall",
+        Pos: "",
+        Ind: "",
+        Adj: "",
+        "<SPass>": "",
+        Cmp: "komparativ",
+        Sup: "superlativ",
+        Pass: "passiv",
+        Plur: "flertall",
+        Masc: "hankjønn",
+        Fem: "hunkjønn",
+        "Masc/Fem": "hankjønn/hunkjønn",
+        Neut: "intetkjønn",
+        Neuter: "intetkjønn",
+        Def: "bestemt",
+        Indef: "ubestemt",
       },
-      'nn': {
-        'Inf': 'infinitiv',
-        'Pres': 'presens',
-        'Past': 'preteritum',
-        'Imp': 'imperativ',
-        '<PerfPart>': 'perfektum partisipp',
-        'PerfPart': 'perfektum partisipp',
-        'Perf Part': 'perfektum partisipp',
-        '<PresPart>': 'presens partisipp',
-        'PresPart': 'presens partisipp',
-        'Pres Part': 'presens partisipp',
-        'Sing': 'eintal',
-        'Pos': '',
-        'Ind': '',
-        'Adj': '',
-        '<SPass>': '',
-        'Cmp': 'komparativ',
-        'Sup': 'superlativ',
-        'Pass': 'passiv',
-        'Plur': 'fleirtal',
-        'Masc': 'hankjønn',
-        'Fem': 'hokjønn',
-        'Masc/Fem': 'hankjønn/hokjønn',
-        'Neut': 'inkjekjønn',
-        'Neuter': 'inkjekjønn',
-        'Def': 'bunden',
-        'Indef': 'ubunden'
-      }
+      nn: {
+        Inf: "infinitiv",
+        Pres: "presens",
+        Past: "preteritum",
+        Imp: "imperativ",
+        "<PerfPart>": "perfektum partisipp",
+        PerfPart: "perfektum partisipp",
+        "Perf Part": "perfektum partisipp",
+        "<PresPart>": "presens partisipp",
+        PresPart: "presens partisipp",
+        "Pres Part": "presens partisipp",
+        Sing: "eintal",
+        Pos: "",
+        Ind: "",
+        Adj: "",
+        "<SPass>": "",
+        Cmp: "komparativ",
+        Sup: "superlativ",
+        Pass: "passiv",
+        Plur: "fleirtal",
+        Masc: "hankjønn",
+        Fem: "hokjønn",
+        "Masc/Fem": "hankjønn/hokjønn",
+        Neut: "inkjekjønn",
+        Neuter: "inkjekjønn",
+        Def: "bunden",
+        Indef: "ubunden",
+      },
     };
 
     function processInflection(tag, dictionary) {
@@ -375,7 +397,10 @@ function renderWord(word) {
       const tags = tag.split(" ");
       for (const key of tags) {
         if (inflectionMappings[dictionary].hasOwnProperty(key)) {
-          updatedTag = updatedTag.replace(key, inflectionMappings[dictionary][key]);
+          updatedTag = updatedTag.replace(
+            key,
+            inflectionMappings[dictionary][key],
+          );
         }
       }
       return updatedTag.trim();
@@ -403,15 +428,20 @@ function renderWord(word) {
 
       <table class="inflection" style="display: none;" id="inflection-${word.dictionary}">
         <tbody>
-          ${word.inflection[0].map(inflect => {
-            if (inflect.word_form && !(inflect.tags ? inflect.tags.join(' ') : '').includes(' Pass')) {
-              return `<tr>
+          ${word.inflection[0]
+            .map((inflect) => {
+              if (
+                inflect.word_form &&
+                !(inflect.tags ? inflect.tags.join(" ") : "").includes(" Pass")
+              ) {
+                return `<tr>
                 <td class="word-cell">${inflect.word_form}</td>
-                <td class="form-cell">${processInflection(inflect.tags ? inflect.tags.join(' ') : '', word.dictionary)}</td>
+                <td class="form-cell">${processInflection(inflect.tags ? inflect.tags.join(" ") : "", word.dictionary)}</td>
               </tr>`;
-            }
-            return '';
-          }).join('')}
+              }
+              return "";
+            })
+            .join("")}
         </tbody>
       </table>`;
   }
@@ -421,15 +451,17 @@ function renderWord(word) {
 }
 
 const ordApp = new Elysia()
-  .use(staticPlugin({
-    assets: join(__dirname, "public"),
-    prefix: "/"
-  }))
+  .use(
+    staticPlugin({
+      assets: join(__dirname, "public"),
+      prefix: "/",
+    }),
+  )
   .use(html())
   .get("/", async ({ query }) => {
     const dictionary = query.dictionary || "bm,nn";
     const date = new Date();
-    
+
     const getWeek = (date) => {
       const target = new Date(date.valueOf());
       const dayNum = date.getDay() || 7;
@@ -438,9 +470,11 @@ const ordApp = new Elysia()
       const weekNo = Math.ceil(((target - yearStart) / 86400000 + 1) / 7);
       return weekNo;
     };
-    
+
     const week = getWeek(date);
-    const day = date.toLocaleDateString("no-NB", { weekday: "long" }).toLowerCase();
+    const day = date
+      .toLocaleDateString("no-NB", { weekday: "long" })
+      .toLowerCase();
     const today = date
       .toLocaleDateString("no-NB", {
         day: "2-digit",
@@ -453,7 +487,9 @@ const ordApp = new Elysia()
     try {
       const words = [];
       for (const dict of dictionary.split(",")) {
-        words.push(...(await collectionWord[dict].find({ date: today }).toArray()));
+        words.push(
+          ...(await collectionWord[dict].find({ date: today }).toArray()),
+        );
       }
 
       return renderPage({
@@ -479,7 +515,7 @@ const ordApp = new Elysia()
     if (!query.word || typeof query.word !== "string" || !query.word.trim()) {
       return new Response(null, { status: 301, headers: { Location: "/" } });
     }
-    
+
     const word = query.word.trim().toLowerCase();
     const dictionary = query.dictionary || "bm,nn";
 
@@ -547,7 +583,11 @@ const ordApp = new Elysia()
     try {
       const words = [];
       for (const dict of dictionary.split(",")) {
-        words.push(...(await collectionWord[dict].aggregate([{ $sample: { size: 1 } }]).toArray()));
+        words.push(
+          ...(await collectionWord[dict]
+            .aggregate([{ $sample: { size: 1 } }])
+            .toArray()),
+        );
       }
 
       return renderPage({
@@ -573,6 +613,6 @@ const ordApp = new Elysia()
 export default ordApp;
 
 if (import.meta.main) {
-    ordApp.listen(3000);
-    console.log(`http://${ordApp.server?.hostname}:${ordApp.server?.port}`);
+  ordApp.listen(3000);
+  console.log(`http://${ordApp.server?.hostname}:${ordApp.server?.port}`);
 }
