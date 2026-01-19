@@ -21,7 +21,7 @@ function formatDate(date) {
 
 async function date() {
   const uri =
-    `mongodb+srv://${process.env.MONGO_USR}:${process.env.MONGO_PWD}` +
+    `mongodb+srv://${process.env.MONGO_USR.trim()}:${process.env.MONGO_PWD.trim()}` +
     "@ord.c8trc.mongodb.net/" +
     "?retryWrites=true&w=majority&appName=ord";
 
@@ -39,7 +39,10 @@ async function date() {
       // 1. For the records where date already exists, set a flag for all dates before today.
       const today = formatDate(new Date());
       await dictionaries[dictionary].updateMany(
-        { date: { $exists: true }, past: { $or: [{ $exists: false }, { $eq: false }] } },
+        {
+          date: { $exists: true },
+          past: { $or: [{ $exists: false }, { $eq: false }] },
+        },
         [
           {
             $set: {
@@ -65,7 +68,9 @@ async function date() {
       );
 
       // 2. Get the count of all (unused) documents.
-      const count = await dictionaries[dictionary].countDocuments({ past: false });
+      const count = await dictionaries[dictionary].countDocuments({
+        past: false,
+      });
 
       // 3. Generate sequence of dates and shuffle them.
       const dates = shuffleArray(

@@ -11,7 +11,7 @@ __dirname =
     : __dirname;
 
 const client = await MongoClient.connect(
-  `mongodb+srv://${process.env.MONGO_USR}:${process.env.MONGO_PWD}@ord.c8trc.mongodb.net/?retryWrites=true&w=majority&appName=ord`,
+  `mongodb+srv://${process.env.MONGO_USR.trim()}:${process.env.MONGO_PWD.trim()}@ord.c8trc.mongodb.net/?retryWrites=true&w=majority&appName=ord`,
   {
     serverApi: {
       version: ServerApiVersion.v1,
