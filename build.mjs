@@ -54,6 +54,8 @@ db.run(`
 `);
 db.run("CREATE INDEX idx_date ON words(date)");
 db.run("CREATE INDEX idx_word ON words(word)");
+db.run("CREATE INDEX idx_dictionary ON words(dictionary)");
+db.run("CREATE INDEX idx_dict_date ON words(dictionary, date)");
 db.run(`
   CREATE VIRTUAL TABLE words_fts USING fts5(
     word,

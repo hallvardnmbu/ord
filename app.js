@@ -3,6 +3,11 @@ import { join } from "path";
 
 const db = new Database(join(import.meta.dir, "ord.db"), { readonly: true });
 
+const dictCount = {};
+for (const dict of ["bm", "nn"]) {
+  dictCount[dict] = db.query("SELECT COUNT(*) as c FROM words WHERE dictionary = ?").get(dict).c;
+}
+
 function parseWord(row) {
   return {
     ...row,
@@ -374,7 +379,10 @@ export default function ord(request) {
   if (pathname === "/random") {
     try {
       const words = dicts.flatMap((dict) => {
-        const row = db.query("SELECT * FROM words WHERE dictionary = ? ORDER BY RANDOM() LIMIT 1").get(dict);
+        const total = dictCount[dict] ?? 0;
+        if (!total) return [];
+        const offset = Math.floor(Math.random() * total);
+        const row = db.query("SELECT * FROM words WHERE dictionary = ? LIMIT 1 OFFSET ?").get(dict, offset);
         return row ? [parseWord(row)] : [];
       });
       return new Response(renderPage({ words, dictionary, date: null, week: null, day: null, error: null }), html);
@@ -388,4 +396,10 @@ export default function ord(request) {
 
   const file = Bun.file(join(import.meta.dir, "public", pathname));
   return file.exists().then((exists) => (exists ? new Response(file) : new Response("Not found", { status: 404 })));
+}
+
+if (import.meta.main) {
+  const port = parseInt(process.env.PORT ?? "3000");
+  Bun.serve({ fetch: ord, port });
+  console.log(`Listening on http://localhost:${port}`);
 }
