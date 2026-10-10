@@ -1,8 +1,8 @@
-name: Deploy
+name: Deploy router
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   dispatch:
