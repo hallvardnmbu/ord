@@ -1,6 +1,7 @@
 """Sort every word the curation looked at into words/*.json, each word in exactly one file.
 
-    python3 dictionary/curation/catalogue.py
+    python3 dictionary/curation/catalogue.py        # words/*.json
+    python3 dictionary/curation/catalogue.py page   # cache/review.html: final yes/no over approved.json
 
 Then `node dictionary/curation/export.mjs` turns words/approved.json into the database
 documents in dictionary/curated/.
@@ -222,5 +223,23 @@ def main():
     print("excluded:", dict(Counter(x["reason"] for x in out["excluded"])))
 
 
+def page():
+    """Final review page over words/approved.json: model picks first, then the user's own yes-words."""
+    approved = load(os.path.join(WORDS, "approved.json"))
+    items = []
+    for group in (lambda x: x["picked_by"] != "user", lambda x: x["picked_by"] == "user"):
+        queues = {d: [x for x in approved if group(x) and x["d"] == d] for d in ("bm", "nn")}
+        while any(queues.values()):
+            for d in ("bm", "nn"):
+                if queues[d]:
+                    x = queues[d].pop(0)
+                    items.append({"w": x["w"], "d": x["d"], "m": x["m"], "e": x["e"], "by": x["picked_by"]})
+    template = open(os.path.join(HERE, "review.html"), encoding="utf-8").read()
+    with open(os.path.join(lexicon.CACHE, "review.html"), "w", encoding="utf-8") as f:
+        f.write(template.replace("/*POOL*/[]", json.dumps(items, ensure_ascii=False)))
+    print(len(items), "words on the review page")
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+    page() if sys.argv[1:] == ["page"] else main()

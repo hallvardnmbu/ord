@@ -1,0 +1,250 @@
+<title>Dagsord Ordsiling</title>
+<style>
+  /* Layout: one word at a time in a centred column; verdicts under the card; full list folds out below. Mirrors public/style.css. */
+  :root {
+    --bg: #ffffff;
+    --fg: #333333;
+    --muted: #767676;
+    --line: #333333;
+    --tint: #f4f4f1;
+    --good: #2f6b3a;
+    --bad: #8a3324;
+    --mark: #6a5a1e;
+    --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #2e2e2e; --fg: #d0d0d0; --muted: #9a9a9a; --line: #bdbdbd; --tint: #3a3a3a;
+      --good: #8fd19e; --bad: #f0a191; --mark: #e3cf7f; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #2e2e2e; --fg: #d0d0d0; --muted: #9a9a9a; --line: #bdbdbd; --tint: #3a3a3a;
+    --good: #8fd19e; --bad: #f0a191; --mark: #e3cf7f; color-scheme: dark;
+  }
+  body {
+    background: var(--bg); color: var(--fg); font-family: var(--mono); font-size: 16px;
+    padding-inline: 16px; padding-block: 16px; box-sizing: border-box;
+  }
+  main { max-width: 34rem; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+  header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  h1 { font-size: 1rem; margin: 0; font-weight: 700; }
+  .stats { color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
+  .bar { height: 4px; background: var(--tint); display: flex; }
+  .bar span { display: block; height: 100%; }
+  .bar .y { background: var(--good); } .bar .n { background: var(--bad); }
+  .card { border: 1px solid var(--line); padding: 24px 20px; display: flex; flex-direction: column; gap: 14px; min-height: 15rem; }
+  .tags { display: flex; gap: 8px; flex-wrap: wrap; font-size: .75rem; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+  .tags span { border: 1px solid var(--muted); padding: 1px 6px; }
+  .tags .prior { color: var(--mark); border-color: var(--mark); }
+  .tags .yes { color: var(--good); border-color: var(--good); }
+  .tags .no { color: var(--bad); border-color: var(--bad); }
+  .word { font-size: clamp(1.8rem, 8vw, 2.6rem); font-weight: 700; margin: 0; overflow-wrap: anywhere; }
+  .meaning { margin: 0; line-height: 1.5; }
+  .example { margin: 0; color: var(--muted); font-style: italic; line-height: 1.5; }
+  .verdicts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  button {
+    font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line);
+    padding: 14px 10px; cursor: pointer; min-height: 48px;
+  }
+  button:hover { background: var(--tint); }
+  button:focus-visible, .list button:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
+  button.bad { color: var(--bad); border-color: var(--bad); }
+  button.good { color: var(--good); border-color: var(--good); }
+  button:disabled { opacity: .4; cursor: default; }
+  .row { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; font-size: .85rem; color: var(--muted); }
+  .row button { padding: 6px 12px; min-height: 0; font-size: .85rem; }
+  .note { font-size: .85rem; color: var(--muted); line-height: 1.5; margin: 0; }
+  kbd { border: 1px solid var(--muted); padding: 0 4px; font-family: inherit; font-size: .8em; }
+  details { border-top: 1px solid var(--tint); padding-top: 12px; }
+  summary { cursor: pointer; font-size: .85rem; color: var(--muted); }
+  .legend { display: flex; gap: 12px; flex-wrap: wrap; font-size: .8rem; color: var(--muted); margin: 10px 0; }
+  .list { display: flex; flex-wrap: wrap; gap: 4px 6px; max-height: 22rem; overflow-y: auto; }
+  .list button { padding: 2px 6px; min-height: 0; font-size: .8rem; border-color: var(--tint); color: var(--muted); }
+  .list button.prior { color: var(--mark); }
+  .list button.y { color: var(--good); border-color: var(--good); }
+  .list button.n { color: var(--bad); border-color: var(--bad); text-decoration: line-through; }
+  .list button.cur { background: var(--tint); color: var(--fg); border-color: var(--line); }
+  @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+</style>
+
+<main>
+  <header>
+    <h1>dagsord · sluttkontroll</h1>
+    <span class="stats" id="stats">laster…</span>
+  </header>
+  <div class="bar" aria-hidden="true"><span class="y" id="barY"></span><span class="n" id="barN"></span></div>
+
+  <section class="card" aria-live="polite">
+    <div class="tags" id="tags"></div>
+    <p class="word" id="word">…</p>
+    <p class="meaning" id="meaning"></p>
+    <p class="example" id="example"></p>
+  </section>
+
+  <div class="verdicts">
+    <button class="bad" id="no" type="button">Nei</button>
+    <button class="good" id="yes" type="button">Ja</button>
+  </div>
+
+  <div class="row">
+    <span><kbd>←</kbd> nei · <kbd>→</kbd> ja · <kbd>⌫</kbd> angre</span>
+    <button id="undo" type="button" disabled>← Angre</button>
+  </div>
+
+  <p class="note" id="status">Alle ordene som er godkjent nå. Merket «godkjent av deg» betyr at du har sagt ja før. Nei fjerner ordet fra lista.</p>
+
+  <details>
+    <summary id="overview">Alle ord</summary>
+    <div class="legend">
+      <span style="color: var(--mark)">gul: godkjent av deg før</span>
+      <span style="color: var(--good)">grønn: ja nå</span>
+      <span style="color: var(--bad)">rød: nei nå</span>
+    </div>
+    <div class="list" id="list"></div>
+  </details>
+</main>
+
+<script>
+const POOL = /*POOL*/[];
+const COLLECTION = "final";
+const BY = { user: "godkjent av deg", sonnet: "foreslått av Sonnet", opus: "foreslått av Opus" };
+
+const $ = (id) => document.getElementById(id);
+const labels = new Map(); // key -> 1 | 0
+const history = [];       // keys in the order they were judged
+let db = null;
+let focus = null;         // a word picked from the list, judged out of order
+
+const keyOf = (item) =>
+  item.d + "-" + item.w.replace(/[^a-z0-9]/g, (c) =>
+    ({ "æ": "~ae", "ø": "~oe", "å": "~aa" })[c] || "~" + c.codePointAt(0).toString(16));
+const byKey = new Map(POOL.map((item) => [keyOf(item), item]));
+
+function loadLocal() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(COLLECTION) || "{}");
+    for (const [k, v] of Object.entries(saved)) if (byKey.has(k)) labels.set(k, v);
+  } catch {}
+}
+function saveLocal() {
+  try { localStorage.setItem(COLLECTION, JSON.stringify(Object.fromEntries(labels))); } catch {}
+}
+
+function current() {
+  if (focus) return byKey.get(focus);
+  return POOL.find((item) => !labels.has(keyOf(item))) || null;
+}
+
+function tag(text, cls) {
+  return Object.assign(document.createElement("span"), { textContent: text, className: cls || "" });
+}
+
+function render() {
+  const yes = [...labels.values()].filter((v) => v === 1).length;
+  const no = labels.size - yes;
+  $("stats").textContent = `${labels.size} av ${POOL.length} · ${yes} ja · ${no} nei`;
+  $("barY").style.width = `${(100 * yes) / POOL.length}%`;
+  $("barN").style.width = `${(100 * no) / POOL.length}%`;
+  $("undo").disabled = history.length === 0;
+
+  const item = current();
+  $("no").disabled = $("yes").disabled = !item;
+  if (!item) {
+    $("tags").replaceChildren();
+    $("word").textContent = "Ferdig";
+    $("meaning").textContent = `Du har gått gjennom alle ${POOL.length} ordene. Si fra til Claude, så oppdateres lista.`;
+    $("example").textContent = "";
+  } else {
+    const key = keyOf(item);
+    const tags = [tag(item.d === "bm" ? "bokmål" : "nynorsk"), tag(BY[item.by] || item.by, item.by === "user" ? "prior" : "")];
+    if (labels.has(key)) tags.push(labels.get(key) === 1 ? tag("ja nå", "yes") : tag("nei nå", "no"));
+    $("tags").replaceChildren(...tags);
+    $("word").textContent = item.w;
+    $("meaning").textContent = item.m || "(ingen definisjon)";
+    $("example").textContent = item.e ? `«${item.e}»` : "";
+  }
+  renderList(item ? keyOf(item) : null);
+}
+
+function renderList(currentKey) {
+  $("overview").textContent = `Alle ord (${POOL.length})`;
+  const list = $("list");
+  if (!list.childElementCount) {
+    for (const item of POOL) {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.textContent = item.w;
+      b.dataset.key = keyOf(item);
+      b.onclick = () => { focus = b.dataset.key; render(); window.scrollTo({ top: 0 }); };
+      list.append(b);
+    }
+  }
+  for (const b of list.children) {
+    const k = b.dataset.key;
+    b.className = [
+      byKey.get(k).by === "user" ? "prior" : "",
+      labels.get(k) === 1 ? "y" : labels.get(k) === 0 ? "n" : "",
+      k === currentKey ? "cur" : "",
+    ].join(" ");
+  }
+}
+
+async function verdict(value) {
+  const item = current();
+  if (!item) return;
+  const key = keyOf(item);
+  labels.set(key, value);
+  history.push(key);
+  focus = null;
+  saveLocal();
+  render();
+  if (!db) return;
+  try {
+    await db.collection(COLLECTION).doc(key).set({ w: item.w, d: item.d, label: value, by: item.by, at: Date.now() });
+  } catch (e) {
+    $("status").textContent = `Kunne ikke lagre «${item.w}» (${e.code || e}). Svaret er lagret i nettleseren.`;
+  }
+}
+
+async function undo() {
+  const key = history.pop();
+  if (!key) return;
+  labels.delete(key);
+  focus = key; // show the word again so it can be judged anew
+  saveLocal();
+  render();
+  if (db) { try { await db.collection(COLLECTION).doc(key).delete(); } catch {} }
+}
+
+$("no").onclick = () => verdict(0);
+$("yes").onclick = () => verdict(1);
+$("undo").onclick = undo;
+document.addEventListener("keydown", (e) => {
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.key === "ArrowLeft") verdict(0);
+  else if (e.key === "ArrowRight") verdict(1);
+  else if (e.key === "Backspace" || e.key === "z") { e.preventDefault(); undo(); }
+});
+
+loadLocal();
+render();
+
+(async () => {
+  db = window.claude?.use ? await window.claude.use("db") : null;
+  if (!db) {
+    $("status").textContent = "Svarene lagres bare i denne nettleseren.";
+    return;
+  }
+  try {
+    const snap = await db.collection(COLLECTION).limit(1000).get();
+    for (const doc of snap.docs) {
+      const data = doc.data();
+      if (data && byKey.has(doc.id)) labels.set(doc.id, data.label);
+    }
+    render();
+  } catch (e) {
+    $("status").textContent = `Fant ikke tidligere svar (${e.code || e}).`;
+  }
+})();
+</script>
