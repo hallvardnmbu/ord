@@ -104,6 +104,8 @@ SIGNALS = ("derived", "see_through", "dated")
 
 
 def labelled_keys(labels_path):
+    """(dictionary, word) pairs already shown, counted for both dictionaries so a
+    word labelled in nynorsk never comes back in bokmål."""
     import glob
     import learn
 
@@ -112,7 +114,7 @@ def labelled_keys(labels_path):
         d = json.load(open(p))
         d = d.get("data", d)
         seen.add((d["d"], d["w"]))
-    return seen
+    return seen | {(other, w) for _, w in seen for other in ("bm", "nn")}
 
 
 def next_round(labels_path, rng):
