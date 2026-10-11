@@ -1,32 +1,10 @@
 import { Database } from "bun:sqlite";
 import { join } from "path";
+import { redate, writeReadme } from "./dates.mjs";
 
 // Build ord.db from the MongoDB collections, or with --curated from the reviewed word list in
 // dictionary/curated/{bm,nn}.json (same documents, no database needed).
 const CURATED = process.argv.includes("--curated");
-
-function shuffle(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
-
-function formatDate(date) {
-  const d = date.getDate().toString().padStart(2, "0");
-  const m = (date.getMonth() + 1).toString().padStart(2, "0");
-  return `${d}-${m}-${date.getFullYear()}`;
-}
-
-function assignDates(words) {
-  shuffle(words);
-  return words.map((word, i) => {
-    const date = new Date();
-    date.setDate(date.getDate() + i);
-    return { ...word, date: formatDate(date) };
-  });
-}
 
 let mongo = null;
 if (!CURATED) {
@@ -84,7 +62,7 @@ const insert = db.prepare(`
 `);
 
 for (const dictionary of ["bm", "nn"]) {
-  const words = assignDates(await documents(dictionary));
+  const words = await documents(dictionary);
 
   db.transaction(() => {
     for (const w of words) {
@@ -97,7 +75,7 @@ for (const dictionary of ["bm", "nn"]) {
         $etymology: w.etymology ? JSON.stringify(w.etymology) : null,
         $definitions: w.definitions ? JSON.stringify(w.definitions) : null,
         $inflection: w.inflection ? JSON.stringify(w.inflection) : null,
-        $date: w.date,
+        $date: null,
       });
     }
   })();
@@ -106,6 +84,8 @@ for (const dictionary of ["bm", "nn"]) {
 }
 
 db.run("INSERT INTO words_fts(rowid, word) SELECT rowid, word FROM words");
+const summary = redate(db); // shuffle each dictionary, one date per day from today
+await writeReadme(summary);
 db.run("VACUUM"); // reclaim the space of the dropped tables
 
 await mongo?.close();

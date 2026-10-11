@@ -1097,6 +1097,54 @@
   ]
  },
  {
+  "word": "baus",
+  "dictionary": "nn",
+  "wordgroup": "substantiv",
+  "id": 4949,
+  "pronunciation": null,
+  "etymology": [
+   "av bause"
+  ],
+  "definitions": {
+   "forklaring": [
+    "noko som gøyser eller velt fram",
+    "framrusing, framvelting"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Sing",
+      "Ind"
+     ],
+     "word_form": "baus"
+    },
+    {
+     "tags": [
+      "Sing",
+      "Def"
+     ],
+     "word_form": "bausen"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Ind"
+     ],
+     "word_form": "bausar"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Def"
+     ],
+     "word_form": "bausane"
+    }
+   ]
+  ]
+ },
+ {
   "word": "beinsemd",
   "dictionary": "nn",
   "wordgroup": "substantiv",
@@ -1842,6 +1890,185 @@
     {
      "tags": [],
      "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "bibre",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 5775,
+  "pronunciation": null,
+  "etymology": [
+   "jamfør beve",
+   "bivre"
+  ],
+  "definitions": {
+   "forklaring": [
+    "skjelve"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "bibre"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "bibra"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "bibrar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "bibrast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "bibrast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "bibra"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "bibra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "bibra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "bibra"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "bibra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "bibra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "bibrande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "bibr"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "bibre"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "bibra"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "bidlund",
+  "dictionary": "nn",
+  "wordgroup": "substantiv",
+  "id": 5785,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt biðlund",
+   "førsteleddet samanheng med bide"
+  ],
+  "definitions": {
+   "forklaring": [
+    "tolmod til å vente",
+    "trott, uthald i arbeid"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Sing",
+      "Ind"
+     ],
+     "word_form": "bidlund"
+    },
+    {
+     "tags": [
+      "Sing",
+      "Def"
+     ],
+     "word_form": "bidlunda"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Ind"
+     ],
+     "word_form": "bidlunder"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Def"
+     ],
+     "word_form": "bidlundene"
     }
    ]
   ]
@@ -4214,6 +4441,94 @@
   ]
  },
  {
+  "word": "brosten",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 8620,
+  "pronunciation": null,
+  "etymology": [
+   "norr brostinn",
+   "av breste"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "uklar, sprokken"
+     ],
+     "eksempel": [
+      "<i>brosten røyst</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "som er utan liv og glans"
+     ],
+     "eksempel": [
+      "<i>brostne auge</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "i overført tyding: feilslått, mislykka"
+     ],
+     "eksempel": [
+      "<i>brostne draumar</i>"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "brosten"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "brostne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "brostne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "broste"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
   "word": "brøysk",
   "dictionary": "nn",
   "wordgroup": "adjektiv",
@@ -4500,6 +4815,331 @@
   ]
  },
  {
+  "word": "bællang",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 9940,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "svært lang"
+   ],
+   "eksempel": [
+    "<i>om vinteren er kveldane mørke og bællange</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "bællang"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "bællange"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "bællange"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "bællangt"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "bærle",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 9960,
+  "pronunciation": null,
+  "etymology": [
+   "samanheng med bære"
+  ],
+  "definitions": {
+   "forklaring": [
+    "gå i små bårer",
+    "skvale"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "bærle"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "bærla"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "bærlar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "bærlast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "bærlast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "bærla"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "bærla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "bærla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "bærla"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "bærla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "bærla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "bærlande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "bærl"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "bærle"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "bærla"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "denotere",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 11371,
+  "pronunciation": "denoteˊre",
+  "etymology": [
+   "av latin de- og notare ‘vere uttrykk for / merkje (ut)'",
+   "jamfør de-"
+  ],
+  "definitions": {
+   "forklaring": [
+    "peike ut referansen til eit språkleg uttrykk i den verkelege verda",
+    "til skilnad frå konnotere"
+   ],
+   "eksempel": [
+    "<i>‘hjarte’ denoterer ein muskel som pumpar blod rund i kroppen, men blir gjerne brukt som eit symbol for kjærleik</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "denotere"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "denotera"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "denoterer"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "denoterast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "denoterast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "denoterte"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "denotert"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "denotert"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "denotert"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "denoterte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "denoterte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "denoterande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "denoter"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
   "word": "dildre",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -4627,6 +5267,148 @@
       "Imp"
      ],
      "word_form": "dildra"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "dissosiere",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 11959,
+  "pronunciation": null,
+  "etymology": [
+   "av latin dis-  og sociare ‘sameine’"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "i psykologi: kople frå eller skilje element som høyrer saman; motsett assosiere",
+      "skilje, spalte"
+     ],
+     "eksempel": [
+      "<i>for å meistre kvardagen byrja han å dissosiere</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "kløyve molekyl(grupper) i atom(grupper) eller ion",
+      "spalte"
+     ],
+     "eksempel": [
+      "<i>karbonsyra dissosierer til eit hydrogenion og eit bikarbonation</i>"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "dissosiere"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "dissosiera"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "dissosierer"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "dissosierast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "dissosierast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "dissosierte"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "dissosiert"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "dissosiert"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "dissosiert"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "dissosierte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "dissosierte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "dissosierande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "dissosier"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
     }
    ]
   ]
@@ -5389,6 +6171,76 @@
   ]
  },
  {
+  "word": "draulen",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 12518,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "somlete"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "draulen"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "draulne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "draulne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "draulent"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "draulnare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "draulnast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "draulnaste"
+    }
+   ]
+  ]
+ },
+ {
   "word": "drifse",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -5669,6 +6521,133 @@
   ]
  },
  {
+  "word": "drulte",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 12831,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "vere tungfør eller sein"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "drulte"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "drulta"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "drultar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "drultast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "drultast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "drulta"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "drulta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "drulta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "drulta"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "drulta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "drulta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "drultande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "drult"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "drulte"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "drulta"
+    }
+   ]
+  ]
+ },
+ {
   "word": "druns",
   "dictionary": "nn",
   "wordgroup": "substantiv",
@@ -5727,7 +6706,7 @@
  {
   "word": "drunse",
   "dictionary": "nn",
-  "wordgroup": "substantiv, sv hokj",
+  "wordgroup": "verb, normal",
   "id": 12835,
   "pronunciation": null,
   "etymology": [
@@ -5849,6 +6828,53 @@
       "Imp"
      ],
      "word_form": "drunsa"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "drunt",
+  "dictionary": "nn",
+  "wordgroup": "substantiv",
+  "id": 12836,
+  "pronunciation": null,
+  "etymology": [
+   "av drunte"
+  ],
+  "definitions": {
+   "forklaring": [
+    "sein og somlete person"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Sing",
+      "Ind"
+     ],
+     "word_form": "drunt"
+    },
+    {
+     "tags": [
+      "Sing",
+      "Def"
+     ],
+     "word_form": "drunten"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Ind"
+     ],
+     "word_form": "druntar"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Def"
+     ],
+     "word_form": "druntane"
     }
    ]
   ]
@@ -6675,6 +7701,156 @@
       "Imp"
      ],
      "word_form": "dvel"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "dyvje",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 13456,
+  "pronunciation": null,
+  "etymology": [
+   "jamfør austfris dufen ‘støyte’",
+   "norrønt dubba ‘slå til riddar’"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "skjelve",
+      "bivre"
+     ],
+     "eksempel": [
+      "<i>jorda dyv</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "drønne"
+     ],
+     "eksempel": [
+      "<i>tora duvde</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "slå, smekke"
+     ],
+     "eksempel": [
+      "<i>dyvje og slå</i>"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "dyvje"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "dyvja"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "dyv"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "dyvjast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "dyvjast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "duvde"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "duvd"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "duvd"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "duvd"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "duvde"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "duvde"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "dyvjande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "dyv"
     },
     {
      "tags": [],
@@ -7733,6 +8909,129 @@
   ]
  },
  {
+  "word": "fjelgde",
+  "dictionary": "nn",
+  "wordgroup": "substantiv",
+  "id": 18417,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "varme (i vêret)"
+     ]
+    },
+    {
+     "forklaring": [
+      "hugnad, fred"
+     ]
+    },
+    {
+     "forklaring": [
+      "venleik"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Sing",
+      "Ind"
+     ],
+     "word_form": "fjelgde"
+    },
+    {
+     "tags": [
+      "Sing",
+      "Def"
+     ],
+     "word_form": "fjelgden"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Ind"
+     ],
+     "word_form": "fjelgdar"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Def"
+     ],
+     "word_form": "fjelgdane"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "fjelgsleg",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 18422,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "hyggjeleg",
+    "tekkjeleg",
+    "rein, velstelt"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "fjelgsleg"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "fjelgslege"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "fjelgslege"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "fjelgsleg"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
   "word": "fjerre",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -8245,45 +9544,143 @@
  {
   "word": "flangre",
   "dictionary": "nn",
-  "wordgroup": "substantiv",
-  "id": 18857,
+  "wordgroup": "verb, normal",
+  "id": 18858,
   "pronunciation": null,
-  "etymology": [],
+  "etymology": [
+   "samanheng med flagre"
+  ],
   "definitions": {
-   "forklaring": [
-    "planteslekt i orkidéfamilie",
-    "Epipactis"
+   "definisjon": [
+    {
+     "forklaring": [
+      "flagre"
+     ],
+     "eksempel": [
+      "<i>fivreldet flangrar</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "flogse, flørte"
+     ],
+     "eksempel": [
+      "<i>flangre med andre</i>"
+     ]
+    }
    ]
   },
   "inflection": [
    [
     {
      "tags": [
-      "Sing",
-      "Ind"
+      "Inf"
      ],
      "word_form": "flangre"
     },
     {
      "tags": [
-      "Sing",
-      "Def"
+      "Inf"
      ],
-     "word_form": "flangren"
+     "word_form": "flangra"
     },
     {
      "tags": [
-      "Plur",
-      "Ind"
+      "Pres"
      ],
      "word_form": "flangrar"
     },
     {
      "tags": [
-      "Plur",
-      "Def"
+      "Inf",
+      "Pass"
      ],
-     "word_form": "flangrane"
+     "word_form": "flangrast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "flangrast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "flangra"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "flangra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "flangra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "flangra"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "flangra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "flangra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "flangrande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "flangr"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "flangre"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "flangra"
     }
    ]
   ]
@@ -9033,6 +10430,149 @@
   ]
  },
  {
+  "word": "fløygje",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 19563,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt fleygja",
+   "kausativ til fly"
+  ],
+  "definitions": {
+   "forklaring": [
+    "slengje, sende av garde",
+    "få fart på",
+    "puffe",
+    "sleppe"
+   ],
+   "eksempel": [
+    "<i>fløygje ein stein</i>"
+   ],
+   "underartikkel": [
+    {
+     "id": 111111,
+     "word": "fløygje seg",
+     "definitions": {
+      "forklaring": [
+       "sende, sleppe seg av garde"
+      ]
+     }
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "fløygje"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "fløygja"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "fløygjer"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "fløygjast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "fløygjast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "fløygde"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "fløygt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "fløygt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "fløygd"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "fløygde"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "fløygde"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "fløygjande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "fløyg"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
   "word": "fløyten",
   "dictionary": "nn",
   "wordgroup": "adverb",
@@ -9063,6 +10603,132 @@
     {
      "tags": [],
      "word_form": "fløyten"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "fondere",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 125844,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "plassere i fond"
+   ],
+   "eksempel": [
+    "<i>fondere delar av Folketrygda</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "fondere"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "fondera"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "fonderer"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "fonderast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "fonderast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "fonderte"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "fondert"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "fondert"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "fondert"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "fonderte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "fonderte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "fonderande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "fonder"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
     }
    ]
   ]
@@ -11325,6 +12991,61 @@
   ]
  },
  {
+  "word": "gare",
+  "dictionary": "nn",
+  "wordgroup": "substantiv",
+  "id": 24281,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "kvass stubb, pigg",
+      "taggete staur"
+     ]
+    },
+    {
+     "forklaring": [
+      "lang, ulenkeleg kar"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Sing",
+      "Ind"
+     ],
+     "word_form": "gare"
+    },
+    {
+     "tags": [
+      "Sing",
+      "Def"
+     ],
+     "word_form": "garen"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Ind"
+     ],
+     "word_form": "garar"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Def"
+     ],
+     "word_form": "garane"
+    }
+   ]
+  ]
+ },
+ {
   "word": "gasterere",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -12028,6 +13749,282 @@
   ]
  },
  {
+  "word": "gjednigen",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 25040,
+  "pronunciation": null,
+  "etymology": [
+   "frå dansk",
+   "av nederlandsk genegen ‘tilhuga (til)'",
+   "av gjed og neie"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "sjølvrådig, trassig"
+     ]
+    },
+    {
+     "forklaring": [
+      "gjerrig, grisk"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gjednigen"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "gjednigne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "gjednigne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gjednigent"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "gjednignare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "gjednignast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "gjednignaste"
+    }
+   ],
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gjenegen"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "gjenegne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "gjenegne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gjenegent"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "gjenegnare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "gjenegnast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "gjenegnaste"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "gjenegen",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 25040,
+  "pronunciation": null,
+  "etymology": [
+   "frå dansk",
+   "av nederlandsk genegen ‘tilhuga (til)'",
+   "av gjed og neie"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "sjølvrådig, trassig"
+     ]
+    },
+    {
+     "forklaring": [
+      "gjerrig, grisk"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gjednigen"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "gjednigne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "gjednigne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gjednigent"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "gjednignare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "gjednignast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "gjednignaste"
+    }
+   ],
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gjenegen"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "gjenegne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "gjenegne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gjenegent"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "gjenegnare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "gjenegnast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "gjenegnaste"
+    }
+   ]
+  ]
+ },
+ {
   "word": "gjæs",
   "dictionary": "nn",
   "wordgroup": "adjektiv",
@@ -12120,6 +14117,209 @@
       "Def"
      ],
      "word_form": "gjæsaste"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "gjøleleg",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 25466,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "gjæv, gild, framifrå"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gjøleleg"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "gjølelege"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "gjølelege"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gjøleleg"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "gjølelegare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "gjølelegast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "gjølelegaste"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "gjølme",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 25469,
+  "pronunciation": null,
+  "etymology": [
+   "samanheng med gavl og gimle"
+  ],
+  "definitions": {
+   "forklaring": [
+    "dele av (eit rom)",
+    "gimle"
+   ],
+   "eksempel": [
+    "<i>gjølme frå</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "gjølme"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "gjølma"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "gjølmar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "gjølmast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "gjølmast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "gjølma"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "gjølma"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gjølma"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gjølma"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "gjølma"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "gjølma"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "gjølmande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "gjølm"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "gjølme"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "gjølma"
     }
    ]
   ]
@@ -12505,6 +14705,270 @@
       "Imp"
      ],
      "word_form": "gleima"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "gleine",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 25680,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "gleime, skotte, stire"
+     ]
+    },
+    {
+     "forklaring": [
+      "gli (til sides)",
+      "glense"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "gleine"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "gleina"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "gleinar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "gleinast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "gleinast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "gleinte"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "gleint"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gleint"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gleint"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "gleinte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "gleinte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "gleinande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "glein"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "gleipe",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 25682,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt gleipa",
+   "samanheng med glipe"
+  ],
+  "definitions": {
+   "forklaring": [
+    "geipe",
+    "hæde",
+    "herme"
+   ],
+   "eksempel": [
+    "<i>gleipe og le</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "gleipe"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "gleipa"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "gleipar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "gleipast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "gleipast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "gleipte"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "gleipt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gleipt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gleipt"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "gleipte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "gleipte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "gleipande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "gleip"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
     }
    ]
   ]
@@ -13908,6 +16372,30 @@
   ]
  },
  {
+  "word": "gnallande",
+  "dictionary": "nn",
+  "wordgroup": "adverb",
+  "id": 25949,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "som adverb: gnaldrande"
+   ],
+   "eksempel": [
+    "<i>gnallande hard</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [],
+     "word_form": "gnallande"
+    }
+   ]
+  ]
+ },
+ {
   "word": "gnarre",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -15301,7 +17789,7 @@
  {
   "word": "grugge",
   "dictionary": "nn",
-  "wordgroup": "substantiv",
+  "wordgroup": "verb, normal",
   "id": 27108,
   "pronunciation": null,
   "etymology": [],
@@ -15520,28 +18008,30 @@
   "word": "gruvle",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
-  "id": 27321,
+  "id": 27320,
   "pronunciation": null,
   "etymology": [
-   "norrønt grufla",
-   "mogleg samanheng med gruvle"
+   "samanheng med grave",
+   "samme opprinnelse som gruble"
   ],
   "definitions": {
+   "forklaring": [
+    "vere i djupe tankar",
+    "tenkje ut og inn",
+    "gruble, grunde"
+   ],
+   "eksempel": [
+    "<i>gruvle over problemet</i>",
+    "<i>gruvle på noko</i>"
+   ],
    "definisjon": [
     {
      "forklaring": [
-      "kravle, krype"
+      "brukt som adjektiv"
      ],
      "eksempel": [
-      "<i>gruvle på alle fire</i>"
-     ]
-    },
-    {
-     "forklaring": [
-      "grave, rote"
-     ],
-     "eksempel": [
-      "<i>gruvle i jorda</i>"
+      "<i>ein gruvlande person</i>",
+      "<i>ha eit gruvlande sinn</i>"
      ]
     }
    ]
@@ -15879,6 +18369,150 @@
   ]
  },
  {
+  "word": "grøype",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 27457,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt greypa",
+   "sammenheng med grop og grope"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "grovmale"
+     ],
+     "eksempel": [
+      "<i>grøype korn</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "krafse til seg",
+      "gløype"
+     ]
+    },
+    {
+     "forklaring": [
+      "arbeide eller gå ofseleg"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "grøype"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "grøypa"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "grøyper"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "grøypast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "grøypast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "grøypte"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "grøypt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "grøypt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "grøypt"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "grøypte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "grøypte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "grøypande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "grøyp"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
   "word": "gråtal",
   "dictionary": "nn",
   "wordgroup": "adjektiv",
@@ -16009,6 +18643,79 @@
       "Def"
      ],
      "word_form": "gysjelegaste"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "gåig",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 28014,
+  "pronunciation": null,
+  "etymology": [
+   "av gå"
+  ],
+  "definitions": {
+   "forklaring": [
+    "snar til å merke og fatte",
+    "oppmerksam, gløgg"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gåig"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "gåige"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "gåige"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "gåig"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "gåigare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "gåigast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "gåigaste"
     }
    ]
   ]
@@ -16226,6 +18933,56 @@
       "Imp"
      ],
      "word_form": "harvla"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "havang",
+  "dictionary": "nn",
+  "wordgroup": "substantiv",
+  "id": 29423,
+  "pronunciation": null,
+  "etymology": [
+   "av ha"
+  ],
+  "definitions": {
+   "forklaring": [
+    "verd, nytte"
+   ],
+   "eksempel": [
+    "<i>det er ikkje nokon havang i det</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Sing",
+      "Ind"
+     ],
+     "word_form": "havang"
+    },
+    {
+     "tags": [
+      "Sing",
+      "Def"
+     ],
+     "word_form": "havangen"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Ind"
+     ],
+     "word_form": "havangar"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Def"
+     ],
+     "word_form": "havangane"
     }
    ]
   ]
@@ -17131,6 +19888,164 @@
   ]
  },
  {
+  "word": "hortug",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 31361,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt hortigr"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "livskraftig",
+      "frisk"
+     ]
+    },
+    {
+     "forklaring": [
+      "flink",
+      "dugande"
+     ],
+     "eksempel": [
+      "<i>ei hortig jente</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "velbygd",
+      "før"
+     ],
+     "eksempel": [
+      "<i>ein kraftkar, hortig og sterk</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "dugeleg, veldig"
+     ],
+     "eksempel": [
+      "<i>han tok ein hortig slurk</i>"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "hortig"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "hortige"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "hortige"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "hortig"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "hortigare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "hortigast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "hortigaste"
+    }
+   ],
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "hortug"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "hortuge"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "hortuge"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "hortug"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "hortugare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "hortugast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "hortugaste"
+    }
+   ]
+  ]
+ },
+ {
   "word": "hugnadleg",
   "dictionary": "nn",
   "wordgroup": "adjektiv",
@@ -17861,6 +20776,88 @@
   ]
  },
  {
+  "word": "huskeleg",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 32047,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "ufrisk, sjukleg"
+     ],
+     "eksempel": [
+      "<i>han ser huskeleg ut</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "stygg, fælsleg"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "huskeleg"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "huskelege"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "huskelege"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "huskeleg"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "huskelegare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "huskelegast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "huskelegaste"
+    }
+   ]
+  ]
+ },
+ {
   "word": "hyfse",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -18105,6 +21102,30 @@
       "Def"
      ],
      "word_form": "hædelegaste"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "ibidem",
+  "dictionary": "nn",
+  "wordgroup": "adverb",
+  "id": 33053,
+  "pronunciation": null,
+  "etymology": [
+   "latin"
+  ],
+  "definitions": {
+   "forklaring": [
+    "på same staden (brukt når ein viser til ei bok)",
+    "forkorta ib. eller ibid."
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [],
+     "word_form": "ibidem"
     }
    ]
   ]
@@ -19448,6 +22469,82 @@
   ]
  },
  {
+  "word": "katatonisk",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 128680,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "som er stiva av katatoni"
+     ]
+    },
+    {
+     "forklaring": [
+      "som er ute av stand til å røre seg",
+      "stivna"
+     ],
+     "eksempel": [
+      "<i>han sat med eit katatonisk blikk</i>",
+      "<i>ho var katatonisk av sorg</i>"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "katatonisk"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "katatoniske"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "katatoniske"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "katatonisk"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
   "word": "keikete",
   "dictionary": "nn",
   "wordgroup": "adjektiv",
@@ -19508,6 +22605,216 @@
       "Sing"
      ],
      "word_form": "keikete"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "kjøgle",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 38363,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "kludre, rote",
+      "kle seg vyrdlaust"
+     ]
+    },
+    {
+     "forklaring": [
+      "gløse, stire"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "kjøgle"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "kjøgla"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "kjøglar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "kjøglast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "kjøglast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "kjøgla"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "kjøgla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "kjøgla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "kjøgla"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "kjøgla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "kjøgla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "kjøglande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "kjøgl"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "kjøgle"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "kjøgla"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "klabben",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 38590,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "som klabbe",
+      "klabbete"
+     ]
+    },
+    {
+     "forklaring": [
+      "klumpete, upraktisk",
+      "klabbete"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "klabben"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "klabne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "klabne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "klabbe"
     },
     {
      "tags": [],
@@ -20274,6 +23581,148 @@
   ]
  },
  {
+  "word": "krame",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 41694,
+  "pronunciation": null,
+  "etymology": [
+   "jamfør norrønt kremja",
+   "samanheng med kram"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "krafse, rive til seg"
+     ],
+     "eksempel": [
+      "<i>krame til seg</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "stappe"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "krame"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "krama"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "kramar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "kramast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "kramast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "krama"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "krama"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "krama"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "krama"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "krama"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "krama"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "kramande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "kram"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "krame"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "krama"
+    }
+   ]
+  ]
+ },
+ {
   "word": "krasse",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -20686,46 +24135,130 @@
  {
   "word": "krungle",
   "dictionary": "nn",
-  "wordgroup": "substantiv, sv hokj",
-  "id": 42347,
+  "wordgroup": "verb, normal",
+  "id": 42348,
   "pronunciation": null,
-  "etymology": [
-   "samanheng med krank"
-  ],
+  "etymology": [],
   "definitions": {
    "forklaring": [
-    "krokete, vridd tre"
+    "streve med noko",
+    "plundre"
+   ],
+   "eksempel": [
+    "<i>krungle seg fram</i>"
    ]
   },
   "inflection": [
    [
     {
      "tags": [
-      "Sing",
-      "Ind"
+      "Inf"
      ],
      "word_form": "krungle"
     },
     {
      "tags": [
-      "Sing",
-      "Def"
+      "Inf"
      ],
      "word_form": "krungla"
     },
     {
      "tags": [
-      "Plur",
-      "Ind"
+      "Pres"
      ],
-     "word_form": "krungler"
+     "word_form": "krunglar"
     },
     {
      "tags": [
-      "Plur",
-      "Def"
+      "Inf",
+      "Pass"
      ],
-     "word_form": "krunglene"
+     "word_form": "krunglast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "krunglast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "krungla"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "krungla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "krungla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "krungla"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "krungla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "krungla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "krunglande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "krungl"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "krungle"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "krungla"
     }
    ]
   ]
@@ -20789,6 +24322,88 @@
     {
      "tags": [],
      "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "kræv",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 42559,
+  "pronunciation": null,
+  "etymology": [
+   "samanheng med krav og kraft"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "dugande"
+     ]
+    },
+    {
+     "forklaring": [
+      "livssterk",
+      "livfull, livleg"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "kræv"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "kræve"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "kræve"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "krævt"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "krævare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "krævast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "krævaste"
     }
    ]
   ]
@@ -21237,6 +24852,78 @@
   ]
  },
  {
+  "word": "kverr",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 43484,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt kvirr"
+  ],
+  "definitions": {
+   "forklaring": [
+    "still, roleg, kurr"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "kverr"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "kverre"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "kverre"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "kvert"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "kverrare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "kverrast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "kverraste"
+    }
+   ]
+  ]
+ },
+ {
   "word": "kverven",
   "dictionary": "nn",
   "wordgroup": "adjektiv",
@@ -21469,6 +25156,134 @@
       "Imp"
      ],
      "word_form": "kvervla"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "kvetje",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 43511,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt hvetja"
+  ],
+  "definitions": {
+   "forklaring": [
+    "slipe, kvesse, særleg med bryne"
+   ],
+   "eksempel": [
+    "<i>kvetje ljåen</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "kvetje"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "kvetja"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "kvet"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "kvetjast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "kvetjast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "kvatte"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "kvatt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "kvatt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "kvatt"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "kvatte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "kvatte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "kvetjande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "kvet"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
     }
    ]
   ]
@@ -21946,6 +25761,95 @@
       "Def"
      ],
      "word_form": "kvævaste"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "kødd",
+  "dictionary": "nn",
+  "wordgroup": "substantiv",
+  "id": 115691,
+  "pronunciation": null,
+  "etymology": [
+   "jamfør norrønt koddi, opphavleg ‘pung’"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "testikkel"
+     ]
+    },
+    {
+     "forklaring": [
+      "brukt neds om vrang, upåliteleg person"
+     ],
+     "eksempel": [
+      "<i>han er ein kødd</i>"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Sing",
+      "Ind"
+     ],
+     "word_form": "kødd"
+    },
+    {
+     "tags": [
+      "Sing",
+      "Def"
+     ],
+     "word_form": "kødden"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Ind"
+     ],
+     "word_form": "køddar"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Def"
+     ],
+     "word_form": "køddane"
+    }
+   ],
+   [
+    {
+     "tags": [
+      "Sing",
+      "Ind"
+     ],
+     "word_form": "kodd"
+    },
+    {
+     "tags": [
+      "Sing",
+      "Def"
+     ],
+     "word_form": "kodden"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Ind"
+     ],
+     "word_form": "koddar"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Def"
+     ],
+     "word_form": "koddane"
     }
    ]
   ]
@@ -23729,6 +27633,51 @@
   ]
  },
  {
+  "word": "nauteskap",
+  "dictionary": "nn",
+  "wordgroup": "substantiv",
+  "id": 52242,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "toskeskap"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Sing",
+      "Ind"
+     ],
+     "word_form": "nauteskap"
+    },
+    {
+     "tags": [
+      "Sing",
+      "Def"
+     ],
+     "word_form": "nauteskapen"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Ind"
+     ],
+     "word_form": "nauteskapar"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Def"
+     ],
+     "word_form": "nauteskapane"
+    }
+   ]
+  ]
+ },
+ {
   "word": "neise",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -24271,6 +28220,535 @@
   ]
  },
  {
+  "word": "nuve",
+  "dictionary": "nn",
+  "wordgroup": "substantiv, sv hokj",
+  "id": 53307,
+  "pronunciation": null,
+  "etymology": [
+   "sammenheng med nuppe"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "gjere nuv, runde av"
+     ]
+    },
+    {
+     "forklaring": [
+      "ta i nuven, lugge, dengje"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "nuve"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "nuva"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "nuvar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "nuvast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "nuvast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "nuva"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "nuva"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "nuva"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "nuva"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "nuva"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "nuva"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "nuvande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "nuv"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "nuve"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "nuva"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "nyggje",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 53351,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt hnyggja"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "(skade ved å) støyte, skrubbe, gnage"
+     ],
+     "eksempel": [
+      "<i>nygge borti noko(n)</i>",
+      "<i>nygge av tauet</i>",
+      "<i>båten ligg og nygg (seg) mot steinane</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "rykkje",
+      "riste"
+     ],
+     "eksempel": [
+      "<i>det nygg i snøret</i>",
+      "<i>huset nogg i vindkasta</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "kvekke, støkke, grøsse"
+     ],
+     "eksempel": [
+      "<i>eg nogg der eg stod</i>",
+      "<i>nygge til</i>"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "nygge"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "nygga"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "nygg"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "nyggast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "nyggast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "nogg"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "nogge"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "nogge"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "noggen"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "nogne"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "nogne"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "nyggande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "nygg"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ],
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "nyggje"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "nyggja"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "nygg"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "nyggjast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "nyggjast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "nogg"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "nogge"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "nogge"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "noggen"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "nogne"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "nogne"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "nyggjande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "nygg"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "nøgge",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 53701,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt hnøggva",
+   "sammenheng med nygge"
+  ],
+  "definitions": {
+   "forklaring": [
+    "få ei uhyggjeleg kjensle",
+    "kvekke, støkke, nygge"
+   ],
+   "eksempel": [
+    "<i>det nogg i han</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "nøgge"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "nøgga"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "nøgg"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "nøggast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "nøggast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "nogg"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "nogge"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "nogge"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "noggen"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "nogne"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "nogne"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "nøggande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "nøgg"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
   "word": "olstre",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -24537,6 +29015,136 @@
       "Def"
      ],
      "word_form": "onnugaste"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "ormekte",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 55427,
+  "pronunciation": null,
+  "etymology": [
+   "sammenheng med makte"
+  ],
+  "definitions": {
+   "forklaring": [
+    "bli eller vere kraftlaus og forkomen",
+    "ørmekte, ormektast"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "ormekte"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "ormekta"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "ormektar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "ormektast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "ormektast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "ormekta"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "ormekta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "ormekta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "ormekta"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "ormekta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "ormekta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "ormektande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "ormekt"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "ormekte"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "ormekta"
     }
    ]
   ]
@@ -24870,6 +29478,58 @@
   ]
  },
  {
+  "word": "pyrrhossiger",
+  "dictionary": "nn",
+  "wordgroup": "substantiv",
+  "id": 59659,
+  "pronunciation": "pyrˊrås-",
+  "etymology": [
+   "etter namnet til den greske kongen Pyrrhos (318–272 f.Kr.) som sigra i slag mot romarane, men med svært store tap"
+  ],
+  "definitions": {
+   "forklaring": [
+    "dyrekjøpt siger",
+    "siger som eigenleg er eit nederlag"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "markdown_word_form": "pyrrhossiger",
+     "tags": [
+      "Sing",
+      "Ind"
+     ],
+     "word_form": "pyrrhossiger"
+    },
+    {
+     "markdown_word_form": "pyrrhossigeren",
+     "tags": [
+      "Sing",
+      "Def"
+     ],
+     "word_form": "pyrrhossigeren"
+    },
+    {
+     "markdown_word_form": "pyrrhossigrar",
+     "tags": [
+      "Plur",
+      "Ind"
+     ],
+     "word_form": "pyrrhossigrar"
+    },
+    {
+     "markdown_word_form": "pyrrhossigrane",
+     "tags": [
+      "Plur",
+      "Def"
+     ],
+     "word_form": "pyrrhossigrane"
+    }
+   ]
+  ]
+ },
+ {
   "word": "rabalsk",
   "dictionary": "nn",
   "wordgroup": "adjektiv",
@@ -24929,6 +29589,51 @@
     {
      "tags": [],
      "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "radl",
+  "dictionary": "nn",
+  "wordgroup": "substantiv",
+  "id": 60024,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "godprat, svall"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Sing",
+      "Ind"
+     ],
+     "word_form": "radl"
+    },
+    {
+     "tags": [
+      "Sing",
+      "Def"
+     ],
+     "word_form": "radlet"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Ind"
+     ],
+     "word_form": "radl"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Def"
+     ],
+     "word_form": "radla"
     }
    ]
   ]
@@ -25643,6 +30348,142 @@
   ]
  },
  {
+  "word": "sannkjenne",
+  "dictionary": "nn",
+  "wordgroup": "verb, st-verb",
+  "id": 64087,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "særlig i filosofi: kome fram til trygg og meir eller mindre objektiv kunnskap om",
+      "erkjenne"
+     ]
+    },
+    {
+     "forklaring": [
+      "vedgå"
+     ],
+     "eksempel": [
+      "<i>sannkjenne at mytane enno lever</i>"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "sannkjenne"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "sannkjenna"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "sannkjenner"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "sannkjennast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "sannkjennast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "sannkjente"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "sannkjent"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "sannkjent"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "sannkjent"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "sannkjente"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "sannkjente"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "sannkjennande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "sannkjenn"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
   "word": "sellande",
   "dictionary": "nn",
   "wordgroup": "adverb",
@@ -25664,6 +30505,29 @@
     {
      "tags": [],
      "word_form": "sellande"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "singott",
+  "dictionary": "nn",
+  "wordgroup": "interjeksjon",
+  "id": 65896,
+  "pronunciation": null,
+  "etymology": [
+   "frå lavtysk eigenleg ‘Gud signe’"
+  ],
+  "definitions": {
+   "forklaring": [
+    "i eldre tid: skål"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [],
+     "word_form": "singott"
     }
    ]
   ]
@@ -25864,6 +30728,33 @@
       "Imp"
      ],
      "word_form": "sjaksa"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "sjølvare",
+  "dictionary": "nn",
+  "wordgroup": "determinativ",
+  "id": 123774,
+  "pronunciation": null,
+  "etymology": [
+   "sekundær komparativ til sjølv"
+  ],
+  "definitions": {
+   "forklaring": [
+    "det eigenlege",
+    "det indre"
+   ],
+   "eksempel": [
+    "<i>kome inn på sjølvare gardstunet</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [],
+     "word_form": "sjølvare"
     }
    ]
   ]
@@ -26194,6 +31085,77 @@
   ]
  },
  {
+  "word": "skarken",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 67094,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "kruslen, makteslaus"
+     ]
+    },
+    {
+     "forklaring": [
+      "skrøpeleg, veik"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skarken"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "skarkne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "skarkne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skarkent"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
   "word": "skeike",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -26379,6 +31341,69 @@
       "Sing"
      ],
      "word_form": "skinnblautt"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "skirleitt",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 67616,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "ven å sjå til",
+    "med fine andletsdrag"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skirleitt"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "skirleitte"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "skirleitte"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skirleitt"
     },
     {
      "tags": [],
@@ -26657,6 +31682,254 @@
       "Imp"
      ],
      "word_form": "skjala"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "skjekke",
+  "dictionary": "nn",
+  "wordgroup": "verb, st-verb",
+  "id": 67792,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt skekkja",
+   "av skakk"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "gjere skakk, skeiv",
+      "vrengje",
+      "skubbe, støyte av lage"
+     ],
+     "eksempel": [
+      "<i>skjekke ramma på sykkelen i samanstøyten</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "skjegle"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "skjekke"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "skjekka"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "skjekker"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "skjekkast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "skjekkast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "skjekte"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "skjekt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skjekt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skjekt"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "skjekte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "skjekte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "skjekkande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "skjekk"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ],
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "skjekkje"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "skjekkja"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "skjekkjer"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "skjekkjast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "skjekkjast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "skjekte"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "skjekt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skjekt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skjekt"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "skjekte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "skjekte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "skjekkjande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "skjekk"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
     }
    ]
   ]
@@ -27053,6 +32326,145 @@
       "Imp"
      ],
      "word_form": "skokla"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "skolle",
+  "dictionary": "nn",
+  "wordgroup": "verb, st-verb",
+  "id": 68386,
+  "pronunciation": null,
+  "etymology": [
+   "kanskje samanheng med norrønt skolla ‘dingle, svinge’"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "sjå ut til",
+      "synast"
+     ],
+     "eksempel": [
+      "<i>det skoller for det</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "sjå stor ut",
+      "ruve"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "skolle"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "skolla"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "skoller"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "skollast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "skollast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "skolte"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "skolt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skolt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skolt"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "skolte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "skolte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "skollande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "skoll"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
     }
    ]
   ]
@@ -28113,6 +33525,245 @@
   ]
  },
  {
+  "word": "skrykke",
+  "dictionary": "nn",
+  "wordgroup": "verb, st-verb",
+  "id": 68944,
+  "pronunciation": null,
+  "etymology": [
+   "av skrukk"
+  ],
+  "definitions": {
+   "forklaring": [
+    "stue i hop",
+    "dra i hop så det lagar seg rukker",
+    "skrukke"
+   ],
+   "eksempel": [
+    "<i>skredet skrykte løa</i>",
+    "<i>skrykke på nasen</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "skrykke"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "skrykka"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "skrykker"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "skrykkast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "skrykkast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "skrykte"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "skrykt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skrykt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skrykt"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "skrykte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "skrykte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "skrykkande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "skrykk"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ],
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "skrykkje"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "skrykkja"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "skrykkjer"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "skrykkjast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "skrykkjast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "skrykte"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "skrykt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skrykt"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skrykt"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "skrykte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "skrykte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "skrykkjande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "skrykk"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
   "word": "skrynje",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -28226,6 +33877,147 @@
       "Imp"
      ],
      "word_form": "skryn"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "skrøkke",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 68978,
+  "pronunciation": null,
+  "etymology": [
+   "sammenheng med skrukk"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "krype i hop",
+      "kverve, minke"
+     ],
+     "eksempel": [
+      "<i>høyet skrøkk i hop på hesja</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "bli skrinnare"
+     ],
+     "eksempel": [
+      "<i>sauen har skrokke i vinter</i>"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "skrøkke"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "skrøkka"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "skrøkk"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "skrøkkast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "skrøkkast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "skrokk"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "skrokke"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skrokke"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skrokken"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "skrokne"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "skrokne"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "skrøkkande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "skrøkk"
     },
     {
      "tags": [],
@@ -29057,6 +34849,135 @@
     {
      "tags": [],
      "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "skøyre",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 69602,
+  "pronunciation": null,
+  "etymology": [
+   "kanskje samanheng med skur"
+  ],
+  "definitions": {
+   "forklaring": [
+    "buse på, fare uvitig åt"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "skøyre"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "skøyra"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "skøyrar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "skøyrast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "skøyrast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "skøyra"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "skøyra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skøyra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "skøyra"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "skøyra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "skøyra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "skøyrande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "skøyr"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "skøyre"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "skøyra"
     }
    ]
   ]
@@ -30005,6 +35926,133 @@
   ]
  },
  {
+  "word": "slevje",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 123130,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "sleppe spytt frå munnvika(ne)"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "slevje"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "slevja"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "slevjar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "slevjast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "slevjast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "slevja"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "slevja"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "slevja"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "slevja"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "slevja"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "slevja"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "slevjande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "slevj"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "slevje"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "slevja"
+    }
+   ]
+  ]
+ },
+ {
   "word": "slinke",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -30725,6 +36773,216 @@
   ]
  },
  {
+  "word": "smætte",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 70714,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt smættast ‘bli liten’",
+   "av små"
+  ],
+  "definitions": {
+   "forklaring": [
+    "gjere små",
+    "spreie fint"
+   ],
+   "eksempel": [
+    "<i>smætte ved</i>",
+    "<i>smætte møk</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "smætte"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "smætta"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "smættar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "smættast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "smættast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "smætta"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "smætta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "smætta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "smætta"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "smætta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "smætta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "smættande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "smætt"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "smætte"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "smætta"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "smøyeleg",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 70778,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "uvanleg atterhalden",
+    "brydd",
+    "mistenksam"
+   ],
+   "eksempel": [
+    "<i>ho ser så smøyeleg ut</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "smøyeleg"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "smøyelege"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "smøyelege"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "smøyeleg"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "smøyelegare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "smøyelegast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "smøyelegaste"
+    }
+   ]
+  ]
+ },
+ {
   "word": "snaldre",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -31020,6 +37278,85 @@
       "Sing"
      ],
      "word_form": "snarfenge"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "snippen",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 71136,
+  "pronunciation": null,
+  "etymology": [
+   "samanheng med snipe"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "brå, uventa"
+     ],
+     "eksempel": [
+      "<i>ein snippen skade</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "narra, vonbroten"
+     ],
+     "eksempel": [
+      "<i>snippen og skjemd</i>"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "snippen"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "snipne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "snipne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "snippe"
     },
     {
      "tags": [],
@@ -31863,6 +38200,152 @@
     {
      "tags": [],
      "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "spauke",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 72142,
+  "pronunciation": null,
+  "etymology": [
+   "truleg av bauke og spa"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "grave, rote, hive opp jord"
+     ]
+    },
+    {
+     "forklaring": [
+      "rote opp med føtene"
+     ]
+    },
+    {
+     "forklaring": [
+      "gå stivt og vørdeleg"
+     ],
+     "eksempel": [
+      "<i>han spauka og briska seg</i>"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "spauke"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "spauka"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "spaukar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "spaukast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "spaukast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "spauka"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "spauka"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "spauka"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "spauka"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "spauka"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "spauka"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "spaukande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "spauk"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "spauke"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "spauka"
     }
    ]
   ]
@@ -32759,53 +39242,129 @@
  {
   "word": "spræne",
   "dictionary": "nn",
-  "wordgroup": "substantiv, sv hokj",
-  "id": 72818,
+  "wordgroup": "verb, normal",
+  "id": 72819,
   "pronunciation": null,
-  "etymology": [],
+  "etymology": [
+   "norrønt spræna",
+   "samanheng med sprute"
+  ],
   "definitions": {
-   "definisjon": [
-    {
-     "forklaring": [
-      "tynn stråle"
-     ]
-    },
-    {
-     "forklaring": [
-      "sprut av mørje eller magesjuke"
-     ]
-    }
+   "forklaring": [
+    "sprute i granne strålar"
    ]
   },
   "inflection": [
    [
     {
      "tags": [
-      "Sing",
-      "Ind"
+      "Inf"
      ],
      "word_form": "spræne"
     },
     {
      "tags": [
-      "Sing",
-      "Def"
+      "Inf"
      ],
      "word_form": "spræna"
     },
     {
      "tags": [
-      "Plur",
-      "Ind"
+      "Pres"
      ],
-     "word_form": "spræner"
+     "word_form": "sprænar"
     },
     {
      "tags": [
-      "Plur",
-      "Def"
+      "Inf",
+      "Pass"
      ],
-     "word_form": "sprænene"
+     "word_form": "sprænast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "sprænast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "spræna"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "spræna"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "spræna"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "spræna"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "spræna"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "spræna"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "sprænande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "spræn"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "spræne"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "spræna"
     }
    ]
   ]
@@ -33297,6 +39856,146 @@
   ]
  },
  {
+  "word": "sterre",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 73662,
+  "pronunciation": null,
+  "etymology": [
+   "kanskje samanheng med stare"
+  ],
+  "definitions": {
+   "forklaring": [
+    "strete, kjempe imot"
+   ],
+   "underartikkel": [
+    {
+     "id": 114746,
+     "word": "sterre mot",
+     "definitions": {
+      "forklaring": [
+       "gjere motstand"
+      ]
+     }
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "sterre"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "sterra"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "sterrar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "sterrast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "sterrast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "sterra"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "sterra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "sterra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "sterra"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "sterra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "sterra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "sterrande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "sterr"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "sterre"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "sterra"
+    }
+   ]
+  ]
+ },
+ {
   "word": "stevjast",
   "dictionary": "nn",
   "wordgroup": "verb, st-verb",
@@ -33343,6 +40042,136 @@
     {
      "tags": [],
      "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "stikte",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 73762,
+  "pronunciation": null,
+  "etymology": [
+   "samanheng med stikke eigenleg ‘gå stivt’"
+  ],
+  "definitions": {
+   "forklaring": [
+    "stige veikt eller varsamt med ein vond fot",
+    "halte"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "stikte"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "stikta"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "stiktar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "stiktast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "stiktast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "stikta"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "stikta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "stikta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "stikta"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "stikta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "stikta"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "stiktande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "stikt"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "stikte"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "stikta"
     }
    ]
   ]
@@ -33954,6 +40783,52 @@
   ]
  },
  {
+  "word": "stratt",
+  "dictionary": "nn",
+  "wordgroup": "substantiv",
+  "id": 74370,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "stiv kvist utan lauv",
+    "stilk, stubb"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Sing",
+      "Ind"
+     ],
+     "word_form": "stratt"
+    },
+    {
+     "tags": [
+      "Sing",
+      "Def"
+     ],
+     "word_form": "stratten"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Ind"
+     ],
+     "word_form": "strattar"
+    },
+    {
+     "tags": [
+      "Plur",
+      "Def"
+     ],
+     "word_form": "strattane"
+    }
+   ]
+  ]
+ },
+ {
   "word": "strile",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -34081,6 +40956,268 @@
       "Imp"
      ],
      "word_form": "strila"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "striple",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 74569,
+  "pronunciation": null,
+  "etymology": [
+   "samanheng med stripe"
+  ],
+  "definitions": {
+   "forklaring": [
+    "(la) drype",
+    "presse ut"
+   ],
+   "eksempel": [
+    "<i>striple ut den siste mjølkeskvetten frå juret</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "striple"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "stripla"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "striplar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "striplast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "striplast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "stripla"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "stripla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "stripla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "stripla"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "stripla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "stripla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "striplande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "stripl"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "striple"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "stripla"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "stropne",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 74592,
+  "pronunciation": null,
+  "etymology": [
+   "av stropen"
+  ],
+  "definitions": {
+   "forklaring": [
+    "halde på å kjøvast av noko som har sett seg i halsen"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "stropne"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "stropna"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "stropnar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "stropnast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "stropnast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "stropna"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "stropna"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "stropna"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "stropna"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "stropna"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "stropna"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "stropnande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "stropn"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "stropne"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "stropna"
     }
    ]
   ]
@@ -34340,6 +41477,93 @@
       "Imp"
      ],
      "word_form": "stumra"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "styrven",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 75089,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt stirfinn ‘stiv, strid’",
+   "samanheng med starve"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "keiveleg",
+      "stiv, tungfør"
+     ]
+    },
+    {
+     "forklaring": [
+      "stiv, stri",
+      "trassig, tverr"
+     ],
+     "eksempel": [
+      "<i>stiv og styrven</i>"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "styrven"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "styrvne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "styrvne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "styrvent"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "styrvnare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "styrvnast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "styrvnaste"
     }
    ]
   ]
@@ -34764,6 +41988,137 @@
   ]
  },
  {
+  "word": "svalke",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 75771,
+  "pronunciation": null,
+  "etymology": [
+   "jamfør islandsk svalka ‘stri seg fram, bli driven ikring’"
+  ],
+  "definitions": {
+   "forklaring": [
+    "plaske",
+    "skylje",
+    "vasse"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "svalke"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "svalka"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "svalkar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "svalkast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "svalkast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "svalka"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "svalka"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "svalka"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "svalka"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "svalka"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "svalka"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "svalkande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "svalk"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "svalke"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "svalka"
+    }
+   ]
+  ]
+ },
+ {
   "word": "svall",
   "dictionary": "nn",
   "wordgroup": "substantiv",
@@ -34805,6 +42160,141 @@
      "tags": [
       "Plur",
       "Def"
+     ],
+     "word_form": "svalla"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "svalle",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 75773,
+  "pronunciation": null,
+  "etymology": [
+   "samme opprinnelse som svalle"
+  ],
+  "definitions": {
+   "forklaring": [
+    "tale om uviktige ting",
+    "samrøde lett, prate, snakke"
+   ],
+   "eksempel": [
+    "<i>svalle med nokon</i>",
+    "<i>ho svallar om mangt</i>",
+    "<i>han har svalla med fagfolk</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "svalle"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "svalla"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "svallar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "svallast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "svallast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "svalla"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "svalla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "svalla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "svalla"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "svalla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "svalla"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "svallande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "svall"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "svalle"
+    },
+    {
+     "tags": [
+      "Imp"
      ],
      "word_form": "svalla"
     }
@@ -35952,7 +43442,7 @@
  {
   "word": "svitte",
   "dictionary": "nn",
-  "wordgroup": "substantiv",
+  "wordgroup": "verb, normal",
   "id": 76177,
   "pronunciation": null,
   "etymology": [
@@ -36209,6 +43699,55 @@
   ]
  },
  {
+  "word": "sælast",
+  "dictionary": "nn",
+  "wordgroup": "verb, st-verb",
+  "id": 76643,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "døy"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf",
+      "<SPass>"
+     ],
+     "word_form": "sælast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "<SPass>"
+     ],
+     "word_form": "sælast"
+    },
+    {
+     "tags": [
+      "Past",
+      "<SPass>"
+     ],
+     "word_form": "sælast"
+    },
+    {
+     "tags": [
+      "<PerfPart>",
+      "<SPass>"
+     ],
+     "word_form": "sælast"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
   "word": "tabuere",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -36446,29 +43985,17 @@
   "word": "tandre",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
-  "id": 77466,
+  "id": 77465,
   "pronunciation": null,
   "etymology": [
-   "sammenheng med tenne",
-   "sjå tindre"
+   "av tanne"
   ],
   "definitions": {
-   "definisjon": [
-    {
-     "forklaring": [
-      "røre med eld",
-      "kaste eld på"
-     ]
-    },
-    {
-     "forklaring": [
-      "ta fyr",
-      "gneiste"
-     ],
-     "eksempel": [
-      "<i>lyset tandra</i>"
-     ]
-    }
+   "forklaring": [
+    "skjenne, gneldre"
+   ],
+   "eksempel": [
+    "<i>tandre på ungane sine</i>"
    ]
   },
   "inflection": [
@@ -36582,6 +44109,118 @@
       "Imp"
      ],
      "word_form": "tandra"
+    }
+   ],
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "tantre"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "tantra"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "tantrar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "tantrast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "tantrast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "tantra"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "tantra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "tantra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "tantra"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "tantra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "tantra"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "tantrande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "tantr"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "tantre"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "tantra"
     }
    ]
   ]
@@ -36784,6 +44423,71 @@
       "Imp"
      ],
      "word_form": "tindra"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "tistete",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 79437,
+  "pronunciation": null,
+  "etymology": [
+   "av tist"
+  ],
+  "definitions": {
+   "forklaring": [
+    "flisete, oppriven (til dømes om hud)",
+    "tjafsete og grisen, pistrete"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "tistete"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "tistete"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "tistete"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "tistete"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
     }
    ]
   ]
@@ -37040,6 +44744,137 @@
     {
      "tags": [],
      "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "traspe",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 80575,
+  "pronunciation": null,
+  "etymology": [
+   "samme opprinnelse som trafse"
+  ],
+  "definitions": {
+   "forklaring": [
+    "trakke sund",
+    "rive i filler",
+    "øydeleggje"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "traspe"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "traspa"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "traspar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "traspast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "traspast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "traspa"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "traspa"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "traspa"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "traspa"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "traspa"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "traspa"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "traspande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "trasp"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "traspe"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "traspa"
     }
    ]
   ]
@@ -37326,6 +45161,354 @@
       "Imp"
      ],
      "word_form": "tretta"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "trumpen",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 81649,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "egen, sta",
+    "gretten, tverr",
+    "trumpete"
+   ],
+   "eksempel": [
+    "<i>ho blir stadig meir trumpen</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "trumpen"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "trumpne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "trumpne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "trumpent"
+    },
+    {
+     "tags": [
+      "Cmp"
+     ],
+     "word_form": "trumpnare"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Ind"
+     ],
+     "word_form": "trumpnast"
+    },
+    {
+     "tags": [
+      "Sup",
+      "Def"
+     ],
+     "word_form": "trumpnaste"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "tryste",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 81838,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt þrýsta"
+  ],
+  "definitions": {
+   "forklaring": [
+    "trykkje, klemme, presse"
+   ],
+   "eksempel": [
+    "<i>tryste ut safta</i>",
+    "<i>tryste handa til ein</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "tryste"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "trysta"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "tryster"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "trystast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "trystast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "tryste"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "tryst"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "tryst"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "tryst"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "tryste"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "tryste"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "trystande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "tryst"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "trælke",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 81867,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt þrælka"
+  ],
+  "definitions": {
+   "definisjon": [
+    {
+     "forklaring": [
+      "tvinge under seg",
+      "halde i ufridom",
+      "kue"
+     ],
+     "eksempel": [
+      "<i>trælke folket</i>"
+     ]
+    },
+    {
+     "forklaring": [
+      "slite og slepe",
+      "træle"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "trælke"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "trælka"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "trælkar"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "trælkast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "trælkast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "trælka"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "trælka"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "trælka"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "trælka"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "trælka"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "trælka"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "trælkande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "trælk"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "trælke"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "trælka"
     }
    ]
   ]
@@ -39194,6 +47377,132 @@
   ]
  },
  {
+  "word": "typisere",
+  "dictionary": "nn",
+  "wordgroup": "verb, normal",
+  "id": 83137,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "framstille i visse typar, standardisere"
+   ],
+   "eksempel": [
+    "<i>typiserte produkt</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "typisere"
+    },
+    {
+     "tags": [
+      "Inf"
+     ],
+     "word_form": "typisera"
+    },
+    {
+     "tags": [
+      "Pres"
+     ],
+     "word_form": "typiserer"
+    },
+    {
+     "tags": [
+      "Inf",
+      "Pass"
+     ],
+     "word_form": "typiserast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "Pass"
+     ],
+     "word_form": "typiserast"
+    },
+    {
+     "tags": [
+      "Past"
+     ],
+     "word_form": "typiserte"
+    },
+    {
+     "tags": [
+      "<PerfPart>"
+     ],
+     "word_form": "typisert"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "typisert"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "typisert"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "typiserte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PerfPart>",
+      "Plur"
+     ],
+     "word_form": "typiserte"
+    },
+    {
+     "tags": [
+      "Adj",
+      "<PresPart>"
+     ],
+     "word_form": "typiserande"
+    },
+    {
+     "tags": [
+      "Imp"
+     ],
+     "word_form": "typiser"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
   "word": "tæpe",
   "dictionary": "nn",
   "wordgroup": "verb, normal",
@@ -39312,6 +47621,73 @@
       "Imp"
      ],
      "word_form": "tæp"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "ubjåleg",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 83737,
+  "pronunciation": null,
+  "etymology": [
+   "av bjå"
+  ],
+  "definitions": {
+   "forklaring": [
+    "uhøveleg, upassande, usømeleg"
+   ],
+   "eksempel": [
+    "<i>fare ubjåleg åt</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "ubjåleg"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "ubjålege"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "ubjålege"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "ubjåleg"
+    },
+    {
+     "tags": [],
+     "word_form": null
     },
     {
      "tags": [],
@@ -39583,6 +47959,83 @@
       "Sing"
      ],
      "word_form": "unelaust"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
+  "word": "unoggen",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 85165,
+  "pronunciation": null,
+  "etymology": [],
+  "definitions": {
+   "forklaring": [
+    "rikeleg, plenty",
+    "nok"
+   ],
+   "eksempel": [
+    "<i>det er unogge med fôr</i>",
+    "<i>det var unogge med mat</i>"
+   ],
+   "definisjon": [
+    {
+     "forklaring": [
+      "brukt som adverb:"
+     ],
+     "eksempel": [
+      "<i>ha unogge å gjere</i>"
+     ]
+    }
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "unoggen"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "unogne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "unogne"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "unogge"
     },
     {
      "tags": [],
@@ -41731,6 +50184,74 @@
   ]
  },
  {
+  "word": "våskøytt",
+  "dictionary": "nn",
+  "wordgroup": "adjektiv",
+  "id": 91430,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt váskeytr",
+   "av vå"
+  ],
+  "definitions": {
+   "forklaring": [
+    "som lett glepp eller mislykkast"
+   ],
+   "eksempel": [
+    "<i>det er så våskøytt med det</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Pos",
+      "Masc/Fem",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "våskøytt"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Plur"
+     ],
+     "word_form": "våskøytte"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Def",
+      "Sing"
+     ],
+     "word_form": "våskøytte"
+    },
+    {
+     "tags": [
+      "Pos",
+      "Neuter",
+      "Ind",
+      "Sing"
+     ],
+     "word_form": "våskøytt"
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    },
+    {
+     "tags": [],
+     "word_form": null
+    }
+   ]
+  ]
+ },
+ {
   "word": "ylmen",
   "dictionary": "nn",
   "wordgroup": "adjektiv",
@@ -42937,6 +51458,61 @@
       "Imp"
      ],
      "word_form": "augna"
+    }
+   ]
+  ]
+ },
+ {
+  "word": "åbyrgjast",
+  "dictionary": "nn",
+  "wordgroup": "verb, st-verb",
+  "id": 92486,
+  "pronunciation": null,
+  "etymology": [
+   "norrønt ábyrgjast"
+  ],
+  "definitions": {
+   "forklaring": [
+    "vere ansvarleg for, gå god for, garantere"
+   ],
+   "eksempel": [
+    "<i>åbyrgjast ein</i>",
+    "<i>eg åbyrgjest at han betaler</i>"
+   ]
+  },
+  "inflection": [
+   [
+    {
+     "tags": [
+      "Inf",
+      "<SPass>"
+     ],
+     "word_form": "åbyrgjast"
+    },
+    {
+     "tags": [
+      "Pres",
+      "<SPass>"
+     ],
+     "word_form": "åbyrgjest"
+    },
+    {
+     "tags": [
+      "Past",
+      "<SPass>"
+     ],
+     "word_form": "åbyrgdest"
+    },
+    {
+     "tags": [
+      "<PerfPart>",
+      "<SPass>"
+     ],
+     "word_form": "åbyrgst"
+    },
+    {
+     "tags": [],
+     "word_form": null
     }
    ]
   ]
