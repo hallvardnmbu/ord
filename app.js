@@ -4,8 +4,25 @@ import { join } from "path";
 const db = new Database(join(import.meta.dir, "ord.db"), { readonly: true });
 
 const dictCount = {};
+const firstDay = {};
 for (const dict of ["bm", "nn"]) {
   dictCount[dict] = db.query("SELECT COUNT(*) as c FROM words WHERE dictionary = ?").get(dict).c;
+  firstDay[dict] = db.query("SELECT date FROM words WHERE dictionary = ? ORDER BY rowid LIMIT 1").get(dict)?.date;
+}
+
+const dayNumber = (ddmmyyyy) => {
+  const [d, m, y] = ddmmyyyy.split("-").map(Number);
+  return Date.UTC(y, m - 1, d) / 86400000;
+};
+
+// build.mjs inserts the words in date order, one per day from the build date. Once the dates
+// run out, start over from the first word, so a short curated list loops instead of ending.
+function wordOfTheDay(t, dict) {
+  const row = db.query("SELECT * FROM words WHERE date = ? AND dictionary = ?").get(t, dict);
+  if (row || !dictCount[dict] || !firstDay[dict]) return row;
+  const n = dictCount[dict];
+  const offset = (((dayNumber(t) - dayNumber(firstDay[dict])) % n) + n) % n;
+  return db.query("SELECT * FROM words WHERE dictionary = ? ORDER BY rowid LIMIT 1 OFFSET ?").get(dict, offset);
 }
 
 function parseWord(row) {
@@ -353,7 +370,7 @@ export default function ord(request) {
     const day = date.toLocaleDateString("no-NB", { weekday: "long" }).toLowerCase();
     try {
       const words = dicts.flatMap((dict) => {
-        const row = db.query("SELECT * FROM words WHERE date = ? AND dictionary = ?").get(t, dict);
+        const row = wordOfTheDay(t, dict);
         return row ? [parseWord(row)] : [];
       });
       return new Response(renderPage({ words, dictionary, date: t, week, day, error: null }), html);
