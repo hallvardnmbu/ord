@@ -67,7 +67,7 @@ Ground truth is `labels.csv`: 1,779 verdicts from eight labelling rounds.
 |---|---|
 | Hand-made signals + hard filters (`score.py`) | AUC 0.75 on labels; top of the ranking is 5-8x richer in liked words than a random draw (~10%). Kept as the first filter. |
 | Logistic model on the signals (`learn.py`) | Cross-validated AUC 0.68, below the hand weights, since each round samples harder words. |
-| Expansion: unused ordbokene headwords | The biggest win. `parse.mjs` dropped all nouns and words of six letters or fewer; 209 approved words come from there (*hikkas*, *kukelure*, *jeremiade*). |
+| Expansion: unused ordbokene headwords | The biggest win. `parse.mjs` dropped all nouns and words of six letters or fewer; 309 approved words come from there (*hikkas*, *kukelure*, *jeremiade*). |
 | Expansion: forgotten words (DHLAB decline since 1920-79) | Mostly archaic; the user excludes those. Used as a feature only. |
 | Expansion: Norsk Ordbok | Dialect-heavy, and its words have no bokmål/nynorsk article to link to. Skipped. |
 | Haiku screen + critic, 473 words | User said yes to 368 (78%), but these were the easiest, top-ranked words. |
