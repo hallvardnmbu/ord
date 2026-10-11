@@ -224,7 +224,8 @@ def main():
 
 
 def page():
-    """Final review page over words/approved.json: model picks first, then the user's own yes-words."""
+    """Final review page: approved.json (model picks first, then the user's own yes-words), plus
+    the user's yes-words a model dropped, marked so they can be restored."""
     approved = load(os.path.join(WORDS, "approved.json"))
     items = []
     for group in (lambda x: x["picked_by"] != "user", lambda x: x["picked_by"] == "user"):
@@ -234,6 +235,15 @@ def page():
                 if queues[d]:
                     x = queues[d].pop(0)
                     items.append({"w": x["w"], "d": x["d"], "m": x["m"], "e": x["e"], "by": x["picked_by"]})
+    # The user's own yes-words that a model dropped, to restore or confirm.
+    yes = {k for k, (label, _) in labels().items() if label == 1}
+    for x in load(os.path.join(WORDS, "excluded.json")):
+        reason = x["reason"]
+        if (x["d"], x["w"]) not in yes or reason in ("no bokmål/nynorsk article", "accented spelling"):
+            continue
+        items.append({"w": x["w"], "d": x["d"], "m": x["m"], "e": x["e"], "by": "user",
+                      "drop": reason.replace("opus review: ", ""),
+                      "dropBy": "Opus" if reason.startswith("opus") else "Sonnet"})
     template = open(os.path.join(HERE, "review.html"), encoding="utf-8").read()
     with open(os.path.join(lexicon.CACHE, "review.html"), "w", encoding="utf-8") as f:
         f.write(template.replace("/*POOL*/[]", json.dumps(items, ensure_ascii=False)))

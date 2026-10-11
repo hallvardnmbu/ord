@@ -37,6 +37,7 @@
   .tags { display: flex; gap: 8px; flex-wrap: wrap; font-size: .75rem; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
   .tags span { border: 1px solid var(--muted); padding: 1px 6px; }
   .tags .prior { color: var(--mark); border-color: var(--mark); }
+  .tags .drop { color: var(--bad); border-color: var(--bad); }
   .tags .yes { color: var(--good); border-color: var(--good); }
   .tags .no { color: var(--bad); border-color: var(--bad); }
   .word { font-size: clamp(1.8rem, 8vw, 2.6rem); font-weight: 700; margin: 0; overflow-wrap: anywhere; }
@@ -56,12 +57,16 @@
   .row button { padding: 6px 12px; min-height: 0; font-size: .85rem; }
   .note { font-size: .85rem; color: var(--muted); line-height: 1.5; margin: 0; }
   kbd { border: 1px solid var(--muted); padding: 0 4px; font-family: inherit; font-size: .8em; }
+  .filters { display: flex; gap: 6px; flex-wrap: wrap; }
+  .filters button { padding: 6px 10px; min-height: 0; font-size: .8rem; color: var(--muted); border-color: var(--tint); }
+  .filters button[aria-pressed="true"] { color: var(--fg); border-color: var(--line); background: var(--tint); }
   details { border-top: 1px solid var(--tint); padding-top: 12px; }
   summary { cursor: pointer; font-size: .85rem; color: var(--muted); }
   .legend { display: flex; gap: 12px; flex-wrap: wrap; font-size: .8rem; color: var(--muted); margin: 10px 0; }
   .list { display: flex; flex-wrap: wrap; gap: 4px 6px; max-height: 22rem; overflow-y: auto; }
   .list button { padding: 2px 6px; min-height: 0; font-size: .8rem; border-color: var(--tint); color: var(--muted); }
   .list button.prior { color: var(--mark); }
+  .list button.drop { color: var(--bad); border-style: dashed; border-color: var(--bad); }
   .list button.y { color: var(--good); border-color: var(--good); }
   .list button.n { color: var(--bad); border-color: var(--bad); text-decoration: line-through; }
   .list button.cur { background: var(--tint); color: var(--fg); border-color: var(--line); }
@@ -73,6 +78,7 @@
     <h1>dagsord · sluttkontroll</h1>
     <span class="stats" id="stats">laster…</span>
   </header>
+  <nav class="filters" id="filters" aria-label="Filter"></nav>
   <div class="bar" aria-hidden="true"><span class="y" id="barY"></span><span class="n" id="barN"></span></div>
 
   <section class="card" aria-live="polite">
@@ -92,12 +98,13 @@
     <button id="undo" type="button" disabled>← Angre</button>
   </div>
 
-  <p class="note" id="status">Alle ordene som er godkjent nå. Merket «godkjent av deg» betyr at du har sagt ja før. Nei fjerner ordet fra lista.</p>
+  <p class="note" id="status">Ja beholder ordet, nei fjerner det. «Godkjent av deg»: du har sagt ja før. «Droppet»: du sa ja, men Opus eller Sonnet tok det ut; ja tar det tilbake.</p>
 
   <details>
     <summary id="overview">Alle ord</summary>
     <div class="legend">
       <span style="color: var(--mark)">gul: godkjent av deg før</span>
+      <span style="color: var(--bad)">stiplet: droppet</span>
       <span style="color: var(--good)">grønn: ja nå</span>
       <span style="color: var(--bad)">rød: nei nå</span>
     </div>
@@ -109,6 +116,16 @@
 const POOL = /*POOL*/[];
 const COLLECTION = "final";
 const BY = { user: "godkjent av deg", sonnet: "foreslått av Sonnet", opus: "foreslått av Opus" };
+const WHY = { dialect: "dialekt", technical: "fagord", archaic: "foreldet", spelling: "skrivemåte", offensive: "støtende" };
+const FILTERS = [
+  ["all", "Alle", () => true],
+  ["new", "Nye forslag", (x) => !x.drop && x.by !== "user"],
+  ["prior", "Godkjent av deg", (x) => !x.drop && x.by === "user"],
+  ["drop", "Droppet", (x) => !!x.drop],
+];
+let filter = "all";
+try { filter = localStorage.getItem(COLLECTION + ":filter") || "all"; } catch {}
+const visible = () => POOL.filter(FILTERS.find((f) => f[0] === filter)[2]);
 
 const $ = (id) => document.getElementById(id);
 const labels = new Map(); // key -> 1 | 0
@@ -133,14 +150,30 @@ function saveLocal() {
 
 function current() {
   if (focus) return byKey.get(focus);
-  return POOL.find((item) => !labels.has(keyOf(item))) || null;
+  return visible().find((item) => !labels.has(keyOf(item))) || null;
 }
 
 function tag(text, cls) {
   return Object.assign(document.createElement("span"), { textContent: text, className: cls || "" });
 }
 
+function renderFilters() {
+  $("filters").replaceChildren(...FILTERS.map(([id, name, test]) => {
+    const pool = POOL.filter(test);
+    const left = pool.filter((x) => !labels.has(keyOf(x))).length;
+    const b = Object.assign(document.createElement("button"), { type: "button", textContent: `${name} · ${left}/${pool.length}` });
+    b.setAttribute("aria-pressed", String(id === filter));
+    b.onclick = () => {
+      filter = id; focus = null;
+      try { localStorage.setItem(COLLECTION + ":filter", id); } catch {}
+      render();
+    };
+    return b;
+  }));
+}
+
 function render() {
+  renderFilters();
   const yes = [...labels.values()].filter((v) => v === 1).length;
   const no = labels.size - yes;
   $("stats").textContent = `${labels.size} av ${POOL.length} · ${yes} ja · ${no} nei`;
@@ -153,11 +186,14 @@ function render() {
   if (!item) {
     $("tags").replaceChildren();
     $("word").textContent = "Ferdig";
-    $("meaning").textContent = `Du har gått gjennom alle ${POOL.length} ordene. Si fra til Claude, så oppdateres lista.`;
+    $("meaning").textContent = filter === "all"
+      ? `Du har gått gjennom alle ${POOL.length} ordene. Si fra til Claude, så oppdateres lista.`
+      : "Ingen flere ord i dette filteret. Velg et annet filter over.";
     $("example").textContent = "";
   } else {
     const key = keyOf(item);
     const tags = [tag(item.d === "bm" ? "bokmål" : "nynorsk"), tag(BY[item.by] || item.by, item.by === "user" ? "prior" : "")];
+    if (item.drop) tags.push(tag(`droppet: ${WHY[item.drop] || item.drop} (${item.dropBy})`, "drop"));
     if (labels.has(key)) tags.push(labels.get(key) === 1 ? tag("ja nå", "yes") : tag("nei nå", "no"));
     $("tags").replaceChildren(...tags);
     $("word").textContent = item.w;
@@ -168,7 +204,8 @@ function render() {
 }
 
 function renderList(currentKey) {
-  $("overview").textContent = `Alle ord (${POOL.length})`;
+  const shown = new Set(visible().map(keyOf));
+  $("overview").textContent = `Ordliste (${shown.size})`;
   const list = $("list");
   if (!list.childElementCount) {
     for (const item of POOL) {
@@ -182,8 +219,9 @@ function renderList(currentKey) {
   }
   for (const b of list.children) {
     const k = b.dataset.key;
+    b.hidden = !shown.has(k);
     b.className = [
-      byKey.get(k).by === "user" ? "prior" : "",
+      byKey.get(k).drop ? "drop" : byKey.get(k).by === "user" ? "prior" : "",
       labels.get(k) === 1 ? "y" : labels.get(k) === 0 ? "n" : "",
       k === currentKey ? "cur" : "",
     ].join(" ");
@@ -201,7 +239,7 @@ async function verdict(value) {
   render();
   if (!db) return;
   try {
-    await db.collection(COLLECTION).doc(key).set({ w: item.w, d: item.d, label: value, by: item.by, at: Date.now() });
+    await db.collection(COLLECTION).doc(key).set({ w: item.w, d: item.d, label: value, by: item.by, drop: item.drop || null, at: Date.now() });
   } catch (e) {
     $("status").textContent = `Kunne ikke lagre «${item.w}» (${e.code || e}). Svaret er lagret i nettleseren.`;
   }
