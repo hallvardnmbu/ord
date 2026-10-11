@@ -19,27 +19,27 @@ import lexicon
 
 # Score contributions. Positive = interesting.
 WEIGHTS = {
-    # Fitted by learn.py to 317 labelled DB words over two rounds (cross-validated
-    # AUC 0.73), then adjusted by hand where the evidence was thin or the stated
-    # goal (rare but usable today, no see-through derivations) says otherwise.
-    "simplex": 1.15,
+    # Started from learn.py fits over three label rounds (461 DB words), adjusted
+    # by hand: these hand weights rank the labels better (AUC 0.75) than a raw
+    # cross-validated fit (0.68), since each round samples harder words.
+    "simplex": 1.0,
     "transparent": 0.0,
     "suffix_productivity": -0.25,  # log(#compounds sharing the last part)
     "place": -0.5,
     "number": -3.75,
     "colour": -1.5,  # fit said -2.8 from a single labelled word
-    "template": -0.6,
+    "template": -1.0,
     "loan_or_old": 0.2,
     "homely": 0.2,
     "latinate": -0.6,
     "unknown_origin": 0.5,  # no labelled examples yet
-    "derived_etymology": 0.3,
+    "derived_etymology": 0.0,
     "register": -0.1,
-    "dated": -0.4,  # foreldet, eldre, dialekt
-    "style": 0.1,  # overført, ironisk, spøkefull
-    "dead_today": -1.5,  # printed before, practically gone since 2000
-    "derived": -0.5,  # root + ending
-    "see_through": -1.0,  # ... and the root is common: importere, vreidast, sviksam
+    "dated": -0.6,  # foreldet, eldre, dialekt
+    "style": -0.3,  # overført, ironisk, spøkefull: 4 of 24 liked
+    "dead_today": -1.3,  # printed before, practically gone since 2000
+    "derived": -1.0,  # root + ending: 0 of 9 liked in round 3
+    "see_through": -1.0,  # ... and the root is common (stacks with derived): 0 of 11 liked
     "prefixed": 0.0,  # u-, be-, for-, mis-, van- + a word
     "loan_verb": 0.0,  # -ere as such is fine (approbere, lukrere); see_through handles importere
     "examples": -0.3,  # per example, capped at 4: well-documented = everyday
@@ -65,6 +65,7 @@ HARD = {
     "place": lambda f: f["place"],
     "number": lambda f: f["number"],
     "assembly-line compound": lambda f: f["transparent"] and f["suffix"] in MECHANICAL,
+    "person noun": lambda f: f["template"] == "person",
     "technical term": lambda f: f["technical"],
 }
 

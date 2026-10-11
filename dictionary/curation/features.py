@@ -65,7 +65,7 @@ TECH_WORDS = re.compile(
 MEDICAL_SHAPE = re.compile(
     r"(oidal|ploid|dental|itis|osisk|algi|algisk|genetisk|cytt|krin|tomi|ektomi|plasma|plasmatisk"
     r"|viral|bakteriell|cellulær|vaskulær|kardial|nevral|fytt|zoisk|zoon|emisk|ematisk|meter|skop"
-    r"|tron|metri|grafi|graf)$"
+    r"|tron|metri)$"
     r"|^(kardio|nevro|hemo|hemat|osteo|gastro|dermat|myo|hepat|nefr|pneum|cyto|angio|histo|onko"
     r"|lymf|pato|bakter|kromo|intra)(?=[a-zæøå]{4,})"
 )
@@ -92,6 +92,10 @@ TEMPLATES = [
     ("som-er", r"^som (er|har|kan|ikkje|ikke) \w+( \w+)?$"),
     ("i-grad", r"^i (høy|stor|liten|lav) grad\b"),
     ("med-x", r"^(med|uten|utan) \w+( \w+)?$"),
+    # Person nouns: musikaliar, viktorianar, syfilitikar, grenlender.
+    ("person", r"^(person|kvinne|mann|ein|en|innbyggjar|innbygger|tilhenger|tilhengar|spesialist|utøver"
+     r"|utøvar|elev|student|medlem) (som|frå|fra|av|i|på|med)\b"
+     r"|^\w+(ar|ist|ør|ant|ent|log|kar|ker) (som|i|innan|innen)\b"),
 ]
 TEMPLATES = [(name, re.compile(rx, re.I)) for name, rx in TEMPLATES]
 # A capitalised word inside the main explanation: demonyms, "som gjelder Gabon".
