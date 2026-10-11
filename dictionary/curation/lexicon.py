@@ -1,4 +1,4 @@
-"""Shared loaders for the Norsk ordbank files and the local ord.db."""
+"""Shared loaders for the Norsk ordbank files and the uncurated ord.db."""
 
 import json
 import os
@@ -10,6 +10,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 DICT = os.path.join(ROOT, "dictionary")
 CACHE = os.path.join(DICT, "curation", "cache")
 FOLDERS = {"bm": "nob", "nn": "nno"}
+SOURCE_COMMIT = "48590d6"  # last commit with the uncurated ord.db
 ENCODING = "latin1"
 
 os.makedirs(CACHE, exist_ok=True)
@@ -88,9 +89,23 @@ def prefix_productivity(dictionary):
     return counts
 
 
+def source_db():
+    """The uncurated ord.db (all ~30k words) the curation started from, from the git history.
+
+    ord.db itself now holds only the curated list, so lookups of candidates go here."""
+    path = os.path.join(CACHE, "ord_source.db")
+    if not os.path.exists(path):
+        import subprocess
+        data = subprocess.run(["git", "-C", ROOT, "show", f"{SOURCE_COMMIT}:ord.db"],
+                              check=True, capture_output=True).stdout
+        with open(path, "wb") as f:
+            f.write(data)
+    return path
+
+
 def db_words(dictionary):
     """Words currently in ord.db, with parsed JSON fields."""
-    db = sqlite3.connect(os.path.join(ROOT, "ord.db"))
+    db = sqlite3.connect(source_db())
     db.row_factory = sqlite3.Row
     out = []
     for r in db.execute("SELECT * FROM words WHERE dictionary = ?", (dictionary,)):

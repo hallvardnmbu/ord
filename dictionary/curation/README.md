@@ -6,15 +6,21 @@ Fetched articles, frequencies and model outputs are cached in `cache/` (gitignor
 
 ## Result
 
-`words/approved.json`: **984 words, 583 bokmål and 401 nynorsk.** At one word per language per
-day the site loops after about 13 months (nynorsk) and 19 months (bokmål).
+`words/approved.json`: **1,083 words, 603 bokmål and 480 nynorsk, every one approved by the user.**
+At one word per language per day the site loops after about 16 months (nynorsk) and 20 months
+(bokmål); `bun dates.mjs` reshuffles and redates (see the main README for the current last dates).
 
-- 578 are words the user marked *Dagsord!* on the labelling page.
-- 172 are words Sonnet scored at 40 or above.
-- 234 are words from Sonnet's 30-40 band that Opus kept.
-- Then an Opus review (`opus_review.md`, brief in `prompts/opus_review.md`): the user's own
-  yes-words were dropped only for the user's rules (dialect, technical, archaic, spelling,
-  offensive), model-approved words for any reason. Accented spellings (diatomé) are dropped.
+How they got there:
+1. The user's yes-words from eight labelling rounds.
+2. Sonnet proposed more (score >= 40) and Opus filtered them and promoted words from Sonnet's
+   30-40 band (`opus_review.md`, brief in `prompts/opus_review.md`).
+3. A final review page showed every proposal and every yes-word a model had dropped. The user
+   kept 395 of 406 proposals and restored 110 of 188 dropped words; those verdicts are in
+   `labels.csv`, and restorations are marked `restored by user` in `opus_review.json`.
+4. Accented spellings (diatomé, hóle, koryfé) and words without a bokmål/nynorsk article are out.
+
+`catalogue.py` no longer approves model picks on its own (`AUTO = False`): words the user has not
+seen wait in their Sonnet band.
 
 `export.mjs` turns them into database documents in `dictionary/curated/{bm,nn}.json`.
 
@@ -24,10 +30,11 @@ day the site loops after about 13 months (nynorsk) and 19 months (bokmål).
 
 | File | Words | What |
 |---|---:|---|
-| `approved.json` | 984 | the final list (`picked_by`: `user`, `sonnet` or `opus`) |
-| `rejected.json` | 882 | the user said no |
-| `excluded.json` | 289 | approved, then dropped, with `reason`: Opus review (203), no bokmål/nynorsk article (61), dialect (22), accented spelling (3) |
-| `sonnet_30-40.json` | 162 | the part of the 30-40 band Opus dropped |
+| `approved.json` | 1,083 | the final list, all approved by the user |
+| `rejected.json` | 969 | the user said no |
+| `excluded.json` | 33 | approved, then dropped, with `reason`: no bokmål/nynorsk article (29), accented spelling (3), dialect (1) |
+| `sonnet_40-100.json` | 37 | Sonnet liked them, Opus dropped them, the user has not seen them |
+| `sonnet_30-40.json` | 193 | unreviewed; Opus verdicts in `opus_review.json` |
 | `sonnet_20-30.json` | 741 | Sonnet less sure |
 | `sonnet_10-20.json` | 683 | probably not |
 | `sonnet_0-10.json` | 227 | almost certainly not |
@@ -50,13 +57,15 @@ python3 sweep.py score              # features + classifier over all candidates 
 python3 sonnet.py build r2 20-30    # Sonnet batches for a band (see sonnet.py)
 python3 sonnet.py                   # gold report + labeler page for the 30-40 band
 python3 catalogue.py                # labels + scores -> words/*.json
+python3 catalogue.py page           # final review page over approved.json (cache/review.html)
 node export.mjs                     # words/approved.json -> dictionary/curated/{bm,nn}.json
+cd ../.. && bun build.mjs --curated # ord.db, shuffled and dated from today
 ```
 
 - `lexicon.py`: Norsk ordbank loaders. `frequency.py`: DHLAB book frequencies.
 - `features.py`, `score.py`, `learn.py`: hand-made signals, hard filters and a logistic model.
 - `expand.py`: candidates beyond ord.db (unused headwords, forgotten words, Norsk Ordbok).
-- `pool.py`, `labeler.html`: labelling rounds. The page saves verdicts in the artifact's
+- `pool.py`, `labeler.html`, `review.html`: labelling rounds and the final review page. The page saves verdicts in the artifact's
   database; export them, merge into `labels.csv`.
 - `sweep.py`: candidate universe and the Haiku stages (kept for reference, see below).
 - `sonnet.py`: Sonnet as judge. `prompts/`: the prompts used.
@@ -82,10 +91,7 @@ Ground truth is `labels.csv`: 1,779 verdicts from eight labelling rounds.
 
 ## What is missing
 
-- 406 model-approved words (Sonnet and Opus) are not individually reviewed by the user.
-- Opus ran on low reasoning: some drops look wrong (e.g. *minuend*, *hoppsa* as "technical").
-  Check `opus_review.md`.
-- The bands below were scored with the round-7 examples. Rebuild batches with the latest
-  labels (`sonnet.py build`) before trusting them.
+- The Sonnet bands were scored with the round-7 examples. Rebuild batches with the latest
+  labels (`sonnet.py build`) before trusting them for a next round.
 - The dictionaries rarely mark dialect; `dialect.json` is Sonnet's judgement of clear cases.
 - Norsk Ordbok words would need their own article parser and link target.

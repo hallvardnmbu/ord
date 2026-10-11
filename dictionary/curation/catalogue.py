@@ -40,7 +40,10 @@ WORDS = os.path.join(HERE, "words")
 SWEEP = os.path.join(lexicon.CACHE, "sweep")
 
 APPROVE = sonnet.APPROVE
-BANDS = [(30, 40), (20, 30), (10, 20), (0, 10)]
+BANDS = [(40, 100), (30, 40), (20, 30), (10, 20), (0, 10)]
+# Approve model picks (Sonnet >= APPROVE, Opus keeps in the 30-40 band) without the user. Off since
+# the final review: every pick the user saw is now a label, and the rest wait in their band.
+AUTO = False
 # "dialekter" / "i dialekt" are the ordbokene labels; dialektal(t) is used in prose.
 DIALECT = re.compile(r"\bdialekt(?!ik)", re.I)
 ACCENTED = re.compile(r"[^a-zæøå]")
@@ -64,7 +67,7 @@ def labels():
 
 
 def db_rows():
-    con = sqlite3.connect(os.path.join(lexicon.ROOT, "ord.db"))
+    con = sqlite3.connect(lexicon.source_db())
     return {(d, w): (i, g, defs) for w, d, i, g, defs in
             con.execute("SELECT word, dictionary, id, wordgroup, definitions FROM words")}
 
@@ -184,10 +187,10 @@ def main():
         if w in placed:
             continue
         p = round(x["p_sonnet"], 1)
-        if p >= APPROVE:
+        if AUTO and p >= APPROVE:
             approve(d, w, x["src"], "sonnet", p)
             continue
-        if review.get(f"{d}/{w}", (0,))[0] and not ACCENTED.search(w):
+        if AUTO and review.get(f"{d}/{w}", (0,))[0] and not ACCENTED.search(w):
             approve(d, w, x["src"], "opus", p)  # 30-40 band words Opus would keep
             continue
         lo, hi = next(b for b in BANDS if p >= b[0])

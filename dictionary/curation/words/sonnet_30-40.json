@@ -25,10 +25,26 @@
  },
  {
   "d": "nn",
+  "w": "trauken",
+  "src": "db",
+  "m": "slitsam, tung; som adverb:",
+  "e": "trauke arbeid",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
   "w": "taumkøyre",
   "src": "db",
   "m": "halde styr på, age",
   "e": "han fekk taumkøyrt seg",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "stridøygd",
+  "src": "db",
+  "m": "som er stri og vill i auga",
+  "e": "",
   "p_sonnet": 35.0
  },
  {
@@ -49,9 +65,33 @@
  },
  {
   "d": "bm",
+  "w": "kruslet",
+  "src": "db",
+  "m": "skrøpelig, skranten",
+  "e": "være kruslete etter sykdommen",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "bm",
   "w": "atlask",
   "src": "unused",
   "m": "sateng, særlig av silke",
+  "e": "",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "tumultuarisk",
+  "src": "db",
+  "m": "bråkande, opprørsk",
+  "e": "",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "bm",
+  "w": "knuslet",
+  "src": "db",
+  "m": "gjerrig, knipen",
   "e": "",
   "p_sonnet": 35.0
  },
@@ -69,6 +109,14 @@
   "src": "db",
   "m": "la drysje eller falle; spille",
   "e": "drupse (utover) mjøl",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "vørdsle",
+  "src": "db",
+  "m": "stelle (skikkeleg); halde rein, i god orden",
+  "e": "vyrdsle barna, garden, huset",
   "p_sonnet": 35.0
  },
  {
@@ -150,6 +198,30 @@
   "m": "drysje, spille ned; daffe, somle",
   "e": "",
   "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "tvingle",
+  "src": "db",
+  "m": "rave, sjage",
+  "e": "få eit slag så ein tvinglar bortover",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "timlusete",
+  "src": "db",
+  "m": "gjerrig",
+  "e": "",
+  "p_sonnet": 34.0
+ },
+ {
+  "d": "bm",
+  "w": "klesset",
+  "src": "db",
+  "m": "bløt og klebrig",
+  "e": "",
+  "p_sonnet": 34.0
  },
  {
   "d": "bm",
@@ -473,9 +545,33 @@
  },
  {
   "d": "bm",
+  "w": "snøflet",
+  "src": "db",
+  "m": "frekk",
+  "e": "",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "bm",
   "w": "serai",
   "src": "unused",
   "m": "sultan palass; harem; herberge, særlig for karavaner i et ørkenområde",
+  "e": "",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "bm",
+  "w": "pinadø",
+  "src": "db",
+  "m": "brukt som kraftuttrykk; jamfør piskadausen",
+  "e": "nå får du pinadø gi deg!",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "nn",
+  "w": "visshendt",
+  "src": "db",
+  "m": "stø på handa; god til å råke",
   "e": "",
   "p_sonnet": 32.5
  },
@@ -501,6 +597,14 @@
   "src": "db",
   "m": "drasse, dragse",
   "e": "draske veden med seg",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "bm",
+  "w": "piskadausen",
+  "src": "db",
+  "m": "brukt som ed; pinadø",
+  "e": "nå skal du piskadausen til pers!",
   "p_sonnet": 32.5
  },
  {
@@ -561,10 +665,34 @@
  },
  {
   "d": "nn",
+  "w": "venesæl",
+  "src": "db",
+  "m": "avhalden, godt omtykt",
+  "e": "",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "nn",
+  "w": "svamle",
+  "src": "db",
+  "m": "skvalpe i vatnet; symje; va",
+  "e": "",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "nn",
   "w": "likke",
   "src": "unused",
   "m": "røre på, bevege; flytte (seg) smått; rikke",
   "e": "likke ein stein",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "bm",
+  "w": "kokkelere",
+  "src": "db",
+  "m": "sysle med matlaging; lage mat",
+  "e": "kokkelere på kjøkkenet",
   "p_sonnet": 32.5
  },
  {
@@ -632,6 +760,14 @@
   "p_sonnet": 32.5
  },
  {
+  "d": "nn",
+  "w": "heljaleg",
+  "src": "db",
+  "m": "ofseleg; uvanleg stor; framifrå",
+  "e": "eit heljaleg regnvêr",
+  "p_sonnet": 32.5
+ },
+ {
   "d": "bm",
   "w": "kaprise",
   "src": "unused",
@@ -664,6 +800,14 @@
   "p_sonnet": 31.5
  },
  {
+  "d": "nn",
+  "w": "gjenverdig",
+  "src": "db",
+  "m": "om person: krevjande, vanskeleg; uhuga",
+  "e": "",
+  "p_sonnet": 31.5
+ },
+ {
   "d": "bm",
   "w": "blafre",
   "src": "db",
@@ -680,6 +824,14 @@
   "p_sonnet": 30.0
  },
  {
+  "d": "bm",
+  "w": "spjælet",
+  "src": "db",
+  "m": "tynn, spinkel",
+  "e": "",
+  "p_sonnet": 30.0
+ },
+ {
   "d": "nn",
   "w": "tjonete",
   "src": "db",
@@ -693,6 +845,14 @@
   "src": "db",
   "m": "om to eller fleire personar: trette, krangle, kivast; vri på orda; endre seg i rang lei",
   "e": "dei vrengdest heile kvelden",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "vrante",
+  "src": "db",
+  "m": "vri på orda; vere vrang; krangle",
+  "e": "",
   "p_sonnet": 30.0
  },
  {
@@ -765,6 +925,14 @@
   "src": "unused",
   "m": "bli søvnig; blunde, dubbe",
   "e": "",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "bm",
+  "w": "skripet",
+  "src": "db",
+  "m": "som gjerne vil kjæle eller bli kjælt; kjælen, skripen",
+  "e": "en skripete bikkje",
   "p_sonnet": 30.0
  },
  {
@@ -896,6 +1064,14 @@
   "p_sonnet": 30.0
  },
  {
+  "d": "bm",
+  "w": "blingset",
+  "src": "db",
+  "m": "skjeløyd",
+  "e": "",
+  "p_sonnet": 30.0
+ },
+ {
   "d": "nn",
   "w": "møyrne",
   "src": "db",
@@ -961,6 +1137,14 @@
  },
  {
   "d": "nn",
+  "w": "påsegla",
+  "src": "db",
+  "m": "full, rusa; pårend",
+  "e": "han hadde drukke mykje og var godt påsegla",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
   "w": "flygse",
   "src": "unused",
   "m": "fille; fjom; flogse",
@@ -980,6 +1164,22 @@
   "w": "rutle",
   "src": "unused",
   "m": "rasle",
+  "e": "",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "titevill",
+  "src": "db",
+  "m": "ustø, vinglete",
+  "e": "",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "bm",
+  "w": "spekse",
+  "src": "db",
+  "m": "gjøgle, lage ablegøyer",
   "e": "",
   "p_sonnet": 30.0
  },
@@ -1009,9 +1209,25 @@
  },
  {
   "d": "nn",
+  "w": "versjuk",
+  "src": "db",
+  "m": "i ulag på grunn av vêrbyte eller (langvarig) dårleg vêr",
+  "e": "",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
   "w": "glispe",
   "src": "db",
   "m": "glise, le, flire",
+  "e": "",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "styrje",
+  "src": "db",
+  "m": "gjere oppstyr; bråke, ståke",
   "e": "",
   "p_sonnet": 30.0
  },
@@ -1045,6 +1261,14 @@
   "src": "db",
   "m": "blåse ren, ofte som adjektiv i perfektum partisipp:",
   "e": "snaublåste rabber",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "strunteleg",
+  "src": "db",
+  "m": "som er stiv og sær",
+  "e": "",
   "p_sonnet": 30.0
  },
  {
@@ -1101,6 +1325,14 @@
   "src": "unused",
   "m": "måltid mellom frokost og middag, som en tidlig lunsj",
   "e": "fersk frokost, dugurd, middag, non og kveldsmat - hver eneste dag",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "bm",
+  "w": "krugget",
+  "src": "db",
+  "m": "krokete, krumbøyd",
+  "e": "",
   "p_sonnet": 30.0
  },
  {
@@ -1217,9 +1449,25 @@
  },
  {
   "d": "nn",
+  "w": "brålyndt",
+  "src": "db",
+  "m": "som fort blir sint; snarsinna",
+  "e": "",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
   "w": "koven",
   "src": "unused",
   "m": "om luft: tjukk og mørk; full av byer; om bustad: avstengd, skym",
+  "e": "",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "svirte",
+  "src": "db",
+  "m": "fare som ein skimt; svinge eller svive snøgt (framom)",
   "e": "",
   "p_sonnet": 30.0
  },

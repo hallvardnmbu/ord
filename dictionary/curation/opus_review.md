@@ -1,5 +1,8 @@
 # Opus review: what changed
 
+> Superseded by the user's final review: of the words dropped below, the user restored 110
+> (marked `restored by user` in `opus_review.json`). The final list is `words/approved.json`.
+
 Opus (low reasoning) reviewed the 953 approved words and the 427 unreviewed words in the Sonnet 30-40 band,
 with the brief in `prompts/opus_review.md`. Verdicts are in `opus_review.json`.
 

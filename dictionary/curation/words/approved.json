@@ -27,7 +27,7 @@
   "e": "",
   "id": 290,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -38,7 +38,7 @@
   "e": "akke seg over ungdommen",
   "id": 449,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -49,7 +49,7 @@
   "e": "akkedere om betalingen",
   "id": 451,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -71,7 +71,7 @@
   "e": "",
   "id": 70192,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -92,7 +92,7 @@
   "e": "",
   "id": 1481,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -103,7 +103,7 @@
   "e": "det forlorne barnet var anatema i familien",
   "id": 1633,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 31.0
  },
  {
@@ -168,24 +168,13 @@
  },
  {
   "d": "bm",
-  "w": "antimakassar",
-  "src": "unused",
-  "m": "tøystykke til å henge over stolrygger for å verne mot fett fra håret; jf makassarolje",
-  "e": "",
-  "id": 2230,
-  "wordgroup": "substantiv",
-  "picked_by": "sonnet",
-  "p_sonnet": 45.0
- },
- {
-  "d": "bm",
   "w": "antropofag",
   "src": "unused",
   "m": "menneskeeter",
   "e": "",
   "id": 2282,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -196,7 +185,7 @@
   "e": "apoteosen av Nikolaus den hellige",
   "id": 2373,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -207,7 +196,7 @@
   "e": "den sceniske apparisjonen hennes gjør framføringen enda bedre",
   "id": 2380,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -228,7 +217,7 @@
   "e": "atale ord som svir",
   "id": 3026,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -239,7 +228,7 @@
   "e": "finn på noe som kan atspre dem",
   "id": 3118,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -260,7 +249,7 @@
   "e": "rottene aulet i kjelleren",
   "id": 112556,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -271,7 +260,7 @@
   "e": "under noens auspisier",
   "id": 3234,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -282,7 +271,7 @@
   "e": "bo på en avbaklig plass",
   "id": 3358,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -313,7 +302,7 @@
   "e": "",
   "id": 109058,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -335,19 +324,8 @@
   "e": "",
   "id": 4134,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
- },
- {
-  "d": "bm",
-  "w": "bakkenbart",
-  "src": "unused",
-  "m": "kinnskjegg",
-  "e": "",
-  "id": 4147,
-  "wordgroup": "substantiv",
-  "picked_by": "opus",
-  "p_sonnet": 30.0
  },
  {
   "d": "bm",
@@ -408,7 +386,7 @@
   "e": "hun bekvemmet seg ikke engang til å gi beskjed",
   "id": 5145,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -469,7 +447,7 @@
   "e": "",
   "id": 5492,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -480,7 +458,7 @@
   "e": "gi sitt besyv med i diskusjonen",
   "id": 5598,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -501,7 +479,7 @@
   "e": "",
   "id": 5865,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -562,18 +540,7 @@
   "e": "stå fram uten blussel",
   "id": 6611,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
-  "p_sonnet": 30.0
- },
- {
-  "d": "bm",
-  "w": "boklærd",
-  "src": "db",
-  "m": "belest",
-  "e": "være boklærd og klok",
-  "id": 110054,
-  "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -594,7 +561,7 @@
   "e": "",
   "id": 110139,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -605,7 +572,7 @@
   "e": "uten å bramme",
   "id": 7253,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -616,7 +583,7 @@
   "e": "en svær brande av en securitasvakt",
   "id": 7258,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -642,13 +609,23 @@
  },
  {
   "d": "bm",
+  "w": "bumse",
+  "src": "unused",
+  "m": "tykkfallen kvinne",
+  "e": "",
+  "id": 8103,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
   "w": "bumsete",
   "src": "db",
   "m": "tykk; uformelig, klumpete; klossete",
   "e": "gå med bumsete bukser",
   "id": 8105,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -680,7 +657,7 @@
   "e": "et celebert besøk",
   "id": 8729,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 50.0
  },
  {
@@ -691,19 +668,8 @@
   "e": "jeg er ikke kommet hit for å dalle",
   "id": 110973,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
- },
- {
-  "d": "bm",
-  "w": "damejeanne",
-  "src": "unused",
-  "m": "glassballong i kurv til vin, syrer o_l",
-  "e": "",
-  "id": 9202,
-  "wordgroup": "substantiv",
-  "picked_by": "opus",
-  "p_sonnet": 30.0
  },
  {
   "d": "bm",
@@ -713,8 +679,18 @@
   "e": "dandere maten med garnityr",
   "id": 9238,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
+ },
+ {
+  "d": "bm",
+  "w": "deild",
+  "src": "unused",
+  "m": "skillestein mellom eiendommer; merkestein",
+  "e": "",
+  "id": 9507,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -724,7 +700,7 @@
   "e": "en dert smør",
   "id": 111172,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -785,7 +761,7 @@
   "e": "",
   "id": 10780,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -816,7 +792,7 @@
   "e": "han drølte lenge før han gav svaret sitt",
   "id": 111834,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -827,7 +803,7 @@
   "e": "komme i drøs med noen",
   "id": 11048,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -838,7 +814,7 @@
   "e": "sitte på kafeen og drøse",
   "id": 11049,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -880,7 +856,7 @@
   "e": "hjertet dulper",
   "id": 111918,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -921,7 +897,7 @@
   "e": "politikeren var en ekvilibrist av rang",
   "id": 12218,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -932,7 +908,7 @@
   "e": "de elyseiske marker",
   "id": 12490,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -943,7 +919,7 @@
   "e": "",
   "id": 13179,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -954,7 +930,7 @@
   "e": "en ren og eufonisk klang",
   "id": 13403,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -980,24 +956,13 @@
  },
  {
   "d": "bm",
-  "w": "filiokus",
-  "src": "db",
-  "m": "brukt i trylleformel; formel som en tryllekunstner bruker",
-  "e": "",
-  "id": 14614,
-  "wordgroup": "interjeksjon",
-  "picked_by": "sonnet",
-  "p_sonnet": 42.5
- },
- {
-  "d": "bm",
   "w": "filipens",
   "src": "unused",
   "m": "kvise",
   "e": "",
   "id": 14615,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -1008,19 +973,8 @@
   "e": "",
   "id": 14620,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
- },
- {
-  "d": "bm",
-  "w": "filistrøs",
-  "src": "db",
-  "m": "spissborgerlig",
-  "e": "",
-  "id": 14621,
-  "wordgroup": "adjektiv",
-  "picked_by": "opus",
-  "p_sonnet": 30.0
  },
  {
   "d": "bm",
@@ -1064,6 +1018,17 @@
  },
  {
   "d": "bm",
+  "w": "fjåg",
+  "src": "unused",
+  "m": "glad, tilfreds, blid",
+  "e": "fjåge folk",
+  "id": 113998,
+  "wordgroup": "adjektiv",
+  "picked_by": "user",
+  "p_sonnet": 37.5
+ },
+ {
+  "d": "bm",
   "w": "flenge",
   "src": "db",
   "m": "rive flenge i; flekke, spjære; rive av med stor kraft",
@@ -1079,8 +1044,8 @@
   "m": "rive, flenge",
   "e": "flerre opp noe",
   "id": 15351,
-  "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "wordgroup": "verb, normal",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -1111,7 +1076,7 @@
   "e": "florisante tider",
   "id": 15476,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -1123,17 +1088,6 @@
   "id": 15517,
   "wordgroup": "adverb",
   "picked_by": "user"
- },
- {
-  "d": "bm",
-  "w": "foliant",
-  "src": "unused",
-  "m": "bok i folioformat; svært stor bok",
-  "e": "",
-  "id": 15771,
-  "wordgroup": "substantiv",
-  "picked_by": "sonnet",
-  "p_sonnet": 40.0
  },
  {
   "d": "bm",
@@ -1203,7 +1157,7 @@
   "e": "forgape seg i noen",
   "id": 16266,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -1284,7 +1238,7 @@
   "e": "ha et forsoffent utseende",
   "id": 16911,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -1365,7 +1319,7 @@
   "e": "",
   "id": 18885,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 46.0
  },
  {
@@ -1386,7 +1340,7 @@
   "e": "gampe og løpe",
   "id": 70809,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -1402,24 +1356,13 @@
  },
  {
   "d": "bm",
-  "w": "garpe",
-  "src": "unused",
-  "m": "skryte; rape, gurpe",
-  "e": "",
-  "id": 19176,
-  "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
-  "p_sonnet": 42.5
- },
- {
-  "d": "bm",
   "w": "gauke",
   "src": "unused",
   "m": "selge brennevin ulovlig",
   "e": "",
   "id": 19287,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -1450,7 +1393,7 @@
   "e": "en jovial og gemenslig kar",
   "id": 19390,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -1461,7 +1404,7 @@
   "e": "en geskjeftig servitør",
   "id": 19549,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -1492,7 +1435,7 @@
   "e": "gjøle for noen",
   "id": 20046,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -1503,7 +1446,7 @@
   "e": "",
   "id": 20083,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -1524,7 +1467,7 @@
   "e": "jeg er glohersk på krim for tiden",
   "id": 115667,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -1535,7 +1478,7 @@
   "e": "gnafse på spekeskinka",
   "id": 20363,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -1577,7 +1520,7 @@
   "e": "hundene gneldrer",
   "id": 20373,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -1588,7 +1531,7 @@
   "e": "en gnell latter",
   "id": 20376,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -1609,7 +1552,7 @@
   "e": "døra gnikset",
   "id": 20390,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -1620,7 +1563,7 @@
   "e": "hjulene gnislet",
   "id": 20393,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -1641,7 +1584,7 @@
   "e": "gnomisk diktning",
   "id": 20407,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -1652,7 +1595,7 @@
   "e": "",
   "id": 20418,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -1673,7 +1616,7 @@
   "e": "det hørtes granngivelig slik ut",
   "id": 20678,
   "wordgroup": "adverb",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 50.0
  },
  {
@@ -1684,7 +1627,7 @@
   "e": "den grassate overdrivelsen",
   "id": 20730,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -1705,7 +1648,7 @@
   "e": "",
   "id": 20800,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -1716,7 +1659,7 @@
   "e": "jeg har litt av hvert å grisle med",
   "id": 115460,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -1727,7 +1670,7 @@
   "e": "grisne skoger",
   "id": 21018,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -1738,7 +1681,7 @@
   "e": "",
   "id": 21099,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -1749,7 +1692,7 @@
   "e": "grisen gryler",
   "id": 119952,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -1771,7 +1714,7 @@
   "e": "selge alt sitt habengut og dra av sted",
   "id": 21807,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -1802,7 +1745,7 @@
   "e": "henslepe sine siste dager i nød og elendighet",
   "id": 23256,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -1817,24 +1760,13 @@
  },
  {
   "d": "bm",
-  "w": "herdebrei",
-  "src": "db",
-  "m": "bredskuldret",
-  "e": "",
-  "id": 23299,
-  "wordgroup": "adjektiv",
-  "picked_by": "opus",
-  "p_sonnet": 32.5
- },
- {
-  "d": "bm",
   "w": "herostratisk",
   "src": "db",
   "m": "om berømmelse, omdømme: som skyldes en udåd eller en forkastelig handling; brukt som adverb",
   "e": "vinne herostratisk berømmelse",
   "id": 23359,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 50.0
  },
  {
@@ -1845,7 +1777,7 @@
   "e": "de herpeserte bilen",
   "id": 97220,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -1866,7 +1798,7 @@
   "e": "hildre opp over horisonten",
   "id": 23563,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -1939,7 +1871,7 @@
   "e": "",
   "id": 23998,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -1950,6 +1882,16 @@
   "e": "",
   "id": 24135,
   "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "hoppsa",
+  "src": "db",
+  "m": "livlig runddans i 3/4 takt; musikk til hoppsa",
+  "e": "",
+  "id": 24177,
+  "wordgroup": "interjeksjon",
   "picked_by": "user"
  },
  {
@@ -1970,7 +1912,7 @@
   "e": "hun hufset utålmodig med tømmene",
   "id": 24380,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -1981,7 +1923,7 @@
   "e": "",
   "id": 24383,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -1992,7 +1934,7 @@
   "e": "hukre og fryse",
   "id": 24426,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -2013,7 +1955,7 @@
   "e": "smile hullsalig",
   "id": 99239,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -2034,7 +1976,7 @@
   "e": "",
   "id": 24691,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 60.0
  },
  {
@@ -2045,7 +1987,7 @@
   "e": "hun var hustren av seg",
   "id": 24734,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -2056,7 +1998,7 @@
   "e": "hutle bort penger",
   "id": 117529,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -2077,8 +2019,28 @@
   "e": "huttemegtu, så kaldt det er!",
   "id": 24756,
   "wordgroup": "interjeksjon",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
+ },
+ {
+  "d": "bm",
+  "w": "idiofon",
+  "src": "db",
+  "m": "som klinger i seg selv, for eksempel om instrument der lyden kommer av vibrasjon i selve instrumentet",
+  "e": "",
+  "id": 118142,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "idke",
+  "src": "unused",
+  "m": "urolig venting; uro",
+  "e": "",
+  "id": 25633,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -2088,7 +2050,7 @@
   "e": "lyspunktene i taket illuderer en stjernehimmel",
   "id": 25834,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -2099,7 +2061,7 @@
   "e": "han må tøyle sin indolens på jobben",
   "id": 26056,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 55.0
  },
  {
@@ -2110,7 +2072,7 @@
   "e": "hun kom med infamerende beskyldninger",
   "id": 118527,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -2121,7 +2083,7 @@
   "e": "en insiterende taler",
   "id": 117944,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -2153,7 +2115,7 @@
   "e": "",
   "id": 27466,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -2164,7 +2126,7 @@
   "e": "herre jemini for en gjøgler han er!",
   "id": 27597,
   "wordgroup": "interjeksjon",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -2175,8 +2137,18 @@
   "e": "vi fikk høre en jeremiade om hvor håpløst alt er her i landet",
   "id": 27611,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
+ },
+ {
+  "d": "bm",
+  "w": "jorte",
+  "src": "unused",
+  "m": "gulpe opp og tygge føde flere ganger; tygge drøv",
+  "e": "krøtterne lå og jortet",
+  "id": 27890,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -2186,7 +2158,7 @@
   "e": "ha et godt judisium",
   "id": 27931,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 60.0
  },
  {
@@ -2197,7 +2169,7 @@
   "e": "jugle seg til",
   "id": 27935,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -2208,8 +2180,18 @@
   "e": "det var glorete spillehaller og juglete salgsboder overalt",
   "id": 27936,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
+ },
+ {
+  "d": "bm",
+  "w": "kadreie",
+  "src": "db",
+  "m": "drive handel fra båt med andre båter; manøvrere en båt slik at den holder seg omtrent på samme plass",
+  "e": "ligge og kadreie",
+  "id": 28156,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -2219,7 +2201,7 @@
   "e": "",
   "id": 28223,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -2230,7 +2212,7 @@
   "e": "",
   "id": 28391,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 50.0
  },
  {
@@ -2241,7 +2223,7 @@
   "e": "han kom stadig med kaprisiøse ytringer",
   "id": 28656,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -2262,7 +2244,7 @@
   "e": "snakke kaudervelsk",
   "id": 29047,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 60.0
  },
  {
@@ -2283,7 +2265,7 @@
   "e": "en kaut fyr",
   "id": 29064,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -2294,7 +2276,7 @@
   "e": "være keik i ryggen",
   "id": 29106,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -2305,7 +2287,7 @@
   "e": "",
   "id": 29107,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -2336,7 +2318,7 @@
   "e": "gå kippskodd",
   "id": 29312,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -2367,8 +2349,18 @@
   "e": "",
   "id": 29457,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 31.0
+ },
+ {
+  "d": "bm",
+  "w": "kjekkesen",
+  "src": "db",
+  "m": "kjekk",
+  "e": "det var svært så kjekkesen du er",
+  "id": 29456,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -2412,6 +2404,16 @@
  },
  {
   "d": "bm",
+  "w": "kjos",
+  "src": "unused",
+  "m": "smal vik",
+  "e": "",
+  "id": 29662,
+  "wordgroup": "substantiv, ubøy",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
   "w": "kjæte",
   "src": "unused",
   "m": "kåthet; leken, lysten stemning",
@@ -2442,13 +2444,23 @@
  },
  {
   "d": "bm",
+  "w": "kleise",
+  "src": "db",
+  "m": "snakke urent",
+  "e": "han kleiser enda han har begynt på skolen",
+  "id": 30032,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
   "w": "kleresi",
   "src": "unused",
   "m": "prester til forskjell fra lekfolk el andre samfunnsklasser; prestestand, geistlighet, klerus; overf, neds: klikk, gjeng",
   "e": "",
   "id": 30060,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -2489,7 +2501,7 @@
   "e": "ta seg en knert",
   "id": 30500,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -2500,7 +2512,7 @@
   "e": "knerte ned noe småbjørk",
   "id": 30501,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -2521,7 +2533,7 @@
   "e": "se knipsk ut",
   "id": 30533,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -2543,7 +2555,7 @@
   "e": "hestene knurpet havre",
   "id": 30599,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -2554,7 +2566,7 @@
   "e": "",
   "id": 30603,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -2565,7 +2577,7 @@
   "e": "",
   "id": 30623,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -2576,7 +2588,7 @@
   "e": "knøttende liten",
   "id": 30643,
   "wordgroup": "adverb",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -2587,7 +2599,7 @@
   "e": "hele kodiljen",
   "id": 30694,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -2597,6 +2609,16 @@
   "m": "trolle, fjetre, forhekse",
   "e": "",
   "id": 30710,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "kokre",
+  "src": "unused",
+  "m": "om visse dyr og fugler, blant annet rype: gi fra seg en kaklende, skrattende, hukrende lyd",
+  "e": "",
+  "id": 30772,
   "wordgroup": "verb, normal",
   "picked_by": "user"
  },
@@ -2618,7 +2640,7 @@
   "e": "ta seg en kolokvinter",
   "id": 30860,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 55.0
  },
  {
@@ -2629,7 +2651,7 @@
   "e": "",
   "id": 31500,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -2640,7 +2662,7 @@
   "e": "",
   "id": 31505,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -2651,7 +2673,7 @@
   "e": "stå og kope",
   "id": 31537,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 50.0
  },
  {
@@ -2662,7 +2684,7 @@
   "e": "",
   "id": 31548,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -2723,7 +2745,7 @@
   "e": "det er så vidt han kan kreke og gå",
   "id": 32015,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -2744,7 +2766,7 @@
   "e": "elva gikk i krinkel og krok",
   "id": 32174,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -2796,8 +2818,18 @@
   "e": "",
   "id": 32342,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
+ },
+ {
+  "d": "bm",
+  "w": "kruksen",
+  "src": "db",
+  "m": "sammenkrøpet",
+  "e": "",
+  "id": 32343,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -2807,7 +2839,7 @@
   "e": "krusle seg over gulvet",
   "id": 32378,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -2828,7 +2860,7 @@
   "e": "sitte for seg selv og kukelure",
   "id": 32586,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 57.5
  },
  {
@@ -2839,7 +2871,7 @@
   "e": "kulse i ryggen",
   "id": 32667,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -2850,7 +2882,7 @@
   "e": "",
   "id": 32834,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -2871,7 +2903,7 @@
   "e": "være kvapsete i ansiktet",
   "id": 33024,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -2912,7 +2944,7 @@
   "e": "jeg skjønte ikke et kvidder",
   "id": 33188,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -2937,13 +2969,23 @@
  },
  {
   "d": "bm",
+  "w": "kvæve",
+  "src": "unused",
+  "m": "kvele",
+  "e": "",
+  "id": 33326,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
   "w": "kyklopisk",
   "src": "db",
   "m": "kjempemessig",
   "e": "",
   "id": 33336,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -2974,7 +3016,7 @@
   "e": "en lang laban",
   "id": 33446,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -2985,7 +3027,7 @@
   "e": "",
   "id": 33450,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -3017,7 +3059,7 @@
   "e": "kjenne seg lemster",
   "id": 34809,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -3048,7 +3090,7 @@
   "e": "høre ljomen av fela",
   "id": 35565,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -3059,7 +3101,7 @@
   "e": "",
   "id": 35571,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -3070,7 +3112,7 @@
   "e": "en luguber fyr",
   "id": 35995,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 52.5
  },
  {
@@ -3101,7 +3143,7 @@
   "e": "en svær lurk",
   "id": 36104,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -3123,7 +3165,7 @@
   "e": "det var et lurveleven uten like",
   "id": 36108,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -3174,7 +3216,7 @@
   "e": "et lønsk blikk",
   "id": 34480,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -3185,7 +3227,7 @@
   "e": "en løyen idé",
   "id": 34587,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -3196,7 +3238,7 @@
   "e": "maksle tresko",
   "id": 36661,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -3217,7 +3259,7 @@
   "e": "havet marmet",
   "id": 37154,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -3248,8 +3290,18 @@
   "e": "",
   "id": 37839,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
+ },
+ {
+  "d": "bm",
+  "w": "minuend",
+  "src": "unused",
+  "m": "tall som en trekker et annet fra; t_forsk_f subtrahend",
+  "e": "i subtraksjonen 5 – 3 = 2 er 5 minuend",
+  "id": 38577,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -3279,7 +3331,7 @@
   "e": "muge og puge sammen penger",
   "id": 39399,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -3290,7 +3342,7 @@
   "e": "hva er det du går og muller om?",
   "id": 39446,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -3301,7 +3353,7 @@
   "e": "være til muntrasjon for hele selskapet",
   "id": 39525,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -3322,7 +3374,7 @@
   "e": "",
   "id": 39693,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -3333,7 +3385,7 @@
   "e": "en mørje med folk",
   "id": 39866,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -3384,7 +3436,7 @@
   "e": "han følte seg som en noksagt blant alle spesialistene",
   "id": 40934,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -3405,7 +3457,7 @@
   "e": "kua nufset henne i jakkeermet",
   "id": 41224,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -3456,7 +3508,7 @@
   "e": "grisen nøffer når det kommer folk på besøk",
   "id": 41597,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -3487,7 +3539,7 @@
   "e": "",
   "id": 41779,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -3538,7 +3590,7 @@
   "e": "",
   "id": 43192,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -3569,7 +3621,7 @@
   "e": "",
   "id": 43470,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -3580,7 +3632,7 @@
   "e": "",
   "id": 43965,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 55.0
  },
  {
@@ -3591,7 +3643,7 @@
   "e": "han kler seg med en viss panasj",
   "id": 43978,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -3602,7 +3654,7 @@
   "e": "",
   "id": 43986,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -3622,8 +3674,8 @@
   "m": "ettergivelse av straff; benådning, nåde",
   "e": "her gis ingen pardong",
   "id": 44182,
-  "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "wordgroup": "interjeksjon",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -3634,7 +3686,7 @@
   "e": "ha mye pargas med seg",
   "id": 44198,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -3655,7 +3707,7 @@
   "e": "",
   "id": 44333,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 52.5
  },
  {
@@ -3670,13 +3722,23 @@
  },
  {
   "d": "bm",
+  "w": "patronym",
+  "src": "db",
+  "m": "navn som er dannet av fornavnet til faren og ordet for ‘sønn’ eller ‘datter’, som i Haraldsson, Sverresdatter og Sjursdotter; patronymikon; motsatt metronym",
+  "e": "",
+  "id": 44446,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
   "w": "paulun",
   "src": "unused",
   "m": "brukt spøkefullt om bolig eller (fredelig og godt) oppholdssted",
   "e": "stig inn i mitt enkle paulun",
   "id": 44466,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -3687,7 +3749,7 @@
   "e": "",
   "id": 44643,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 50.0
  },
  {
@@ -3698,7 +3760,7 @@
   "e": "være på en perial",
   "id": 44658,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -3709,7 +3771,7 @@
   "e": "hunden pistrer utenfor",
   "id": 45064,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -3720,7 +3782,7 @@
   "e": "sitte og pjalle",
   "id": 45075,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -3731,7 +3793,7 @@
   "e": "hun samler sammen pjanket sitt",
   "id": 45078,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -3742,7 +3804,7 @@
   "e": "",
   "id": 45087,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -3804,7 +3866,7 @@
   "e": "",
   "id": 45320,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -3815,7 +3877,7 @@
   "e": "maling som pløser seg",
   "id": 45351,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -3826,7 +3888,7 @@
   "e": "et pløsent ansikt",
   "id": 45352,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -3837,7 +3899,7 @@
   "e": "",
   "id": 45397,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 55.0
  },
  {
@@ -3848,7 +3910,7 @@
   "e": "",
   "id": 45614,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -3859,7 +3921,7 @@
   "e": "",
   "id": 45715,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -3880,7 +3942,7 @@
   "e": "en gammel praktikus",
   "id": 45886,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -3931,7 +3993,7 @@
   "e": "et probat middel mot hikke",
   "id": 46324,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -3942,7 +4004,7 @@
   "e": "",
   "id": 46528,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -3953,7 +4015,7 @@
   "e": "",
   "id": 46555,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -3994,7 +4056,7 @@
   "e": "",
   "id": 46818,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 55.0
  },
  {
@@ -4015,7 +4077,7 @@
   "e": "",
   "id": 46829,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -4026,7 +4088,7 @@
   "e": "",
   "id": 46833,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -4047,7 +4109,7 @@
   "e": "røyken puldret fram",
   "id": 46846,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -4058,7 +4120,7 @@
   "e": "et påvert resultat",
   "id": 70107,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -4069,7 +4131,7 @@
   "e": "",
   "id": 47034,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -4080,7 +4142,7 @@
   "e": "",
   "id": 47209,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -4101,7 +4163,7 @@
   "e": "rapse og stjele",
   "id": 47478,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -4112,7 +4174,7 @@
   "e": "",
   "id": 47526,
   "wordgroup": "substantiv, ubøy",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4123,7 +4185,7 @@
   "e": "lage ravasje",
   "id": 47590,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -4144,7 +4206,7 @@
   "e": "",
   "id": 47948,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -4155,7 +4217,7 @@
   "e": "",
   "id": 48087,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4168,6 +4230,16 @@
   "wordgroup": "substantiv",
   "picked_by": "user",
   "p_sonnet": 37.5
+ },
+ {
+  "d": "bm",
+  "w": "renons",
+  "src": "unused",
+  "m": "i kortspill: det å være uten kort i en bestemt farge",
+  "e": "",
+  "id": 48124,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -4187,7 +4259,7 @@
   "e": "det fantes ikke resong i forslaget",
   "id": 48267,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -4198,7 +4270,7 @@
   "e": "rikle med dørklinken",
   "id": 48547,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -4209,7 +4281,7 @@
   "e": "",
   "id": 49076,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -4230,7 +4302,7 @@
   "e": "være råsken på beina",
   "id": 49552,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4241,7 +4313,7 @@
   "e": "gi noen en røffel",
   "id": 49340,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -4252,7 +4324,7 @@
   "e": "",
   "id": 49341,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4263,7 +4335,7 @@
   "e": "",
   "id": 49373,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -4274,7 +4346,7 @@
   "e": "et sabbete arbeid",
   "id": 49578,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -4285,7 +4357,7 @@
   "e": "slå saltomortale",
   "id": 49799,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -4306,7 +4378,7 @@
   "e": "samfengt fisk",
   "id": 49866,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4317,7 +4389,7 @@
   "e": "det han sa, samstavet ikke med det vi hadde hørt før",
   "id": 50024,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4338,7 +4410,7 @@
   "e": "et celebert besøk",
   "id": 8729,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -4359,7 +4431,7 @@
   "e": "",
   "id": 50604,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -4380,7 +4452,7 @@
   "e": "",
   "id": 51048,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -4401,7 +4473,7 @@
   "e": "sibyllinske bøker",
   "id": 51273,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -4412,7 +4484,7 @@
   "e": "han var temmelig sigen da han kom fram",
   "id": 51359,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -4443,7 +4515,7 @@
   "e": "",
   "id": 51945,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4464,7 +4536,7 @@
   "e": "elva sjoget nede i dalen",
   "id": 51965,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -4475,7 +4547,7 @@
   "e": "et skabilken av en hest",
   "id": 52360,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -4516,7 +4588,7 @@
   "e": "skeivle bortover veien",
   "id": 52685,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -4557,7 +4629,7 @@
   "e": "skjerre sauer",
   "id": 53082,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4568,7 +4640,7 @@
   "e": "skjesse på noe godt",
   "id": 128366,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -4629,7 +4701,7 @@
   "e": "nøklene skraslet i lomma",
   "id": 53517,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -4654,13 +4726,23 @@
  },
  {
   "d": "bm",
+  "w": "skrie",
+  "src": "unused",
+  "m": "skred, ras; sted der en ser merker etter skred",
+  "e": "",
+  "id": 53585,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
   "w": "skripen",
   "src": "db",
   "m": "som gjerne vil kjæle eller bli kjælt; skripete, kjælen",
   "e": "",
   "id": 53620,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -4681,8 +4763,18 @@
   "e": "det ble mye skuddermudder og rot",
   "id": 53759,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
+ },
+ {
+  "d": "bm",
+  "w": "skulse",
+  "src": "db",
+  "m": "gjøre opp et mellomværende ved å la fordringene på begge sider oppveie hverandre",
+  "e": "",
+  "id": 53809,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -4692,7 +4784,7 @@
   "e": "",
   "id": 53834,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -4713,7 +4805,7 @@
   "e": "",
   "id": 53907,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 52.5
  },
  {
@@ -4754,7 +4846,7 @@
   "e": "slafse i seg maten",
   "id": 54168,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4765,7 +4857,7 @@
   "e": "en lang slamp av en kar",
   "id": 54248,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4797,7 +4889,7 @@
   "e": "støvlene slarket",
   "id": 54288,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -4818,7 +4910,7 @@
   "e": "",
   "id": 54341,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4839,7 +4931,7 @@
   "e": "",
   "id": 54492,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4850,7 +4942,7 @@
   "e": "slubre i seg kaffe",
   "id": 54547,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 52.5
  },
  {
@@ -4881,7 +4973,7 @@
   "e": "",
   "id": 54554,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4922,7 +5014,7 @@
   "e": "",
   "id": 54744,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4953,7 +5045,7 @@
   "e": "",
   "id": 54747,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -4968,17 +5060,6 @@
  },
  {
   "d": "bm",
-  "w": "snadde",
-  "src": "unused",
-  "m": "tobakkspipe",
-  "e": "",
-  "id": 55022,
-  "wordgroup": "substantiv",
-  "picked_by": "opus",
-  "p_sonnet": 30.0
- },
- {
-  "d": "bm",
   "w": "snadre",
   "src": "db",
   "m": "utstøte små skrattende skrik; skravle",
@@ -4986,17 +5067,6 @@
   "id": 55025,
   "wordgroup": "verb, normal",
   "picked_by": "user"
- },
- {
-  "d": "bm",
-  "w": "snedden",
-  "src": "db",
-  "m": "snerten, nett",
-  "e": "en snedden jente",
-  "id": 55075,
-  "wordgroup": "adjektiv",
-  "picked_by": "opus",
-  "p_sonnet": 30.0
  },
  {
   "d": "bm",
@@ -5046,7 +5116,7 @@
   "e": "er du snuft gått fra forstanden?",
   "id": 55221,
   "wordgroup": "adverb",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -5057,7 +5127,7 @@
   "e": "han samlet på alt av antikviteter og snurrepiperier",
   "id": 129941,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 52.5
  },
  {
@@ -5068,7 +5138,7 @@
   "e": "være snåp og netthendt",
   "id": 55375,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -5079,7 +5149,7 @@
   "e": "han snåvet og falt",
   "id": 55376,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -5100,7 +5170,7 @@
   "e": "en soignert herre",
   "id": 55414,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -5111,7 +5181,7 @@
   "e": "sondre mellom det helt gode og det mindre gode",
   "id": 55615,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -5122,7 +5192,7 @@
   "e": "",
   "id": 55791,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -5143,7 +5213,7 @@
   "e": "gjøre noen et spikk",
   "id": 56044,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -5154,7 +5224,7 @@
   "e": "",
   "id": 56050,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -5175,7 +5245,7 @@
   "e": "",
   "id": 56193,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -5226,8 +5296,18 @@
   "e": "statarisk pensum",
   "id": 56743,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 55.0
+ },
+ {
+  "d": "bm",
+  "w": "stendig",
+  "src": "db",
+  "m": "stadig, alltid",
+  "e": "",
+  "id": 57016,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -5277,8 +5357,18 @@
   "e": "storbyens stimmel",
   "id": 57233,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
+ },
+ {
+  "d": "bm",
+  "w": "stinge",
+  "src": "db",
+  "m": "nå sjelden: stikke; jamfør stungen",
+  "e": "",
+  "id": 57241,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -5288,7 +5378,7 @@
   "e": "",
   "id": 57243,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 52.5
  },
  {
@@ -5299,7 +5389,7 @@
   "e": "stolpre rundt i store tresko",
   "id": 57344,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -5310,7 +5400,7 @@
   "e": "",
   "id": 57350,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -5321,7 +5411,7 @@
   "e": "",
   "id": 57560,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -5366,13 +5456,23 @@
  },
  {
   "d": "bm",
+  "w": "subtrahend",
+  "src": "unused",
+  "m": "tall som trekkes fra et annet; t_forsk_f minuend",
+  "e": "",
+  "id": 58228,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
   "w": "sukle",
   "src": "unused",
   "m": "klukke, sildre; surkle",
   "e": "bekken suklet nede i ura",
   "id": 58297,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -5383,7 +5483,7 @@
   "e": "sulke til noe",
   "id": 58320,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -5394,7 +5494,7 @@
   "e": "havne i en suppedas",
   "id": 58417,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 52.5
  },
  {
@@ -5405,7 +5505,7 @@
   "e": "sjøen surklet under brygga",
   "id": 58457,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -5457,7 +5557,7 @@
   "e": "hjulet begynte å svive",
   "id": 58816,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -5468,7 +5568,7 @@
   "e": "",
   "id": 58881,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 52.5
  },
  {
@@ -5490,8 +5590,18 @@
   "e": "folk må ikke la seg synkverve av politikere og eksperter",
   "id": 59091,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
+ },
+ {
+  "d": "bm",
+  "w": "tagne",
+  "src": "unused",
+  "m": "bli taus; forstumme; jf tagal",
+  "e": "",
+  "id": 59559,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -5502,6 +5612,17 @@
   "id": 59947,
   "wordgroup": "substantiv",
   "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "tasal",
+  "src": "unused",
+  "m": "som begynner å bli svakere; skral, veik; avfeldig, svekket",
+  "e": "",
+  "id": 59949,
+  "wordgroup": "adjektiv",
+  "picked_by": "user",
+  "p_sonnet": 37.5
  },
  {
   "d": "bm",
@@ -5577,13 +5698,23 @@
  },
  {
   "d": "bm",
+  "w": "tjon",
+  "src": "unused",
+  "m": "syssel; stell, (dyre)stell",
+  "e": "",
+  "id": 61220,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
   "w": "tjåke",
   "src": "unused",
   "m": "mase, sjaue",
   "e": "",
   "id": 61282,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -5614,7 +5745,7 @@
   "e": "stå for godt traktement",
   "id": 61763,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -5645,7 +5776,7 @@
   "e": "se traurig ut",
   "id": 61944,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -5697,7 +5828,7 @@
   "e": "kjenne seg tufs",
   "id": 62773,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -5708,7 +5839,7 @@
   "e": "pelsen tufset seg i regnværet",
   "id": 62775,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -5760,7 +5891,7 @@
   "e": "",
   "id": 64107,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -5793,7 +5924,7 @@
   "e": "",
   "id": 65260,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -5825,7 +5956,7 @@
   "e": "",
   "id": 66110,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -5836,7 +5967,7 @@
   "e": "vadre rundt",
   "id": 66117,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -5857,7 +5988,7 @@
   "e": "regjeringens valhendte holdning",
   "id": 66269,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -5872,13 +6003,23 @@
  },
  {
   "d": "bm",
+  "w": "vandle",
+  "src": "db",
+  "m": "være i virksomhet; passe sitt daglige arbeid",
+  "e": "",
+  "id": 66356,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
   "w": "vatre",
   "src": "unused",
   "m": "lage bølgeformede figurer eller striper på tøy; brukt som adj:",
   "e": "et vatret sengeteppe",
   "id": 67011,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -5889,7 +6030,7 @@
   "e": "de vavret omkring i skogen",
   "id": 67020,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -5900,8 +6041,18 @@
   "e": "at dette skulle vederfares oss!",
   "id": 67043,
   "wordgroup": "verb, s-verb",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
+ },
+ {
+  "d": "bm",
+  "w": "veidn",
+  "src": "unused",
+  "m": "noe som er fanget, særlig vilt, fisk og sjødyr til føde; fangst",
+  "e": "",
+  "id": 67218,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -5913,6 +6064,26 @@
   "wordgroup": "adjektiv",
   "picked_by": "user",
   "p_sonnet": 37.5
+ },
+ {
+  "d": "bm",
+  "w": "verp",
+  "src": "unused",
+  "m": "haug av småstein eller kvister som er kastet sammen til merke eller til minne om en hendelse på stedet",
+  "e": "",
+  "id": 67908,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "veum",
+  "src": "unused",
+  "m": "i norrøn tid: fredløs mann",
+  "e": "",
+  "id": 68118,
+  "wordgroup": "substantiv, ubøy",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -5933,7 +6104,7 @@
   "e": "en viderverdig person",
   "id": 68194,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -5964,8 +6135,18 @@
   "e": "snakke i vilske",
   "id": 68371,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
+ },
+ {
+  "d": "bm",
+  "w": "vinnskipelig",
+  "src": "db",
+  "m": "nå sjelden: flittig og strevsom; foretaksom",
+  "e": "",
+  "id": 68568,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -6005,7 +6186,7 @@
   "e": "vringle seg bort",
   "id": 69129,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -6016,7 +6197,7 @@
   "e": "fare med vriompeiseri",
   "id": 69137,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -6048,7 +6229,7 @@
   "e": "vøle taket",
   "id": 69264,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -6059,7 +6240,7 @@
   "e": "",
   "id": 69513,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 47.5
  },
  {
@@ -6070,7 +6251,7 @@
   "e": "",
   "id": 69550,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -6091,7 +6272,7 @@
   "e": "en yppal jentunge",
   "id": 69608,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -6126,13 +6307,23 @@
  },
  {
   "d": "bm",
+  "w": "øksel",
+  "src": "unused",
+  "m": "forøkning i buskapen; avkom el yngel, særlig av husdyr",
+  "e": "",
+  "id": 42696,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
   "w": "ørsken",
   "src": "unused",
   "m": "ør",
   "e": "være trett og ørsken",
   "id": 42820,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -6153,7 +6344,7 @@
   "e": "for ein ampe det var med den gamle trebåten",
   "id": 1306,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -6174,7 +6365,7 @@
   "e": "",
   "id": 1528,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -6215,7 +6406,7 @@
   "e": "det er så atalsleg å vere aleine",
   "id": 2788,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -6256,6 +6447,16 @@
   "m": "strid, slag; slagsmål",
   "e": "",
   "id": 4600,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "baus",
+  "src": "unused",
+  "m": "noko som gøyser el velt fram; framrusing, framvelting",
+  "e": "",
+  "id": 4949,
   "wordgroup": "substantiv",
   "picked_by": "user"
  },
@@ -6311,6 +6512,26 @@
  },
  {
   "d": "nn",
+  "w": "bibre",
+  "src": "unused",
+  "m": "skjelve",
+  "e": "",
+  "id": 5775,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "bidlund",
+  "src": "unused",
+  "m": "tolmod til å vente; trott, uthald i arbeid",
+  "e": "",
+  "id": 5785,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "bingse",
   "src": "db",
   "m": "halte, humpe",
@@ -6347,7 +6568,7 @@
   "e": "bivre om munnen",
   "id": 6294,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -6438,7 +6659,7 @@
   "e": "brestfeldig argumentasjon",
   "id": 8340,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -6469,7 +6690,7 @@
   "e": "brikne fargar",
   "id": 8427,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -6480,7 +6701,7 @@
   "e": "elden brikjer og brenn",
   "id": 8430,
   "wordgroup": "pronomen, enkel",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -6500,6 +6721,16 @@
   "m": "bråkande; skrytande",
   "e": "",
   "id": 8577,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "brosten",
+  "src": "db",
+  "m": "uklar, sprokken; som er utan liv og glans; i overført tyding: feilslått, mislykka",
+  "e": "brosten røyst",
+  "id": 8620,
   "wordgroup": "adjektiv",
   "picked_by": "user"
  },
@@ -6531,8 +6762,39 @@
   "e": "bæle vatn",
   "id": 9935,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
+ },
+ {
+  "d": "nn",
+  "w": "bællang",
+  "src": "db",
+  "m": "svært lang",
+  "e": "om vinteren er kveldane mørke og bællange",
+  "id": 9940,
+  "wordgroup": "adjektiv",
+  "picked_by": "user",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "bærle",
+  "src": "unused",
+  "m": "gå i små bårer; skvale",
+  "e": "",
+  "id": 9960,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "denotere",
+  "src": "db",
+  "m": "peike ut referansen til eit språkleg uttrykk i den verkelege verda; til skilnad frå konnotere",
+  "e": "‘hjarte’ denoterer ein muskel som pumpar blod rund i kroppen, men blir gjerne brukt som eit symbol for kjærlei",
+  "id": 11371,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -6541,6 +6803,16 @@
   "m": "riste, skjelve, dille",
   "e": "dildre på hendene",
   "id": 11748,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "dissosiere",
+  "src": "db",
+  "m": "i psykologi: kople frå eller skilje element som høyrer saman; motsett assosiere; skilje, spalte; kløyve molekyl(grupper) i atom(grupper) eller ion",
+  "e": "for å meistre kvardagen byrja han å dissosiere",
+  "id": 11959,
   "wordgroup": "verb, normal",
   "picked_by": "user"
  },
@@ -6563,7 +6835,7 @@
   "e": "gå berre og dote (med noko)",
   "id": 12378,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -6574,7 +6846,7 @@
   "e": "ein drabeleg frukost",
   "id": 12412,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -6595,7 +6867,7 @@
   "e": "drust og dramb",
   "id": 12477,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -6606,7 +6878,7 @@
   "e": "drasle på noko",
   "id": 12505,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -6622,13 +6894,23 @@
  },
  {
   "d": "nn",
+  "w": "draulen",
+  "src": "db",
+  "m": "somlete",
+  "e": "",
+  "id": 12518,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "drifse",
   "src": "db",
   "m": "drive, fyke, skvette; slengje; slå",
   "e": "sjøen drifsa over båten",
   "id": 12611,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -6643,13 +6925,24 @@
  },
  {
   "d": "nn",
+  "w": "drulte",
+  "src": "db",
+  "m": "vere tungfør eller sein",
+  "e": "",
+  "id": 12831,
+  "wordgroup": "verb, normal",
+  "picked_by": "user",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
   "w": "druns",
   "src": "unused",
   "m": "svær, kraftig kropp; dump lyd av noko tungt som fell",
   "e": "",
   "id": 12833,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -6659,9 +6952,19 @@
   "m": "trø eller falle tungt",
   "e": "",
   "id": 12835,
-  "wordgroup": "substantiv, sv hokj",
-  "picked_by": "opus",
+  "wordgroup": "verb, normal",
+  "picked_by": "user",
   "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "drunt",
+  "src": "unused",
+  "m": "sein og somlete person",
+  "e": "",
+  "id": 12836,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -6711,7 +7014,7 @@
   "e": "",
   "id": 12891,
   "wordgroup": "substantiv, sv hokj",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -6732,7 +7035,7 @@
   "e": "",
   "id": 13205,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -6742,6 +7045,16 @@
   "m": "dryge, bie, gje seg i ro; stoppe opp ved og ta for seg nøyare",
   "e": "dvele litt før ein fer vidare",
   "id": 13248,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "dyvje",
+  "src": "unused",
+  "m": "skjelve; bivre; drønne",
+  "e": "jorda dyv",
+  "id": 13456,
   "wordgroup": "verb, normal",
   "picked_by": "user"
  },
@@ -6773,7 +7086,7 @@
   "e": "dette evinnelege maset!",
   "id": 100901,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -6814,7 +7127,7 @@
   "e": "ha fikt (med noko)",
   "id": 17732,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -6825,7 +7138,7 @@
   "e": "",
   "id": 18394,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -6846,7 +7159,7 @@
   "e": "fjante med jentene",
   "id": 18404,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -6857,8 +7170,28 @@
   "e": "fjaske i hop noko",
   "id": 18411,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "fjelgde",
+  "src": "unused",
+  "m": "varme (i vêret); hugnad, fred; venleik",
+  "e": "",
+  "id": 18417,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "fjelgsleg",
+  "src": "db",
+  "m": "hyggjeleg; tekkjeleg; rein, velstelt",
+  "e": "",
+  "id": 18422,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -6888,7 +7221,7 @@
   "e": "fjuntre bort tida",
   "id": 18663,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -6907,9 +7240,9 @@
   "src": "db",
   "m": "flagre; flogse, flørte",
   "e": "fivreldet flangrar",
-  "id": 18857,
-  "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "id": 18858,
+  "wordgroup": "verb, normal",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -6980,7 +7313,7 @@
   "e": "",
   "id": 19329,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -6991,8 +7324,18 @@
   "e": "flurete hår, gran",
   "id": 19365,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "fløygje",
+  "src": "db",
+  "m": "slengje, sende av garde; få fart på; puffe",
+  "e": "fløygje ein stein",
+  "id": 19563,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -7002,6 +7345,16 @@
   "e": "pengane gjekk fløyten",
   "id": 19595,
   "wordgroup": "adverb",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "fondere",
+  "src": "db",
+  "m": "plassere i fond",
+  "e": "fondere delar av Folketrygda",
+  "id": 125844,
+  "wordgroup": "verb, normal",
   "picked_by": "user"
  },
  {
@@ -7062,7 +7415,7 @@
   "e": "forfælande rop",
   "id": 20278,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -7073,7 +7426,7 @@
   "e": "bli heilt forfæld over noko",
   "id": 20279,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -7094,7 +7447,7 @@
   "e": "",
   "id": 20316,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -7105,7 +7458,7 @@
   "e": "",
   "id": 20374,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -7146,7 +7499,7 @@
   "e": "formastelege tankar",
   "id": 20554,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -7208,7 +7561,7 @@
   "e": "bli ståande (reint) fortusta",
   "id": 21150,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -7249,7 +7602,7 @@
   "e": "furdast på noko",
   "id": 22894,
   "wordgroup": "verb, st-verb",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -7285,13 +7638,23 @@
  },
  {
   "d": "nn",
+  "w": "gare",
+  "src": "unused",
+  "m": "kvass stubb, pigg; taggete staur; lang, ulenkeleg kar",
+  "e": "",
+  "id": 24281,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "gasterere",
   "src": "db",
   "m": "halde (flott) gjestebod; traktere rikeleg; leve flott, fråtse, vere storkar",
   "e": "",
   "id": 24408,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 55.0
  },
  {
@@ -7312,7 +7675,7 @@
   "e": "",
   "id": 24505,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -7323,7 +7686,7 @@
   "e": "det gauvar etter bilane",
   "id": 24512,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 31.0
  },
  {
@@ -7348,14 +7711,54 @@
  },
  {
   "d": "nn",
+  "w": "gjednigen",
+  "src": "db",
+  "m": "sjølvrådig, trassig; gjerrig, grisk",
+  "e": "",
+  "id": 25040,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "gjenegen",
+  "src": "unused",
+  "m": "sjølvrådig, trassig; gjerrig, grisk",
+  "e": "",
+  "id": 25040,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "gjæs",
   "src": "unused",
   "m": "kravstor; storlåten; ofseleg",
   "e": "vere gjæs i krava",
   "id": 25392,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "gjøleleg",
+  "src": "db",
+  "m": "gjæv, gild, framifrå",
+  "e": "",
+  "id": 25466,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "gjølme",
+  "src": "db",
+  "m": "dele av (eit rom); gimle",
+  "e": "gjølme frå",
+  "id": 25469,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -7365,7 +7768,7 @@
   "e": "gjønstre på  «el.»  med ein",
   "id": 25485,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -7376,7 +7779,7 @@
   "e": "",
   "id": 25563,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -7386,6 +7789,26 @@
   "m": "sjå snøgt (på nokon); gløtte eller skotte frå sida",
   "e": "",
   "id": 25678,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "gleine",
+  "src": "db",
+  "m": "gleime, skotte, stire; gli (til sides); glense",
+  "e": "",
+  "id": 25680,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "gleipe",
+  "src": "db",
+  "m": "geipe; hæde; herme",
+  "e": "gleipe og le",
+  "id": 25682,
   "wordgroup": "verb, normal",
   "picked_by": "user"
  },
@@ -7407,7 +7830,7 @@
   "e": "øksa glenser (i) foten",
   "id": 25686,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -7418,7 +7841,7 @@
   "e": "glufse i seg pølsa",
   "id": 25819,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -7440,7 +7863,7 @@
   "e": "glumse og le",
   "id": 25832,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -7483,7 +7906,7 @@
   "e": "ikkje stå slik og glåp!",
   "id": 25934,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -7498,13 +7921,23 @@
  },
  {
   "d": "nn",
+  "w": "gnallande",
+  "src": "db",
+  "m": "som adverb: gnaldrande",
+  "e": "gnallande hard",
+  "id": 25949,
+  "wordgroup": "adverb",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "gnarre",
   "src": "db",
   "m": "blåse veikt og svalt; knurre, småskjenne, vere sur",
   "e": "",
   "id": 25953,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -7515,7 +7948,7 @@
   "e": "det gnaurar i døra, under meiane",
   "id": 25958,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 44.0
  },
  {
@@ -7536,7 +7969,7 @@
   "e": "",
   "id": 26018,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -7557,7 +7990,7 @@
   "e": "gnuffe til ein",
   "id": 26033,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -7648,8 +8081,8 @@
   "m": "gjere gruggen; grumse; om vêr: bli disig eller yren",
   "e": "grugge til vatnet",
   "id": 27108,
-  "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "wordgroup": "verb, normal",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -7668,9 +8101,9 @@
   "src": "db",
   "m": "vere i djupe tankar; tenkje ut og inn; gruble, grunde",
   "e": "gruvle over problemet",
-  "id": 27321,
+  "id": 27320,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -7681,7 +8114,7 @@
   "e": "bjørnen grym",
   "id": 27331,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -7706,6 +8139,16 @@
  },
  {
   "d": "nn",
+  "w": "grøype",
+  "src": "db",
+  "m": "grovmale; krafse til seg; gløype",
+  "e": "grøype korn",
+  "id": 27457,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "gysjeleg",
   "src": "db",
   "m": "ovleg, fantastisk",
@@ -7717,13 +8160,24 @@
  },
  {
   "d": "nn",
+  "w": "gåig",
+  "src": "unused",
+  "m": "snar til å merke og fatte; oppmerksam, gløgg",
+  "e": "",
+  "id": 28014,
+  "wordgroup": "adjektiv",
+  "picked_by": "user",
+  "p_sonnet": 36.0
+ },
+ {
+  "d": "nn",
   "w": "handfrid",
   "src": "db",
   "m": "hag, kunstfull; som adverb",
   "e": "ein handfrid kar",
   "id": 28858,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -7734,8 +8188,18 @@
   "e": "lammet harvla og datt",
   "id": 29232,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "havang",
+  "src": "unused",
+  "m": "verd, nytte",
+  "e": "det er ikkje nokon havang i det",
+  "id": 29423,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -7745,7 +8209,7 @@
   "e": "ein heidundrande fest",
   "id": 121307,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -7840,6 +8304,16 @@
  },
  {
   "d": "nn",
+  "w": "hortug",
+  "src": "unused",
+  "m": "livskraftig; frisk; flink",
+  "e": "ei hortig jente",
+  "id": 31361,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "hugnadleg",
   "src": "db",
   "m": "gledeleg, hyggjeleg, koseleg, triveleg; hugnadsam",
@@ -7866,7 +8340,7 @@
   "e": "",
   "id": 31728,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -7888,7 +8362,7 @@
   "e": "",
   "id": 31793,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -7910,8 +8384,18 @@
   "e": "det hurklar i halsen",
   "id": 31943,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
+ },
+ {
+  "d": "nn",
+  "w": "huskeleg",
+  "src": "db",
+  "m": "ufrisk, sjukleg; stygg, fælsleg",
+  "e": "han ser huskeleg ut",
+  "id": 32047,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -7935,13 +8419,23 @@
  },
  {
   "d": "nn",
+  "w": "ibidem",
+  "src": "unused",
+  "m": "på same staden (brukt når ein viser til ei bok); forkorta ib. el ibid.",
+  "e": "",
+  "id": 33053,
+  "wordgroup": "adverb",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "idug",
   "src": "unused",
   "m": "trottig, strevsam, ivrig",
   "e": "idig til å arbeide",
   "id": 33144,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -7974,7 +8468,7 @@
   "e": "vere illsviden for barna som ikkje er heimkomne",
   "id": 33398,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -8065,7 +8559,7 @@
   "e": "kaltre med noko",
   "id": 36579,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -8080,11 +8574,41 @@
  },
  {
   "d": "nn",
+  "w": "katatonisk",
+  "src": "db",
+  "m": "som er stiva av katatoni; som er ute av stand til å røre seg; stivna",
+  "e": "han sat med eit katatonisk blikk",
+  "id": 128680,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "keikete",
   "src": "db",
   "m": "krokete; om person: vrang; vrangvis",
   "e": "vere tverr og keikete",
   "id": 37626,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "kjøgle",
+  "src": "db",
+  "m": "kludre, rote; kle seg vyrdlaust; gløse, stire",
+  "e": "",
+  "id": 38363,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "klabben",
+  "src": "db",
+  "m": "som klabbe; klabbete; klumpete, upraktisk",
+  "e": "",
+  "id": 38590,
   "wordgroup": "adjektiv",
   "picked_by": "user"
  },
@@ -8096,7 +8620,7 @@
   "e": "ho er kleinsleg",
   "id": 38848,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -8127,7 +8651,7 @@
   "e": "",
   "id": 39352,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -8173,6 +8697,16 @@
  },
  {
   "d": "nn",
+  "w": "krame",
+  "src": "unused",
+  "m": "krafse, rive til seg; stappe",
+  "e": "krame til seg",
+  "id": 41694,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "krasse",
   "src": "db",
   "m": "skrape eller rive med klør, negler eller lignende",
@@ -8210,7 +8744,7 @@
   "e": "",
   "id": 42041,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -8219,9 +8753,9 @@
   "src": "db",
   "m": "streve med noko; plundre",
   "e": "krungle seg fram",
-  "id": 42347,
-  "wordgroup": "substantiv, sv hokj",
-  "picked_by": "opus",
+  "id": 42348,
+  "wordgroup": "verb, normal",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -8236,13 +8770,23 @@
  },
  {
   "d": "nn",
+  "w": "kræv",
+  "src": "unused",
+  "m": "dugande; livssterk; livfull, livleg",
+  "e": "",
+  "id": 42559,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "kukelur",
   "src": "unused",
   "m": "kongle; sniglehus",
   "e": "",
   "id": 42684,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -8263,7 +8807,7 @@
   "e": "han var forfylla og kvapsete",
   "id": 43235,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 31.5
  },
  {
@@ -8288,6 +8832,16 @@
  },
  {
   "d": "nn",
+  "w": "kverr",
+  "src": "unused",
+  "m": "still, roleg, kurr",
+  "e": "",
+  "id": 43484,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "kverven",
   "src": "db",
   "m": "som snart kverv; udryg; snar, snøgg",
@@ -8304,8 +8858,18 @@
   "e": "vinden kvervlar mellom husa",
   "id": 43503,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
+ },
+ {
+  "d": "nn",
+  "w": "kvetje",
+  "src": "db",
+  "m": "slipe, kvesse, særleg med bryne",
+  "e": "kvetje ljåen",
+  "id": 43511,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -8315,7 +8879,7 @@
   "e": "det er kvidesamt å gå ut i dette vêret",
   "id": 43516,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -8345,6 +8909,16 @@
   "m": "kvelande, kvæven",
   "e": "lufta er tung og kvæv",
   "id": 43774,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "kødd",
+  "src": "unused",
+  "m": "testikkel; brukt neds om vrang, upåliteleg person",
+  "e": "han er ein kødd",
+  "id": 115691,
   "wordgroup": "substantiv",
   "picked_by": "user"
  },
@@ -8386,7 +8960,7 @@
   "e": "skjegget lufsa",
   "id": 46631,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -8407,7 +8981,7 @@
   "e": "mismotet vil maktstele folk",
   "id": 47975,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -8438,7 +9012,7 @@
   "e": "korrupsjon mergstel samfunnet",
   "id": 49329,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -8499,7 +9073,7 @@
   "e": "eit mødesamt arbeid",
   "id": 51408,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -8510,7 +9084,7 @@
   "e": "det skal vi nappast om",
   "id": 51876,
   "wordgroup": "verb, st-verb",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -8531,7 +9105,7 @@
   "e": "gråte og naukre (seg)",
   "id": 52232,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 50.0
  },
  {
@@ -8542,8 +9116,18 @@
   "e": "nautne folk",
   "id": 52241,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
+ },
+ {
+  "d": "nn",
+  "w": "nauteskap",
+  "src": "unused",
+  "m": "toskeskap",
+  "e": "",
+  "id": 52242,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -8574,7 +9158,7 @@
   "e": "maten sette nerk i meg",
   "id": 52548,
   "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -8585,7 +9169,7 @@
   "e": "",
   "id": 52740,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 52.5
  },
  {
@@ -8596,6 +9180,36 @@
   "e": "noggranne målingar",
   "id": 52891,
   "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "nuve",
+  "src": "unused",
+  "m": "gjere nuv, runde av; ta i nuven, lugge, dengje",
+  "e": "",
+  "id": 53307,
+  "wordgroup": "substantiv, sv hokj",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "nyggje",
+  "src": "db",
+  "m": "(skade ved å) støyte, skrubbe, gnage; rykkje; riste",
+  "e": "nygge borti noko(n)",
+  "id": 53351,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "nøgge",
+  "src": "unused",
+  "m": "få ei uhyggjeleg kjensle; kvekke, støkke, nygge",
+  "e": "det nogg i han",
+  "id": 53701,
+  "wordgroup": "verb, normal",
   "picked_by": "user"
  },
  {
@@ -8617,8 +9231,18 @@
   "e": "vere flink og onnig",
   "id": 54554,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "ormekte",
+  "src": "db",
+  "m": "bli eller vere kraftlaus og forkomen; ørmekte, ormektast",
+  "e": "",
+  "id": 55427,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -8649,7 +9273,7 @@
   "e": "",
   "id": 57433,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -8664,14 +9288,34 @@
  },
  {
   "d": "nn",
+  "w": "pyrrhossiger",
+  "src": "unused",
+  "m": "dyrekjøpt siger; siger som eigenleg er eit nederlag",
+  "e": "",
+  "id": 59659,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "rabalsk",
   "src": "db",
   "m": "ustyrleg",
   "e": "",
   "id": 59911,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "radl",
+  "src": "unused",
+  "m": "godprat, svall",
+  "e": "",
+  "id": 60024,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -8681,7 +9325,7 @@
   "e": "ei raklete seng",
   "id": 60136,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -8692,7 +9336,7 @@
   "e": "",
   "id": 62102,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -8714,7 +9358,7 @@
   "e": "eg ryggjest ved tanken",
   "id": 62699,
   "wordgroup": "verb, st-verb",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -8769,12 +9413,32 @@
  },
  {
   "d": "nn",
+  "w": "sannkjenne",
+  "src": "db",
+  "m": "særlig i filosofi: kome fram til trygg og meir eller mindre objektiv kunnskap om; erkjenne; vedgå",
+  "e": "sannkjenne at mytane enno lever",
+  "id": 64087,
+  "wordgroup": "verb, st-verb",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "sellande",
   "src": "db",
   "m": "heilt, fullstendig",
   "e": "sellande fullt",
   "id": 99263,
   "wordgroup": "adverb",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "singott",
+  "src": "db",
+  "m": "i eldre tid: skål",
+  "e": "",
+  "id": 65896,
+  "wordgroup": "interjeksjon",
   "picked_by": "user"
  },
  {
@@ -8795,8 +9459,18 @@
   "e": "sjaks ikkje sundt tøyet!",
   "id": 66144,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 50.0
+ },
+ {
+  "d": "nn",
+  "w": "sjølvare",
+  "src": "db",
+  "m": "det eigenlege, det indre",
+  "e": "kome inn på sjølvare gardstunet",
+  "id": 123774,
+  "wordgroup": "determinativ",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -8806,7 +9480,7 @@
   "e": "huset skaldra av toreskrellen",
   "id": 66933,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -8831,6 +9505,17 @@
  },
  {
   "d": "nn",
+  "w": "skarken",
+  "src": "db",
+  "m": "kruslen, makteslaus; skrøpeleg, veik",
+  "e": "",
+  "id": 67094,
+  "wordgroup": "adjektiv",
+  "picked_by": "user",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
   "w": "skeike",
   "src": "db",
   "m": "vike av frå den beine linja; gå i skeiv eller krokete lei; gå snøgt med slengjande og skrevande føter",
@@ -8846,6 +9531,16 @@
   "m": "våt gjennom kleda heilt inn på skinnet",
   "e": "",
   "id": 67478,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "skirleitt",
+  "src": "db",
+  "m": "ven å sjå til; med fine andletsdrag",
+  "e": "",
+  "id": 67616,
   "wordgroup": "adjektiv",
   "picked_by": "user"
  },
@@ -8871,13 +9566,23 @@
  },
  {
   "d": "nn",
+  "w": "skjekke",
+  "src": "db",
+  "m": "gjere skakk, skeiv; vrengje; skubbe, støyte av lage",
+  "e": "skjekke ramma på sykkelen i samanstøyten",
+  "id": 67792,
+  "wordgroup": "verb, st-verb",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "skjekle",
   "src": "db",
   "m": "gå ustøtt, stolpre",
   "e": "skjekle bortover vegen i høghæla sko",
   "id": 67794,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -8902,6 +9607,16 @@
  },
  {
   "d": "nn",
+  "w": "skolle",
+  "src": "db",
+  "m": "sjå ut til; synast; sjå stor ut",
+  "e": "det skoller for det",
+  "id": 68386,
+  "wordgroup": "verb, st-verb",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "skrasle",
   "src": "db",
   "m": "gje ein klanglaus, tørr lyd; rasle, skrape; le høgt og ståkande",
@@ -8918,7 +9633,7 @@
   "e": "ølet skrauvar",
   "id": 68628,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -8970,7 +9685,7 @@
   "e": "",
   "id": 68857,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -8995,13 +9710,23 @@
  },
  {
   "d": "nn",
+  "w": "skrykke",
+  "src": "db",
+  "m": "stue i hop; dra i hop så det lagar seg rukker; skrukke",
+  "e": "skredet skrykte løa",
+  "id": 68944,
+  "wordgroup": "verb, st-verb",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "skrynje",
   "src": "db",
   "m": "gje ein hol lyd; rumle, skramle",
   "e": "",
   "id": 68948,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -9016,13 +9741,23 @@
  },
  {
   "d": "nn",
+  "w": "skrøkke",
+  "src": "db",
+  "m": "krype i hop; kverve, minke; bli skrinnare",
+  "e": "høyet skrøkk i hop på hesa",
+  "id": 68978,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "skrøyve",
   "src": "db",
   "m": "få til å ruve; skrøyte; sjå stor ut",
   "e": "skrøyve noko opp",
   "id": 68994,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -9053,7 +9788,7 @@
   "e": "",
   "id": 69400,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -9068,13 +9803,23 @@
  },
  {
   "d": "nn",
+  "w": "skøyre",
+  "src": "db",
+  "m": "buse på, fare uvitig åt",
+  "e": "",
+  "id": 69602,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "slamsen",
   "src": "db",
   "m": "lang og slakk; sjuskete, vyrdlaus",
   "e": "",
   "id": 69822,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -9095,7 +9840,7 @@
   "e": "han slarpa til henne med vaskefilla",
   "id": 69859,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -9140,6 +9885,16 @@
  },
  {
   "d": "nn",
+  "w": "slevje",
+  "src": "db",
+  "m": "sleppe spytt frå munnvika(ne)",
+  "e": "",
+  "id": 123130,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "slinke",
   "src": "db",
   "m": "late seg i arbeidstida; skulke",
@@ -9166,7 +9921,7 @@
   "e": "ho smeikjer han på skuldra",
   "id": 70506,
   "wordgroup": "pronomen, enkel",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -9191,6 +9946,26 @@
  },
  {
   "d": "nn",
+  "w": "smætte",
+  "src": "db",
+  "m": "gjere små; spreie fint",
+  "e": "smætte ved",
+  "id": 70714,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "smøyeleg",
+  "src": "db",
+  "m": "uvanleg atterhalden; brydd; mistenksam",
+  "e": "ho ser så smøyeleg ut",
+  "id": 70778,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "snaldre",
   "src": "db",
   "m": "skråle, tale med skrikande mål; gneldre, gøy i eitt sett",
@@ -9211,6 +9986,17 @@
  },
  {
   "d": "nn",
+  "w": "snippen",
+  "src": "db",
+  "m": "brå, uventa; narra, vonbroten",
+  "e": "ein snippen skade",
+  "id": 71136,
+  "wordgroup": "adjektiv",
+  "picked_by": "user",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
   "w": "snugge",
   "src": "db",
   "m": "kome eit vinddrag, gufse; lukte, snuse; snerte, snudde",
@@ -9227,7 +10013,7 @@
   "e": "",
   "id": 71216,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -9238,7 +10024,7 @@
   "e": "",
   "id": 71235,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 45.0
  },
  {
@@ -9249,7 +10035,7 @@
   "e": "",
   "id": 71279,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -9274,13 +10060,24 @@
  },
  {
   "d": "nn",
+  "w": "spauke",
+  "src": "db",
+  "m": "grave, rote, hive opp jord; rote opp med føtene; gå stivt og vørdeleg",
+  "e": "han spauka og briska seg",
+  "id": 72142,
+  "wordgroup": "verb, normal",
+  "picked_by": "user",
+  "p_sonnet": 37.5
+ },
+ {
+  "d": "nn",
   "w": "speike",
   "src": "db",
   "m": "gå med stive føter; spanke",
   "e": "",
   "id": 72190,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -9291,7 +10088,7 @@
   "e": "spjerre (opp) skjorta si",
   "id": 72523,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -9322,7 +10119,7 @@
   "e": "",
   "id": 72676,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -9351,9 +10148,9 @@
   "src": "db",
   "m": "sprute i granne strålar",
   "e": "",
-  "id": 72818,
-  "wordgroup": "substantiv, sv hokj",
-  "picked_by": "opus",
+  "id": 72819,
+  "wordgroup": "verb, normal",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -9399,14 +10196,34 @@
  },
  {
   "d": "nn",
+  "w": "sterre",
+  "src": "db",
+  "m": "strete, kjempe imot; gjere motstand",
+  "e": "",
+  "id": 73662,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "stevjast",
   "src": "db",
   "m": "(kapp)syngje; improvisere stev; samrøde på vers som ein lagar i farten",
   "e": "",
   "id": 73674,
   "wordgroup": "verb, st-verb",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "stikte",
+  "src": "db",
+  "m": "stige veikt eller varsamt med ein vond fot; halte",
+  "e": "",
+  "id": 73762,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -9436,7 +10253,7 @@
   "e": "",
   "id": 74117,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -9447,7 +10264,7 @@
   "e": "",
   "id": 74355,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -9462,11 +10279,42 @@
  },
  {
   "d": "nn",
+  "w": "stratt",
+  "src": "unused",
+  "m": "stiv kvist utan lauv; stilk, stubb",
+  "e": "",
+  "id": 74370,
+  "wordgroup": "substantiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "strile",
   "src": "db",
   "m": "slite, streve, ta i",
   "e": "strile og ro i motvind",
   "id": 74549,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "striple",
+  "src": "db",
+  "m": "(la) drype; presse ut",
+  "e": "striple ut den siste mjølkeskvetten frå juret",
+  "id": 74569,
+  "wordgroup": "verb, normal",
+  "picked_by": "user",
+  "p_sonnet": 37.5
+ },
+ {
+  "d": "nn",
+  "w": "stropne",
+  "src": "db",
+  "m": "halde på å kjøvast av noko som har sett seg i halsen",
+  "e": "",
+  "id": 74592,
   "wordgroup": "verb, normal",
   "picked_by": "user"
  },
@@ -9488,6 +10336,16 @@
   "e": "",
   "id": 74861,
   "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "styrven",
+  "src": "db",
+  "m": "keiveleg; stiv, tungfør; stiv, stri",
+  "e": "stiv og styrven",
+  "id": 75089,
+  "wordgroup": "adjektiv",
   "picked_by": "user"
  },
  {
@@ -9518,8 +10376,18 @@
   "e": "svabbe med vaskefilla",
   "id": 75739,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "svalke",
+  "src": "db",
+  "m": "plaske; skylje; vasse",
+  "e": "",
+  "id": 75771,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -9529,8 +10397,18 @@
   "e": "",
   "id": 75772,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "svalle",
+  "src": "db",
+  "m": "tale om uviktige ting; samrøde lett, prate, snakke",
+  "e": "svalle med, ved ein",
+  "id": 75773,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -9550,7 +10428,7 @@
   "e": "vere svallig og i godlag",
   "id": 75776,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 48.5
  },
  {
@@ -9601,7 +10479,7 @@
   "e": "svirpe til nokon med svepa",
   "id": 76166,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -9611,8 +10489,8 @@
   "m": "fare snøgt, svinge, svippe",
   "e": "",
   "id": 76177,
-  "wordgroup": "substantiv",
-  "picked_by": "opus",
+  "wordgroup": "verb, normal",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -9625,6 +10503,16 @@
   "wordgroup": "verb, normal",
   "picked_by": "user",
   "p_sonnet": 37.5
+ },
+ {
+  "d": "nn",
+  "w": "sælast",
+  "src": "db",
+  "m": "døy",
+  "e": "",
+  "id": 76643,
+  "wordgroup": "verb, st-verb",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -9642,9 +10530,9 @@
   "src": "db",
   "m": "skjenne, gneldre",
   "e": "",
-  "id": 77466,
+  "id": 77465,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -9665,6 +10553,16 @@
   "e": "",
   "id": 79316,
   "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "tistete",
+  "src": "db",
+  "m": "flisete, oppriven (til dømes om hud); tjafsete og grisen, pistrete",
+  "e": "",
+  "id": 79437,
+  "wordgroup": "adjektiv",
   "picked_by": "user"
  },
  {
@@ -9705,8 +10603,19 @@
   "e": "",
   "id": 80363,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "traspe",
+  "src": "db",
+  "m": "trakke sund; rive i filler; øydeleggje",
+  "e": "",
+  "id": 80575,
+  "wordgroup": "verb, normal",
+  "picked_by": "user",
+  "p_sonnet": 36.5
  },
  {
   "d": "nn",
@@ -9716,7 +10625,7 @@
   "e": "vere traud om det",
   "id": 80595,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -9727,7 +10636,7 @@
   "e": "trautalt arbeid",
   "id": 80612,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -9742,14 +10651,44 @@
  },
  {
   "d": "nn",
+  "w": "trumpen",
+  "src": "db",
+  "m": "stor og svær; klumpete; klossete",
+  "e": "",
+  "id": 81649,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "tryste",
+  "src": "db",
+  "m": "trykkje, klemme, presse",
+  "e": "tryste ut safta",
+  "id": 81838,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "trågjengd",
   "src": "db",
   "m": "iherdig til å fare på same plassen; påtrengjande; pågåande",
   "e": "ein trågjengd friar",
   "id": 82007,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
+ },
+ {
+  "d": "nn",
+  "w": "trælke",
+  "src": "db",
+  "m": "tvinge under seg, halde i ufridom, (under)kue; slite og slepe, træle",
+  "e": "trælke folket",
+  "id": 81867,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -9779,7 +10718,7 @@
   "e": "",
   "id": 83420,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -9811,7 +10750,7 @@
   "e": "",
   "id": 82607,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -9832,7 +10771,7 @@
   "e": "",
   "id": 82851,
   "wordgroup": "verb, normal",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -9843,7 +10782,7 @@
   "e": "stå tvikrokete av lått",
   "id": 82892,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -9865,8 +10804,18 @@
   "e": "tvirle noko rundt",
   "id": 82935,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "typisere",
+  "src": "db",
+  "m": "framstille i visse typar, standardisere",
+  "e": "typiserte produkt",
+  "id": 83137,
+  "wordgroup": "verb, normal",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -9876,8 +10825,18 @@
   "e": "tæpe borti",
   "id": 83262,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "ubjåleg",
+  "src": "db",
+  "m": "uhøveleg, upassande, usømeleg",
+  "e": "fare ubjåleg åt",
+  "id": 83737,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -9887,7 +10846,7 @@
   "e": "ufanslege klede",
   "id": 83858,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -9908,7 +10867,7 @@
   "e": "nasjonal umegd",
   "id": 84534,
   "wordgroup": "substantiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -9920,6 +10879,17 @@
   "id": 84927,
   "wordgroup": "adjektiv",
   "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "unoggen",
+  "src": "db",
+  "m": "rikeleg; særlig som adverb: nok, nøgda, plenty",
+  "e": "det er unogge med sild, fôr, mat",
+  "id": 85165,
+  "wordgroup": "adjektiv",
+  "picked_by": "user",
+  "p_sonnet": 35.0
  },
  {
   "d": "nn",
@@ -9980,7 +10950,7 @@
   "e": "utæva jord",
   "id": 86732,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -10001,7 +10971,7 @@
   "e": "valtre som ei gås",
   "id": 87186,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -10012,7 +10982,7 @@
   "e": "",
   "id": 87483,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -10034,7 +11004,7 @@
   "e": "veivle tråden om fingeren",
   "id": 88339,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -10085,7 +11055,7 @@
   "e": "vrengle seg inn på folk",
   "id": 116086,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 35.0
  },
  {
@@ -10096,7 +11066,7 @@
   "e": "ei vyrdeleg gåve",
   "id": 91217,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -10137,7 +11107,7 @@
   "e": "brønnen er eit våleg hol om vinteren",
   "id": 91291,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 30.0
  },
  {
@@ -10152,13 +11122,23 @@
  },
  {
   "d": "nn",
+  "w": "våskøytt",
+  "src": "db",
+  "m": "som lett glepp eller mislykkast",
+  "e": "det er så våskøytt med det",
+  "id": 91430,
+  "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "ylmen",
   "src": "unused",
   "m": "olm, morsk, trugande",
   "e": "han ser så ylmen og morsk ut",
   "id": 91626,
   "wordgroup": "adjektiv",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 42.5
  },
  {
@@ -10169,6 +11149,16 @@
   "e": "den nye boka vart særs ymisleg motteken",
   "id": 91630,
   "wordgroup": "adjektiv",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "åbyrgjast",
+  "src": "db",
+  "m": "vere ansvarleg for, gå god for, garantere",
+  "e": "åbyrgjast ein",
+  "id": 92486,
+  "wordgroup": "verb, st-verb",
   "picked_by": "user"
  },
  {
@@ -10261,7 +11251,7 @@
   "e": "",
   "id": 92296,
   "wordgroup": "adjektiv",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  },
  {
@@ -10282,7 +11272,7 @@
   "e": "",
   "id": 92298,
   "wordgroup": "substantiv, sv hokj",
-  "picked_by": "sonnet",
+  "picked_by": "user",
   "p_sonnet": 40.0
  },
  {
@@ -10303,7 +11293,7 @@
   "e": "så vidt øygne båten ute i disen",
   "id": 3152,
   "wordgroup": "verb, normal",
-  "picked_by": "opus",
+  "picked_by": "user",
   "p_sonnet": 32.5
  }
 ]

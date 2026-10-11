@@ -8,6 +8,13 @@
  },
  {
   "d": "bm",
+  "w": "agnor",
+  "src": "unused",
+  "m": "mothake på angel, harpun, pil e_l",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "akkumulator",
   "src": "unused",
   "m": "apparat til å samle opp energi som en senere kan ta ut",
@@ -106,6 +113,13 @@
  },
  {
   "d": "bm",
+  "w": "antimakassar",
+  "src": "unused",
+  "m": "tøystykke til å henge over stolrygger for å verne mot fett fra håret; jf makassarolje",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "argende",
   "src": "db",
   "m": "brukt forsterkende: fortærende",
@@ -165,6 +179,13 @@
   "w": "babylonier",
   "src": "unused",
   "m": "person fra det gamle Babylon (hovedstaden i Babylonia); person fra det gamle Babylonia",
+  "e": ""
+ },
+ {
+  "d": "bm",
+  "w": "bakkenbart",
+  "src": "unused",
+  "m": "kinnskjegg",
   "e": ""
  },
  {
@@ -267,6 +288,13 @@
  },
  {
   "d": "bm",
+  "w": "bleige",
+  "src": "db",
+  "m": "kløyve med blei; drive inn kile (i et skaft)",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "bleiknebba",
   "src": "db",
   "m": "om person: blek og rådvill",
@@ -285,6 +313,13 @@
   "src": "db",
   "m": "gjøre bløt ved å legge i vann eller annen væske; væte; mykne, gjøre bløt ved å legge i vann eller annen væske",
   "e": "hun bløtte vaskekluten i såpevannet"
+ },
+ {
+  "d": "bm",
+  "w": "boklærd",
+  "src": "db",
+  "m": "belest",
+  "e": "være boklærd og klok"
  },
  {
   "d": "bm",
@@ -309,10 +344,24 @@
  },
  {
   "d": "bm",
+  "w": "bygsle",
+  "src": "db",
+  "m": "leie (gård, jord) på bygsel; leie ut (gård, jord) på bygsel; feste",
+  "e": "bygsle seg jord"
+ },
+ {
+  "d": "bm",
   "w": "bånnski",
   "src": "db",
   "m": "utrop som oppfordrer til å tømme glasset helt til bunnen",
   "e": "skjenke i på nytt og rope ‘bånnski!'"
+ },
+ {
+  "d": "bm",
+  "w": "damejeanne",
+  "src": "unused",
+  "m": "glassballong i kurv til vin, syrer o_l",
+  "e": ""
  },
  {
   "d": "bm",
@@ -456,6 +505,20 @@
  },
  {
   "d": "bm",
+  "w": "filiokus",
+  "src": "db",
+  "m": "brukt i trylleformel; formel som en tryllekunstner bruker",
+  "e": ""
+ },
+ {
+  "d": "bm",
+  "w": "filistrøs",
+  "src": "db",
+  "m": "spissborgerlig",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "filleren",
   "src": "db",
   "m": "brukt for å uttrykke ergrelse eller annen sterk følelse",
@@ -491,6 +554,20 @@
  },
  {
   "d": "bm",
+  "w": "fnokk",
+  "src": "unused",
+  "m": "samling av hår på frukten hos visse arter i kurvplantefamilien og vendelrotfamilien",
+  "e": ""
+ },
+ {
+  "d": "bm",
+  "w": "foliant",
+  "src": "unused",
+  "m": "bok i folioformat; svært stor bok",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "forbeholde",
   "src": "db",
   "m": "reservere for; love bort til; sikre seg",
@@ -502,6 +579,13 @@
   "src": "db",
   "m": "forsure, ødelegge",
   "e": "forbitre livet for en"
+ },
+ {
+  "d": "bm",
+  "w": "forblende",
+  "src": "db",
+  "m": "dekke en mur med et annet materiale",
+  "e": ""
  },
  {
   "d": "bm",
@@ -673,9 +757,23 @@
  },
  {
   "d": "bm",
+  "w": "galeas",
+  "src": "unused",
+  "m": "tomastet seilskip med høy frammast og gaffelseil",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "gammelfransk",
   "src": "db",
   "m": "fransk språk i eldre tid, særlig før 1300",
+  "e": ""
+ },
+ {
+  "d": "bm",
+  "w": "garpe",
+  "src": "unused",
+  "m": "skryte; rape, gurpe",
   "e": ""
  },
  {
@@ -743,6 +841,13 @@
  },
  {
   "d": "bm",
+  "w": "glett",
+  "src": "unused",
+  "m": "gløtt, glette",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "glima",
   "src": "unused",
   "m": "form for bryting, med opprinnelse i vikingtiden, der deltakerne holder hverandre i belter som går rundt livet og lårene",
@@ -785,6 +890,13 @@
  },
  {
   "d": "bm",
+  "w": "gylte",
+  "src": "unused",
+  "m": "sugge, purke",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "gymnasium",
   "src": "unused",
   "m": "gymnas",
@@ -802,6 +914,13 @@
   "w": "gøyse",
   "src": "unused",
   "m": "strømme, velle, sprute fram; jf geysir",
+  "e": ""
+ },
+ {
+  "d": "bm",
+  "w": "handflika",
+  "src": "db",
+  "m": "i bot, om blad: håndnervet og flikete",
   "e": ""
  },
  {
@@ -841,6 +960,20 @@
  },
  {
   "d": "bm",
+  "w": "hektografere",
+  "src": "db",
+  "m": "om eldre forhold: kopiere med hektograf",
+  "e": ""
+ },
+ {
+  "d": "bm",
+  "w": "herdebrei",
+  "src": "db",
+  "m": "bredskuldret",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "hesple",
   "src": "db",
   "m": "hespe, hasple",
@@ -852,6 +985,13 @@
   "src": "unused",
   "m": "som er i god stand; uskadd; i ett og alt",
   "e": "komme hjem igjen hel og holden"
+ },
+ {
+  "d": "bm",
+  "w": "holograf",
+  "src": "db",
+  "m": "håndskrevet dokument som en har skrevet selv",
+  "e": ""
  },
  {
   "d": "bm",
@@ -1037,10 +1177,24 @@
  },
  {
   "d": "bm",
+  "w": "jadden",
+  "src": "db",
+  "m": "jammen",
+  "e": "jadden satte han ikke ny rekord"
+ },
+ {
+  "d": "bm",
   "w": "jammerlig",
   "src": "db",
   "m": "sørgelig, ynkelig, elendig; brukt som adverb; brukt som forst adverb: svært, veldig",
   "e": "du er en jammerlig stakkar"
+ },
+ {
+  "d": "bm",
+  "w": "jelk",
+  "src": "unused",
+  "m": "kastrert hest; vallak",
+  "e": ""
  },
  {
   "d": "bm",
@@ -1062,6 +1216,13 @@
   "src": "db",
   "m": "som gjelder rettsvitenskapen eller rettsystemet; rettslig; rettssubjekt som ikke er en fysisk person, men en institusjon med juridiske rettigheter og plikter, for eksempel en stat,",
   "e": "et lengre juridisk studium"
+ },
+ {
+  "d": "bm",
+  "w": "jøkel",
+  "src": "unused",
+  "m": "brearm; isbre; istapp",
+  "e": ""
  },
  {
   "d": "bm",
@@ -1142,6 +1303,13 @@
  },
  {
   "d": "bm",
+  "w": "klen",
+  "src": "unused",
+  "m": "klein",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "klenget",
   "src": "db",
   "m": "som klenger seg til en; innpåsliten",
@@ -1166,6 +1334,13 @@
   "w": "klysete",
   "src": "db",
   "m": "som er full av klyser; seig, slimete; om person: ekkel, hoven",
+  "e": ""
+ },
+ {
+  "d": "bm",
+  "w": "klåte",
+  "src": "unused",
+  "m": "rundaktig klump; kule, knapp; borre",
   "e": ""
  },
  {
@@ -1195,6 +1370,13 @@
   "src": "db",
   "m": "vrinske; le støtvis",
   "e": "hingsten knegget og stampet i bakken"
+ },
+ {
+  "d": "bm",
+  "w": "kodde",
+  "src": "unused",
+  "m": "pute, hodepute",
+  "e": ""
  },
  {
   "d": "bm",
@@ -1257,6 +1439,20 @@
   "w": "kordial",
   "src": "db",
   "m": "hjertelig",
+  "e": ""
+ },
+ {
+  "d": "bm",
+  "w": "kornmo",
+  "src": "unused",
+  "m": "gjenskinn fra lyn som er så langt borte at en ikke hører tordenen",
+  "e": ""
+ },
+ {
+  "d": "bm",
+  "w": "korrelativ",
+  "src": "db",
+  "m": "som tilsvarer hverandre; med innbyrdes sammenheng og vekselvirkning",
   "e": ""
  },
  {
@@ -1457,6 +1653,13 @@
  },
  {
   "d": "bm",
+  "w": "lend",
+  "src": "unused",
+  "m": "saerl i_bibl og i poesi: del av ryggen som ligger mellom brystkassen og hoftebeinet; hofteparti; kryss",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "lepe",
   "src": "unused",
   "m": "nedhengende tunge el flik; jf leppe",
@@ -1534,6 +1737,13 @@
  },
  {
   "d": "bm",
+  "w": "lunne",
+  "src": "unused",
+  "m": "stabel av tømmer som senere skal transporteres videre; fast lag eller tett haug av høy el annet fôr; lunn",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "luri",
   "src": "unused",
   "m": "språk hovedsakelig brukt i sørvestlige Iran",
@@ -1559,6 +1769,13 @@
   "src": "db",
   "m": "som har lys brun farge",
   "e": "lysebrune smultringer"
+ },
+ {
+  "d": "bm",
+  "w": "løynsk",
+  "src": "unused",
+  "m": "underfundig, lønsk",
+  "e": ""
  },
  {
   "d": "bm",
@@ -1688,6 +1905,13 @@
  },
  {
   "d": "bm",
+  "w": "morganatisk",
+  "src": "db",
+  "m": "ekteskap mellom en fyrste og en kvinne av lavere byrd der kvinnen (og barna) ikke får arverett; ekteskap til venstre hånd",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "morsken",
   "src": "db",
   "m": "morken, halvråtten",
@@ -1723,6 +1947,13 @@
  },
  {
   "d": "bm",
+  "w": "nativistisk",
+  "src": "db",
+  "m": "som er preget av nativisme",
+  "e": "en nativistisk holdning"
+ },
+ {
+  "d": "bm",
   "w": "nitiditet",
   "src": "unused",
   "m": "det å være nitid",
@@ -1744,10 +1975,24 @@
  },
  {
   "d": "bm",
+  "w": "nudde",
+  "src": "unused",
+  "m": "slå nudder i",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "nullstille",
   "src": "db",
   "m": "stille stoppeklokke, telleverk eller lignende på null; overført: være klar til å ta fatt på nytt",
   "e": "nullstille seg"
+ },
+ {
+  "d": "bm",
+  "w": "okklusiv",
+  "src": "db",
+  "m": "språklyd som dannes ved stenging og plutselig åpning av luftstrømmen; lukkelyd, klusil, plosiv",
+  "e": ""
  },
  {
   "d": "bm",
@@ -2129,10 +2374,31 @@
  },
  {
   "d": "bm",
+  "w": "skat",
+  "src": "unused",
+  "m": "topp av et tre, med eller uten grener",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "skingre",
   "src": "db",
   "m": "skrike, hvine; som adjektiv presens partisipp:",
   "e": "det skingret i en gammel grammofon"
+ },
+ {
+  "d": "bm",
+  "w": "skjelm",
+  "src": "unused",
+  "m": "ertebelg, skolm",
+  "e": ""
+ },
+ {
+  "d": "bm",
+  "w": "skjelme",
+  "src": "db",
+  "m": "sette belg",
+  "e": ""
  },
  {
   "d": "bm",
@@ -2147,6 +2413,20 @@
   "src": "db",
   "m": "bli skjør; morkne",
   "e": ""
+ },
+ {
+  "d": "bm",
+  "w": "skolm",
+  "src": "unused",
+  "m": "enrommet kapselfrukt som er dannet av bare ett fruktblad, og som åpner seg etter ryggsømmen og buksømmen; belg; skall",
+  "e": ""
+ },
+ {
+  "d": "bm",
+  "w": "skolme",
+  "src": "db",
+  "m": "skille frø fra belg",
+  "e": "skolme bønner"
  },
  {
   "d": "bm",
@@ -2182,6 +2462,13 @@
   "src": "db",
   "m": "om visse fugler: skratte",
   "e": "skjærene skvatret utenfor vinduet"
+ },
+ {
+  "d": "bm",
+  "w": "skyldsette",
+  "src": "db",
+  "m": "fastsette skyld for fast eiendom; matrikulere",
+  "e": ""
  },
  {
   "d": "bm",
@@ -2248,10 +2535,24 @@
  },
  {
   "d": "bm",
+  "w": "snadde",
+  "src": "unused",
+  "m": "tobakkspipe",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "snaske",
   "src": "db",
   "m": "ete smattende og grådig; raske; snuse, snike",
   "e": ""
+ },
+ {
+  "d": "bm",
+  "w": "snedden",
+  "src": "db",
+  "m": "snerten, nett",
+  "e": "en snedden jente"
  },
  {
   "d": "bm",
@@ -2395,6 +2696,13 @@
  },
  {
   "d": "bm",
+  "w": "stevje",
+  "src": "db",
+  "m": "synge, improvisere stev",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "stivnakka",
   "src": "db",
   "m": "stri, stivsinnet",
@@ -2465,6 +2773,13 @@
  },
  {
   "d": "bm",
+  "w": "suvl",
+  "src": "unused",
+  "m": "fet, kraftig mat (som spises til suppe, grøt, brød eller lignende); (sur)melk til grøt el brød",
+  "e": ""
+ },
+ {
+  "d": "bm",
   "w": "svartne",
   "src": "db",
   "m": "bli mørk, svart",
@@ -2476,6 +2791,13 @@
   "src": "db",
   "m": "flott, snerten",
   "e": "en sveisen dame"
+ },
+ {
+  "d": "bm",
+  "w": "svimre",
+  "src": "db",
+  "m": "svimle",
+  "e": ""
  },
  {
   "d": "bm",
@@ -2964,7 +3286,7 @@
   "d": "bm",
   "w": "vindfelt",
   "src": "db",
-  "m": "som har blitt blåst over ende av vinden",
+  "m": "<i>vindfelte trær</i>",
   "e": ""
  },
  {
@@ -3091,6 +3413,13 @@
   "w": "anduge",
   "src": "db",
   "m": "vere ottefull (for); ha omsut, tilsyn med; anse",
+  "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "andæres",
+  "src": "db",
+  "m": "baklengs, bakvend; skute",
   "e": ""
  },
  {
@@ -3228,6 +3557,13 @@
  },
  {
   "d": "nn",
+  "w": "bendsle",
+  "src": "db",
+  "m": "surre, binde bendsel ikring; binde i hop",
+  "e": ""
+ },
+ {
+  "d": "nn",
   "w": "bergeleg",
   "src": "db",
   "m": "som ein kan berge seg med; hjelpeleg; om båt: god og traust på sjøen",
@@ -3347,6 +3683,20 @@
  },
  {
   "d": "nn",
+  "w": "børel",
+  "src": "unused",
+  "m": "hank, handtak til å bere (kiste, stamp o_l) etter",
+  "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "bøykje",
+  "src": "unused",
+  "m": "ause kokande lutoppløysning over (vasketøy o_l) i eit kar",
+  "e": ""
+ },
+ {
+  "d": "nn",
   "w": "cellular",
   "src": "db",
   "m": "cellulær",
@@ -3431,6 +3781,13 @@
  },
  {
   "d": "nn",
+  "w": "drøype",
+  "src": "db",
+  "m": "la falle dropevis; væte med drope; påføre væske i dropar",
+  "e": "drøype auga"
+ },
+ {
+  "d": "nn",
   "w": "dugande",
   "src": "db",
   "m": "dyktig, god, flink; dugeleg; brukande, tilstrekkeleg",
@@ -3442,6 +3799,13 @@
   "src": "db",
   "m": "ete dugurd",
   "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "dumbe",
+  "src": "unused",
+  "m": "støv, dust",
+  "e": "dumba gyv"
  },
  {
   "d": "nn",
@@ -3498,6 +3862,13 @@
   "src": "db",
   "m": "som elskar; brukt som substantiv",
   "e": "eit elskande par"
+ },
+ {
+  "d": "nn",
+  "w": "erts",
+  "src": "unused",
+  "m": "eldre nemning for mineral og bergartar som inneheld eit tungt metall; jf malm",
+  "e": ""
  },
  {
   "d": "nn",
@@ -3602,6 +3973,13 @@
   "w": "firfald",
   "src": "db",
   "m": "firdobling; firdobla mengd",
+  "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "fivrelde",
+  "src": "unused",
+  "m": "sommarfugl",
   "e": ""
  },
  {
@@ -3907,6 +4285,13 @@
  },
  {
   "d": "nn",
+  "w": "gjegne",
+  "src": "db",
+  "m": "møte; sperre for; drive attende",
+  "e": "gjegne (inn) krøtera"
+ },
+ {
+  "d": "nn",
   "w": "gjelg",
   "src": "unused",
   "m": "luftstraum; syding; bølgjer",
@@ -4096,6 +4481,13 @@
  },
  {
   "d": "nn",
+  "w": "heisk",
+  "src": "unused",
+  "m": "lett snø som driv spreitt",
+  "e": ""
+ },
+ {
+  "d": "nn",
   "w": "helake",
   "src": "db",
   "m": "godtale, smeikje",
@@ -4278,6 +4670,13 @@
  },
  {
   "d": "nn",
+  "w": "klessen",
+  "src": "db",
+  "m": "blaut og kleimen",
+  "e": ""
+ },
+ {
+  "d": "nn",
   "w": "klingre",
   "src": "db",
   "m": "gje linn, skjelvande lyd",
@@ -4327,6 +4726,20 @@
  },
  {
   "d": "nn",
+  "w": "kolke",
+  "src": "unused",
+  "m": "klatre, klusse; kokle; setje flekker",
+  "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "kolten",
+  "src": "unused",
+  "m": "oppløyst, mest roten; muggen, skjemd",
+  "e": ""
+ },
+ {
+  "d": "nn",
   "w": "kontingent",
   "src": "db",
   "m": "tilskot til eit felles føretak; samling av personar; gruppe",
@@ -4362,6 +4775,13 @@
  },
  {
   "d": "nn",
+  "w": "kraklen",
+  "src": "db",
+  "m": "som kraklar seg fram; veik",
+  "e": ""
+ },
+ {
+  "d": "nn",
   "w": "kram",
   "src": "unused",
   "m": "billige småvarer; lette handelsvarer; skrap",
@@ -4379,6 +4799,13 @@
   "w": "kravsam",
   "src": "db",
   "m": "krevjande, kravfull",
+  "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "kropne",
+  "src": "db",
+  "m": "om lemer: bli krokete; om skinn: skrukne",
   "e": ""
  },
  {
@@ -4449,6 +4876,13 @@
   "w": "livsdugande",
   "src": "db",
   "m": "levedyktig",
+  "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "ljoske",
+  "src": "db",
+  "m": "lysne, klarne; glimte",
   "e": ""
  },
  {
@@ -4649,6 +5083,13 @@
  },
  {
   "d": "nn",
+  "w": "myalgisk",
+  "src": "db",
+  "m": "som gjeld myalgi; sjukdom der den sjuke er plaga av (varig) trøyttleik, muskelverk og intoleranse for sanseinntrykk; kronisk utmattingssyndrom",
+  "e": ""
+ },
+ {
+  "d": "nn",
   "w": "måtelaus",
   "src": "db",
   "m": "som ikkje held måte; umåteleg, uhorveleg; brukt som adverb:",
@@ -4688,6 +5129,13 @@
   "src": "db",
   "m": "langsetter, over og i retning ned; nedetter; brukt som adverb:",
   "e": "gå nedover gata"
+ },
+ {
+  "d": "nn",
+  "w": "neitte",
+  "src": "db",
+  "m": "nekte",
+  "e": ""
  },
  {
   "d": "nn",
@@ -4775,6 +5223,13 @@
  },
  {
   "d": "nn",
+  "w": "orvhendt",
+  "src": "db",
+  "m": "venstrehendt",
+  "e": ""
+ },
+ {
+  "d": "nn",
   "w": "overhøyre",
   "src": "db",
   "m": "låst som ein ikkje høyrer; ikkje høyre; kome til å høyre",
@@ -4807,6 +5262,13 @@
   "src": "db",
   "m": "som ein pamp; overdrive flott; storslagen",
   "e": "vere pampete"
+ },
+ {
+  "d": "nn",
+  "w": "panfobi",
+  "src": "unused",
+  "m": "sjukleg angst mot alt mogleg; jf fobi",
+  "e": ""
  },
  {
   "d": "nn",
@@ -4988,6 +5450,20 @@
   "w": "ræbeist",
   "src": "unused",
   "m": "rovdyr, udyr, grådig dyr",
+  "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "ròke",
+  "src": "unused",
+  "m": "haug på eit fylt kar; toppmål",
+  "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "ròse",
+  "src": "unused",
+  "m": "skrubbe (huda), såre litt; flekkje skalet av, skrape risp av fisk",
   "e": ""
  },
  {
@@ -5174,6 +5650,13 @@
  },
  {
   "d": "nn",
+  "w": "skirsle",
+  "src": "db",
+  "m": "døype, kristne",
+  "e": ""
+ },
+ {
+  "d": "nn",
   "w": "skjemsle",
   "src": "unused",
   "m": "svært negativt omdøme; skam, vanære; kvass tiltale",
@@ -5199,6 +5682,20 @@
   "src": "db",
   "m": "gje ein sprokken, skurrande lyd; gå seint og ustøtt",
   "e": "det skrakla i lekkja"
+ },
+ {
+  "d": "nn",
+  "w": "skrate",
+  "src": "db",
+  "m": "om fugl: kakle, skrike; skrasle, skratte",
+  "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "skreide",
+  "src": "db",
+  "m": "skuve til sides; få til å gli; slipe litt",
+  "e": "skreide ljåen"
  },
  {
   "d": "nn",
@@ -5272,6 +5769,13 @@
  },
  {
   "d": "nn",
+  "w": "sleinen",
+  "src": "db",
+  "m": "som hallar jamt og smått",
+  "e": "berget her er sleine og sleipt"
+ },
+ {
+  "d": "nn",
   "w": "sleiveleg",
   "src": "db",
   "m": "som har lett for å sleive",
@@ -5328,6 +5832,13 @@
  },
  {
   "d": "nn",
+  "w": "smålog",
+  "src": "unused",
+  "m": "småfe",
+  "e": ""
+ },
+ {
+  "d": "nn",
   "w": "snarbedd",
   "src": "db",
   "m": "lett å be; villig",
@@ -5380,6 +5891,13 @@
   "w": "spelegalen",
   "src": "db",
   "m": "som lid av spelegalskap",
+  "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "spjarre",
+  "src": "db",
+  "m": "gå med spente fotmusklar og strake kne; sprikje",
   "e": ""
  },
  {
@@ -5475,9 +5993,23 @@
  },
  {
   "d": "nn",
+  "w": "stivle",
+  "src": "db",
+  "m": "meinke, stogge; svelle",
+  "e": "vatnet har stivla opp i vegveita"
+ },
+ {
+  "d": "nn",
   "w": "strete",
   "src": "db",
   "m": "slite og slepe; ta eit røynetak; streve",
+  "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "stryllete",
+  "src": "db",
+  "m": "rukkete, skrukkete; vrien",
   "e": ""
  },
  {
@@ -5552,6 +6084,13 @@
  },
  {
   "d": "nn",
+  "w": "sveivle",
+  "src": "db",
+  "m": "sveive, svinge; fløkje, vase i hop",
+  "e": "fisken har sveivla taumen i hop"
+ },
+ {
+  "d": "nn",
   "w": "sverve",
   "src": "db",
   "m": "gå i ring; kvervle",
@@ -5566,9 +6105,23 @@
  },
  {
   "d": "nn",
+  "w": "svipleg",
+  "src": "db",
+  "m": "som har den rette svipen; hag, hendig",
+  "e": ""
+ },
+ {
+  "d": "nn",
   "w": "syfilitikar",
   "src": "unused",
   "m": "person som har syfilis",
+  "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "sykjast",
+  "src": "db",
+  "m": "bli sjuk; sjukne; lengte svært",
   "e": ""
  },
  {
@@ -5594,6 +6147,13 @@
  },
  {
   "d": "nn",
+  "w": "tauvre",
+  "src": "db",
+  "m": "fortrolle; setje sjukdom på",
+  "e": ""
+ },
+ {
+  "d": "nn",
   "w": "teigpløye",
   "src": "db",
   "m": "pløye frå midten og utetter, slik at jorda blir velta frå begge sider innover mot midten",
@@ -5604,6 +6164,13 @@
   "w": "telegrafisk",
   "src": "db",
   "m": "som gjeld telegrafi; som blir overført gjennom telegraf",
+  "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "tendre",
+  "src": "db",
+  "m": "kveikje, tenne",
   "e": ""
  },
  {
@@ -5626,6 +6193,13 @@
   "src": "unused",
   "m": "med små, jamne mellomrom lage ei monoton rekkje av korte, kneppande lydar; lage ein tikkande lyd; seie tikk",
   "e": "uret tikkar"
+ },
+ {
+  "d": "nn",
+  "w": "tilbrigde",
+  "src": "db",
+  "m": "tilmåte, tilpasse, modifisere",
+  "e": ""
  },
  {
   "d": "nn",
@@ -5797,6 +6371,13 @@
  },
  {
   "d": "nn",
+  "w": "tvarle",
+  "src": "db",
+  "m": "tvinne, fløkje",
+  "e": "snøret tvarlar seg i hop, saman"
+ },
+ {
+  "d": "nn",
   "w": "tvitusla",
   "src": "db",
   "m": "tvitola",
@@ -5841,7 +6422,7 @@
   "d": "nn",
   "w": "ubleikt",
   "src": "db",
-  "m": "som ikkje er bleikje; som har sin opphavlege fargetone",
+  "m": "<i>ubleikt lin</i>",
   "e": ""
  },
  {
@@ -5890,7 +6471,7 @@
   "d": "nn",
   "w": "umusikalsk",
   "src": "db",
-  "m": "som manglar sans eller øyre for musikk; i overført betydning: lite taktfull; upassande, taktlaus, tonedauv",
+  "m": "<i>umusikalsk person, framføring</i>",
   "e": ""
  },
  {
@@ -6084,9 +6665,16 @@
  },
  {
   "d": "nn",
+  "w": "vermsle",
+  "src": "unused",
+  "m": "kjelde som ikkje frys til",
+  "e": ""
+ },
+ {
+  "d": "nn",
   "w": "verneverdig",
   "src": "db",
-  "m": "som har så stor naturmessig eller kulturell verdi at det bør vernast",
+  "m": "<i>eit verneverdig bykvartal</i>",
   "e": ""
  },
  {
@@ -6109,6 +6697,13 @@
   "src": "norsk-ordbok",
   "m": "",
   "e": ""
+ },
+ {
+  "d": "nn",
+  "w": "vondle",
+  "src": "db",
+  "m": "lage, viske vondlar; balle, slurve noko saman",
+  "e": "vondle eit høyfang"
  },
  {
   "d": "nn",
@@ -6147,6 +6742,13 @@
  },
  {
   "d": "nn",
+  "w": "åleiten",
+  "src": "db",
+  "m": "påtrengjande, plagsam; som tek på; slitsam",
+  "e": "ein åleiten person"
+ },
+ {
+  "d": "nn",
   "w": "ålesleip",
   "src": "db",
   "m": "sleip som ein ål; òg i overført: sleisk",
@@ -6165,6 +6767,13 @@
   "src": "db",
   "m": "forsiktig i forbruk, sparsam; rimeleg, billig i bruk; som har med pengar å gjere, finansiell",
   "e": "ein må vere økonomisk skal pengane strekke til"
+ },
+ {
+  "d": "nn",
+  "w": "øsnad",
+  "src": "unused",
+  "m": "opphissa tilstand; øsing; egse",
+  "e": ""
  },
  {
   "d": "nn",

@@ -292,8 +292,8 @@
 "ok"
 ],
 "bm/bumse": [
-0,
-"offensive"
+1,
+"restored by user"
 ],
 "bm/bumsete": [
 1,
@@ -328,8 +328,8 @@
 "ok"
 ],
 "bm/deild": [
-0,
-"archaic"
+1,
+"restored by user"
 ],
 "bm/dert": [
 1,
@@ -486,6 +486,10 @@
 "bm/fjonge": [
 1,
 "ok"
+],
+"bm/fjåg": [
+1,
+"restored by user"
 ],
 "bm/flenge": [
 1,
@@ -896,8 +900,8 @@
 "ok"
 ],
 "bm/hoppsa": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "bm/hoppsasa": [
 1,
@@ -948,8 +952,12 @@
 "ok"
 ],
 "bm/idiofon": [
-0,
-"technical"
+1,
+"restored by user"
+],
+"bm/idke": [
+1,
+"restored by user"
 ],
 "bm/illudere": [
 1,
@@ -1004,8 +1012,8 @@
 "common"
 ],
 "bm/jorte": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "bm/judisium": [
 1,
@@ -1028,8 +1036,8 @@
 "technical"
 ],
 "bm/kadreie": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "bm/kakofon": [
 1,
@@ -1107,6 +1115,10 @@
 1,
 "ok"
 ],
+"bm/kjekkesen": [
+1,
+"restored by user"
+],
 "bm/kjekle": [
 1,
 "ok"
@@ -1124,8 +1136,8 @@
 "ok"
 ],
 "bm/kjos": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "bm/kjæte": [
 1,
@@ -1144,8 +1156,8 @@
 "ok"
 ],
 "bm/kleise": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "bm/klen": [
 0,
@@ -1244,8 +1256,8 @@
 "spelling"
 ],
 "bm/kokre": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "bm/kole": [
 0,
@@ -1343,6 +1355,10 @@
 1,
 "ok"
 ],
+"bm/kruksen": [
+1,
+"restored by user"
+],
 "bm/krusle": [
 1,
 "ok"
@@ -1428,8 +1444,8 @@
 "dull"
 ],
 "bm/kvæve": [
-0,
-"archaic"
+1,
+"restored by user"
 ],
 "bm/kyklopisk": [
 1,
@@ -1576,8 +1592,8 @@
 "ok"
 ],
 "bm/minuend": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "bm/mitraljøse": [
 0,
@@ -1772,8 +1788,8 @@
 "ok"
 ],
 "bm/patronym": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "bm/paulun": [
 1,
@@ -1992,8 +2008,8 @@
 "ok"
 ],
 "bm/renons": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "bm/resolvere": [
 1,
@@ -2243,6 +2259,10 @@
 1,
 "ok"
 ],
+"bm/skrie": [
+1,
+"restored by user"
+],
 "bm/skripen": [
 1,
 "ok"
@@ -2264,8 +2284,8 @@
 "ok"
 ],
 "bm/skulse": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "bm/skumple": [
 1,
@@ -2540,8 +2560,8 @@
 "ok"
 ],
 "bm/stendig": [
-0,
-"archaic"
+1,
+"restored by user"
 ],
 "bm/stenke": [
 0,
@@ -2568,8 +2588,8 @@
 "ok"
 ],
 "bm/stinge": [
-0,
-"archaic"
+1,
+"restored by user"
 ],
 "bm/stinkador": [
 1,
@@ -2608,8 +2628,8 @@
 "ok"
 ],
 "bm/subtrahend": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "bm/sukle": [
 1,
@@ -2668,12 +2688,16 @@
 "ok"
 ],
 "bm/tagne": [
-0,
-"archaic"
+1,
+"restored by user"
 ],
 "bm/tarv": [
 1,
 "ok"
+],
+"bm/tasal": [
+1,
+"restored by user"
 ],
 "bm/telgje": [
 0,
@@ -2714,6 +2738,10 @@
 "bm/tjatt": [
 0,
 "dull"
+],
+"bm/tjon": [
+1,
+"restored by user"
 ],
 "bm/tjåke": [
 1,
@@ -2836,8 +2864,8 @@
 "ok"
 ],
 "bm/vandle": [
-0,
-"archaic"
+1,
+"restored by user"
 ],
 "bm/vatre": [
 1,
@@ -2852,8 +2880,8 @@
 "ok"
 ],
 "bm/veidn": [
-0,
-"archaic"
+1,
+"restored by user"
 ],
 "bm/velin": [
 0,
@@ -2864,12 +2892,12 @@
 "ok"
 ],
 "bm/verp": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "bm/veum": [
-0,
-"archaic"
+1,
+"restored by user"
 ],
 "bm/vever": [
 1,
@@ -2896,8 +2924,8 @@
 "ok"
 ],
 "bm/vinnskipelig": [
-0,
-"archaic"
+1,
+"restored by user"
 ],
 "bm/vita": [
 0,
@@ -2964,8 +2992,8 @@
 "derived"
 ],
 "bm/øksel": [
-0,
-"archaic"
+1,
+"restored by user"
 ],
 "bm/ørske": [
 0,
@@ -3028,8 +3056,8 @@
 "ok"
 ],
 "nn/baus": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/beinsemd": [
 0,
@@ -3064,12 +3092,12 @@
 "ok"
 ],
 "nn/bibre": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/bidlund": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/bidlundsam": [
 0,
@@ -3156,8 +3184,8 @@
 "ok"
 ],
 "nn/brosten": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/brålyndt": [
 1,
@@ -3175,9 +3203,13 @@
 1,
 "ok"
 ],
+"nn/bællang": [
+1,
+"restored by user"
+],
 "nn/bærle": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/børel": [
 0,
@@ -3188,16 +3220,16 @@
 "technical"
 ],
 "nn/denotere": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "nn/dildre": [
 1,
 "ok"
 ],
 "nn/dissosiere": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "nn/dosmen": [
 1,
@@ -3240,8 +3272,8 @@
 "dull"
 ],
 "nn/draulen": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/drette": [
 0,
@@ -3260,8 +3292,8 @@
 "ok"
 ],
 "nn/drulte": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/druns": [
 1,
@@ -3272,8 +3304,8 @@
 "ok"
 ],
 "nn/drunt": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/drunten": [
 0,
@@ -3326,6 +3358,10 @@
 "nn/dvelje": [
 0,
 "common"
+],
+"nn/dyvje": [
+1,
+"restored by user"
 ],
 "nn/egle": [
 1,
@@ -3382,6 +3418,14 @@
 "nn/fjaske": [
 1,
 "ok"
+],
+"nn/fjelgde": [
+1,
+"restored by user"
+],
+"nn/fjelgsleg": [
+1,
+"restored by user"
 ],
 "nn/fjerre": [
 1,
@@ -3448,16 +3492,16 @@
 "dialect"
 ],
 "nn/fløygje": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/fløyten": [
 0,
 "common"
 ],
 "nn/fondere": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "nn/forbala": [
 1,
@@ -3576,8 +3620,8 @@
 "ok"
 ],
 "nn/gare": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/gasterere": [
 1,
@@ -3608,16 +3652,16 @@
 "ok"
 ],
 "nn/gjednigen": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/gjegne": [
 0,
 "dialect"
 ],
 "nn/gjenegen": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/gjenverdig": [
 1,
@@ -3636,12 +3680,12 @@
 "ok"
 ],
 "nn/gjøleleg": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/gjølme": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/gjønstre": [
 1,
@@ -3660,12 +3704,12 @@
 "ok"
 ],
 "nn/gleine": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/gleipe": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/gleivre": [
 1,
@@ -3720,8 +3764,8 @@
 "ok"
 ],
 "nn/gnallande": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/gnarre": [
 1,
@@ -3816,8 +3860,8 @@
 "ok"
 ],
 "nn/grøype": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/guve": [
 0,
@@ -3828,8 +3872,8 @@
 "ok"
 ],
 "nn/gåig": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/handfrid": [
 1,
@@ -3840,8 +3884,8 @@
 "ok"
 ],
 "nn/havang": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/heidundrande": [
 1,
@@ -3908,8 +3952,8 @@
 "ok"
 ],
 "nn/hortug": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/hugnadleg": [
 0,
@@ -3940,8 +3984,8 @@
 "ok"
 ],
 "nn/huskeleg": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/hyfse": [
 1,
@@ -3956,8 +4000,8 @@
 "dialect"
 ],
 "nn/ibidem": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "nn/idast": [
 0,
@@ -4032,8 +4076,8 @@
 "ok"
 ],
 "nn/katatonisk": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "nn/keikete": [
 1,
@@ -4043,9 +4087,13 @@
 0,
 "dull"
 ],
+"nn/kjøgle": [
+1,
+"restored by user"
+],
 "nn/klabben": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/kleinsleg": [
 1,
@@ -4112,8 +4160,8 @@
 "dialect"
 ],
 "nn/krame": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/krasse": [
 0,
@@ -4151,6 +4199,10 @@
 1,
 "ok"
 ],
+"nn/kræv": [
+1,
+"restored by user"
+],
 "nn/kukelur": [
 1,
 "ok"
@@ -4176,8 +4228,8 @@
 "ok"
 ],
 "nn/kverr": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/kverven": [
 1,
@@ -4188,8 +4240,8 @@
 "ok"
 ],
 "nn/kvetje": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/kvidesam": [
 1,
@@ -4214,6 +4266,10 @@
 "nn/kvæv": [
 1,
 "ok"
+],
+"nn/kødd": [
+1,
+"restored by user"
 ],
 "nn/lentug": [
 1,
@@ -4324,8 +4380,8 @@
 "ok"
 ],
 "nn/nauteskap": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/neise": [
 1,
@@ -4352,20 +4408,20 @@
 "dull"
 ],
 "nn/nuve": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/nyggje": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/nækje": [
 0,
 "dialect"
 ],
 "nn/nøgge": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/olstre": [
 1,
@@ -4380,8 +4436,8 @@
 "dialect"
 ],
 "nn/ormekte": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/orminnast": [
 1,
@@ -4408,8 +4464,8 @@
 "ok"
 ],
 "nn/pyrrhossiger": [
-0,
-"spelling"
+1,
+"restored by user"
 ],
 "nn/påsegla": [
 1,
@@ -4420,8 +4476,8 @@
 "ok"
 ],
 "nn/radl": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/raklete": [
 1,
@@ -4468,16 +4524,16 @@
 "ok"
 ],
 "nn/sannkjenne": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "nn/sellande": [
 1,
 "ok"
 ],
 "nn/singott": [
-0,
-"archaic"
+1,
+"restored by user"
 ],
 "nn/situng": [
 1,
@@ -4488,8 +4544,8 @@
 "ok"
 ],
 "nn/sjølvare": [
-0,
-"archaic"
+1,
+"restored by user"
 ],
 "nn/skaldre": [
 1,
@@ -4504,8 +4560,8 @@
 "ok"
 ],
 "nn/skarken": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/skarveleg": [
 0,
@@ -4524,8 +4580,8 @@
 "ok"
 ],
 "nn/skirleitt": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/skirsle": [
 0,
@@ -4548,8 +4604,8 @@
 "dialect"
 ],
 "nn/skjekke": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/skjekle": [
 1,
@@ -4572,8 +4628,8 @@
 "ok"
 ],
 "nn/skolle": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/skotung": [
 0,
@@ -4636,8 +4692,8 @@
 "dialect"
 ],
 "nn/skrykke": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/skrynje": [
 1,
@@ -4652,8 +4708,8 @@
 "derived"
 ],
 "nn/skrøkke": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/skrøyve": [
 1,
@@ -4680,8 +4736,8 @@
 "dull"
 ],
 "nn/skøyre": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/slamsen": [
 1,
@@ -4728,8 +4784,8 @@
 "ok"
 ],
 "nn/slevje": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/slinke": [
 1,
@@ -4760,12 +4816,12 @@
 "dialect"
 ],
 "nn/smætte": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/smøyeleg": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/snaldre": [
 1,
@@ -4784,8 +4840,8 @@
 "common"
 ],
 "nn/snippen": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/snugge": [
 1,
@@ -4820,8 +4876,8 @@
 "dialect"
 ],
 "nn/spauke": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/speike": [
 1,
@@ -4880,8 +4936,8 @@
 "ok"
 ],
 "nn/sterre": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/stevjast": [
 1,
@@ -4892,8 +4948,8 @@
 "dialect"
 ],
 "nn/stikte": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/stivle": [
 0,
@@ -4920,8 +4976,8 @@
 "ok"
 ],
 "nn/stratt": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/stridøygd": [
 1,
@@ -4936,16 +4992,16 @@
 "dialect"
 ],
 "nn/striple": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/stropen": [
 0,
 "dialect"
 ],
 "nn/stropne": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/strunteleg": [
 1,
@@ -4972,8 +5028,8 @@
 "ok"
 ],
 "nn/styrven": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/stødve": [
 1,
@@ -4996,16 +5052,16 @@
 "dialect"
 ],
 "nn/svalke": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/svall": [
 1,
 "ok"
 ],
 "nn/svalle": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/svallig": [
 1,
@@ -5075,6 +5131,10 @@
 0,
 "dialect"
 ],
+"nn/sælast": [
+1,
+"restored by user"
+],
 "nn/tabuere": [
 0,
 "derived"
@@ -5132,8 +5192,8 @@
 "common"
 ],
 "nn/tistete": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/tistren": [
 1,
@@ -5160,8 +5220,8 @@
 "ok"
 ],
 "nn/traspe": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/traud": [
 1,
@@ -5180,24 +5240,24 @@
 "common"
 ],
 "nn/trumpen": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/truske": [
 0,
 "dialect"
 ],
 "nn/tryste": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/trågjengd": [
 1,
 "ok"
 ],
 "nn/trælke": [
-0,
-"archaic"
+1,
+"restored by user"
 ],
 "nn/trøyste": [
 1,
@@ -5280,16 +5340,16 @@
 "archaic"
 ],
 "nn/typisere": [
-0,
-"technical"
+1,
+"restored by user"
 ],
 "nn/tæpe": [
 1,
 "ok"
 ],
 "nn/ubjåleg": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/ufansleg": [
 1,
@@ -5308,8 +5368,8 @@
 "ok"
 ],
 "nn/unoggen": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/utarleg": [
 1,
@@ -5424,8 +5484,8 @@
 "ok"
 ],
 "nn/våskøytt": [
-0,
-"dialect"
+1,
+"restored by user"
 ],
 "nn/vørdsle": [
 1,
@@ -5444,8 +5504,8 @@
 "ok"
 ],
 "nn/åbyrgjast": [
-0,
-"archaic"
+1,
+"restored by user"
 ],
 "nn/ågangsam": [
 1,
