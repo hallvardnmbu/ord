@@ -445,6 +445,7 @@ plette,bm,1,db
 plyndre,bm,0,db
 prakken,bm,1,db
 prasle,bm,1,db
+pregnans,bm,1,unused
 presisere,bm,0,db
 presserende,bm,0,db
 prette,bm,1,db
@@ -490,6 +491,7 @@ sjogse,bm,0,db
 skalte,bm,1,db
 skarre,bm,0,db
 skat,bm,1,unused
+skauleies,bm,1,db
 skinnbarlig,bm,1,db
 skiple,bm,1,db
 skjelm,bm,1,unused
@@ -535,6 +537,7 @@ snadre,bm,1,db
 snelle,bm,0,db
 snerpe,bm,1,db
 snubbe,bm,1,db
+snubbet,bm,1,db
 snufset,bm,0,db
 snultre,bm,1,db
 snøgge,bm,1,db
@@ -598,6 +601,7 @@ tistret,bm,1,db
 tistrete,bm,1,unused
 tiur,bm,0,unused
 tjadder,bm,1,unused
+tjatre,bm,1,db
 tjon,bm,1,unused
 trabelere,bm,1,db
 trakte,bm,1,db
@@ -644,6 +648,7 @@ uoppklart,bm,0,db
 uoverstigelig,bm,-1,db
 utferdige,bm,1,db
 utfjording,bm,0,unused
+utilhylla,bm,0,db
 utilistisk,bm,0,db
 utlydende,bm,0,db
 utslette,bm,0,db
@@ -837,6 +842,7 @@ flisme,nn,0,unused
 flister,nn,1,unused
 flogse,nn,1,db
 flogsete,nn,0,db
+flotne,nn,1,db
 fløygje,nn,1,db
 fløyten,nn,1,db
 folksens,nn,0,db
@@ -848,6 +854,7 @@ forbitra,nn,0,db
 forbyte,nn,-1,db
 fordrøymd,nn,0,db
 fordølje,nn,1,db
+fordømd,nn,0,db
 forete,nn,0,db
 forfjetra,nn,1,db
 forflogen,nn,1,db
@@ -912,6 +919,7 @@ glattrake,nn,0,db
 gleime,nn,1,db
 gleine,nn,1,db
 gleipe,nn,1,db
+gleivre,nn,1,db
 glipa,nn,0,norsk-ordbok
 gloande,nn,0,db
 glotte,nn,0,db
@@ -1205,6 +1213,7 @@ skeike,nn,1,db
 skikke,nn,0,db
 skilder,nn,0,db
 skilte,nn,0,db
+skinnblaut,nn,1,db
 skirleitt,nn,1,db
 skirsle,nn,1,db
 skittørd,nn,1,db
@@ -1454,6 +1463,7 @@ ymisleg,nn,1,db
 ålesleip,nn,0,db
 åmellom,nn,1,db
 åskodeleg,nn,1,db
+åtsøken,nn,1,db
 åtvik,nn,-1,unused
 ævordleg,nn,1,db
 øgle,nn,0,unused

@@ -398,6 +398,111 @@ def final_split(approve=0.65, reject=0.40):
         print(f"{k}: {len(v)} ({sum(1 for x in v if x['d'] == 'bm')} bm / {sum(1 for x in v if x['d'] == 'nn')} nn)")
 
 
+REFINE_PROMPT = """Du hjelper med å velge «dagens ord» for dagsord.no (bokmål og nynorsk).
+
+Gi hvert ord to UAVHENGIGE karakterer:
+
+"c" – VANLIGHET (1-5): Hvor mye brukes SELVE ORDET i dagens norsk?
+  5 = ord nesten alle bruker jevnlig (fekte, snekre, irritere, skumle, gjette)
+  4 = godt kjent, brukes ofte nok (forvalte, hvesse, blunde)
+  3 = kjent for de fleste, men brukes sjelden
+  2 = mange kjenner det ikke
+  1 = sjeldent, få kjenner ordet
+  VIKTIG: vurder hvor vanlig ORDET er, ikke om tingen det beskriver er vanlig.
+  «kukelure» beskriver noe hverdagslig, men selve ordet er sjeldent → 1-2.
+  «fekte» brukes ofte («fekte med armene») → 5.
+
+"r" – EGNETHET som dagens ord (1-5), med sunn fornuft:
+  5 = særpreget, uvanlig ord som likevel kan brukes i en eller annen hverdagslig sammenheng
+  3 = greit, men ikke spesielt
+  1 = kjedelig/vanlig, fagord (medisin, biologi, kjemi, jus, teknikk), dialekt, gammeldags
+      og ute av bruk, eller umulig å bruke i dag
+  Ikke vær for streng med «hverdagslig»: et lærd eller litterært ord er fint om det kan brukes.
+
+Skriv KUN JSON: {"<id>": {"c": n, "r": n}, ...} for alle id-er.
+"""
+
+
+def refine_batches(size=200):
+    """Refinement over everything not already decided against (approve + ask)."""
+    open(f"{DIR}/refine_prompt.md", "w").write(REFINE_PROMPT)
+    lab = labels()
+    words = [x for k in ("approve", "ask") for x in load(f"final_{k}.json")
+             if lab.get((x["d"], x["w"])) not in (0, 1)]
+    gold = [g for g in load("gold.json") if g["m"]]
+    rng = random.Random(21)
+    rng.shuffle(words)
+    batches = []
+    for k in range(0, len(words), size):
+        b = len(batches)
+        items = [dict(x, id=f"f{k + i}") for i, x in enumerate(words[k : k + size])]
+        for j, g in enumerate(rng.sample(gold, GOLD_PER_BATCH)):
+            items.append({**g, "id": f"fg{b}_{j}"})
+        rng.shuffle(items)
+        batches.append(items)
+        open(f"{DIR}/refine_{b}.tsv", "w").write(
+            "id\tordbok\tord\tbetydning\n" + "\n".join(map(line, items)))
+    save("refine_batches.json", batches)
+    print(len(batches), "refine batches;", len(words), "words")
+
+
+def refine_outputs():
+    r = {}
+    for name in os.listdir(DIR):
+        if name.startswith("out_refine_"):
+            try:
+                r.update(json.load(open(f"{DIR}/{name}")))
+            except json.JSONDecodeError:
+                print("broken:", name)
+    return r
+
+
+def refine_report():
+    batches, r = load("refine_batches.json"), refine_outputs()
+    g = [x for items in batches for x in items if "label" in x and x["id"] in r]
+    print(f"gold: {len(g)} words")
+    for key in ("c", "r"):
+        for v in range(1, 6):
+            sel = [x for x in g if r[x["id"]].get(key) == v]
+            if sel:
+                print(f"  {key}={v}: {len(sel):3} gold, {np.mean([x['label'] for x in sel]):.0%} liked")
+    y = np.array([x["label"] for x in g], dtype=float)
+    for key in ("c", "r"):
+        s_ = np.array([float(r[x["id"]].get(key, 3)) for x in g]) + np.linspace(0, 1e-3, len(g))
+        print(f"  AUC of {key}: {learn.auc(s_ if key == 'r' else -s_, y):.3f}")
+    cands = [x for items in batches for x in items if "label" not in x and x["id"] in r]
+    grid = {}
+    for x in cands:
+        k = (r[x["id"]].get("c"), r[x["id"]].get("r"))
+        grid[k] = grid.get(k, 0) + 1
+    print("candidates by (c, r):")
+    for c in range(1, 6):
+        print("  c=%d: " % c + "  ".join(f"r{rr}:{grid.get((c, rr), 0):4}" for rr in range(1, 6)))
+
+
+def refine_split(max_common=3, approve_r=4, reject_r=2):
+    batches, r = load("refine_batches.json"), refine_outputs()
+    groups = {"approve": [], "ask": [], "reject": [], "common": []}
+    for items in batches:
+        for x in items:
+            if "label" in x or x["id"] not in r:
+                continue
+            c, rr = r[x["id"]].get("c", 3), r[x["id"]].get("r", 3)
+            x = dict(x, common=c, suit=rr)
+            if c > max_common:
+                groups["common"].append(x)
+            elif rr >= approve_r:
+                groups["approve"].append(x)
+            elif rr <= reject_r:
+                groups["reject"].append(x)
+            else:
+                groups["ask"].append(x)
+    for k, v in groups.items():
+        v.sort(key=lambda x: (-x["suit"], x["common"]))
+        save(f"refined_{k}.json", v)
+        print(f"{k}: {len(v)} ({sum(1 for x in v if x['d'] == 'bm')} bm / {sum(1 for x in v if x['d'] == 'nn')} nn)")
+
+
 if __name__ == "__main__":
-    {"final": final_split, "rank": rank_batches, "fetch": fetch, "score": score_all, "screen": screen, "gold": gold_check,
+    {"refine-report": refine_report, "refine-split": refine_split, "refine": refine_batches, "final": final_split, "rank": rank_batches, "fetch": fetch, "score": score_all, "screen": screen, "gold": gold_check,
      "calibrate": calibrate, "split": split}[sys.argv[1]]()
