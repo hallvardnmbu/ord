@@ -27,7 +27,7 @@ import score
 
 DIR = f"{lexicon.CACHE}/sweep"
 os.makedirs(DIR, exist_ok=True)
-BATCH = 250
+BATCH = 400
 GOLD_PER_BATCH = 20
 
 
@@ -95,6 +95,9 @@ def universe():
             rows.append({"d": d, "w": r["word"], "src": "db", "m": m, "e": e, "f": r, "mean": mean})
         freqs = frequency.load(d)
         for lemma, article_id, _ in SHORT[d]:
+            # Only articles already downloaded: scoring runs in waves beside the fetch.
+            if not os.path.exists(f"{lexicon.CACHE}/articles_{d}/{article_id}.json"):
+                continue
             try:
                 text, definitions, etymology = expand.describe(d, article_id)
             except Exception:
@@ -209,22 +212,29 @@ def line(x):
 
 
 def screen():
-    shots = screen_prompt()
-    rng = random.Random(6)
-    cands = load("candidates.json")
+    """Append batches for candidates not yet sent to the judge (one wave)."""
+    if not os.path.exists(f"{DIR}/screen_prompt.md"):
+        open(f"{DIR}/shots.json", "w").write(json.dumps(sorted(screen_prompt())))
+    shots = {tuple(x) for x in json.load(open(f"{DIR}/shots.json"))}
+    batches = load("batches.json") if os.path.exists(f"{DIR}/batches.json") else []
+    done = {x["w"] for items in batches for x in items if "label" not in x}
+    rng = random.Random(6 + len(batches))
+    cands = [x for x in load("candidates.json") if x["w"] not in done]
     gold = [g for g in load("gold.json") if (g["d"], g["w"]) not in shots and g["m"]]
     rng.shuffle(cands)
-    batches = []
+    first = len(batches)
+    n = sum(1 for items in batches for x in items if "label" not in x)
     for k in range(0, len(cands), BATCH):
-        items = [dict(x, id=f"c{k + i}") for i, x in enumerate(cands[k : k + BATCH])]
+        b = len(batches)
+        items = [dict(x, id=f"c{n + k + i}") for i, x in enumerate(cands[k : k + BATCH])]
         for j, g in enumerate(rng.sample(gold, GOLD_PER_BATCH)):
-            items.append({**g, "id": f"g{k // BATCH}_{j}"})
+            items.append({**g, "id": f"g{b}_{j}"})
         rng.shuffle(items)
         batches.append(items)
-        open(f"{DIR}/screen_{len(batches) - 1}.tsv", "w").write(
+        open(f"{DIR}/screen_{b}.tsv", "w").write(
             "id\tordbok\tord\tbetydning\n" + "\n".join(map(line, items)))
     save("batches.json", batches)
-    print(len(batches), "batches of", BATCH, "+", GOLD_PER_BATCH, "gold;", len(cands), "candidates")
+    print(f"new batches {first}..{len(batches) - 1} ({len(cands)} new candidates)")
 
 
 def outputs():
