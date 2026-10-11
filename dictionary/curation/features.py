@@ -40,6 +40,34 @@ REGISTER = re.compile(
     re.I,
 )
 
+# Specialist vocabulary: medicine, biology, chemistry and other sciences.
+TECH_DOMAIN = re.compile(
+    r"^(i|innan|innen|om|brukt i)\s+(medisin|biologi|botanikk|zoologi|anatomi|fysiologi|kjemi|biokjemi"
+    r"|fysikk|geologi|mineralogi|astronomi|matematikk|statistikk|språkvit\w+|grammatikk|fonetikk"
+    r"|psykologi|psykiatri|farmasi|patologi|genetikk|mikrobiologi|teknikk|fagspråk|bot|zool|med)\b",
+    re.I,
+)
+# Only words that make the definition *about* a specialist topic; passing mentions
+# ("død av alderdom eller sykdom") do not count.
+TECH_WORDS = re.compile(
+    r"\b(betennelse|infeksjon|kjertel\w*|celle\w*|vev|organisme\w*|bakterie\w*|virus|legemiddel"
+    r"|enzym\w*|hormon\w*|molekyl\w*|grunnstoff|kromosom\w*|arveanlegg|svulst|protein\w*"
+    r"|planteslekt|plantefamilie|dyreslekt|slekta|slekten|underklasse|fosteret|kjemisk forbindelse)\b"
+    r"|^(\w+ )?(sykdom|sjukdom|lidelse|tilstand) (som|i|med|der|kjenneteikna|kjennetegnet)",
+    re.I,
+)
+# Genus + species: "Lysimachia vulgaris", not "Homer rungende".
+LATIN_NAME = re.compile(
+    r"\b[A-Z][a-z]+ [a-z]+(us|um|is|ae|ii|ensis|oides|atus|ata|osa|osus|alis|aris|ica|icus|ella|ina|inus|eus|ia)\b"
+)
+TECH_SHAPE = re.compile(
+    r"(itt|ose|emi|algi|algisk|patisk|patologi|terapi|terapeutisk|cytt|oid|skop|meter|metri|logisk|logi"
+    r"|genese|genetisk|lytisk|ektomi|tomi|plasma|fytt|krin|trofi)$"
+    r"|^(kardio|nevro|hemo|hemat|osteo|gastro|derm|myo|hepat|nefr|pneum|cyto|bio|hydro"
+    r"|lymf|angio|fysio|pato|immun|kromo|histo|onko|psyko)"
+)
+DATED = re.compile(r"(foreldet|eldre|gammeldags|arkaiserende|dialekt|sjelden)", re.I)
+
 # Definition shapes that give away a derived, predictable word.
 TEMPLATES = [
     ("som-gjelder", r"^som (gjelder|gjeld|angår|vedkommer|hører til|høyrer til|har med)\b"),
@@ -142,6 +170,8 @@ def compute(word, dictionary, definitions=None, etymology=None, freq=None):
     compounds = lexicon.compounds(dictionary)
     parts = compounds.get(word, "unknown")
     f["length"] = len(word)
+    # Neoclassical look, used to guess technical terms when no definition is at hand.
+    f["latinate_shape"] = bool(re.search(r"(y|ks|ia|io|eo|ae|th|rh|ph)", word)) and len(word) > 5
     f["simplex"] = parts is None
     f["compound"] = isinstance(parts, tuple)
 
@@ -182,6 +212,11 @@ def compute(word, dictionary, definitions=None, etymology=None, freq=None):
     f["derived_etymology"] = bool(etym and DERIVED_ETYMOLOGY.search(etym.strip()))
     all_text = " ".join(flatten(definitions)) + " " + etym
     f["register"] = ",".join(sorted({m.lower() for m in REGISTER.findall(all_text)}))
+    tags = f["register"].split(",")
+    # Marked as old or regional: hard to use in a today-context.
+    f["dated"] = any(DATED.match(t) for t in tags if t)
+    # Marked for style (figurative, ironic, colloquial): colour that still works today.
+    f["style"] = any(t and not DATED.match(t) for t in tags)
 
     freq = freq or {}
     eps = 0.002
@@ -192,6 +227,16 @@ def compute(word, dictionary, definitions=None, etymology=None, freq=None):
     # pre-1920 books are largely Dano-Norwegian.
     f["decline"] = math.log10((mid + eps) / (modern + eps))
     f["decline_old"] = math.log10((old + eps) / (modern + eps))
+    # Medicine, biology, chemistry and the like: rare, but not usable day to day.
+    tech_text = bool(texts) and (
+        bool(TECH_DOMAIN.match(texts[0].strip()))
+        or bool(TECH_WORDS.search(texts[0]))
+        or bool(LATIN_NAME.search(" ".join(texts)))
+    )
+    f["technical"] = tech_text or (not texts and bool(TECH_SHAPE.search(word)) and f["latinate_shape"])
+
+    # Printed before, practically gone since 2000: archaic rather than rare.
+    f["dead_today"] = modern < 0.003 and max(old, mid) > 0.05
     f["surprisal"] = surprisal(word, dictionary)
     return f
 

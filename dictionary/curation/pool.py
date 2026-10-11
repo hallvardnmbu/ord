@@ -16,8 +16,9 @@ import sys
 import expand
 import features
 import lexicon
+import score
 
-PER_DICT = int(sys.argv[1]) if len(sys.argv) > 1 else 300
+PER_DICT = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 300
 BUCKETS = 10
 
 
@@ -81,13 +82,111 @@ def from_expansion(dictionary, rng, n=60):
     return out
 
 
+def item(word, dictionary, src, definitions):
+    meaning, example = snippet(definitions)
+    return {"w": word, "d": dictionary, "m": meaning, "e": example, "src": src}
+
+
+def round2(labels_path, rng):
+    """Second round: words the fitted model is unsure about, its top picks,
+    the thinly labelled signals, fresh candidates and a few modern-attested
+    Norsk Ordbok words."""
+    import learn
+    import numpy as np
+
+    labels = learn.load_labels(labels_path)
+    seen = set(labels)
+    try:
+        import json as _json
+        for p in __import__("glob").glob(f"{lexicon.CACHE}/labels/**/*.json", recursive=True):
+            d = _json.load(open(p))
+            d = d.get("data", d)
+            seen.add((d["d"], d["w"]))
+    except Exception:
+        pass
+
+    rows, train = [], []
+    for dictionary in ("bm", "nn"):
+        defs = {w["word"]: w["definitions"] for w in lexicon.db_words(dictionary)}
+        scored = score.score_all(features.for_db(dictionary))
+        mean = sum(r["surprisal"] for r in scored) / len(scored)
+        for r in scored:
+            r["d"], r["defs"] = dictionary, defs[r["word"]]
+            r["terms"] = score.terms(r, mean)
+            if (dictionary, r["word"]) in labels:
+                train.append((r, labels[(dictionary, r["word"])]))
+            elif (dictionary, r["word"]) not in seen and not r["hard"]:
+                rows.append(r)
+    names = list(score.WEIGHTS)
+    X = np.array([[r["terms"][n] for n in names] for r, _ in train])
+    y = np.array([label for _, label in train], dtype=float)
+    w, b = learn.fit(X, y)
+    for r in rows:
+        logit = np.array([r["terms"][n] for n in names]) @ w + b
+        r["p"] = float(1 / (1 + np.exp(-logit)))
+
+    pool, used = [], set()
+
+    def take(candidates, n, src):
+        for r in candidates:
+            if n == 0:
+                break
+            if r["word"] in used or not features.explanations(r["defs"]):
+                continue
+            used.add(r["word"])
+            pool.append({**item(r["word"], r["d"], "db", r["defs"]), "tag": src})
+            n -= 1
+
+    take(sorted(rows, key=lambda r: abs(r["p"] - 0.5)), 110, "uncertain")
+    take(sorted(rows, key=lambda r: -r["p"]), 50, "top")
+    for signal, n in (("dead_today", 15), ("dated", 15), ("style", 15)):
+        hits = [r for r in rows if r[signal]]
+        take(rng.sample(hits, min(len(hits), 60)), n, signal)
+
+    # Fresh candidates ranked with the new weights.
+    for dictionary, n in (("bm", 35), ("nn", 25)):
+        db = {w["word"] for w in lexicon.db_words(dictionary)}
+        items = [x for x in expand.unused(dictionary, db)[:600] if (dictionary, x[0]) not in seen]
+        for lemma, article_id, f in rng.sample(items, min(len(items), n * 2)):
+            if n == 0:
+                break
+            text, definitions, _ = expand.describe(dictionary, article_id)
+            if definitions and definitions["forklaring"] and not features.compute(
+                lemma, dictionary, definitions
+            )["technical"]:
+                example = (definitions["eksempel"] or [""])[0][:120]
+                pool.append({"w": lemma, "d": dictionary, "m": text, "e": example, "src": "unused"})
+                n -= 1
+
+    # Dialect words only when they still turn up in books after 2000.
+    modern = lexicon.cache_load("no_forms_modern.json", {})
+    no = [x for x in expand.norsk_ordbok("nn")[:3000] if modern.get(x[0], 0) > 0.005]
+    n = 15
+    for lemma, article_id, f in rng.sample(no, min(len(no), 40)):
+        if n == 0:
+            break
+        text, definitions, _ = expand.describe("no", article_id)
+        if (
+            definitions
+            and definitions["forklaring"]
+            and ("nn", lemma) not in seen
+            and not features.compute(lemma, "nn", definitions)["technical"]
+        ):
+            pool.append({"w": lemma, "d": "nn", "m": text, "e": "", "src": "norsk-ordbok"})
+            n -= 1
+    return pool
+
+
 if __name__ == "__main__":
     rng = random.Random(42)
     pool = []
-    for dictionary in ("bm", "nn"):
-        pool += from_db(dictionary, rng)
-        if "--expansion" in sys.argv:
-            pool += from_expansion(dictionary, rng)
+    if "--round2" in sys.argv:
+        pool = round2(sys.argv[sys.argv.index("--round2") + 1], rng)
+    else:
+        for dictionary in ("bm", "nn"):
+            pool += from_db(dictionary, rng)
+            if "--expansion" in sys.argv:
+                pool += from_expansion(dictionary, rng)
     rng.shuffle(pool)
     template = open(f"{lexicon.DICT}/curation/labeler.html", encoding="utf-8").read()
     html = template.replace("/*POOL*/[]", json.dumps(pool, ensure_ascii=False))

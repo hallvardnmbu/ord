@@ -34,6 +34,9 @@ WEIGHTS = {
     "unknown_origin": 0.5,  # no labelled examples yet
     "derived_etymology": 0.0,
     "register": -0.4,
+    "dated": -0.5,  # foreldet, eldre, dialekt: guess, not fitted yet
+    "style": 0.3,  # overført, ironisk, spøkefull: guess, not fitted yet
+    "dead_today": -0.5,  # guess, not fitted yet
     "examples": -0.55,  # per example, capped at 4: well-documented = everyday
     "too_common": -1.95,  # per decade above ~5 per million in modern books
     "unattested": 1.2,  # per decade below ~0.03 per million: rare is good
@@ -57,6 +60,7 @@ HARD = {
     "place": lambda f: f["place"],
     "number": lambda f: f["number"],
     "assembly-line compound": lambda f: f["transparent"] and f["suffix"] in MECHANICAL,
+    "technical term": lambda f: f["technical"],
 }
 
 
@@ -75,6 +79,9 @@ def terms(f, mean_surprisal):
         "unknown_origin": float(f["unknown_origin"]),
         "derived_etymology": float(f["derived_etymology"]),
         "register": float(bool(f["register"])),
+        "dated": float(f["dated"]),
+        "style": float(f["style"]),
+        "dead_today": float(f["dead_today"]),
         "examples": min(f["n_examples"], 4),
         "too_common": max(0.0, f["log_modern"] - 0.7),
         "unattested": max(0.0, -1.5 - f["log_any"]),
@@ -121,7 +128,9 @@ def report(rows, dictionary):
     signals = {
         "simplex (not a compound)": lambda r: r["simplex"],
         "loan / old origin": lambda r: r["loan_or_old"],
-        "register tag (dialect, ironic, dated...)": lambda r: r["register"],
+        "dated tag (foreldet, eldre, dialekt)": lambda r: r["dated"],
+        "style tag (overført, ironisk, spøkefull)": lambda r: r["style"],
+        "dead today (in print before, not since 2000)": lambda r: r["dead_today"],
         "too common (>5 per million today)": lambda r: r["log_modern"] > 0.7,
         "unattested (<0.03 per million ever)": lambda r: r["log_any"] < -1.5,
         "forgotten (10x rarer than in 1920-79)": lambda r: r["decline"] > 1.0,
