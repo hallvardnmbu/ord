@@ -6,11 +6,15 @@ Fetched articles, frequencies and model outputs are cached in `cache/` (gitignor
 
 ## Result
 
-`words/approved.json`: **956 words, 498 bokmål and 458 nynorsk.** At one word per language per
-day the site loops after about 16 months.
+`words/approved.json`: **984 words, 583 bokmål and 401 nynorsk.** At one word per language per
+day the site loops after about 13 months (nynorsk) and 19 months (bokmål).
 
-- 747 are words the user marked *Dagsord!* on the labelling page (minus 22 dialect words).
-- 209 are words Sonnet scored at 40 or above. The user has not reviewed these individually.
+- 578 are words the user marked *Dagsord!* on the labelling page.
+- 172 are words Sonnet scored at 40 or above.
+- 234 are words from Sonnet's 30-40 band that Opus kept.
+- Then an Opus review (`opus_review.md`, brief in `prompts/opus_review.md`): the user's own
+  yes-words were dropped only for the user's rules (dialect, technical, archaic, spelling,
+  offensive), model-approved words for any reason. Accented spellings (diatomé) are dropped.
 
 `export.mjs` turns them into database documents in `dictionary/curated/{bm,nn}.json`.
 
@@ -20,10 +24,10 @@ day the site loops after about 16 months.
 
 | File | Words | What |
 |---|---:|---|
-| `approved.json` | 956 | the final list (`picked_by`: `user` or `sonnet`) |
+| `approved.json` | 984 | the final list (`picked_by`: `user`, `sonnet` or `opus`) |
 | `rejected.json` | 882 | the user said no |
-| `excluded.json` | 52 | approved, then dropped: dialect (22) or no bokmål/nynorsk article (30, Norsk Ordbok) |
-| `sonnet_30-40.json` | 427 | **next to review.** The user liked 74 of the first 131 from this band |
+| `excluded.json` | 289 | approved, then dropped, with `reason`: Opus review (203), no bokmål/nynorsk article (61), dialect (22), accented spelling (3) |
+| `sonnet_30-40.json` | 162 | the part of the 30-40 band Opus dropped |
 | `sonnet_20-30.json` | 741 | Sonnet less sure |
 | `sonnet_10-20.json` | 683 | probably not |
 | `sonnet_0-10.json` | 227 | almost certainly not |
@@ -57,6 +61,7 @@ node export.mjs                     # words/approved.json -> dictionary/curated/
 - `sweep.py`: candidate universe and the Haiku stages (kept for reference, see below).
 - `sonnet.py`: Sonnet as judge. `prompts/`: the prompts used.
 - `dialect.json`: dialect flags (Sonnet, clear cases only) for the user's yes-words.
+- `opus_review.json`: Opus keep/drop per word; `opus_review.md` lists what it changed.
 - `catalogue.py`, `export.mjs`: the steps that produce the deliverable.
 
 ## What was tried
@@ -73,11 +78,13 @@ Ground truth is `labels.csv`: 1,779 verdicts from eight labelling rounds.
 | Haiku screen + critic, 473 words | User said yes to 368 (78%), but these were the easiest, top-ranked words. |
 | Haiku screen/rank/refine over 12,078 candidates | Failed: of the "uncertain" words shown to the user only 18% were liked; Haiku's scores did not separate liked from disliked (AUC ~0.52 on hard words). It also misjudges well-known words as rare. |
 | Sonnet as judge (two passes, 300 verdicts as examples, hidden gold) | Works: gold AUC 0.86; pilot on hard words 0.73; the user liked 56% of the 30-40 band, against 18% for Haiku's. Within that band the score no longer separates. |
+| Opus review (low reasoning, brief from the whole conversation) | A stricter final pass: kept 62% of the 30-40 band; disagreed with 38% of the user's own yes-words, mostly calling nynorsk words dialect. Used as a filter on rules, not on taste. |
 
 ## What is missing
 
-- The 209 Sonnet-approved words are not individually reviewed. Spot-check them on the labeller.
-- `sonnet_30-40.json` (427 words) is half-reviewed territory: worth finishing.
+- 406 model-approved words (Sonnet and Opus) are not individually reviewed by the user.
+- Opus ran on low reasoning: some drops look wrong (e.g. *minuend*, *hoppsa* as "technical").
+  Check `opus_review.md`.
 - The bands below were scored with the round-7 examples. Rebuild batches with the latest
   labels (`sonnet.py build`) before trusting them.
 - The dictionaries rarely mark dialect; `dialect.json` is Sonnet's judgement of clear cases.

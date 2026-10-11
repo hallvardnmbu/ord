@@ -1,12 +1,147 @@
 [
  {
   "d": "bm",
+  "w": "agnor",
+  "src": "unused",
+  "m": "mothake på angel, harpun, pil e_l",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "bleige",
+  "src": "db",
+  "m": "kløyve med blei; drive inn kile (i et skaft)",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "bumse",
+  "src": "unused",
+  "m": "tykkfallen kvinne",
+  "e": "",
+  "reason": "opus review: offensive",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "bygsle",
+  "src": "db",
+  "m": "leie (gård, jord) på bygsel; leie ut (gård, jord) på bygsel; feste",
+  "e": "bygsle seg jord",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "deild",
+  "src": "unused",
+  "m": "skillestein mellom eiendommer; merkestein",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
   "w": "fjåg",
   "src": "unused",
   "m": "glad, tilfreds, blid",
   "e": "fjåge folk",
   "reason": "dialect",
   "p_sonnet": 37.5
+ },
+ {
+  "d": "bm",
+  "w": "fnokk",
+  "src": "unused",
+  "m": "samling av hår på frukten hos visse arter i kurvplantefamilien og vendelrotfamilien",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "forblende",
+  "src": "db",
+  "m": "dekke en mur med et annet materiale",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "galeas",
+  "src": "unused",
+  "m": "tomastet seilskip med høy frammast og gaffelseil",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "glett",
+  "src": "unused",
+  "m": "gløtt, glette",
+  "e": "",
+  "reason": "opus review: spelling",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "gylte",
+  "src": "unused",
+  "m": "sugge, purke",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "handflika",
+  "src": "db",
+  "m": "i bot, om blad: håndnervet og flikete",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "hektografere",
+  "src": "db",
+  "m": "om eldre forhold: kopiere med hektograf",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "holograf",
+  "src": "db",
+  "m": "håndskrevet dokument som en har skrevet selv",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "hoppsa",
+  "src": "db",
+  "m": "livlig runddans i 3/4 takt; musikk til hoppsa",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "idiofon",
+  "src": "db",
+  "m": "som klinger i seg selv, for eksempel om instrument der lyden kommer av vibrasjon i selve instrumentet",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -26,11 +161,101 @@
  },
  {
   "d": "bm",
+  "w": "jelk",
+  "src": "unused",
+  "m": "kastrert hest; vallak",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "jorte",
+  "src": "unused",
+  "m": "gulpe opp og tygge føde flere ganger; tygge drøv",
+  "e": "krøtterne lå og jortet",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "jøkel",
+  "src": "unused",
+  "m": "brearm; isbre; istapp",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "kadreie",
+  "src": "db",
+  "m": "drive handel fra båt med andre båter; manøvrere en båt slik at den holder seg omtrent på samme plass",
+  "e": "ligge og kadreie",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
   "w": "kjekkesen",
   "src": "db",
   "m": "kjekk",
   "e": "det var svært så kjekkesen du er",
   "reason": "dialect"
+ },
+ {
+  "d": "bm",
+  "w": "kjos",
+  "src": "unused",
+  "m": "smal vik",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "kleise",
+  "src": "db",
+  "m": "snakke urent",
+  "e": "han kleiser enda han har begynt på skolen",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "klen",
+  "src": "unused",
+  "m": "klein",
+  "e": "",
+  "reason": "opus review: spelling",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "klåte",
+  "src": "unused",
+  "m": "rundaktig klump; kule, knapp; borre",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "kodde",
+  "src": "unused",
+  "m": "pute, hodepute",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "kokre",
+  "src": "unused",
+  "m": "om visse dyr og fugler, blant annet rype: gi fra seg en kaklende, skrattende, hukrende lyd",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -42,11 +267,164 @@
  },
  {
   "d": "bm",
+  "w": "korrelativ",
+  "src": "db",
+  "m": "som tilsvarer hverandre; med innbyrdes sammenheng og vekselvirkning",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
   "w": "kruksen",
   "src": "db",
   "m": "sammenkrøpet",
   "e": "",
   "reason": "dialect"
+ },
+ {
+  "d": "bm",
+  "w": "kvæve",
+  "src": "unused",
+  "m": "kvele",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "lend",
+  "src": "unused",
+  "m": "saerl i_bibl og i poesi: del av ryggen som ligger mellom brystkassen og hoftebeinet; hofteparti; kryss",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "lunne",
+  "src": "unused",
+  "m": "stabel av tømmer som senere skal transporteres videre; fast lag eller tett haug av høy el annet fôr; lunn",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "løynsk",
+  "src": "unused",
+  "m": "underfundig, lønsk",
+  "e": "",
+  "reason": "opus review: spelling",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "minuend",
+  "src": "unused",
+  "m": "tall som en trekker et annet fra; t_forsk_f subtrahend",
+  "e": "i subtraksjonen 5 – 3 = 2 er 5 minuend",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "morganatisk",
+  "src": "db",
+  "m": "ekteskap mellom en fyrste og en kvinne av lavere byrd der kvinnen (og barna) ikke får arverett; ekteskap til venstre hånd",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "nativistisk",
+  "src": "db",
+  "m": "som er preget av nativisme",
+  "e": "en nativistisk holdning",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "nudde",
+  "src": "unused",
+  "m": "slå nudder i",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "okklusiv",
+  "src": "db",
+  "m": "språklyd som dannes ved stenging og plutselig åpning av luftstrømmen; lukkelyd, klusil, plosiv",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "patronym",
+  "src": "db",
+  "m": "navn som er dannet av fornavnet til faren og ordet for ‘sønn’ eller ‘datter’, som i Haraldsson, Sverresdatter og Sjursdotter; patronymikon; motsatt metronym",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "renons",
+  "src": "unused",
+  "m": "i kortspill: det å være uten kort i en bestemt farge",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "skat",
+  "src": "unused",
+  "m": "topp av et tre, med eller uten grener",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "skjelm",
+  "src": "unused",
+  "m": "ertebelg, skolm",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "skjelme",
+  "src": "db",
+  "m": "sette belg",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "skolm",
+  "src": "unused",
+  "m": "enrommet kapselfrukt som er dannet av bare ett fruktblad, og som åpner seg etter ryggsømmen og buksømmen; belg; skall",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "skolme",
+  "src": "db",
+  "m": "skille frø fra belg",
+  "e": "skolme bønner",
+  "reason": "opus review: technical",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -58,11 +436,74 @@
  },
  {
   "d": "bm",
+  "w": "skulse",
+  "src": "db",
+  "m": "gjøre opp et mellomværende ved å la fordringene på begge sider oppveie hverandre",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "skyldsette",
+  "src": "db",
+  "m": "fastsette skyld for fast eiendom; matrikulere",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "stendig",
+  "src": "db",
+  "m": "stadig, alltid",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "stevje",
+  "src": "db",
+  "m": "synge, improvisere stev",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "stinge",
+  "src": "db",
+  "m": "nå sjelden: stikke; jamfør stungen",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "subtrahend",
+  "src": "unused",
+  "m": "tall som trekkes fra et annet; t_forsk_f minuend",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
   "w": "suvl",
   "src": "unused",
   "m": "fet, kraftig mat (som spises til suppe, grøt, brød eller lignende); (sur)melk til grøt el brød",
   "e": "",
   "reason": "dialect"
+ },
+ {
+  "d": "bm",
+  "w": "tagne",
+  "src": "unused",
+  "m": "bli taus; forstumme; jf tagal",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
  },
  {
   "d": "bm",
@@ -82,6 +523,60 @@
   "reason": "dialect"
  },
  {
+  "d": "bm",
+  "w": "vandle",
+  "src": "db",
+  "m": "være i virksomhet; passe sitt daglige arbeid",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "veidn",
+  "src": "unused",
+  "m": "noe som er fanget, særlig vilt, fisk og sjødyr til føde; fangst",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "verp",
+  "src": "unused",
+  "m": "haug av småstein eller kvister som er kastet sammen til merke eller til minne om en hendelse på stedet",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "veum",
+  "src": "unused",
+  "m": "i norrøn tid: fredløs mann",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "vinnskipelig",
+  "src": "db",
+  "m": "nå sjelden: flittig og strevsom; foretaksom",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "øksel",
+  "src": "unused",
+  "m": "forøkning i buskapen; avkom el yngel, særlig av husdyr",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
   "d": "nn",
   "w": "akko",
   "src": "norsk-ordbok",
@@ -91,11 +586,65 @@
  },
  {
   "d": "nn",
+  "w": "andæres",
+  "src": "db",
+  "m": "baklengs, bakvend; skute",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "baus",
+  "src": "unused",
+  "m": "noko som gøyser el velt fram; framrusing, framvelting",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "bausa",
   "src": "norsk-ordbok",
   "m": "",
   "e": "",
   "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "bendsle",
+  "src": "db",
+  "m": "surre, binde bendsel ikring; binde i hop",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "bibre",
+  "src": "unused",
+  "m": "skjelve",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "bidlund",
+  "src": "unused",
+  "m": "tolmod til å vente; trott, uthald i arbeid",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "brosten",
+  "src": "db",
+  "m": "uklar, sprokken; som er utan liv og glans; i overført tyding: feilslått, mislykka",
+  "e": "brosten røyst",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -116,11 +665,82 @@
  },
  {
   "d": "nn",
+  "w": "bærle",
+  "src": "unused",
+  "m": "gå i små bårer; skvale",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "børel",
+  "src": "unused",
+  "m": "hank, handtak til å bere (kiste, stamp o_l) etter",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "bøykje",
+  "src": "unused",
+  "m": "ause kokande lutoppløysning over (vasketøy o_l) i eit kar",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "daen",
   "src": "norsk-ordbok",
   "m": "",
   "e": "",
   "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "denotere",
+  "src": "db",
+  "m": "peike ut referansen til eit språkleg uttrykk i den verkelege verda; til skilnad frå konnotere",
+  "e": "‘hjarte’ denoterer ein muskel som pumpar blod rund i kroppen, men blir gjerne brukt som eit symbol for kjærlei",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "diatomé",
+  "src": "unused",
+  "m": "kiselalge",
+  "e": "",
+  "reason": "accented spelling"
+ },
+ {
+  "d": "nn",
+  "w": "dissosiere",
+  "src": "db",
+  "m": "i psykologi: kople frå eller skilje element som høyrer saman; motsett assosiere; skilje, spalte; kløyve molekyl(grupper) i atom(grupper) eller ion",
+  "e": "for å meistre kvardagen byrja han å dissosiere",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "draulen",
+  "src": "db",
+  "m": "somlete",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "drette",
+  "src": "unused",
+  "m": "draging, t_d av fisk; strøyming; fart",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -132,11 +752,57 @@
  },
  {
   "d": "nn",
+  "w": "drulte",
+  "src": "db",
+  "m": "vere tungfør eller sein",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "drunt",
+  "src": "unused",
+  "m": "sein og somlete person",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "drøype",
+  "src": "db",
+  "m": "la falle dropevis; væte med drope; påføre væske i dropar",
+  "e": "drøype auga",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "dumbe",
+  "src": "unused",
+  "m": "støv, dust",
+  "e": "dumba gyv",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "dyvje",
   "src": "unused",
   "m": "skjelve; bivre; drønne",
   "e": "jorda dyv",
   "reason": "dialect"
+ },
+ {
+  "d": "nn",
+  "w": "erts",
+  "src": "unused",
+  "m": "eldre nemning for mineral og bergartar som inneheld eit tungt metall; jf malm",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -172,6 +838,24 @@
  },
  {
   "d": "nn",
+  "w": "fløygje",
+  "src": "db",
+  "m": "slengje, sende av garde; få fart på; puffe",
+  "e": "fløygje ein stein",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "fondere",
+  "src": "db",
+  "m": "plassere i fond",
+  "e": "fondere delar av Folketrygda",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "fudge",
   "src": "norsk-ordbok",
   "m": "",
@@ -188,11 +872,111 @@
  },
  {
   "d": "nn",
+  "w": "gare",
+  "src": "unused",
+  "m": "kvass stubb, pigg; taggete staur; lang, ulenkeleg kar",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "gjednigen",
+  "src": "db",
+  "m": "sjølvrådig, trassig; gjerrig, grisk",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "gjegne",
+  "src": "db",
+  "m": "møte; sperre for; drive attende",
+  "e": "gjegne (inn) krøtera",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "gjenegen",
+  "src": "unused",
+  "m": "sjølvrådig, trassig; gjerrig, grisk",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "gjos",
   "src": "norsk-ordbok",
   "m": "",
   "e": "",
   "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "gjøleleg",
+  "src": "db",
+  "m": "gjæv, gild, framifrå",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "gjølme",
+  "src": "db",
+  "m": "dele av (eit rom); gimle",
+  "e": "gjølme frå",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "gleine",
+  "src": "db",
+  "m": "gleime, skotte, stire; gli (til sides); glense",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "gleipe",
+  "src": "db",
+  "m": "geipe; hæde; herme",
+  "e": "gleipe og le",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "gnallande",
+  "src": "db",
+  "m": "som adverb: gnaldrande",
+  "e": "gnallande hard",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "grøype",
+  "src": "db",
+  "m": "grovmale; krafse til seg; gløype",
+  "e": "grøype korn",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "gåig",
+  "src": "unused",
+  "m": "snar til å merke og fatte; oppmerksam, gløgg",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user",
+  "p_sonnet": 36.0
  },
  {
   "d": "nn",
@@ -204,11 +988,55 @@
  },
  {
   "d": "nn",
+  "w": "havang",
+  "src": "unused",
+  "m": "verd, nytte",
+  "e": "det er ikkje nokon havang i det",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "heisk",
   "src": "unused",
   "m": "lett snø som driv spreitt",
   "e": "",
   "reason": "dialect"
+ },
+ {
+  "d": "nn",
+  "w": "hortug",
+  "src": "unused",
+  "m": "livskraftig; frisk; flink",
+  "e": "ei hortig jente",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "huskeleg",
+  "src": "db",
+  "m": "ufrisk, sjukleg; stygg, fælsleg",
+  "e": "han ser huskeleg ut",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "hóle",
+  "src": "unused",
+  "m": "skaffe seg; få tak i",
+  "e": "",
+  "reason": "accented spelling"
+ },
+ {
+  "d": "nn",
+  "w": "ibidem",
+  "src": "unused",
+  "m": "på same staden (brukt når ein viser til ei bok); forkorta ib. el ibid.",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -236,6 +1064,15 @@
  },
  {
   "d": "nn",
+  "w": "katatonisk",
+  "src": "db",
+  "m": "som er stiva av katatoni; som er ute av stand til å røre seg; stivna",
+  "e": "han sat med eit katatonisk blikk",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "kepi",
   "src": "norsk-ordbok",
   "m": "",
@@ -260,11 +1097,91 @@
  },
  {
   "d": "nn",
+  "w": "klabben",
+  "src": "db",
+  "m": "som klabbe; klabbete; klumpete, upraktisk",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "klessen",
+  "src": "db",
+  "m": "blaut og kleimen",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "knua",
   "src": "norsk-ordbok",
   "m": "",
   "e": "",
   "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "kolke",
+  "src": "unused",
+  "m": "klatre, klusse; kokle; setje flekker",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "kolten",
+  "src": "unused",
+  "m": "oppløyst, mest roten; muggen, skjemd",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "koryfé",
+  "src": "unused",
+  "m": "leiande person; hovudperson; pamp",
+  "e": "",
+  "reason": "accented spelling"
+ },
+ {
+  "d": "nn",
+  "w": "kraklen",
+  "src": "db",
+  "m": "som kraklar seg fram; veik",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "krame",
+  "src": "unused",
+  "m": "krafse, rive til seg; stappe",
+  "e": "krame til seg",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "kreiste",
+  "src": "db",
+  "m": "klemme hardt; presse eller trykkje sterkt",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "kropne",
+  "src": "db",
+  "m": "om lemer: bli krokete; om skinn: skrukne",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -284,6 +1201,24 @@
  },
  {
   "d": "nn",
+  "w": "kverr",
+  "src": "unused",
+  "m": "still, roleg, kurr",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "kvetje",
+  "src": "db",
+  "m": "slipe, kvesse, særleg med bryne",
+  "e": "kvetje ljåen",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "kødd",
   "src": "unused",
   "m": "testikkel; brukt neds om vrang, upåliteleg person",
@@ -300,11 +1235,29 @@
  },
  {
   "d": "nn",
+  "w": "ljoske",
+  "src": "db",
+  "m": "lysne, klarne; glimte",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "mimra",
   "src": "norsk-ordbok",
   "m": "",
   "e": "",
   "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "myalgisk",
+  "src": "db",
+  "m": "som gjeld myalgi; sjukdom der den sjuke er plaga av (varig) trøyttleik, muskelverk og intoleranse for sanseinntrykk; kronisk utmattingssyndrom",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -316,11 +1269,83 @@
  },
  {
   "d": "nn",
+  "w": "nauteskap",
+  "src": "unused",
+  "m": "toskeskap",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "neitte",
+  "src": "db",
+  "m": "nekte",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "nuve",
+  "src": "unused",
+  "m": "gjere nuv, runde av; ta i nuven, lugge, dengje",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "nyggje",
+  "src": "db",
+  "m": "(skade ved å) støyte, skrubbe, gnage; rykkje; riste",
+  "e": "nygge borti noko(n)",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "nøgge",
+  "src": "unused",
+  "m": "få ei uhyggjeleg kjensle; kvekke, støkke, nygge",
+  "e": "det nogg i han",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "ollo",
   "src": "norsk-ordbok",
   "m": "",
   "e": "",
   "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "ormekte",
+  "src": "db",
+  "m": "bli eller vere kraftlaus og forkomen; ørmekte, ormektast",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "orvhendt",
+  "src": "db",
+  "m": "venstrehendt",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "panfobi",
+  "src": "unused",
+  "m": "sjukleg angst mot alt mogleg; jf fobi",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -345,6 +1370,24 @@
   "m": "",
   "e": "",
   "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "pyrrhossiger",
+  "src": "unused",
+  "m": "dyrekjøpt siger; siger som eigenleg er eit nederlag",
+  "e": "",
+  "reason": "opus review: spelling",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "radl",
+  "src": "unused",
+  "m": "godprat, svall",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -380,6 +1423,70 @@
  },
  {
   "d": "nn",
+  "w": "sannkjenne",
+  "src": "db",
+  "m": "særlig i filosofi: kome fram til trygg og meir eller mindre objektiv kunnskap om; erkjenne; vedgå",
+  "e": "sannkjenne at mytane enno lever",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "singott",
+  "src": "db",
+  "m": "i eldre tid: skål",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "sjølvare",
+  "src": "db",
+  "m": "det eigenlege, det indre",
+  "e": "kome inn på sjølvare gardstunet",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "skarken",
+  "src": "db",
+  "m": "kruslen, makteslaus; skrøpeleg, veik",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "skirleitt",
+  "src": "db",
+  "m": "ven å sjå til; med fine andletsdrag",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "skirsle",
+  "src": "db",
+  "m": "døype, kristne",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "skjekke",
+  "src": "db",
+  "m": "gjere skakk, skeiv; vrengje; skubbe, støyte av lage",
+  "e": "skjekke ramma på sykkelen i samanstøyten",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "skjåg",
   "src": "norsk-ordbok",
   "m": "",
@@ -388,11 +1495,268 @@
  },
  {
   "d": "nn",
+  "w": "skolle",
+  "src": "db",
+  "m": "sjå ut til; synast; sjå stor ut",
+  "e": "det skoller for det",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "skrate",
+  "src": "db",
+  "m": "om fugl: kakle, skrike; skrasle, skratte",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "skreide",
+  "src": "db",
+  "m": "skuve til sides; få til å gli; slipe litt",
+  "e": "skreide ljåen",
+  "reason": "opus review: dialect",
+  "picked_by": "user",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "skrykke",
+  "src": "db",
+  "m": "stue i hop; dra i hop så det lagar seg rukker; skrukke",
+  "e": "skredet skrykte løa",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "skrøkke",
+  "src": "db",
+  "m": "krype i hop; kverve, minke; bli skrinnare",
+  "e": "høyet skrøkk i hop på hesa",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "skøyre",
+  "src": "db",
+  "m": "buse på, fare uvitig åt",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "sleinen",
+  "src": "db",
+  "m": "som hallar jamt og smått",
+  "e": "berget her er sleine og sleipt",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "slevje",
+  "src": "db",
+  "m": "sleppe spytt frå munnvika(ne)",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "smålog",
+  "src": "unused",
+  "m": "småfe",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "smætte",
+  "src": "db",
+  "m": "gjere små; spreie fint",
+  "e": "smætte ved",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "smøyeleg",
+  "src": "db",
+  "m": "uvanleg atterhalden; brydd; mistenksam",
+  "e": "ho ser så smøyeleg ut",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "snippen",
+  "src": "db",
+  "m": "brå, uventa; narra, vonbroten",
+  "e": "ein snippen skade",
+  "reason": "opus review: dialect",
+  "picked_by": "user",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
   "w": "sosa",
   "src": "norsk-ordbok",
   "m": "",
   "e": "",
   "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "spauke",
+  "src": "db",
+  "m": "grave, rote, hive opp jord; rote opp med føtene; gå stivt og vørdeleg",
+  "e": "han spauka og briska seg",
+  "reason": "opus review: dialect",
+  "picked_by": "user",
+  "p_sonnet": 37.5
+ },
+ {
+  "d": "nn",
+  "w": "spjarre",
+  "src": "db",
+  "m": "gå med spente fotmusklar og strake kne; sprikje",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "sterre",
+  "src": "db",
+  "m": "strete, kjempe imot; gjere motstand",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "stikte",
+  "src": "db",
+  "m": "stige veikt eller varsamt med ein vond fot; halte",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "stivle",
+  "src": "db",
+  "m": "meinke, stogge; svelle",
+  "e": "vatnet har stivla opp i vegveita",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "stratt",
+  "src": "unused",
+  "m": "stiv kvist utan lauv; stilk, stubb",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "striple",
+  "src": "db",
+  "m": "(la) drype; presse ut",
+  "e": "striple ut den siste mjølkeskvetten frå juret",
+  "reason": "opus review: dialect",
+  "picked_by": "user",
+  "p_sonnet": 37.5
+ },
+ {
+  "d": "nn",
+  "w": "stropne",
+  "src": "db",
+  "m": "halde på å kjøvast av noko som har sett seg i halsen",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "stryllete",
+  "src": "db",
+  "m": "rukkete, skrukkete; vrien",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user",
+  "p_sonnet": 37.5
+ },
+ {
+  "d": "nn",
+  "w": "styrven",
+  "src": "db",
+  "m": "keiveleg; stiv, tungfør; stiv, stri",
+  "e": "stiv og styrven",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "svalke",
+  "src": "db",
+  "m": "plaske; skylje; vasse",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "svalle",
+  "src": "db",
+  "m": "tale om uviktige ting; samrøde lett, prate, snakke",
+  "e": "svalle med, ved ein",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "sveivle",
+  "src": "db",
+  "m": "sveive, svinge; fløkje, vase i hop",
+  "e": "fisken har sveivla taumen i hop",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "svimre",
+  "src": "db",
+  "m": "svimle",
+  "e": "",
+  "reason": "opus review: spelling",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "svipleg",
+  "src": "db",
+  "m": "som har den rette svipen; hag, hendig",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "sykjast",
+  "src": "db",
+  "m": "bli sjuk; sjukne; lengte svært",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
  },
  {
   "d": "nn",
@@ -412,10 +1776,823 @@
  },
  {
   "d": "nn",
+  "w": "tauvre",
+  "src": "db",
+  "m": "fortrolle; setje sjukdom på",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
   "w": "telna",
   "src": "norsk-ordbok",
   "m": "",
   "e": "",
   "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "tendre",
+  "src": "db",
+  "m": "kveikje, tenne",
+  "e": "",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "tilbrigde",
+  "src": "db",
+  "m": "tilmåte, tilpasse, modifisere",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "tistete",
+  "src": "db",
+  "m": "flisete, oppriven (til dømes om hud); tjafsete og grisen, pistrete",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "traspe",
+  "src": "db",
+  "m": "trakke sund; rive i filler; øydeleggje",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user",
+  "p_sonnet": 36.5
+ },
+ {
+  "d": "nn",
+  "w": "trumpen",
+  "src": "db",
+  "m": "stor og svær; klumpete; klossete",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "tryste",
+  "src": "db",
+  "m": "trykkje, klemme, presse",
+  "e": "tryste ut safta",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "trælke",
+  "src": "db",
+  "m": "tvinge under seg, halde i ufridom, (under)kue; slite og slepe, træle",
+  "e": "trælke folket",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "tvarle",
+  "src": "db",
+  "m": "tvinne, fløkje",
+  "e": "snøret tvarlar seg i hop, saman",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "typisere",
+  "src": "db",
+  "m": "framstille i visse typar, standardisere",
+  "e": "typiserte produkt",
+  "reason": "opus review: technical",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "ubjåleg",
+  "src": "db",
+  "m": "uhøveleg, upassande, usømeleg",
+  "e": "fare ubjåleg åt",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "unoggen",
+  "src": "db",
+  "m": "rikeleg; særlig som adverb: nok, nøgda, plenty",
+  "e": "det er unogge med sild, fôr, mat",
+  "reason": "opus review: dialect",
+  "picked_by": "user",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "vermsle",
+  "src": "unused",
+  "m": "kjelde som ikkje frys til",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "vondle",
+  "src": "db",
+  "m": "lage, viske vondlar; balle, slurve noko saman",
+  "e": "vondle eit høyfang",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "våskøytt",
+  "src": "db",
+  "m": "som lett glepp eller mislykkast",
+  "e": "det er så våskøytt med det",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "åbyrgjast",
+  "src": "db",
+  "m": "vere ansvarleg for, gå god for, garantere",
+  "e": "åbyrgjast ein",
+  "reason": "opus review: archaic",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "åleiten",
+  "src": "db",
+  "m": "påtrengjande, plagsam; som tek på; slitsam",
+  "e": "ein åleiten person",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "nn",
+  "w": "øsnad",
+  "src": "unused",
+  "m": "opphissa tilstand; øsing; egse",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "user"
+ },
+ {
+  "d": "bm",
+  "w": "bjekso",
+  "src": "unused",
+  "m": "høy lærstøvel med oppbøyd tupp foran",
+  "e": "",
+  "reason": "opus review: dull",
+  "picked_by": "sonnet",
+  "p_sonnet": 55.0
+ },
+ {
+  "d": "nn",
+  "w": "skripe",
+  "src": "db",
+  "m": "kjæle for, med; smeikje; skjemme bort (eit barn)",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 52.5
+ },
+ {
+  "d": "bm",
+  "w": "blakkert",
+  "src": "unused",
+  "m": "lysestake med fotstykke formet som en skål med håndtak",
+  "e": "",
+  "reason": "opus review: dull",
+  "picked_by": "sonnet",
+  "p_sonnet": 50.0
+ },
+ {
+  "d": "bm",
+  "w": "snøfle",
+  "src": "db",
+  "m": "være frekk",
+  "e": "",
+  "reason": "opus review: dull",
+  "picked_by": "sonnet",
+  "p_sonnet": 47.5
+ },
+ {
+  "d": "nn",
+  "w": "bendast",
+  "src": "db",
+  "m": "vri seg; dragast, stridast; stri, streve",
+  "e": "fjølene bendest",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 45.0
+ },
+ {
+  "d": "nn",
+  "w": "tandle",
+  "src": "db",
+  "m": "tyggje, gnage; streve",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 45.0
+ },
+ {
+  "d": "nn",
+  "w": "drambsleg",
+  "src": "db",
+  "m": "staseleg; stolt",
+  "e": "",
+  "reason": "opus review: dull",
+  "picked_by": "sonnet",
+  "p_sonnet": 45.0
+ },
+ {
+  "d": "nn",
+  "w": "glindre",
+  "src": "db",
+  "m": "myse, glire",
+  "e": "auga glindrar mot sola",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 45.0
+ },
+ {
+  "d": "bm",
+  "w": "tuske",
+  "src": "unused",
+  "m": "drive byttehandel med kjøpslåing og knep; skaffe seg på uhederlig vis; lure til seg",
+  "e": "tuske til seg millioner",
+  "reason": "opus review: common",
+  "picked_by": "sonnet",
+  "p_sonnet": 45.0
+ },
+ {
+  "d": "nn",
+  "w": "drusten",
+  "src": "db",
+  "m": "drusteleg",
+  "e": "",
+  "reason": "opus review: spelling",
+  "picked_by": "sonnet",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "geiple",
+  "src": "db",
+  "m": "geipe; terge; skjemte",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "drangle",
+  "src": "db",
+  "m": "dragse uvørde; søle, spille; gå seint",
+  "e": "drangle vatn",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "bm",
+  "w": "manuduksjon",
+  "src": "unused",
+  "m": "privatundervisning i universitetsfag med tanke på eksamen",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "sonnet",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "skjegle",
+  "src": "db",
+  "m": "ikkje kunne sjå i same leia med begge auga på grunn av synsfeil; sjå til sida",
+  "e": "skjegle til det sidemannen gjer",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "tvinle",
+  "src": "db",
+  "m": "tvinne, surre; fløkje; kvervle, røre",
+  "e": "tvinle i hop garnet",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "bm",
+  "w": "snøse",
+  "src": "unused",
+  "m": "lukte, snuse; blåse i nesen; fnyse",
+  "e": "snøse borti alt",
+  "reason": "opus review: dull",
+  "picked_by": "sonnet",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "bm",
+  "w": "ptrotte",
+  "src": "unused",
+  "m": "si ‘pro’ (el ‘ptro’) til hest for å få den til å stanse",
+  "e": "",
+  "reason": "opus review: dull",
+  "picked_by": "sonnet",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "skjaltre",
+  "src": "db",
+  "m": "lage kvasse lydar; gøy",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "rengle",
+  "src": "db",
+  "m": "vere vrang og vrien i tale; tverke, krangle, trette",
+  "e": "vrengle seg inn på folk",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "illgøy",
+  "src": "db",
+  "m": "gøy høgt og skarpt",
+  "e": "hunden illgøydde",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "drunten",
+  "src": "db",
+  "m": "sein, tung",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "bm",
+  "w": "snavle",
+  "src": "db",
+  "m": "snakke på en brummende måte",
+  "e": "",
+  "reason": "opus review: dull",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "nogg",
+  "src": "unused",
+  "m": "støyt, skump; lita skramme; rift i klede el skinn",
+  "e": "eit nogg i bringa",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "hjåmete",
+  "src": "db",
+  "m": "tynnskya; døkk; mørk",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "bidlundsam",
+  "src": "db",
+  "m": "tolmodig",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "tveite",
+  "src": "db",
+  "m": "lage innhogg i (trestamme); hogge av; vere tverr og vrang",
+  "e": "tveite tre, stokkar",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "kokle",
+  "src": "unused",
+  "m": "kakle; kjæle for; kokre",
+  "e": "",
+  "reason": "opus review: dull",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "fjom",
+  "src": "unused",
+  "m": "liten og lett ting; fnugg",
+  "e": "vere lett som eit fjom",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "bm",
+  "w": "jalme",
+  "src": "unused",
+  "m": "ljome; huie",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "idast",
+  "src": "unused",
+  "m": "vilje umake seg med; gidde",
+  "e": "han idest ikkje røre seg",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "teksle",
+  "src": "db",
+  "m": "hole ut, hogge ut med teksle; lage hakkande lyd; skjenne, gøy",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "bm",
+  "w": "kvivitt",
+  "src": "db",
+  "m": "brukt til å gjengi kvitring fra fugl",
+  "e": "småfuglene kvitret: kvivitt, kvivitt!",
+  "reason": "opus review: dull",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "bm",
+  "w": "ørske",
+  "src": "unused",
+  "m": "sterkt forvirret el åndsfraværende sinnstilstand; helt meningsløst; i hytt og vær",
+  "e": "gå i ørska",
+  "reason": "opus review: common",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "ormektast",
+  "src": "db",
+  "m": "bli eller vere kraftlaus og forkomen; ormekte",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "kvimsen",
+  "src": "db",
+  "m": "kvimen; forfjamsa",
+  "e": "",
+  "reason": "opus review: dialect",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "bm",
+  "w": "redingot",
+  "src": "unused",
+  "m": "dobbeltknappet, knelang frakk; bonjour; lang rettskåret jakke el kåpe for kvinner",
+  "e": "",
+  "reason": "opus review: technical",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "skrålsam",
+  "src": "db",
+  "m": "svær til å skråle; høgmælt og ståksam",
+  "e": "",
+  "reason": "opus review: derived",
+  "picked_by": "sonnet",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "trauken",
+  "src": "db",
+  "m": "slitsam, tung; som adverb:",
+  "e": "trauke arbeid",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "stridøygd",
+  "src": "db",
+  "m": "som er stri og vill i auga",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "bm",
+  "w": "kruslet",
+  "src": "db",
+  "m": "skrøpelig, skranten",
+  "e": "være kruslete etter sykdommen",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "tumultuarisk",
+  "src": "db",
+  "m": "bråkande, opprørsk",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "bm",
+  "w": "knuslet",
+  "src": "db",
+  "m": "gjerrig, knipen",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "vørdsle",
+  "src": "db",
+  "m": "stelle (skikkeleg); halde rein, i god orden",
+  "e": "vyrdsle barna, garden, huset",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "tvingle",
+  "src": "db",
+  "m": "rave, sjage",
+  "e": "få eit slag så ein tvinglar bortover",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "timlusete",
+  "src": "db",
+  "m": "gjerrig",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 34.0
+ },
+ {
+  "d": "bm",
+  "w": "klesset",
+  "src": "db",
+  "m": "bløt og klebrig",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 34.0
+ },
+ {
+  "d": "bm",
+  "w": "snøflet",
+  "src": "db",
+  "m": "frekk",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "bm",
+  "w": "pinadø",
+  "src": "db",
+  "m": "brukt som kraftuttrykk; jamfør piskadausen",
+  "e": "nå får du pinadø gi deg!",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "nn",
+  "w": "visshendt",
+  "src": "db",
+  "m": "stø på handa; god til å råke",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "bm",
+  "w": "piskadausen",
+  "src": "db",
+  "m": "brukt som ed; pinadø",
+  "e": "nå skal du piskadausen til pers!",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "nn",
+  "w": "venesæl",
+  "src": "db",
+  "m": "avhalden, godt omtykt",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "nn",
+  "w": "svamle",
+  "src": "db",
+  "m": "skvalpe i vatnet; symje; va",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "bm",
+  "w": "kokkelere",
+  "src": "db",
+  "m": "sysle med matlaging; lage mat",
+  "e": "kokkelere på kjøkkenet",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "nn",
+  "w": "heljaleg",
+  "src": "db",
+  "m": "ofseleg; uvanleg stor; framifrå",
+  "e": "eit heljaleg regnvêr",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 32.5
+ },
+ {
+  "d": "nn",
+  "w": "gjenverdig",
+  "src": "db",
+  "m": "om person: krevjande, vanskeleg; uhuga",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 31.5
+ },
+ {
+  "d": "bm",
+  "w": "spjælet",
+  "src": "db",
+  "m": "tynn, spinkel",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "vrante",
+  "src": "db",
+  "m": "vri på orda; vere vrang; krangle",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "bm",
+  "w": "skripet",
+  "src": "db",
+  "m": "som gjerne vil kjæle eller bli kjælt; kjælen, skripen",
+  "e": "en skripete bikkje",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "bm",
+  "w": "blingset",
+  "src": "db",
+  "m": "skjeløyd",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "påsegla",
+  "src": "db",
+  "m": "full, rusa; pårend",
+  "e": "han hadde drukke mykje og var godt påsegla",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "titevill",
+  "src": "db",
+  "m": "ustø, vinglete",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "bm",
+  "w": "spekse",
+  "src": "db",
+  "m": "gjøgle, lage ablegøyer",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "versjuk",
+  "src": "db",
+  "m": "i ulag på grunn av vêrbyte eller (langvarig) dårleg vêr",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "styrje",
+  "src": "db",
+  "m": "gjere oppstyr; bråke, ståke",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "strunteleg",
+  "src": "db",
+  "m": "som er stiv og sær",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "bm",
+  "w": "krugget",
+  "src": "db",
+  "m": "krokete, krumbøyd",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "brålyndt",
+  "src": "db",
+  "m": "som fort blir sint; snarsinna",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 30.0
+ },
+ {
+  "d": "nn",
+  "w": "svirte",
+  "src": "db",
+  "m": "fare som ein skimt; svinge eller svive snøgt (framom)",
+  "e": "",
+  "reason": "no bokmål/nynorsk article",
+  "p_sonnet": 30.0
  }
 ]

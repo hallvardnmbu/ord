@@ -20,6 +20,8 @@ import math
 import os
 import re
 import sys
+import time
+import urllib.error
 import urllib.request
 from collections import Counter
 
@@ -37,8 +39,15 @@ def get_json(url, cache_name=None):
         cached = lexicon.cache_load(cache_name)
         if cached is not None:
             return cached
-    with urllib.request.urlopen(url, timeout=120) as r:
-        data = json.load(r)
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(url, timeout=120) as r:
+                data = json.load(r)
+            break
+        except (urllib.error.URLError, ConnectionError):
+            if attempt == 3:
+                raise
+            time.sleep(2 * 2 ** attempt)
     if cache_name:
         lexicon.cache_save(cache_name, data)
     return data

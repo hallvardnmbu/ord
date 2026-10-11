@@ -5,14 +5,15 @@
 Then `node dictionary/curation/export.mjs` turns words/approved.json into the database
 documents in dictionary/curated/.
 
-Inputs: labels.csv (the user's verdicts), dialect.json (dialect flags), and the pipeline caches
+Inputs: labels.csv (the user's verdicts), dialect.json (dialect flags), opus_review.json (Opus
+keep/drop over the approved words and the 30-40 band, prompts/opus_review.md), and the caches
 in cache/ (candidate universe from sweep.py, Sonnet scores from sonnet.py).
 
 | File | What |
 |---|---|
-| approved.json | the user's yes-words, plus words Sonnet scored >= 40 |
+| approved.json | the user's yes-words, words Sonnet scored >= 40, and 30-40 words Opus kept |
 | rejected.json | words the user said no to |
-| excluded.json | approved, then dropped: dialect, or no bokmål/nynorsk article |
+| excluded.json | approved, then dropped: dialect, accented spelling, no bokmål/nynorsk article, or Opus review |
 | sonnet_30-40.json ... sonnet_0-10.json | unreviewed words by Sonnet's yes-probability |
 | haiku_vetoed.json | Haiku vetoed them (reason in `flag`); Sonnet never saw them |
 | haiku_rejected.json | Haiku's ranking put them below the review line; Sonnet never saw them |
@@ -41,6 +42,10 @@ APPROVE = sonnet.APPROVE
 BANDS = [(30, 40), (20, 30), (10, 20), (0, 10)]
 # "dialekter" / "i dialekt" are the ordbokene labels; dialektal(t) is used in prose.
 DIALECT = re.compile(r"\bdialekt(?!ik)", re.I)
+ACCENTED = re.compile(r"[^a-zæøå]")
+# Opus reasons that break the user's stated rules. On taste (common, dull, derived) the user's own
+# yes stands; for words only a model approved, any Opus drop counts.
+RULES = {"dialect", "technical", "archaic", "spelling", "offensive"}
 TAG_GROUP = {"NOUN": "substantiv", "ADJ": "adjektiv", "VERB": "verb", "ADV": "adverb",
              "INTJ": "interjeksjon", "PRON": "pronomen", "DET": "determinativ",
              "ADP": "preposisjon", "CCONJ": "konjunksjon", "SCONJ": "subjunksjon"}
@@ -118,6 +123,7 @@ def entry(x, **extra):
 def main():
     verdicts = labels()
     dialect = load(os.path.join(HERE, "dialect.json"))
+    review = load(os.path.join(HERE, "opus_review.json"))
     universe = load(f"{SWEEP}/universe.json")
     threshold = load(f"{SWEEP}/meta.json")["threshold"]
     vetoed = {(x["d"], x["w"]): x.get("flag") for x in load(f"{SWEEP}/final_veto.json")}
@@ -149,10 +155,15 @@ def main():
     def approve(d, w, src, picked_by, p=None):
         x = describe(d, w, src)
         resolved = resolve(d, w)
+        keep, why = review.get(f"{d}/{w}", (1, "ok"))
         if resolved is None:
             out["excluded"].append(entry(x, reason="no bokmål/nynorsk article", p_sonnet=p))
         elif DIALECT.search(resolved[2]) or f"{d}/{w}" in dialect:
             out["excluded"].append(entry(x, reason="dialect", p_sonnet=p))
+        elif ACCENTED.search(w):
+            out["excluded"].append(entry(x, reason="accented spelling", p_sonnet=p))
+        elif not keep and (picked_by != "user" or why in RULES):
+            out["excluded"].append(entry(x, reason=f"opus review: {why}", picked_by=picked_by, p_sonnet=p))
         else:
             out["approved"].append(entry(x, id=resolved[0], wordgroup=resolved[1],
                                          picked_by=picked_by, p_sonnet=p))
@@ -174,6 +185,9 @@ def main():
         p = round(x["p_sonnet"], 1)
         if p >= APPROVE:
             approve(d, w, x["src"], "sonnet", p)
+            continue
+        if review.get(f"{d}/{w}", (0,))[0] and not ACCENTED.search(w):
+            approve(d, w, x["src"], "opus", p)  # 30-40 band words Opus would keep
             continue
         lo, hi = next(b for b in BANDS if p >= b[0])
         out[f"sonnet_{lo}-{hi}"].append(entry(x, p_sonnet=p))
