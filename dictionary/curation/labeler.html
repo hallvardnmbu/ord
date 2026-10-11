@@ -84,6 +84,7 @@
 
 <script>
 const POOL = /*POOL*/[];
+const COLLECTION = "round8"; // one collection per round: the page loads at most 1000 verdicts
 
 const $ = (id) => document.getElementById(id);
 const labels = new Map(); // key -> 1 | 0 | -1 (skip)
@@ -97,12 +98,12 @@ const keyOf = (item) =>
 
 function loadLocal() {
   try {
-    const saved = JSON.parse(localStorage.getItem("labels") || "{}");
+    const saved = JSON.parse(localStorage.getItem(COLLECTION) || "{}");
     for (const [k, v] of Object.entries(saved)) labels.set(k, v);
   } catch {}
 }
 function saveLocal() {
-  try { localStorage.setItem("labels", JSON.stringify(Object.fromEntries(labels))); } catch {}
+  try { localStorage.setItem(COLLECTION, JSON.stringify(Object.fromEntries(labels))); } catch {}
 }
 
 function render() {
@@ -143,7 +144,7 @@ async function verdict(value) {
   render();
   if (!db) return;
   try {
-    await db.collection("labels").doc(key).set({
+    await db.collection(COLLECTION).doc(key).set({
       w: item.w, d: item.d, label: value, src: item.src, decile: item.decile ?? null, at: Date.now(),
     });
   } catch (e) {
@@ -157,7 +158,7 @@ async function undo() {
   labels.delete(key);
   saveLocal();
   render();
-  if (db) { try { await db.collection("labels").doc(key).delete(); } catch {} }
+  if (db) { try { await db.collection(COLLECTION).doc(key).delete(); } catch {} }
 }
 
 $("bad").onclick = () => verdict(0);
@@ -182,7 +183,7 @@ render();
     return;
   }
   try {
-    const snap = await db.collection("labels").limit(1000).get();
+    const snap = await db.collection(COLLECTION).limit(1000).get();
     for (const doc of snap.docs) {
       const data = doc.data();
       if (data) labels.set(doc.id, data.label);

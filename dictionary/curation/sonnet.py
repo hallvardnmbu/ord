@@ -18,8 +18,8 @@ import lexicon
 DIR = f"{lexicon.CACHE}/sonnet"
 DATA = os.path.join(os.path.dirname(__file__), "data")
 
-APPROVE = 45  # gold: p >= 40 kept 96% yes; held-out hard words: 5 of 5
-ASK = 25  # below this, few liked words remain
+APPROVE = 40  # gold: 97% yes; held-out hard words from the last page: 5 of 5
+ASK = 30  # held-out hard words at 30-40: about half liked
 
 
 def scores():
@@ -69,7 +69,24 @@ def split(items):
     return out
 
 
+def page():
+    """Review page: the uncertain band, best first, alternating bm/nn while both last."""
+    ask = json.load(open(f"{DATA}/sonnet_ask.json"))
+    queues = {d: [w for w in ask if w["d"] == d] for d in ("bm", "nn")}
+    items = []
+    while any(queues.values()):
+        for d in ("nn", "bm"):
+            if queues[d]:
+                w = queues[d].pop(0)
+                items.append({"w": w["w"], "d": w["d"], "m": w["m"], "e": w["e"] or "", "src": w["src"]})
+    template = open(os.path.join(os.path.dirname(__file__), "labeler.html"), encoding="utf-8").read()
+    html = template.replace("/*POOL*/[]", json.dumps(items, ensure_ascii=False))
+    open(f"{lexicon.CACHE}/labeler.html", "w", encoding="utf-8").write(html)
+    print(len(items), "words on the review page")
+
+
 if __name__ == "__main__":
     items = scores()
     report(items)
     split(items)
+    page()
