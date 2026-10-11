@@ -65,12 +65,15 @@ def fetch():
         done = 0
 
         def one(x):
-            try:
-                expand.describe(d, x[1])
-            except Exception:
-                pass
+            # The egress proxy drops connections under load: back off and retry.
+            for attempt in range(4):
+                try:
+                    expand.article(d, x[1])
+                    return
+                except Exception:
+                    __import__("time").sleep(2 ** attempt)
 
-        with concurrent.futures.ThreadPoolExecutor(16) as ex:
+        with concurrent.futures.ThreadPoolExecutor(6) as ex:
             for _ in ex.map(one, items):
                 done += 1
                 if done % 5000 == 0:
