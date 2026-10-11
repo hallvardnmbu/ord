@@ -19,24 +19,26 @@ import lexicon
 
 # Score contributions. Positive = interesting.
 WEIGHTS = {
-    "simplex": 1.0,
-    "transparent": -1.5,
-    "suffix_productivity": -0.35,  # log(#compounds sharing the last part)
-    "place": -2.0,
-    "number": -2.0,
-    "colour": -1.0,
-    "template": -1.0,
-    "loan_or_old": 0.6,
-    "homely": 0.6,  # Old Norse, Low German, dialect, sound words
-    "latinate": -0.3,  # -ere verbs and -isk adjectives are plentiful
-    "unknown_origin": 1.5,
+    # Fitted by learn.py to 218 labelled DB words (cross-validated AUC 0.74),
+    # damped where the evidence was thin.
+    "simplex": 1.15,
+    "transparent": 0.0,  # fit said +0.6, collinear with suffix_productivity
+    "suffix_productivity": -0.2,  # log(#compounds sharing the last part)
+    "place": -0.5,
+    "number": -3.75,
+    "colour": -1.5,  # fit said -3, but from a single labelled word
+    "template": -0.6,
+    "loan_or_old": -0.5,
+    "homely": 1.5,  # Old Norse, Low German, dialect, sound words
+    "latinate": 0.85,  # rare learned words are liked (ostentativ, panegyrisk)
+    "unknown_origin": 0.5,  # no labelled examples yet
     "derived_etymology": 0.0,
-    "register": 0.8,
-    "examples": 0.15,  # per example, capped at 4
-    "too_common": -2.5,  # per decade above ~5 per million in modern books
-    "unattested": -0.8,  # per decade below ~0.03 per million in any period
-    "forgotten": 1.5,  # per decade of decline since 1920-79
-    "surprisal": 0.6,  # per bit/letter above average
+    "register": -0.4,
+    "examples": -0.55,  # per example, capped at 4: well-documented = everyday
+    "too_common": -1.95,  # per decade above ~5 per million in modern books
+    "unattested": 1.2,  # per decade below ~0.03 per million: rare is good
+    "forgotten": 2.65,  # per decade of decline since 1920-79
+    "surprisal": 0.2,  # per bit/letter above average
 }
 
 # Suffixes that stamp out predictable words. Productivity alone is too blunt:
@@ -50,11 +52,11 @@ MECHANICAL = set(
 )
 
 # Hard filters: words matching any of these are never worth showing.
+# ("som gjelder ..." used to be one, but removed liked words like myalgisk.)
 HARD = {
     "place": lambda f: f["place"],
     "number": lambda f: f["number"],
     "assembly-line compound": lambda f: f["transparent"] and f["suffix"] in MECHANICAL,
-    "derived template": lambda f: f["template"] in ("som-gjelder", "det-å", "med-x"),
 }
 
 
@@ -76,7 +78,7 @@ def terms(f, mean_surprisal):
         "examples": min(f["n_examples"], 4),
         "too_common": max(0.0, f["log_modern"] - 0.7),
         "unattested": max(0.0, -1.5 - f["log_any"]),
-        "forgotten": max(0.0, f["decline"]),
+        "forgotten": min(1.0, max(0.0, f["decline"])),  # capped at 10x
         "surprisal": f["surprisal"] - mean_surprisal,
     }
 

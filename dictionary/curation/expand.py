@@ -26,6 +26,7 @@ from collections import Counter
 import features
 import frequency
 import lexicon
+import score
 
 INDEX = "https://ord.uib.no/{d}/fil/article.json"
 ARTICLE = "https://ord.uib.no/{d}/article/{id}.json"
@@ -109,16 +110,14 @@ def plausible(lemma):
     return len(lemma) >= 4 and re.search(r"[aeiouyæøå]", lemma) and not re.search(r"[cqwxz]", lemma)
 
 
-# Signals that need no definitions; weights mirror score.py.
 def lexical_score(f, mean_surprisal, freq_known=True):
-    s = 1.0 * f["simplex"] - 0.35 * f["suffix_productivity"] - 2.0 * f["number"]
-    s -= 1.0 * f["colour"]
-    s += 0.6 * odd(f["surprisal"], mean_surprisal)
-    if freq_known:
-        s -= 1.2 * max(0.0, f["log_modern"] - 0.7)
-        s -= 0.8 * max(0.0, -1.5 - f["log_any"])
-        s += 0.8 * max(0.0, f["decline"])
-    return s
+    """score.py's weights, using only the signals that need no definitions."""
+    t = score.terms(f, mean_surprisal)
+    t["surprisal"] = odd(f["surprisal"], mean_surprisal)
+    if not freq_known:
+        for key in ("too_common", "unattested", "forgotten"):
+            t[key] = 0.0
+    return sum(score.WEIGHTS[k] * v for k, v in t.items())
 
 
 def unused(dictionary, db):
