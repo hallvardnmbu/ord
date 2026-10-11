@@ -360,7 +360,7 @@ def rank_outputs():
     return r
 
 
-def final_split(approve=0.75, reject=0.35):
+def final_split(approve=0.65, reject=0.40):
     """P(yes) from classifier + relative tier (fitted on rank-batch gold); screen veto first."""
     batches, rr = load("rank_batches.json"), rank_outputs()
     g = [x for items in batches for x in items if "label" in x and x["id"] in rr]
