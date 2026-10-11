@@ -312,6 +312,92 @@ def split(approve=0.80, reject=0.30):
         print(f"{k}: {len(v)} ({sum(1 for x in v if x['d'] == 'bm')} bm / {sum(1 for x in v if x['d'] == 'nn')} nn)")
 
 
+RANK_PROMPT = CRITERIA + """
+Oppgave (relativ rangering): Sammenlign ordene i batch-filen med HVERANDRE.
+Fordel dem på 10 like store nivåer, omtrent like mange ord i hvert nivå:
+10 = de beste dagens-ord i denne lista, 1 = de svakeste.
+Tenk på hvilke ord en språkinteressert leser helst ville møtt som dagens ord.
+Skriv KUN JSON: {"<id>": nivå, ...} for alle id-er.
+"""
+RANK_BATCH = 200
+
+
+def rank_batches():
+    """Relative pass over every word the screen did not veto (appends new ones)."""
+    open(f"{DIR}/rank_prompt.md", "w").write(RANK_PROMPT)
+    shots = {tuple(x) for x in json.load(open(f"{DIR}/shots.json"))}
+    r = outputs()
+    pool_ = [x for items in load("batches.json") for x in items
+             if "label" not in x and x["id"] in r and r[x["id"]].get("f", "ok") not in VETO]
+    batches = load("rank_batches.json") if os.path.exists(f"{DIR}/rank_batches.json") else []
+    done = {x["id"] for items in batches for x in items}
+    todo = [x for x in pool_ if x["id"] not in done]
+    gold = [g for g in load("gold.json") if (g["d"], g["w"]) not in shots and g["m"]]
+    rng = random.Random(11 + len(batches))
+    rng.shuffle(todo)
+    first = len(batches)
+    for k in range(0, len(todo), RANK_BATCH):
+        b = len(batches)
+        items = [dict(x) for x in todo[k : k + RANK_BATCH]]
+        for j, g in enumerate(rng.sample(gold, GOLD_PER_BATCH)):
+            items.append({**g, "id": f"rg{b}_{j}"})
+        rng.shuffle(items)
+        batches.append(items)
+        open(f"{DIR}/rank_{b}.tsv", "w").write(
+            "id\tordbok\tord\tbetydning\n" + "\n".join(map(line, items)))
+    save("rank_batches.json", batches)
+    print(f"rank batches {first}..{len(batches) - 1} ({len(todo)} words)")
+
+
+def rank_outputs():
+    r = {}
+    for name in os.listdir(DIR):
+        if name.startswith("out_rank_"):
+            try:
+                r.update(json.load(open(f"{DIR}/{name}")))
+            except json.JSONDecodeError:
+                print("broken:", name)
+    return r
+
+
+def final_split(approve=0.75, reject=0.35):
+    """P(yes) from classifier + relative tier (fitted on rank-batch gold); screen veto first."""
+    batches, rr = load("rank_batches.json"), rank_outputs()
+    g = [x for items in batches for x in items if "label" in x and x["id"] in rr]
+    feats = lambda x, t: [np.log(x["p_cls"] / (1 - x["p_cls"])), float(t)]
+    X = np.array([feats(x, rr[x["id"]]) for x in g])
+    y = np.array([x["label"] for x in g], dtype=float)
+    w, b = learn.fit(X, y)
+    p = 1 / (1 + np.exp(-(X @ w + b)))
+    print(f"rank gold: {len(y)} words, base {y.mean():.0%}, tier AUC "
+          f"{learn.auc(X[:, 1] + np.linspace(0, 1e-3, len(y)), y):.3f}, combined AUC {learn.auc(p, y):.3f}")
+    for lo, hi in ((0, .35), (.35, .5), (.5, .65), (.65, .75), (.75, 1.01)):
+        sel = (p >= lo) & (p < hi)
+        if sel.any():
+            print(f"  gold P {lo:.2f}-{hi:.2f}: {sel.sum():3} words, {y[sel].mean():.0%} liked")
+    screen = outputs()
+    groups = {"approve": [], "ask": [], "reject": [], "veto": [], "unranked": []}
+    for items in load("batches.json"):
+        for x in items:
+            if "label" in x or x["id"] not in screen:
+                continue
+            x = dict(x, judge=float(screen[x["id"]].get("r", 0)), flag=screen[x["id"]].get("f", "ok"))
+            if x["flag"] in VETO:
+                groups["veto"].append(x)
+                continue
+            if x["id"] not in rr:
+                groups["unranked"].append(x)
+                continue
+            x["tier"] = rr[x["id"]]
+            x["p_yes"] = float(1 / (1 + np.exp(-(np.array(feats(x, x["tier"])) @ w + b))))
+            key = "approve" if x["p_yes"] >= approve else ("reject" if x["p_yes"] < reject else "ask")
+            groups[key].append(x)
+    for k, v in groups.items():
+        v.sort(key=lambda x: -x.get("p_yes", 0))
+        save(f"final_{k}.json", v)
+        print(f"{k}: {len(v)} ({sum(1 for x in v if x['d'] == 'bm')} bm / {sum(1 for x in v if x['d'] == 'nn')} nn)")
+
+
 if __name__ == "__main__":
-    {"fetch": fetch, "score": score_all, "screen": screen, "gold": gold_check,
+    {"final": final_split, "rank": rank_batches, "fetch": fetch, "score": score_all, "screen": screen, "gold": gold_check,
      "calibrate": calibrate, "split": split}[sys.argv[1]]()
