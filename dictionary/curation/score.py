@@ -19,29 +19,34 @@ import lexicon
 
 # Score contributions. Positive = interesting.
 WEIGHTS = {
-    # Fitted by learn.py to 218 labelled DB words (cross-validated AUC 0.74),
-    # damped where the evidence was thin.
+    # Fitted by learn.py to 317 labelled DB words over two rounds (cross-validated
+    # AUC 0.73), then adjusted by hand where the evidence was thin or the stated
+    # goal (rare but usable today, no see-through derivations) says otherwise.
     "simplex": 1.15,
-    "transparent": 0.0,  # fit said +0.6, collinear with suffix_productivity
-    "suffix_productivity": -0.2,  # log(#compounds sharing the last part)
+    "transparent": 0.0,
+    "suffix_productivity": -0.25,  # log(#compounds sharing the last part)
     "place": -0.5,
     "number": -3.75,
-    "colour": -1.5,  # fit said -3, but from a single labelled word
+    "colour": -1.5,  # fit said -2.8 from a single labelled word
     "template": -0.6,
-    "loan_or_old": -0.5,
-    "homely": 1.5,  # Old Norse, Low German, dialect, sound words
-    "latinate": 0.85,  # rare learned words are liked (ostentativ, panegyrisk)
+    "loan_or_old": 0.2,
+    "homely": 0.2,
+    "latinate": -0.6,
     "unknown_origin": 0.5,  # no labelled examples yet
-    "derived_etymology": 0.0,
-    "register": -0.4,
-    "dated": -0.5,  # foreldet, eldre, dialekt: guess, not fitted yet
-    "style": 0.3,  # overført, ironisk, spøkefull: guess, not fitted yet
-    "dead_today": -0.5,  # guess, not fitted yet
-    "examples": -0.55,  # per example, capped at 4: well-documented = everyday
-    "too_common": -1.95,  # per decade above ~5 per million in modern books
-    "unattested": 1.2,  # per decade below ~0.03 per million: rare is good
-    "forgotten": 2.65,  # per decade of decline since 1920-79
-    "surprisal": 0.2,  # per bit/letter above average
+    "derived_etymology": 0.3,
+    "register": -0.1,
+    "dated": -0.4,  # foreldet, eldre, dialekt
+    "style": 0.1,  # overført, ironisk, spøkefull
+    "dead_today": -1.5,  # printed before, practically gone since 2000
+    "derived": -0.5,  # root + ending
+    "see_through": -1.0,  # ... and the root is common: importere, vreidast, sviksam
+    "prefixed": 0.0,  # u-, be-, for-, mis-, van- + a word
+    "loan_verb": 0.0,  # -ere as such is fine (approbere, lukrere); see_through handles importere
+    "examples": -0.3,  # per example, capped at 4: well-documented = everyday
+    "too_common": -3.0,  # per decade above ~5 per million in modern books
+    "unattested": 1.4,  # per decade below ~0.03 per million: rare is good
+    "forgotten": 1.4,  # up to one decade of decline since 1920-79
+    "surprisal": 0.0,  # fit said -0.5, earlier +0.2: no clear signal
 }
 
 # Suffixes that stamp out predictable words. Productivity alone is too blunt:
@@ -82,6 +87,10 @@ def terms(f, mean_surprisal):
         "dated": float(f["dated"]),
         "style": float(f["style"]),
         "dead_today": float(f["dead_today"]),
+        "derived": float(f["derived"]),
+        "see_through": float(f["see_through"]),
+        "prefixed": float(f["prefixed"]),
+        "loan_verb": float(f["loan_verb"]),
         "examples": min(f["n_examples"], 4),
         "too_common": max(0.0, f["log_modern"] - 0.7),
         "unattested": max(0.0, -1.5 - f["log_any"]),

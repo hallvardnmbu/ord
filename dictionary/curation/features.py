@@ -238,6 +238,15 @@ def compute(word, dictionary, definitions=None, etymology=None, freq=None):
     # Printed before, practically gone since 2000: archaic rather than rare.
     f["dead_today"] = modern < 0.003 and max(old, mid) > 0.05
     f["surprisal"] = surprisal(word, dictionary)
+    d = derivation(word)
+    f["derived"] = bool(d) and bool(re.search(r"-[a-zæøå]+$", d[1]))
+    # Derived from a word everyone knows: you can see straight through it
+    # (importere <- import, sviksam <- svik). Unusual roots are fine (approbere).
+    root_freq = root_frequency(d[0]) if d else 0.0
+    f["see_through"] = bool(d) and root_freq >= 1.0
+    f["root"] = d[0] if d else ""
+    f["prefixed"] = bool(d) and not d[1].startswith("-")
+    f["loan_verb"] = word.endswith(LOAN_VERB)
     return f
 
 
@@ -250,3 +259,97 @@ def for_db(dictionary):
         )
         out.append({"word": w["word"], "wordgroup": w["wordgroup"], **feats})
     return out
+
+
+# Derivation: the word is a known root plus a productive ending (or prefix).
+DERIVING_SUFFIXES = [
+    # verbs
+    "ifisere", "isere", "iere", "ere", "ast", "es", "ne",
+    # adjectives
+    "messig", "aktig", "elig", "eleg", "lig", "leg", "sam", "som", "bar", "voren", "isk",
+    "ete", "et", "ut", "ig", "ende", "ande",
+    # nouns
+    "else", "ning", "ing", "heit", "het", "skap", "dom", "nad", "leik", "eri", "isme", "ist",
+]
+DERIVING_PREFIXES = ["mis", "van", "be", "for", "u"]
+
+
+@lru_cache(maxsize=None)
+def vocabulary():
+    words = set()
+    for d in ("bm", "nn"):
+        words |= {w.lower() for w in lexicon.lemmas(d).values()}
+    return words
+
+
+def root_candidates(stem):
+    yield stem
+    for end in ("e", "a", "at", "um", "us", "ion", "isk", "i", "o"):
+        yield stem + end
+    if len(stem) > 3 and stem[-1] == stem[-2]:
+        yield stem[:-1]
+    if stem.endswith("l") or stem.endswith("r"):
+        yield stem[:-1] + "e" + stem[-1]  # sviml- / svimel
+
+
+@lru_cache(maxsize=None)
+def sorted_vocabulary():
+    return sorted(vocabulary())
+
+
+def shares_stem(stem, word):
+    """A lemma other than the word (or its -ing/-else forms) that starts with stem."""
+    import bisect
+
+    vocab = sorted_vocabulary()
+    i = bisect.bisect_left(vocab, stem)
+    while i < len(vocab) and vocab[i].startswith(stem):
+        other = vocab[i]
+        if other != word and not other.startswith(word) and not other.startswith(word[:-1] + "ing"):
+            return other
+        i += 1
+    return None
+
+
+LOAN_VERB = ("ifisere", "isere", "iere", "ere")
+
+
+@lru_cache(maxsize=None)
+def _all_frequencies():
+    out = {}
+    for d in ("bm", "nn"):
+        for w, fr in frequency.load(d).items():
+            out[w] = max(out.get(w, 0.0), fr.get("modern", 0.0))
+    return out
+
+
+def root_frequency(root):
+    """Per-million frequency of a root in books 2000-24 (0 if never looked up)."""
+    return _all_frequencies().get(root, 0.0)
+
+
+def derivation(word):
+    """(root, affix) when the word is a known root plus a deriving affix, else None."""
+    vocab = vocabulary()
+    for suffix in DERIVING_SUFFIXES:
+        if word.endswith(suffix) and len(word) - len(suffix) >= 3:
+            stem = word[: -len(suffix)]
+            minimum = 4 if suffix in LOAN_VERB else 3
+            for root in root_candidates(stem):
+                if root != word and len(root) >= minimum and root in vocab:
+                    return root, "-" + suffix
+            # segregere ~ segregasjon, plagiere ~ plagiat
+            if suffix in LOAN_VERB and len(stem) >= 5:
+                other = shares_stem(stem, word)
+                if other:
+                    return other, "-" + suffix
+    for prefix in DERIVING_PREFIXES:
+        rest = word[len(prefix):]
+        if word.startswith(prefix) and len(rest) >= 4:
+            if rest in vocab:
+                return rest, prefix + "-"
+            # u-bøt-eleg, u-visk-eleg: prefix and ending around a known root
+            inner = derivation(rest)
+            if inner and inner[1].startswith("-"):
+                return inner[0], prefix + "-" + inner[1]
+    return None
