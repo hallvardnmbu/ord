@@ -52,11 +52,28 @@ TECH_DOMAIN = re.compile(
 TECH_WORDS = re.compile(
     r"\b(betennelse|infeksjon|kjertel\w*|celle\w*|vev|organisme\w*|bakterie\w*|virus|legemiddel"
     r"|enzym\w*|hormon\w*|molekyl\w*|grunnstoff|kromosom\w*|arveanlegg|svulst|protein\w*"
-    r"|planteslekt|plantefamilie|dyreslekt|slekta|slekten|underklasse|fosteret|kjemisk forbindelse)\b"
+    r"|planteslekt|plantefamilie|dyreslekt|slekta|slekten|underklasse|fosteret|kjemisk\w*"
+    r"|\w*legering|\w*forbindelse|fargestoff\w*|grunnstoff\w*|syre|salt av|metall\w*|mineral\w*"
+    r"|amin|\w*kolbe|destill\w*|måleinstrument"
+    r"|(apparat|instrument|innretning) (til|for) å|laboratori\w*|spesialist i)\b"
     r"|^(\w+ )?(sykdom|sjukdom|lidelse|tilstand) (som|i|med|der|kjenneteikna|kjennetegnet)",
     re.I,
 )
 # Genus + species: "Lysimachia vulgaris", not "Homer rungende".
+# Unmistakably medical/biological word shapes, checked even when a definition
+# exists but carries no subject label (ødematisk, kolloidal, supradental).
+MEDICAL_SHAPE = re.compile(
+    r"(oidal|ploid|dental|itis|osisk|algi|algisk|genetisk|cytt|krin|tomi|ektomi|plasma|plasmatisk"
+    r"|viral|bakteriell|cellulær|vaskulær|kardial|nevral|fytt|zoisk|zoon|emisk|ematisk|meter|skop"
+    r"|tron|metri|grafi|graf)$"
+    r"|^(kardio|nevro|hemo|hemat|osteo|gastro|dermat|myo|hepat|nefr|pneum|cyto|angio|histo|onko"
+    r"|lymf|pato|bakter|kromo|intra)(?=[a-zæøå]{4,})"
+)
+# Everyday words that share those shapes.
+MEDICAL_SHAPE_OK = re.compile(r"(akademisk|polemisk|blasfemisk|problematisk|systematisk|tematisk|skjematisk"
+                              r"|matematisk|dilemmatisk|emblematisk|anatemisk|bohemisk|ambrosisk|nostalgisk|oksidental"
+                              r"|transcendental|telegraf|fotograf|fotografi|biografi|geografi|kalligrafi|koreograf|koreografi"
+                              r"|typograf|typografi|monograf|monografi|seismograf|parameter|kilometer)$|^(gastronom|histori)")
 LATIN_NAME = re.compile(
     r"\b[A-Z][a-z]+ [a-z]+(us|um|is|ae|ii|ensis|oides|atus|ata|osa|osus|alis|aris|ica|icus|ella|ina|inus|eus|ia)\b"
 )
@@ -233,7 +250,11 @@ def compute(word, dictionary, definitions=None, etymology=None, freq=None):
         or bool(TECH_WORDS.search(texts[0]))
         or bool(LATIN_NAME.search(" ".join(texts)))
     )
-    f["technical"] = tech_text or (not texts and bool(TECH_SHAPE.search(word)) and f["latinate_shape"])
+    f["technical"] = (
+        tech_text
+        or (not texts and bool(TECH_SHAPE.search(word)) and f["latinate_shape"])
+        or (bool(MEDICAL_SHAPE.search(word)) and not MEDICAL_SHAPE_OK.search(word) and not f["compound"])
+    )
 
     # Printed before, practically gone since 2000: archaic rather than rare.
     f["dead_today"] = modern < 0.003 and max(old, mid) > 0.05

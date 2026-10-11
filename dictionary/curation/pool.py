@@ -87,6 +87,14 @@ def item(word, dictionary, src, definitions):
     return {"w": word, "d": dictionary, "m": meaning, "e": example, "src": src}
 
 
+def hard_filtered(f):
+    return any(rule(f) for rule in score.HARD.values())
+
+
+# Signals to oversample in the next round, with how many words each.
+SIGNALS = (("see_through", 20), ("derived", 15), ("dead_today", 10), ("dated", 10), ("style", 10))
+
+
 def round2(labels_path, rng):
     """Second round: words the fitted model is unsure about, its top picks,
     the thinly labelled signals, fresh candidates and a few modern-attested
@@ -98,7 +106,7 @@ def round2(labels_path, rng):
     seen = set(labels)
     try:
         import json as _json
-        for p in __import__("glob").glob(f"{lexicon.CACHE}/labels/**/*.json", recursive=True):
+        for p in __import__("glob").glob(f"{lexicon.CACHE}/labels*/**/*.json", recursive=True):
             d = _json.load(open(p))
             d = d.get("data", d)
             seen.add((d["d"], d["w"]))
@@ -117,7 +125,8 @@ def round2(labels_path, rng):
                 train.append((r, labels[(dictionary, r["word"])]))
             elif (dictionary, r["word"]) not in seen and not r["hard"]:
                 rows.append(r)
-    names = list(score.WEIGHTS)
+    # loan_verb is left out: the labels reward -ere, the stated goal does not.
+    names = [n for n in score.WEIGHTS if n != "loan_verb"]
     X = np.array([[r["terms"][n] for n in names] for r, _ in train])
     y = np.array([label for _, label in train], dtype=float)
     w, b = learn.fit(X, y)
@@ -139,8 +148,8 @@ def round2(labels_path, rng):
 
     take(sorted(rows, key=lambda r: abs(r["p"] - 0.5)), 110, "uncertain")
     take(sorted(rows, key=lambda r: -r["p"]), 50, "top")
-    for signal, n in (("dead_today", 15), ("dated", 15), ("style", 15)):
-        hits = [r for r in rows if r[signal]]
+    for signal, n in SIGNALS:
+        hits = [r for r in rows if r[signal] and (signal != "derived" or not r["see_through"])]
         take(rng.sample(hits, min(len(hits), 60)), n, signal)
 
     # Fresh candidates ranked with the new weights.
@@ -151,9 +160,9 @@ def round2(labels_path, rng):
             if n == 0:
                 break
             text, definitions, _ = expand.describe(dictionary, article_id)
-            if definitions and definitions["forklaring"] and not features.compute(
-                lemma, dictionary, definitions
-            )["technical"]:
+            if definitions and definitions["forklaring"] and not hard_filtered(
+                features.compute(lemma, dictionary, definitions)
+            ):
                 example = (definitions["eksempel"] or [""])[0][:120]
                 pool.append({"w": lemma, "d": dictionary, "m": text, "e": example, "src": "unused"})
                 n -= 1
@@ -170,7 +179,7 @@ def round2(labels_path, rng):
             definitions
             and definitions["forklaring"]
             and ("nn", lemma) not in seen
-            and not features.compute(lemma, "nn", definitions)["technical"]
+            and not hard_filtered(features.compute(lemma, "nn", definitions))
         ):
             pool.append({"w": lemma, "d": "nn", "m": text, "e": "", "src": "norsk-ordbok"})
             n -= 1
