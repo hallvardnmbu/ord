@@ -214,10 +214,17 @@ def compute(word, dictionary, definitions=None, etymology=None, freq=None):
         and texts
         and (stem(parts[0]) in text or stem(parts[1]) in text)
     )
+    # Person nouns whose definition mentions a person anywhere in the main sense
+    # (somatikar, rastafarianar, egosentrikar).
+    person_noun = bool(texts) and re.search(r"(ar|er|ist|ing|ør|ikar|iker)$", word) and re.search(
+        r"\b(person|personar|personer|tilhengar|tilhenger|innbyggjar|innbygger|folk|folkeslag)\b",
+        texts[0], re.I)
     # Only the main sense counts: "brukt som adjektiv" sub-senses are normal.
     f["template"] = next(
         (name for name, rx in TEMPLATES if texts and rx.search(texts[0].strip())), ""
     )
+    if person_noun and not f["template"]:
+        f["template"] = "person"
     f["place"] = bool(texts and PLACE.search(texts[0].strip()))
     f["number"] = bool(f["compound"] and parts[0] in NUMBERS) or bool(
         re.search(r"\b(ordenstall|ordenstal|grunntall|grunntal)\w*", text)

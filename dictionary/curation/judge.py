@@ -193,3 +193,47 @@ def rank():
 
 if __name__ == "__main__" and sys.argv[1] in ("candidates", "rank"):
     {"candidates": candidates, "rank": rank}[sys.argv[1]]()
+
+
+def labeling_round(top=60, disagree=20, random_n=20):
+    """Labeling round that tests the combined ranking, balanced bm/nn."""
+    rng = random.Random(23)
+    ranked = [c for c in json.load(open(f"{DIR}/ranked.json")) if expand.plausible(c["w"])]
+    seen = pool.labelled_keys("labels.csv")
+    ranked = [c for c in ranked if (c["d"], c["w"]) not in seen]
+    items, used = [], set()
+
+    def add(c, tag):
+        if c["w"] not in used:
+            used.add(c["w"])
+            items.append({"w": c["w"], "d": c["d"], "m": c["m"], "e": c.get("e", ""),
+                          "src": c["src"], "tag": tag})
+
+    for d in ("bm", "nn"):
+        mine = [c for c in ranked if c["d"] == d]
+        for c in mine[:top]:
+            add(c, "combined-top")
+        # Words the judge rates highly but the scorer ranks low: does it find
+        # good words the scorer misses?
+        liked = [c for c in mine[top:] if c["judge"] >= 4 and not pool.hard_filtered(
+            features.compute(c["w"], d))]
+        for c in sorted(liked, key=lambda c: c["score"])[:disagree]:
+            add(c, "judge-only")
+        defs = {w["word"]: w["definitions"] for w in lexicon.db_words(d)}
+        words = [w for w in defs if (d, w) not in seen]
+        for w in rng.sample(words, len(words)):
+            if len([i for i in items if i["d"] == d and i["tag"] == "random"]) >= random_n:
+                break
+            m, e = pool.snippet(defs[w])
+            if m:
+                add({"w": w, "d": d, "m": m, "e": e, "src": "db"}, "random")
+    rng.shuffle(items)
+    template = open(f"{lexicon.DICT}/curation/labeler.html", encoding="utf-8").read()
+    html = template.replace("/*POOL*/[]", json.dumps(items, ensure_ascii=False))
+    open(f"{lexicon.CACHE}/labeler.html", "w", encoding="utf-8").write(html)
+    json.dump(items, open(f"{DIR}/round.json", "w"), ensure_ascii=False)
+    print(len(items), "words")
+
+
+if __name__ == "__main__" and sys.argv[1] == "round":
+    labeling_round()

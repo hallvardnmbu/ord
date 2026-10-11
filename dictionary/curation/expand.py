@@ -107,7 +107,12 @@ def odd(surprisal, mean):
 
 
 def plausible(lemma):
-    return len(lemma) >= 4 and re.search(r"[aeiouyæøå]", lemma) and not re.search(r"[cqwxz]", lemma)
+    # No accented variant spellings (lòden, fóre, vêre): duplicates of plain words.
+    return (
+        len(lemma) >= 4
+        and re.search(r"[aeiouyæøå]", lemma)
+        and not re.search(r"[cqwxzàáâèéêòóôùúû]", lemma)
+    )
 
 
 def lexical_score(f, mean_surprisal, freq_known=True):
