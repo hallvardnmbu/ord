@@ -106,6 +106,7 @@ for (const dictionary of ["bm", "nn"]) {
 }
 
 db.run("INSERT INTO words_fts(rowid, word) SELECT rowid, word FROM words");
+db.run("VACUUM"); // reclaim the space of the dropped tables
 
 await mongo?.close();
 db.close();
