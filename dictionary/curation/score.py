@@ -67,6 +67,8 @@ HARD = {
     "assembly-line compound": lambda f: f["transparent"] and f["suffix"] in MECHANICAL,
     "person noun": lambda f: f["template"] == "person",
     "technical term": lambda f: f["technical"],
+    # Not usable today: marked dialect/old by the dictionary, or gone from print.
+    "dialect or archaic": lambda f: f["dated"] or f["dead_today"],
 }
 
 

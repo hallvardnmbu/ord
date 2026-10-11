@@ -83,7 +83,7 @@ TECH_SHAPE = re.compile(
     r"|^(kardio|nevro|hemo|hemat|osteo|gastro|derm|myo|hepat|nefr|pneum|cyto|bio|hydro"
     r"|lymf|angio|fysio|pato|immun|kromo|histo|onko|psyko)"
 )
-DATED = re.compile(r"(foreldet|eldre|gammeldags|arkaiserende|dialekt|sjelden)", re.I)
+DATED = re.compile(r"(foreldet|eldre|gammeldags|arkaiserende|dialekt)", re.I)
 
 # Definition shapes that give away a derived, predictable word.
 TEMPLATES = [
