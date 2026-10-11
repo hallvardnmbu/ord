@@ -1,0 +1,421 @@
+[
+ {
+  "d": "bm",
+  "w": "fjåg",
+  "src": "unused",
+  "m": "glad, tilfreds, blid",
+  "e": "fjåge folk",
+  "reason": "dialect",
+  "p_sonnet": 37.5
+ },
+ {
+  "d": "bm",
+  "w": "idke",
+  "src": "unused",
+  "m": "urolig venting; uro",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "bm",
+  "w": "jadden",
+  "src": "db",
+  "m": "jammen",
+  "e": "jadden satte han ikke ny rekord",
+  "reason": "dialect"
+ },
+ {
+  "d": "bm",
+  "w": "kjekkesen",
+  "src": "db",
+  "m": "kjekk",
+  "e": "det var svært så kjekkesen du er",
+  "reason": "dialect"
+ },
+ {
+  "d": "bm",
+  "w": "kornmo",
+  "src": "unused",
+  "m": "gjenskinn fra lyn som er så langt borte at en ikke hører tordenen",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "bm",
+  "w": "kruksen",
+  "src": "db",
+  "m": "sammenkrøpet",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "bm",
+  "w": "skrie",
+  "src": "unused",
+  "m": "skred, ras; sted der en ser merker etter skred",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "bm",
+  "w": "suvl",
+  "src": "unused",
+  "m": "fet, kraftig mat (som spises til suppe, grøt, brød eller lignende); (sur)melk til grøt el brød",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "bm",
+  "w": "tasal",
+  "src": "unused",
+  "m": "som begynner å bli svakere; skral, veik; avfeldig, svekket",
+  "e": "",
+  "reason": "dialect",
+  "p_sonnet": 37.5
+ },
+ {
+  "d": "bm",
+  "w": "tjon",
+  "src": "unused",
+  "m": "syssel; stell, (dyre)stell",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "nn",
+  "w": "akko",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "bausa",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "bumsa",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "bællang",
+  "src": "db",
+  "m": "svært lang",
+  "e": "om vinteren er kveldane mørke og bællange",
+  "reason": "dialect",
+  "p_sonnet": 35.0
+ },
+ {
+  "d": "nn",
+  "w": "daen",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "drjose",
+  "src": "db",
+  "m": "falle ned i små delar; falle dropevis; drysje, drysse",
+  "e": "snøen drys av trea",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "dyvje",
+  "src": "unused",
+  "m": "skjelve; bivre; drønne",
+  "e": "jorda dyv",
+  "reason": "dialect"
+ },
+ {
+  "d": "nn",
+  "w": "fitl",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "fivrelde",
+  "src": "unused",
+  "m": "sommarfugl",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "nn",
+  "w": "fjelgde",
+  "src": "unused",
+  "m": "varme (i vêret); hugnad, fred; venleik",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "nn",
+  "w": "fjelgsleg",
+  "src": "db",
+  "m": "hyggjeleg; tekkjeleg; rein, velstelt",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "nn",
+  "w": "fudge",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "fånn",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "gjos",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "hagr",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "heisk",
+  "src": "unused",
+  "m": "lett snø som driv spreitt",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "nn",
+  "w": "jabot",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "jeie",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "jødes",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "kepi",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "kjua",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "kjøgle",
+  "src": "db",
+  "m": "kludre, rote; kle seg vyrdlaust; gløse, stire",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "nn",
+  "w": "knua",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "kræv",
+  "src": "unused",
+  "m": "dugande; livssterk; livfull, livleg",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "nn",
+  "w": "krøl",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "kødd",
+  "src": "unused",
+  "m": "testikkel; brukt neds om vrang, upåliteleg person",
+  "e": "han er ein kødd",
+  "reason": "dialect"
+ },
+ {
+  "d": "nn",
+  "w": "livja",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "mimra",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "møsa",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "ollo",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "pimpa",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "pisa",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "plaffa",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "rudda",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "rækja",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "ròke",
+  "src": "unused",
+  "m": "haug på eit fylt kar; toppmål",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "nn",
+  "w": "ròse",
+  "src": "unused",
+  "m": "skrubbe (huda), såre litt; flekkje skalet av, skrape risp av fisk",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "nn",
+  "w": "skjåg",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "sosa",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "sælast",
+  "src": "db",
+  "m": "døy",
+  "e": "",
+  "reason": "dialect"
+ },
+ {
+  "d": "nn",
+  "w": "tafla",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ },
+ {
+  "d": "nn",
+  "w": "telna",
+  "src": "norsk-ordbok",
+  "m": "",
+  "e": "",
+  "reason": "no bokmål/nynorsk article"
+ }
+]

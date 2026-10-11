@@ -1,10 +1,9 @@
-import { MongoClient } from "mongodb";
 import { Database } from "bun:sqlite";
 import { join } from "path";
 
-const MONGO_URI =
-  `mongodb+srv://${process.env.MONGO_USR.trim()}:${process.env.MONGO_PWD.trim()}` +
-  `@ord.c8trc.mongodb.net/?retryWrites=true&w=majority&appName=ord`;
+// Build ord.db from the MongoDB collections, or with --curated from the reviewed word list in
+// dictionary/curated/{bm,nn}.json (same documents, no database needed).
+const CURATED = process.argv.includes("--curated");
 
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -29,9 +28,24 @@ function assignDates(words) {
   });
 }
 
-const mongo = new MongoClient(MONGO_URI);
-await mongo.connect();
-const mongoDb = mongo.db("ord");
+let mongo = null;
+if (!CURATED) {
+  const { MongoClient } = await import("mongodb");
+  mongo = new MongoClient(
+    `mongodb+srv://${process.env.MONGO_USR.trim()}:${process.env.MONGO_PWD.trim()}` +
+      `@ord.c8trc.mongodb.net/?retryWrites=true&w=majority&appName=ord`,
+  );
+  await mongo.connect();
+}
+
+async function documents(dictionary) {
+  if (CURATED) return Bun.file(join(import.meta.dir, "dictionary", "curated", `${dictionary}.json`)).json();
+  return mongo
+    .db("ord")
+    .collection(dictionary)
+    .find({}, { projection: { _id: 0, date: 0, past: 0 } })
+    .toArray();
+}
 
 const dbPath = join(import.meta.dir, "ord.db");
 const db = new Database(dbPath);
@@ -70,12 +84,7 @@ const insert = db.prepare(`
 `);
 
 for (const dictionary of ["bm", "nn"]) {
-  const docs = await mongoDb
-    .collection(dictionary)
-    .find({}, { projection: { _id: 0, date: 0, past: 0 } })
-    .toArray();
-
-  const words = assignDates(docs);
+  const words = assignDates(await documents(dictionary));
 
   db.transaction(() => {
     for (const w of words) {
@@ -98,7 +107,7 @@ for (const dictionary of ["bm", "nn"]) {
 
 db.run("INSERT INTO words_fts(rowid, word) SELECT rowid, word FROM words");
 
-await mongo.close();
+await mongo?.close();
 db.close();
 
 console.log(`Built ${dbPath}`);
