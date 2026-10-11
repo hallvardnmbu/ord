@@ -36,6 +36,7 @@
   .word { font-size: clamp(1.8rem, 8vw, 2.6rem); font-weight: 700; margin: 0; overflow-wrap: anywhere; }
   .meaning { margin: 0; line-height: 1.5; }
   .example { margin: 0; color: var(--muted); font-style: italic; line-height: 1.5; }
+  .generated { margin: 0; color: var(--muted); font-size: .85rem; line-height: 1.5; border-top: 1px dashed var(--muted); padding-top: 10px; }
   .verdicts { display: grid; grid-template-columns: 1fr auto 1fr; gap: 8px; }
   button {
     font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line);
@@ -64,6 +65,7 @@
     <p class="word" id="word">…</p>
     <p class="meaning" id="meaning"></p>
     <p class="example" id="example"></p>
+    <p class="generated" id="generated" hidden></p>
   </section>
 
   <div class="verdicts">
@@ -116,6 +118,7 @@ function render() {
     $("word").textContent = "Ferdig";
     $("meaning").textContent = "Alle ordene er vurdert. Si fra til Claude, så tilpasses vektene.";
     $("example").textContent = "";
+    $("generated").hidden = true;
     buttons.forEach((b) => (b.disabled = true));
     return;
   }
@@ -126,6 +129,8 @@ function render() {
   $("word").textContent = current.w;
   $("meaning").textContent = current.m || "(ingen definisjon)";
   $("example").textContent = current.e ? `«${current.e}»` : "";
+  $("generated").hidden = !current.s;
+  $("generated").textContent = current.s ? `Eksempel laget av Haiku: «${current.s}»` : "";
 }
 
 async function verdict(value) {

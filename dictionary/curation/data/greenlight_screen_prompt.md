@@ -1,0 +1,142 @@
+Du hjelper med å velge «dagens ord» for dagsord.no (bokmål og nynorsk).
+Målet er sjeldne eller uvanlige ord som likevel kan brukes i dag.
+
+Godt ord:
+- sjeldent eller uvanlig, men et gyldig ord man kan bruke i en moderne setning
+- gamle ord er fine så lenge de er «ekte» ord (ikke bare gammel rettskriving)
+- særpreget lyd eller betydning; lærde ord er ok (ostentativ, panegyrisk)
+
+Dårlig ord:
+- vanlige hverdagsord alle kjenner
+- avledninger der roten er et vanlig ord (importere ← import, sviksam ← svik,
+  kortne ← kort); sammensetninger som forklarer seg selv (lovfeste, nordvendt)
+- medisinske, biologiske, kjemiske og andre fagord
+- stedsadjektiv/folkenavn (gabonsk), tallord, personbetegnelser (organikar)
+- dialektord er mindre relevante, men noen er ok
+- nedsettende eller støtende ord (også utdaterte betegnelser på folkegrupper) er alltid dårlige
+
+Eksempler på brukerens egne vurderinger:
+- åskodeleg (nn): klar, tydeleg → BRA
+- parallell (bm): i matematikk: rett linje som løper likt med en annen rett linje eller et plan; tilsvarende → KJEDELIG
+- allotrop (nn): forskjellig med omsyn til allotropi → KJEDELIG
+- tvitusla (nn): tvitola → KJEDELIG
+- fortene (nn): vere verdig eller skuldig til; straff eller lignende som ein fortener → KJEDELIG
+- gulbrun (bm): brun med gulaktig skjær → KJEDELIG
+- tabuere (nn): la noko bli tabu → BRA
+- eksperimental (nn): eksperimentell; jamfør eksperimentalbiologi, eksperimentalpsykologi og eksperimentalvitska → KJEDELIG
+- råbarka (bm): rå, grov; hensynsløs, brutal; hardbarket → BRA
+- slevje (nn): sleppe spytt frå munnvika(ne) → BRA
+- handflika (bm): i bot, om blad: håndnervet og flikete → BRA
+- tertiær (bm): tertiærperiode → KJEDELIG
+- nusseleg (nn): særs ven, liten og søt; nett, yndig → KJEDELIG
+- bygsle (bm): leie (gård, jord) på bygsel; leie ut (gård, jord) på bygsel; feste → BRA
+- hjonslig (bm): tekkelig, hyggelig → BRA
+- teigpløye (nn): pløye frå midten og utetter, slik at jorda blir velta frå begge sider innover mot midten → KJEDELIG
+- forblende (bm): dekke en mur med et annet materiale → BRA
+- grovvaksen (nn): stor av vekst → BRA
+- utslette (bm): fjerne, få fullstendig vekk, slette ut → KJEDELIG
+- rengje (nn): snu innsida ut, vri slik at vrangsida vender ut; (skade med å) vri; vrikke, keike → KJEDELIG
+- etymologisere (nn): finne opphavet til eit ord; jamfør etymologi → KJEDELIG
+- oppvåknende (bm): begynnende, gryende → KJEDELIG
+- gammelfransk (bm): fransk språk i eldre tid, særlig før 1300 → KJEDELIG
+- brigsle (nn): klandre, laste nokon (for noko); plage, bry; streve med (noko) → BRA
+- ufjampeleg (nn): ufansleg → KJEDELIG
+- kalkere (nn): kopiere med hjelp av gjennomsynleg papir eller lerret; i overført: kopiere, etterlikne nøy → BRA
+- utilistisk (bm): utilitaristisk → KJEDELIG
+- elskande (nn): som elskar; brukt som substantiv → KJEDELIG
+- indremedisinsk (bm): som gjelder indremedisin → KJEDELIG
+- singott (nn): i eldre tid: skål → BRA
+- stinge (bm): nå sjelden: stikke; jamfør stungen → BRA
+- forventningsfull (bm): full av forventning; spent; brukt som adverb → KJEDELIG
+- navnlig (bm): særlig, især → BRA
+- gravitetisk (nn): høgtideleg, stiv, verdig; jamfør gravitet → BRA
+- forbala (nn): forstøkt; rådvill → BRA
+- pjutre (bm): putre; pludre, bable → BRA
+- blikte (nn): glimte, blinke; skjelve; svinge, vifte (med noko) → BRA
+- ideologisk (bm): som gjelder ideologi → KJEDELIG
+- klissklass (nn): det at noko er gjennomblautt eller klissete; kliss → KJEDELIG
+- åmellom (nn): mellom åene → BRA
+- omtrentleg (nn): (berre) nokolunde nøyaktig; rundt rekna → KJEDELIG
+- konvoiere (nn): føre i konvoi; følgje og verne skip; eskortere → KJEDELIG
+- økonomisere (bm): være forsiktig i (penge)forbruk, spare; jamfør økonomiflaske → BRA
+- kvinnelig (bm): som er kvinne eller gjelder kvinner; tostavet rim med trykklett sluttstaving i en verselin → KJEDELIG
+- skjønnug (nn): skjønsam; skjønsam; mild, omsynsfull → KJEDELIG
+- sannkjenne (nn): særlig i filosofi: kome fram til trygg og meir eller mindre objektiv kunnskap om; erkjenne → BRA
+- skvaldre (nn): snakke i eitt køyr; skravle; renne med klukkande lyd → BRA
+- kreiste (nn): klemme hardt; presse eller trykkje sterkt → BRA
+- ordhitten (bm): flink til å finne de rette ordene; slagferdig, vittig → BRA
+- repressiv (nn): hemmande, undertrykkjande → KJEDELIG
+- lignifisere (nn): om plantevev: bli til ved på grunn av at lignin blir avsett i celleveggene; forvede, trene → KJEDELIG
+- kverve (bm): gå i ring; virvle; komme av syne, forsvinne → BRA
+- stendig (bm): stadig, alltid → BRA
+- snarfengen (nn): snarfengd → BRA
+- sælast (nn): døy → BRA
+- hundrede (nn): som er nummer 100 i ei rekkjefølgje; rekkjetal til 100 → KJEDELIG
+- denotere (nn): peike ut referansen til eit språkleg uttrykk i den verkelege verda; til skilnad frå konnot → BRA
+- konveks (bm): krummet utover; motsatt konkav → KJEDELIG
+- slabbe (bm): søle, slafse → BRA
+- omsonst (bm): forgjeves → BRA
+- trumfe (bm): spille ut en trumf (1, 2) → KJEDELIG
+- hungre (bm): føle sterkt savn av eller sterk trang til → BRA
+- hjonsleg (nn): om folk, til dømes par: som høver saman; tekkjeleg; hugsam → BRA
+- kontingent (nn): tilskot til eit felles føretak; samling av personar; gruppe → KJEDELIG
+- panegyrisk (bm): full av (overdrevent) rosende ord; skamrosende, svulmende → BRA
+- plastre (bm): legge plaster på noe → KJEDELIG
+- maktstjele (bm): ta kreftene fra; lamme → KJEDELIG
+- bitande (nn): sarkastisk, drepande; om vind, luft: kvass; brukt som adverb → BRA
+- stempelpliktig (nn): som det skal betalast stempelavgift for → KJEDELIG
+- resolvere (bm): beslutte, avgjøre → BRA
+- vinnskipelig (bm): nå sjelden: flittig og strevsom; foretaksom → BRA
+- stropne (nn): halde på å kjøvast av noko som har sett seg i halsen → BRA
+- mørklett (bm): mørk i huden (og håret) → BRA
+- boltre (bm): utfolde seg med lek eller lignende; tumle seg → BRA
+- skalkete (nn): lur og full av prette; skjelmsk → BRA
+- forspille (bm): sløse bort; ødelegge, spolere; brukt som adjektiv → KJEDELIG
+- sludre (bm): vrøvle; snakke om løst og fast → BRA
+- importere (nn): kjøpe og føre inn frå utlandet; jamfør eksportere; brukt som adjektiv; i overført: hente p → KJEDELIG
+- forsoren (bm): fandenivoldsk, kynisk → KJEDELIG
+- anløpen (bm): som er anløpe; tvilsom; lett beruset → BRA
+- henkaste (bm): kaste noe på en (tilsynelatende) tilfeldig måte; uttrykke noe på en (tilsynelatende) tilfe → BRA
+- deviere (bm): vike av fra kursen eller retningen → KJEDELIG
+- anstrengd (nn): spent, vanskeleg → KJEDELIG
+- korrelativ (bm): som tilsvarer hverandre; med innbyrdes sammenheng og vekselvirkning → BRA
+- dissosiere (nn): i psykologi: kople frå eller skilje element som høyrer saman; motsett assosiere; skilje, s → BRA
+- isotonisk (bm): som har samme osmotisk trykk; om muskelarbeid: som foregår med varierende muskellengde; dy → KJEDELIG
+- nordrøn (nn): om vind: som kjem nordanfrå → KJEDELIG
+- snerpe (bm): snurpe, knipe; trekke seg sammen; som adjektiv i presens partisipp: → BRA
+- rembursere (bm): dekke, godtgjøre, særlig ved remburs → KJEDELIG
+- hektografere (bm): om eldre forhold: kopiere med hektograf → BRA
+- forvalte (bm): styre; administrere; bruke de evnene og midlene en har, best mulig → KJEDELIG
+- spjåke (bm): pynte narraktig → BRA
+- jadden (bm): jammen → BRA
+- oppklare (nn): finne ut av eit sakstilhøve → KJEDELIG
+- tilsegkomen (nn): komen til seg sjølv, til medvit → KJEDELIG
+- kjakse (bm): hogge, klippe, slå ujevnt → BRA
+- reaktiv (bm): som reagerer lett; i fysikk: som framkaller reaksjon; motvirkende → KJEDELIG
+- apostolisk (nn): som skriv seg frå, gjeld apostel; i katolisismen: ubroten rekkje av innvigde biskop attend → KJEDELIG
+- motstående (bm): som står på den andre siden eller midt imot; i geometri, om vinkel eller side: som står mo → KJEDELIG
+- finnete (bm): om blad på plante: som har innbyrdes frie småblader på hver side av midtaksen → KJEDELIG
+- innarleg (nn): som er noko langt inne (til dømes i eit hus); brukt som adverb; hjarteleg, varm, ekte → BRA
+- skrubbete (nn): ru, ujamn; skjelete → KJEDELIG
+- mannbisk (bm): mannvond → KJEDELIG
+- ressursmessig (bm): som gjelder ressurs → KJEDELIG
+- synoptisk (bm): kortfattet, sammentrengt, oversiktlig /; kart over tilstanden i atmosfæren ved et bestemt  → KJEDELIG
+- prosessuell (bm): som gjelder rettergangen eller en rettssak; straff for å forstyrre rettsforhandlinger, ell → KJEDELIG
+- tistete (nn): flisete, oppriven (til dømes om hud); tjafsete og grisen, pistrete → BRA
+- ansøke (bm): søke → KJEDELIG
+- utlydende (bm): som står i utlyd → KJEDELIG
+- forflogen (nn): lauslynt; lite gjennomtenkt; tankelaus → BRA
+- naudven (nn): særs ven → BRA
+- avslørande (nn): som gjer noko klart og tydeleg for alle; talande → KJEDELIG
+- liskre (nn): smigre, sleiske, smiske; snakke rundt → BRA
+- smøyeleg (nn): uvanleg atterhalden; brydd; mistenksam → BRA
+- freknarrete (nn): arrete av frekner; freknete → KJEDELIG
+- adresselaus (nn): utan adresse → KJEDELIG
+- løgelig (bm): komisk, pussig; jamfør løyerlig → BRA
+- morgne (nn): bli skikkeleg vaken; få søvnen ut or auga → BRA
+- patrisisk (nn): som gjeld eller er særmerkt for patrisiar; fornem → KJEDELIG
+- vyrktaleg (nn): omhugsamt, vyrkt → BRA
+
+Oppgave: Gi hvert ord i batch-filen en karakter 1-5 (5 = utmerket dagens ord, 1 = kjedelig).
+Bruk hele skalaen; brukeren liker omtrent ett av tre ord i slike lister. Vurder ordet og betydningen.
+Skriv KUN JSON: {"<id>": karakter, ...} for alle id-er.
