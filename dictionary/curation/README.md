@@ -9,7 +9,7 @@ python3 frequency.py bm            # book frequencies for words in ord.db (~3 mi
 python3 frequency.py bm --all      # ... for every ordbank lemma (expansion, ~1 h)
 python3 score.py bm                # cache/scores_bm.csv + cache/report_bm.md
 python3 expand.py nn --fetch 25    # cache/expand_nn.md, with definitions for the top 25
-python3 pool.py 300 --expansion    # cache/labeler.html, the labeling page
+python3 pool.py --next labels.csv  # cache/labeler.html: next balanced labeling round
 python3 learn.py labels.csv        # fit weights to your labels (exported from the labeling page)
 ```
 

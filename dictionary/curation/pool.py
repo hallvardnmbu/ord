@@ -91,29 +91,39 @@ def hard_filtered(f):
     return any(rule(f) for rule in score.HARD.values())
 
 
-# Signals to oversample in the next round, with how many words each.
-SIGNALS = (("see_through", 20), ("derived", 15), ("dead_today", 10), ("dated", 10), ("style", 10))
+# Per dictionary: how many words each part of a labeling round gets.
+QUOTAS = {
+    "uncertain": 45,  # the model's probability is closest to 50/50
+    "top": 20,  # its best unlabelled picks, to check precision
+    "random": 35,  # uniform over the whole DB, hard-filtered words included
+    "signals": 15,  # derived / see-through / dated, spread evenly
+    "unused": 30,  # ordbokene headwords not in the DB (bm gets Norsk Ordbok's share)
+    "norsk-ordbok": 5,  # nn only, still printed after 2000
+}
+SIGNALS = ("derived", "see_through", "dated")
 
 
-def round2(labels_path, rng):
-    """Second round: words the fitted model is unsure about, its top picks,
-    the thinly labelled signals, fresh candidates and a few modern-attested
-    Norsk Ordbok words."""
+def labelled_keys(labels_path):
+    import glob
+    import learn
+
+    seen = set(learn.load_labels(labels_path))
+    for p in glob.glob(f"{lexicon.CACHE}/labels*/**/*.json", recursive=True):
+        d = json.load(open(p))
+        d = d.get("data", d)
+        seen.add((d["d"], d["w"]))
+    return seen
+
+
+def next_round(labels_path, rng):
+    """A balanced labeling round: the same quotas for bokmål and nynorsk."""
     import learn
     import numpy as np
 
     labels = learn.load_labels(labels_path)
-    seen = set(labels)
-    try:
-        import json as _json
-        for p in __import__("glob").glob(f"{lexicon.CACHE}/labels*/**/*.json", recursive=True):
-            d = _json.load(open(p))
-            d = d.get("data", d)
-            seen.add((d["d"], d["w"]))
-    except Exception:
-        pass
+    seen = labelled_keys(labels_path)
 
-    rows, train = [], []
+    data, train = {}, []
     for dictionary in ("bm", "nn"):
         defs = {w["word"]: w["definitions"] for w in lexicon.db_words(dictionary)}
         scored = score.score_all(features.for_db(dictionary))
@@ -123,40 +133,45 @@ def round2(labels_path, rng):
             r["terms"] = score.terms(r, mean)
             if (dictionary, r["word"]) in labels:
                 train.append((r, labels[(dictionary, r["word"])]))
-            elif (dictionary, r["word"]) not in seen and not r["hard"]:
-                rows.append(r)
-    # loan_verb is left out: the labels reward -ere, the stated goal does not.
+        data[dictionary] = [r for r in scored if (dictionary, r["word"]) not in seen]
+
+    # The model only orders candidates; loan_verb stays out (labels reward -ere,
+    # the stated goal does not).
     names = [n for n in score.WEIGHTS if n != "loan_verb"]
     X = np.array([[r["terms"][n] for n in names] for r, _ in train])
     y = np.array([label for _, label in train], dtype=float)
     w, b = learn.fit(X, y)
-    for r in rows:
-        logit = np.array([r["terms"][n] for n in names]) @ w + b
-        r["p"] = float(1 / (1 + np.exp(-logit)))
 
     pool, used = [], set()
 
-    def take(candidates, n, src):
+    def take(candidates, n, tag):
         for r in candidates:
             if n == 0:
                 break
             if r["word"] in used or not features.explanations(r["defs"]):
                 continue
             used.add(r["word"])
-            pool.append({**item(r["word"], r["d"], "db", r["defs"]), "tag": src})
+            pool.append({**item(r["word"], r["d"], "db", r["defs"]), "tag": tag})
             n -= 1
 
-    take(sorted(rows, key=lambda r: abs(r["p"] - 0.5)), 110, "uncertain")
-    take(sorted(rows, key=lambda r: -r["p"]), 50, "top")
-    for signal, n in SIGNALS:
-        hits = [r for r in rows if r[signal] and (signal != "derived" or not r["see_through"])]
-        take(rng.sample(hits, min(len(hits), 60)), n, signal)
+    for dictionary, rows in data.items():
+        kept = [r for r in rows if not r["hard"]]
+        for r in kept:
+            logit = np.array([r["terms"][n] for n in names]) @ w + b
+            r["p"] = float(1 / (1 + np.exp(-logit)))
+        take(sorted(kept, key=lambda r: abs(r["p"] - 0.5)), QUOTAS["uncertain"], "uncertain")
+        take(sorted(kept, key=lambda r: -r["p"]), QUOTAS["top"], "top")
+        take(rng.sample(rows, len(rows)), QUOTAS["random"], "random")
+        per_signal = QUOTAS["signals"] // len(SIGNALS)
+        for signal in SIGNALS:
+            hits = [r for r in kept if r[signal]]
+            take(rng.sample(hits, len(hits)), per_signal, signal)
 
-    # Fresh candidates ranked with the new weights.
-    for dictionary, n in (("bm", 35), ("nn", 25)):
-        db = {w["word"] for w in lexicon.db_words(dictionary)}
-        items = [x for x in expand.unused(dictionary, db)[:600] if (dictionary, x[0]) not in seen]
-        for lemma, article_id, f in rng.sample(items, min(len(items), n * 2)):
+        # Fresh candidates, screened with the same hard filters.
+        n = QUOTAS["unused"] + (QUOTAS["norsk-ordbok"] if dictionary == "bm" else 0)
+        db = {x["word"] for x in lexicon.db_words(dictionary)}
+        items = [x for x in expand.unused(dictionary, db)[:800] if (dictionary, x[0]) not in seen]
+        for lemma, article_id, f in rng.sample(items, len(items)):
             if n == 0:
                 break
             text, definitions, _ = expand.describe(dictionary, article_id)
@@ -164,24 +179,24 @@ def round2(labels_path, rng):
                 features.compute(lemma, dictionary, definitions)
             ):
                 example = (definitions["eksempel"] or [""])[0][:120]
-                pool.append({"w": lemma, "d": dictionary, "m": text, "e": example, "src": "unused"})
+                pool.append({"w": lemma, "d": dictionary, "m": text, "e": example,
+                             "src": "unused", "tag": "unused"})
                 n -= 1
 
-    # Dialect words only when they still turn up in books after 2000.
     modern = lexicon.cache_load("no_forms_modern.json", {})
     no = [x for x in expand.norsk_ordbok("nn")[:3000] if modern.get(x[0], 0) > 0.005]
-    n = 15
-    for lemma, article_id, f in rng.sample(no, min(len(no), 40)):
+    n = QUOTAS["norsk-ordbok"]
+    for lemma, article_id, f in rng.sample(no, len(no)):
         if n == 0:
             break
+        if ("nn", lemma) in seen:
+            continue
         text, definitions, _ = expand.describe("no", article_id)
-        if (
-            definitions
-            and definitions["forklaring"]
-            and ("nn", lemma) not in seen
-            and not hard_filtered(features.compute(lemma, "nn", definitions))
+        if definitions and definitions["forklaring"] and not hard_filtered(
+            features.compute(lemma, "nn", definitions)
         ):
-            pool.append({"w": lemma, "d": "nn", "m": text, "e": "", "src": "norsk-ordbok"})
+            pool.append({"w": lemma, "d": "nn", "m": text, "e": "", "src": "norsk-ordbok",
+                         "tag": "norsk-ordbok"})
             n -= 1
     return pool
 
@@ -189,8 +204,10 @@ def round2(labels_path, rng):
 if __name__ == "__main__":
     rng = random.Random(42)
     pool = []
-    if "--round2" in sys.argv:
-        pool = round2(sys.argv[sys.argv.index("--round2") + 1], rng)
+    if "--next" in sys.argv:
+        path = sys.argv[sys.argv.index("--next") + 1]
+        rng = random.Random(len(open(path).readlines()))  # a fresh draw per round
+        pool = next_round(path, rng)
     else:
         for dictionary in ("bm", "nn"):
             pool += from_db(dictionary, rng)
