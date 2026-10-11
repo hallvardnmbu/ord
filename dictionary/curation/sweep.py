@@ -480,7 +480,12 @@ def refine_report():
         print("  c=%d: " % c + "  ".join(f"r{rr}:{grid.get((c, rr), 0):4}" for rr in range(1, 6)))
 
 
-def refine_split(max_common=3, approve_r=4, reject_r=2):
+def refine_split(approve=0.5, ask_floor=0.35):
+    """Final verdicts. Very common words (c>=4) go; rare words (c<=2) with P(yes)
+    >= approve are approved; borderline commonness (c=3) that looks suitable, and
+    rare words just under the bar, are asked; the rest are rejected."""
+    m = json.load(open(f"{DIR}/refine_model.json"))
+    w, b = np.array(m["w"]), m["b"]
     batches, r = load("refine_batches.json"), refine_outputs()
     groups = {"approve": [], "ask": [], "reject": [], "common": []}
     for items in batches:
@@ -488,19 +493,21 @@ def refine_split(max_common=3, approve_r=4, reject_r=2):
             if "label" in x or x["id"] not in r:
                 continue
             c, rr = r[x["id"]].get("c", 3), r[x["id"]].get("r", 3)
-            x = dict(x, common=c, suit=rr)
-            if c > max_common:
+            p = float(1 / (1 + np.exp(-(np.array([np.log(x["p_cls"] / (1 - x["p_cls"])), c, rr]) @ w + b))))
+            x = dict(x, common=c, suit=rr, p_final=p)
+            if c >= 4:
                 groups["common"].append(x)
-            elif rr >= approve_r:
+            elif c <= 2 and p >= approve:
                 groups["approve"].append(x)
-            elif rr <= reject_r:
-                groups["reject"].append(x)
-            else:
+            elif (c == 3 and rr >= 3) or (c <= 2 and p >= ask_floor):
                 groups["ask"].append(x)
+            else:
+                groups["reject"].append(x)
     for k, v in groups.items():
-        v.sort(key=lambda x: (-x["suit"], x["common"]))
+        v.sort(key=lambda x: -x["p_final"])
         save(f"refined_{k}.json", v)
         print(f"{k}: {len(v)} ({sum(1 for x in v if x['d'] == 'bm')} bm / {sum(1 for x in v if x['d'] == 'nn')} nn)")
+
 
 
 if __name__ == "__main__":
