@@ -18,8 +18,8 @@ siden på nytt fra første ord. Kjør `bun dates.mjs` for å stokke på nytt og 
 <!-- dates:start -->
 | Ordbok | Ord | Første dato | Siste dato |
 |---|---:|---|---|
-| Bokmål | 603 | 11-10-2026 | 04-06-2028 |
-| Nynorsk | 480 | 11-10-2026 | 02-02-2028 |
+| Bokmål | 603 | 12-10-2026 | 05-06-2028 |
+| Nynorsk | 480 | 12-10-2026 | 03-02-2028 |
 <!-- dates:end -->
 
 ## Kjør lokalt
