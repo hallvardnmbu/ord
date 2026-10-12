@@ -1,37 +1,29 @@
-import { MongoClient } from "mongodb";
 import { Database } from "bun:sqlite";
 import { join } from "path";
+import { redate, writeReadme } from "./dates.mjs";
 
-const MONGO_URI =
-  `mongodb+srv://${process.env.MONGO_USR.trim()}:${process.env.MONGO_PWD.trim()}` +
-  `@ord.c8trc.mongodb.net/?retryWrites=true&w=majority&appName=ord`;
+// Build ord.db from the MongoDB collections, or with --curated from the reviewed word list in
+// dictionary/curated/{bm,nn}.json (same documents, no database needed).
+const CURATED = process.argv.includes("--curated");
 
-function shuffle(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
+let mongo = null;
+if (!CURATED) {
+  const { MongoClient } = await import("mongodb");
+  mongo = new MongoClient(
+    `mongodb+srv://${process.env.MONGO_USR.trim()}:${process.env.MONGO_PWD.trim()}` +
+      `@ord.c8trc.mongodb.net/?retryWrites=true&w=majority&appName=ord`,
+  );
+  await mongo.connect();
 }
 
-function formatDate(date) {
-  const d = date.getDate().toString().padStart(2, "0");
-  const m = (date.getMonth() + 1).toString().padStart(2, "0");
-  return `${d}-${m}-${date.getFullYear()}`;
+async function documents(dictionary) {
+  if (CURATED) return Bun.file(join(import.meta.dir, "dictionary", "curated", `${dictionary}.json`)).json();
+  return mongo
+    .db("ord")
+    .collection(dictionary)
+    .find({}, { projection: { _id: 0, date: 0, past: 0 } })
+    .toArray();
 }
-
-function assignDates(words) {
-  shuffle(words);
-  return words.map((word, i) => {
-    const date = new Date();
-    date.setDate(date.getDate() + i);
-    return { ...word, date: formatDate(date) };
-  });
-}
-
-const mongo = new MongoClient(MONGO_URI);
-await mongo.connect();
-const mongoDb = mongo.db("ord");
 
 const dbPath = join(import.meta.dir, "ord.db");
 const db = new Database(dbPath);
@@ -70,12 +62,7 @@ const insert = db.prepare(`
 `);
 
 for (const dictionary of ["bm", "nn"]) {
-  const docs = await mongoDb
-    .collection(dictionary)
-    .find({}, { projection: { _id: 0, date: 0, past: 0 } })
-    .toArray();
-
-  const words = assignDates(docs);
+  const words = await documents(dictionary);
 
   db.transaction(() => {
     for (const w of words) {
@@ -88,7 +75,7 @@ for (const dictionary of ["bm", "nn"]) {
         $etymology: w.etymology ? JSON.stringify(w.etymology) : null,
         $definitions: w.definitions ? JSON.stringify(w.definitions) : null,
         $inflection: w.inflection ? JSON.stringify(w.inflection) : null,
-        $date: w.date,
+        $date: null,
       });
     }
   })();
@@ -97,8 +84,11 @@ for (const dictionary of ["bm", "nn"]) {
 }
 
 db.run("INSERT INTO words_fts(rowid, word) SELECT rowid, word FROM words");
+const summary = redate(db); // shuffle each dictionary, one date per day from today
+await writeReadme(summary);
+db.run("VACUUM"); // reclaim the space of the dropped tables
 
-await mongo.close();
+await mongo?.close();
 db.close();
 
 console.log(`Built ${dbPath}`);

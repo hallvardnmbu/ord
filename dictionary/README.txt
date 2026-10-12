@@ -22,3 +22,11 @@ Information about the files:
 4. `dating.mjs`
     Generates a unique date for each word, starting today.
     Used to extract the word of the day for the application.
+
+Curated word list (used by the site):
+    `curated/bm.json` and `curated/nn.json` hold the reviewed words, as the same documents the
+    steps above produce. See `curation/README.md` for how they were chosen.
+    * `bun build.mjs --curated` builds ord.db straight from them (no MongoDB needed).
+    * `node dictionary/curated.mjs --replace` loads them into the `bm` / `nn` collections
+      (backing up the old ones), after which `dating.mjs` and `bun build.mjs` work as before.
+    `article.mjs` holds the article cleaning shared by `detailed.mjs` and the curation export.

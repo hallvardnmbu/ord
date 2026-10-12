@@ -1,0 +1,196 @@
+<title>Dagsord Ordsiling</title>
+<style>
+  /* Layout: one word at a time, centred column, verdict buttons pinned under the card. Mirrors public/style.css. */
+  :root {
+    --bg: #ffffff;
+    --fg: #333333;
+    --muted: #777777;
+    --line: #333333;
+    --tint: #f6f6f4;
+    --good: #2f6b3a;
+    --bad: #8a3324;
+    --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #2e2e2e; --fg: #d0d0d0; --muted: #9a9a9a; --line: #bdbdbd; --tint: #3a3a3a;
+      --good: #8fd19e; --bad: #f0a191; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #2e2e2e; --fg: #d0d0d0; --muted: #9a9a9a; --line: #bdbdbd; --tint: #3a3a3a;
+    --good: #8fd19e; --bad: #f0a191; color-scheme: dark;
+  }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg); color: var(--fg); font-family: var(--mono); font-size: 16px;
+    padding-inline: 16px; padding-block: 16px; box-sizing: border-box;
+  }
+  main { max-width: 34rem; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+  header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  h1 { font-size: 1rem; margin: 0; font-weight: 700; }
+  .stats { color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
+  .card { border: 1px solid var(--line); padding: 24px 20px; display: flex; flex-direction: column; gap: 14px; min-height: 15rem; }
+  .tags { display: flex; gap: 8px; flex-wrap: wrap; font-size: .75rem; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+  .tags span { border: 1px solid var(--muted); padding: 1px 6px; }
+  .word { font-size: clamp(1.8rem, 8vw, 2.6rem); font-weight: 700; margin: 0; overflow-wrap: anywhere; }
+  .meaning { margin: 0; line-height: 1.5; }
+  .example { margin: 0; color: var(--muted); font-style: italic; line-height: 1.5; }
+  .generated { margin: 0; color: var(--muted); font-size: .85rem; line-height: 1.5; border-top: 1px dashed var(--muted); padding-top: 10px; }
+  .verdicts { display: grid; grid-template-columns: 1fr auto 1fr; gap: 8px; }
+  button {
+    font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line);
+    padding: 14px 10px; cursor: pointer; min-height: 48px;
+  }
+  button:hover { background: var(--tint); }
+  button:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
+  button.bad { color: var(--bad); border-color: var(--bad); }
+  button.good { color: var(--good); border-color: var(--good); }
+  button:disabled { opacity: .4; cursor: default; }
+  .row { display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; font-size: .85rem; color: var(--muted); }
+  .row button { padding: 6px 10px; min-height: 0; font-size: .85rem; }
+  .note { font-size: .85rem; color: var(--muted); line-height: 1.5; margin: 0; }
+  kbd { border: 1px solid var(--muted); padding: 0 4px; font-family: inherit; font-size: .8em; }
+  .done { text-align: center; padding: 40px 0; }
+</style>
+
+<main>
+  <header>
+    <h1>dagsord · ordsiling</h1>
+    <span class="stats" id="stats">laster…</span>
+  </header>
+
+  <section class="card" id="card" aria-live="polite">
+    <div class="tags" id="tags"></div>
+    <p class="word" id="word">…</p>
+    <p class="meaning" id="meaning"></p>
+    <p class="example" id="example"></p>
+    <p class="generated" id="generated" hidden></p>
+  </section>
+
+  <div class="verdicts">
+    <button class="bad" id="bad" type="button">Kjedelig</button>
+    <button id="skip" type="button">Vet ikke</button>
+    <button class="good" id="good" type="button">Dagsord!</button>
+  </div>
+
+  <div class="row">
+    <span><kbd>←</kbd> kjedelig · <kbd>↓</kbd> vet ikke · <kbd>→</kbd> dagsord</span>
+    <button id="undo" type="button" disabled>Angre</button>
+  </div>
+
+  <p class="note" id="status">Ville du vist dette ordet som dagens ord? Svarene brukes til å vekte filtrene.</p>
+</main>
+
+<script>
+const POOL = /*POOL*/[];
+const COLLECTION = "round8"; // one collection per round: the page loads at most 1000 verdicts
+
+const $ = (id) => document.getElementById(id);
+const labels = new Map(); // key -> 1 | 0 | -1 (skip)
+const history = [];
+let db = null;
+let current = null;
+
+const keyOf = (item) =>
+  item.d + "-" + item.w.replace(/[^a-z0-9]/g, (c) =>
+    ({ "æ": "~ae", "ø": "~oe", "å": "~aa" })[c] || "~" + c.codePointAt(0).toString(16));
+
+function loadLocal() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(COLLECTION) || "{}");
+    for (const [k, v] of Object.entries(saved)) labels.set(k, v);
+  } catch {}
+}
+function saveLocal() {
+  try { localStorage.setItem(COLLECTION, JSON.stringify(Object.fromEntries(labels))); } catch {}
+}
+
+function render() {
+  const good = [...labels.values()].filter((v) => v === 1).length;
+  const bad = [...labels.values()].filter((v) => v === 0).length;
+  $("stats").textContent = `${good} dagsord · ${bad} kjedelige · ${POOL.length - labels.size} igjen`;
+  $("undo").disabled = history.length === 0;
+
+  current = POOL.find((item) => !labels.has(keyOf(item))) || null;
+  const buttons = ["bad", "skip", "good"].map($);
+  if (!current) {
+    $("tags").textContent = "";
+    $("word").textContent = "Ferdig";
+    $("meaning").textContent = "Alle ordene er vurdert. Si fra til Claude, så tilpasses vektene.";
+    $("example").textContent = "";
+    $("generated").hidden = true;
+    buttons.forEach((b) => (b.disabled = true));
+    return;
+  }
+  buttons.forEach((b) => (b.disabled = false));
+  const tags = [current.d === "bm" ? "bokmål" : "nynorsk"];
+  if (current.src !== "db") tags.push(current.src === "norsk-ordbok" ? "Norsk Ordbok" : "ny kandidat");
+  $("tags").replaceChildren(...tags.map((t) => Object.assign(document.createElement("span"), { textContent: t })));
+  $("word").textContent = current.w;
+  $("meaning").textContent = current.m || "(ingen definisjon)";
+  $("example").textContent = current.e ? `«${current.e}»` : "";
+  $("generated").hidden = !current.s;
+  $("generated").textContent = current.s ? `Eksempel laget av Haiku: «${current.s}»` : "";
+}
+
+async function verdict(value) {
+  if (!current) return;
+  const item = current;
+  const key = keyOf(item);
+  labels.set(key, value);
+  history.push(key);
+  saveLocal();
+  render();
+  if (!db) return;
+  try {
+    await db.collection(COLLECTION).doc(key).set({
+      w: item.w, d: item.d, label: value, src: item.src, decile: item.decile ?? null, at: Date.now(),
+    });
+  } catch (e) {
+    $("status").textContent = `Kunne ikke lagre «${item.w}» (${e.code || e}). Svaret er lagret i nettleseren.`;
+  }
+}
+
+async function undo() {
+  const key = history.pop();
+  if (!key) return;
+  labels.delete(key);
+  saveLocal();
+  render();
+  if (db) { try { await db.collection(COLLECTION).doc(key).delete(); } catch {} }
+}
+
+$("bad").onclick = () => verdict(0);
+$("good").onclick = () => verdict(1);
+$("skip").onclick = () => verdict(-1);
+$("undo").onclick = undo;
+document.addEventListener("keydown", (e) => {
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.key === "ArrowLeft") verdict(0);
+  else if (e.key === "ArrowRight") verdict(1);
+  else if (e.key === "ArrowDown") { e.preventDefault(); verdict(-1); }
+  else if (e.key === "z" || e.key === "Backspace") undo();
+});
+
+loadLocal();
+render();
+
+(async () => {
+  db = window.claude?.use ? await window.claude.use("db") : null;
+  if (!db) {
+    $("status").textContent = "Svarene lagres bare i denne nettleseren.";
+    return;
+  }
+  try {
+    const snap = await db.collection(COLLECTION).limit(1000).get();
+    for (const doc of snap.docs) {
+      const data = doc.data();
+      if (data) labels.set(doc.id, data.label);
+    }
+    render();
+  } catch (e) {
+    $("status").textContent = `Fant ikke tidligere svar (${e.code || e}).`;
+  }
+})();
+</script>

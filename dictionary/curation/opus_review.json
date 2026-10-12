@@ -1,0 +1,5578 @@
+{
+"bm/abnorm": [
+0,
+"common"
+],
+"bm/adstadig": [
+1,
+"ok"
+],
+"bm/affektasjon": [
+1,
+"ok"
+],
+"bm/agnor": [
+0,
+"technical"
+],
+"bm/akke": [
+1,
+"ok"
+],
+"bm/akkedere": [
+1,
+"ok"
+],
+"bm/akkuratesse": [
+1,
+"ok"
+],
+"bm/akribi": [
+1,
+"ok"
+],
+"bm/alskens": [
+0,
+"common"
+],
+"bm/ambrosisk": [
+1,
+"ok"
+],
+"bm/anatema": [
+1,
+"ok"
+],
+"bm/andøve": [
+0,
+"technical"
+],
+"bm/anfekte": [
+1,
+"ok"
+],
+"bm/angiversk": [
+0,
+"derived"
+],
+"bm/anløpen": [
+1,
+"ok"
+],
+"bm/anskreven": [
+0,
+"common"
+],
+"bm/anstille": [
+0,
+"common"
+],
+"bm/anstrøken": [
+0,
+"derived"
+],
+"bm/antimakassar": [
+1,
+"ok"
+],
+"bm/antropofag": [
+1,
+"ok"
+],
+"bm/apoteose": [
+1,
+"ok"
+],
+"bm/apparisjon": [
+1,
+"ok"
+],
+"bm/armodslig": [
+0,
+"derived"
+],
+"bm/arrivere": [
+1,
+"ok"
+],
+"bm/atal": [
+1,
+"ok"
+],
+"bm/atlask": [
+0,
+"technical"
+],
+"bm/atsprede": [
+1,
+"ok"
+],
+"bm/attre": [
+1,
+"ok"
+],
+"bm/aule": [
+1,
+"ok"
+],
+"bm/auspisier": [
+1,
+"ok"
+],
+"bm/avbaklig": [
+1,
+"ok"
+],
+"bm/avfeldig": [
+1,
+"ok"
+],
+"bm/avferdige": [
+1,
+"ok"
+],
+"bm/avsanne": [
+0,
+"derived"
+],
+"bm/bagge": [
+1,
+"ok"
+],
+"bm/bakkanal": [
+1,
+"ok"
+],
+"bm/bakkantisk": [
+1,
+"ok"
+],
+"bm/bakkenbart": [
+1,
+"ok"
+],
+"bm/balstyrig": [
+1,
+"ok"
+],
+"bm/bandolær": [
+0,
+"technical"
+],
+"bm/bebrilla": [
+1,
+"ok"
+],
+"bm/befippa": [
+1,
+"ok"
+],
+"bm/beflitte": [
+1,
+"ok"
+],
+"bm/bejae": [
+0,
+"common"
+],
+"bm/bekvemme": [
+1,
+"ok"
+],
+"bm/beleven": [
+1,
+"ok"
+],
+"bm/berede": [
+0,
+"common"
+],
+"bm/berme": [
+1,
+"ok"
+],
+"bm/besindig": [
+1,
+"ok"
+],
+"bm/beskadige": [
+0,
+"derived"
+],
+"bm/beskøyt": [
+1,
+"ok"
+],
+"bm/besyv": [
+1,
+"ok"
+],
+"bm/beta": [
+0,
+"common"
+],
+"bm/betutta": [
+1,
+"ok"
+],
+"bm/bikse": [
+1,
+"ok"
+],
+"bm/bisle": [
+0,
+"derived"
+],
+"bm/bjekso": [
+0,
+"dull"
+],
+"bm/blaffe": [
+0,
+"common"
+],
+"bm/blafre": [
+0,
+"common"
+],
+"bm/blakkert": [
+0,
+"dull"
+],
+"bm/blakre": [
+1,
+"ok"
+],
+"bm/bleige": [
+0,
+"technical"
+],
+"bm/blingset": [
+1,
+"ok"
+],
+"bm/bluferdig": [
+1,
+"ok"
+],
+"bm/blunde": [
+0,
+"common"
+],
+"bm/blussel": [
+1,
+"ok"
+],
+"bm/boklærd": [
+1,
+"ok"
+],
+"bm/boltre": [
+0,
+"common"
+],
+"bm/bondeful": [
+1,
+"ok"
+],
+"bm/bramme": [
+1,
+"ok"
+],
+"bm/brande": [
+1,
+"ok"
+],
+"bm/braute": [
+1,
+"ok"
+],
+"bm/brynde": [
+1,
+"ok"
+],
+"bm/bumse": [
+1,
+"restored by user"
+],
+"bm/bumsete": [
+1,
+"ok"
+],
+"bm/bursjoasi": [
+0,
+"common"
+],
+"bm/bygsle": [
+0,
+"technical"
+],
+"bm/børsten": [
+1,
+"ok"
+],
+"bm/celeber": [
+1,
+"ok"
+],
+"bm/dalle": [
+1,
+"ok"
+],
+"bm/damejeanne": [
+1,
+"ok"
+],
+"bm/dandere": [
+1,
+"ok"
+],
+"bm/deild": [
+1,
+"restored by user"
+],
+"bm/dert": [
+1,
+"ok"
+],
+"bm/distributiv": [
+1,
+"ok"
+],
+"bm/dorgende": [
+1,
+"ok"
+],
+"bm/drabelig": [
+0,
+"common"
+],
+"bm/dragse": [
+1,
+"ok"
+],
+"bm/drakonisk": [
+0,
+"common"
+],
+"bm/dravat": [
+1,
+"ok"
+],
+"bm/drette": [
+0,
+"dull"
+],
+"bm/drunte": [
+1,
+"ok"
+],
+"bm/drøle": [
+1,
+"ok"
+],
+"bm/drøs": [
+1,
+"ok"
+],
+"bm/drøse": [
+1,
+"ok"
+],
+"bm/dubbe": [
+1,
+"ok"
+],
+"bm/dugurd": [
+0,
+"common"
+],
+"bm/dulgt": [
+1,
+"ok"
+],
+"bm/dulme": [
+1,
+"ok"
+],
+"bm/dulpe": [
+1,
+"ok"
+],
+"bm/dune": [
+0,
+"common"
+],
+"bm/dyende": [
+1,
+"ok"
+],
+"bm/dægeren": [
+0,
+"offensive"
+],
+"bm/dægern": [
+0,
+"offensive"
+],
+"bm/edder": [
+0,
+"common"
+],
+"bm/eklatant": [
+1,
+"ok"
+],
+"bm/ekvilibrist": [
+1,
+"ok"
+],
+"bm/eling": [
+0,
+"dull"
+],
+"bm/elyseisk": [
+1,
+"ok"
+],
+"bm/enkom": [
+0,
+"common"
+],
+"bm/estime": [
+1,
+"ok"
+],
+"bm/eufonisk": [
+1,
+"ok"
+],
+"bm/fidibus": [
+1,
+"ok"
+],
+"bm/fiffe": [
+1,
+"ok"
+],
+"bm/filiokus": [
+1,
+"ok"
+],
+"bm/filipens": [
+1,
+"ok"
+],
+"bm/filisteri": [
+1,
+"ok"
+],
+"bm/filistrøs": [
+1,
+"ok"
+],
+"bm/fjamse": [
+1,
+"ok"
+],
+"bm/fjeske": [
+1,
+"ok"
+],
+"bm/fjetre": [
+0,
+"common"
+],
+"bm/fjonge": [
+1,
+"ok"
+],
+"bm/fjåg": [
+1,
+"restored by user"
+],
+"bm/flenge": [
+1,
+"ok"
+],
+"bm/flerre": [
+1,
+"ok"
+],
+"bm/fleske": [
+1,
+"ok"
+],
+"bm/flokse": [
+1,
+"ok"
+],
+"bm/floragram": [
+0,
+"dull"
+],
+"bm/florisant": [
+1,
+"ok"
+],
+"bm/fluksens": [
+1,
+"ok"
+],
+"bm/fnokk": [
+0,
+"technical"
+],
+"bm/foliant": [
+1,
+"ok"
+],
+"bm/forbindtlig": [
+1,
+"ok"
+],
+"bm/forbistra": [
+1,
+"ok"
+],
+"bm/forblende": [
+0,
+"technical"
+],
+"bm/forborgen": [
+1,
+"ok"
+],
+"bm/fordrømt": [
+1,
+"ok"
+],
+"bm/forfløyen": [
+1,
+"ok"
+],
+"bm/forgapa": [
+0,
+"common"
+],
+"bm/forgape": [
+1,
+"ok"
+],
+"bm/forgjøre": [
+1,
+"ok"
+],
+"bm/forgremma": [
+1,
+"ok"
+],
+"bm/forjaga": [
+1,
+"ok"
+],
+"bm/forknytt": [
+1,
+"ok"
+],
+"bm/formodentlig": [
+0,
+"common"
+],
+"bm/formumme": [
+1,
+"ok"
+],
+"bm/forslagen": [
+1,
+"ok"
+],
+"bm/forsoffen": [
+1,
+"ok"
+],
+"bm/forstøkt": [
+1,
+"ok"
+],
+"bm/forterpa": [
+1,
+"ok"
+],
+"bm/forvorpen": [
+1,
+"ok"
+],
+"bm/forvåka": [
+1,
+"ok"
+],
+"bm/frege": [
+0,
+"archaic"
+],
+"bm/freste": [
+1,
+"ok"
+],
+"bm/frette": [
+1,
+"ok"
+],
+"bm/fripostig": [
+1,
+"ok"
+],
+"bm/galdre": [
+1,
+"ok"
+],
+"bm/galeas": [
+0,
+"technical"
+],
+"bm/gaman": [
+1,
+"ok"
+],
+"bm/gampe": [
+1,
+"ok"
+],
+"bm/gante": [
+1,
+"ok"
+],
+"bm/garpe": [
+1,
+"ok"
+],
+"bm/gauke": [
+1,
+"ok"
+],
+"bm/gaum": [
+1,
+"ok"
+],
+"bm/gaume": [
+1,
+"ok"
+],
+"bm/gemeinslig": [
+0,
+"spelling"
+],
+"bm/gemenslig": [
+1,
+"ok"
+],
+"bm/geskjeftig": [
+1,
+"ok"
+],
+"bm/gesvint": [
+1,
+"ok"
+],
+"bm/gjalle": [
+0,
+"common"
+],
+"bm/gjelle": [
+1,
+"ok"
+],
+"bm/gjøgl": [
+0,
+"common"
+],
+"bm/gjøle": [
+1,
+"ok"
+],
+"bm/glafse": [
+1,
+"ok"
+],
+"bm/glamme": [
+1,
+"ok"
+],
+"bm/glekse": [
+0,
+"spelling"
+],
+"bm/glett": [
+0,
+"spelling"
+],
+"bm/glohersk": [
+1,
+"ok"
+],
+"bm/gloriøs": [
+0,
+"common"
+],
+"bm/gnafse": [
+1,
+"ok"
+],
+"bm/gnaldre": [
+1,
+"ok"
+],
+"bm/gnav": [
+0,
+"dull"
+],
+"bm/gnavle": [
+1,
+"ok"
+],
+"bm/gneldre": [
+1,
+"ok"
+],
+"bm/gnell": [
+1,
+"ok"
+],
+"bm/gnelle": [
+1,
+"ok"
+],
+"bm/gnikse": [
+1,
+"ok"
+],
+"bm/gnisle": [
+1,
+"ok"
+],
+"bm/gniste": [
+1,
+"ok"
+],
+"bm/gnomisk": [
+1,
+"ok"
+],
+"bm/gnubbe": [
+0,
+"common"
+],
+"bm/gnusle": [
+1,
+"ok"
+],
+"bm/grafsen": [
+1,
+"ok"
+],
+"bm/granngivelig": [
+1,
+"ok"
+],
+"bm/grassat": [
+1,
+"ok"
+],
+"bm/gratiale": [
+1,
+"ok"
+],
+"bm/gravitet": [
+1,
+"ok"
+],
+"bm/grisle": [
+1,
+"ok"
+],
+"bm/grissen": [
+1,
+"ok"
+],
+"bm/grufs": [
+0,
+"dull"
+],
+"bm/grukk": [
+1,
+"ok"
+],
+"bm/gryle": [
+1,
+"ok"
+],
+"bm/gutere": [
+1,
+"ok"
+],
+"bm/gylte": [
+0,
+"technical"
+],
+"bm/habengut": [
+1,
+"ok"
+],
+"bm/handflika": [
+0,
+"technical"
+],
+"bm/hektografere": [
+0,
+"technical"
+],
+"bm/helledussen": [
+1,
+"ok"
+],
+"bm/henkaste": [
+0,
+"common"
+],
+"bm/henslepe": [
+1,
+"ok"
+],
+"bm/heppe": [
+1,
+"ok"
+],
+"bm/herdebrei": [
+1,
+"ok"
+],
+"bm/herostratisk": [
+1,
+"ok"
+],
+"bm/herpesere": [
+1,
+"ok"
+],
+"bm/hikkas": [
+1,
+"ok"
+],
+"bm/hildre": [
+1,
+"ok"
+],
+"bm/hire": [
+1,
+"ok"
+],
+"bm/hiren": [
+1,
+"ok"
+],
+"bm/hjertensgod": [
+1,
+"ok"
+],
+"bm/hjon": [
+1,
+"ok"
+],
+"bm/hjonslig": [
+1,
+"ok"
+],
+"bm/hjord": [
+0,
+"common"
+],
+"bm/hofferdig": [
+1,
+"ok"
+],
+"bm/holograf": [
+0,
+"technical"
+],
+"bm/honnett": [
+1,
+"ok"
+],
+"bm/hoppsa": [
+1,
+"restored by user"
+],
+"bm/hoppsasa": [
+1,
+"ok"
+],
+"bm/hufse": [
+1,
+"ok"
+],
+"bm/hugal": [
+1,
+"ok"
+],
+"bm/hukre": [
+1,
+"ok"
+],
+"bm/huldren": [
+1,
+"ok"
+],
+"bm/hullsalig": [
+1,
+"ok"
+],
+"bm/hungre": [
+0,
+"common"
+],
+"bm/huskomhei": [
+1,
+"ok"
+],
+"bm/hustren": [
+1,
+"ok"
+],
+"bm/hutle": [
+1,
+"ok"
+],
+"bm/huttemegtu": [
+1,
+"ok"
+],
+"bm/huttetu": [
+1,
+"ok"
+],
+"bm/idiofon": [
+1,
+"restored by user"
+],
+"bm/idke": [
+1,
+"restored by user"
+],
+"bm/illudere": [
+1,
+"ok"
+],
+"bm/indolens": [
+1,
+"ok"
+],
+"bm/infamerende": [
+1,
+"ok"
+],
+"bm/insiterende": [
+1,
+"ok"
+],
+"bm/intelligibel": [
+1,
+"ok"
+],
+"bm/jabbe": [
+1,
+"ok"
+],
+"bm/jalm": [
+1,
+"ok"
+],
+"bm/jalme": [
+0,
+"dialect"
+],
+"bm/jardiniere": [
+0,
+"technical"
+],
+"bm/jelk": [
+0,
+"technical"
+],
+"bm/jemini": [
+1,
+"ok"
+],
+"bm/jeremiade": [
+1,
+"ok"
+],
+"bm/joho": [
+0,
+"common"
+],
+"bm/jorte": [
+1,
+"restored by user"
+],
+"bm/judisium": [
+1,
+"ok"
+],
+"bm/jugle": [
+1,
+"ok"
+],
+"bm/juglete": [
+1,
+"ok"
+],
+"bm/jåle": [
+0,
+"common"
+],
+"bm/jøkel": [
+0,
+"technical"
+],
+"bm/kadreie": [
+1,
+"restored by user"
+],
+"bm/kakofon": [
+1,
+"ok"
+],
+"bm/kamarilja": [
+1,
+"ok"
+],
+"bm/kaprise": [
+0,
+"common"
+],
+"bm/kaprisiøs": [
+1,
+"ok"
+],
+"bm/karnøfle": [
+1,
+"ok"
+],
+"bm/kattun": [
+0,
+"technical"
+],
+"bm/kaudervelsk": [
+1,
+"ok"
+],
+"bm/kaue": [
+1,
+"ok"
+],
+"bm/kaut": [
+1,
+"ok"
+],
+"bm/kavring": [
+0,
+"common"
+],
+"bm/keik": [
+1,
+"ok"
+],
+"bm/keike": [
+1,
+"ok"
+],
+"bm/keivle": [
+0,
+"derived"
+],
+"bm/kike": [
+1,
+"ok"
+],
+"bm/kipen": [
+1,
+"ok"
+],
+"bm/kippskodd": [
+1,
+"ok"
+],
+"bm/kive": [
+1,
+"ok"
+],
+"bm/kjakse": [
+1,
+"ok"
+],
+"bm/kjekkel": [
+1,
+"ok"
+],
+"bm/kjekkesen": [
+1,
+"restored by user"
+],
+"bm/kjekle": [
+1,
+"ok"
+],
+"bm/kjerte": [
+1,
+"ok"
+],
+"bm/kjeske": [
+1,
+"ok"
+],
+"bm/kjesken": [
+1,
+"ok"
+],
+"bm/kjos": [
+1,
+"restored by user"
+],
+"bm/kjæte": [
+1,
+"ok"
+],
+"bm/kjøv": [
+0,
+"technical"
+],
+"bm/kleime": [
+1,
+"ok"
+],
+"bm/kleimen": [
+1,
+"ok"
+],
+"bm/kleise": [
+1,
+"restored by user"
+],
+"bm/klen": [
+0,
+"spelling"
+],
+"bm/kleresi": [
+1,
+"ok"
+],
+"bm/klesset": [
+1,
+"ok"
+],
+"bm/kleve": [
+1,
+"ok"
+],
+"bm/klunke": [
+0,
+"dull"
+],
+"bm/klåte": [
+0,
+"dialect"
+],
+"bm/kløkk": [
+0,
+"dialect"
+],
+"bm/kløkke": [
+1,
+"ok"
+],
+"bm/knatte": [
+1,
+"ok"
+],
+"bm/knert": [
+1,
+"ok"
+],
+"bm/knerte": [
+1,
+"ok"
+],
+"bm/knette": [
+1,
+"ok"
+],
+"bm/knipsk": [
+1,
+"ok"
+],
+"bm/knultre": [
+1,
+"ok"
+],
+"bm/knurpe": [
+1,
+"ok"
+],
+"bm/knurv": [
+1,
+"ok"
+],
+"bm/knuslet": [
+1,
+"ok"
+],
+"bm/knuvl": [
+1,
+"ok"
+],
+"bm/knøttende": [
+1,
+"ok"
+],
+"bm/kodde": [
+0,
+"dialect"
+],
+"bm/kodilje": [
+1,
+"ok"
+],
+"bm/kogle": [
+1,
+"ok"
+],
+"bm/kokkelere": [
+1,
+"ok"
+],
+"bm/kokkerere": [
+0,
+"spelling"
+],
+"bm/kokre": [
+1,
+"restored by user"
+],
+"bm/kole": [
+0,
+"dull"
+],
+"bm/kolokvinter": [
+1,
+"ok"
+],
+"bm/kongenialitet": [
+0,
+"derived"
+],
+"bm/konveniens": [
+1,
+"ok"
+],
+"bm/konventikkel": [
+1,
+"ok"
+],
+"bm/kope": [
+1,
+"ok"
+],
+"bm/kopiøs": [
+1,
+"ok"
+],
+"bm/korduan": [
+0,
+"technical"
+],
+"bm/korrelativ": [
+0,
+"technical"
+],
+"bm/koturne": [
+0,
+"technical"
+],
+"bm/krabbekjent": [
+1,
+"ok"
+],
+"bm/krake": [
+0,
+"dull"
+],
+"bm/kramme": [
+1,
+"ok"
+],
+"bm/kramse": [
+1,
+"ok"
+],
+"bm/kreiste": [
+1,
+"ok"
+],
+"bm/kreke": [
+1,
+"ok"
+],
+"bm/krikle": [
+1,
+"ok"
+],
+"bm/krinkel": [
+1,
+"ok"
+],
+"bm/krisle": [
+1,
+"ok"
+],
+"bm/kritle": [
+1,
+"ok"
+],
+"bm/krugget": [
+1,
+"ok"
+],
+"bm/kruk": [
+0,
+"dull"
+],
+"bm/kruke": [
+0,
+"dull"
+],
+"bm/krukse": [
+1,
+"ok"
+],
+"bm/kruksen": [
+1,
+"restored by user"
+],
+"bm/krusle": [
+1,
+"ok"
+],
+"bm/kruslet": [
+1,
+"ok"
+],
+"bm/krøsse": [
+1,
+"ok"
+],
+"bm/kukelure": [
+1,
+"ok"
+],
+"bm/kulse": [
+1,
+"ok"
+],
+"bm/kurasje": [
+1,
+"ok"
+],
+"bm/kvamne": [
+1,
+"ok"
+],
+"bm/kvapset": [
+1,
+"ok"
+],
+"bm/kvase": [
+0,
+"dull"
+],
+"bm/kveike": [
+1,
+"ok"
+],
+"bm/kvell": [
+0,
+"dialect"
+],
+"bm/kversill": [
+0,
+"technical"
+],
+"bm/kverulere": [
+0,
+"common"
+],
+"bm/kverve": [
+1,
+"ok"
+],
+"bm/kves": [
+0,
+"dull"
+],
+"bm/kveste": [
+0,
+"common"
+],
+"bm/kvidder": [
+1,
+"ok"
+],
+"bm/kvide": [
+1,
+"ok"
+],
+"bm/kvink": [
+0,
+"dull"
+],
+"bm/kvinke": [
+1,
+"ok"
+],
+"bm/kvivitt": [
+0,
+"dull"
+],
+"bm/kvæve": [
+1,
+"restored by user"
+],
+"bm/kyklopisk": [
+1,
+"ok"
+],
+"bm/kyndel": [
+1,
+"ok"
+],
+"bm/kyte": [
+1,
+"ok"
+],
+"bm/laban": [
+1,
+"ok"
+],
+"bm/labbelensk": [
+1,
+"ok"
+],
+"bm/lale": [
+1,
+"ok"
+],
+"bm/lalle": [
+0,
+"common"
+],
+"bm/lemster": [
+1,
+"ok"
+],
+"bm/lemstre": [
+1,
+"ok"
+],
+"bm/lend": [
+0,
+"archaic"
+],
+"bm/lespe": [
+0,
+"common"
+],
+"bm/livd": [
+1,
+"ok"
+],
+"bm/ljom": [
+1,
+"ok"
+],
+"bm/ljøske": [
+1,
+"ok"
+],
+"bm/luguber": [
+1,
+"ok"
+],
+"bm/lukrere": [
+1,
+"ok"
+],
+"bm/lulle": [
+0,
+"common"
+],
+"bm/lunne": [
+0,
+"technical"
+],
+"bm/lurk": [
+1,
+"ok"
+],
+"bm/lurke": [
+1,
+"ok"
+],
+"bm/lurveleven": [
+1,
+"ok"
+],
+"bm/læger": [
+0,
+"dull"
+],
+"bm/læte": [
+1,
+"ok"
+],
+"bm/løgelig": [
+1,
+"ok"
+],
+"bm/løglig": [
+1,
+"ok"
+],
+"bm/lønsk": [
+1,
+"ok"
+],
+"bm/løyen": [
+1,
+"ok"
+],
+"bm/løynsk": [
+0,
+"spelling"
+],
+"bm/maksle": [
+1,
+"ok"
+],
+"bm/malebarisk": [
+1,
+"ok"
+],
+"bm/manuduksjon": [
+0,
+"technical"
+],
+"bm/marme": [
+1,
+"ok"
+],
+"bm/martre": [
+1,
+"ok"
+],
+"bm/mastiks": [
+0,
+"technical"
+],
+"bm/mefistofelisk": [
+1,
+"ok"
+],
+"bm/melodont": [
+1,
+"ok"
+],
+"bm/minuend": [
+1,
+"restored by user"
+],
+"bm/mitraljøse": [
+0,
+"technical"
+],
+"bm/mjøll": [
+0,
+"common"
+],
+"bm/morganatisk": [
+0,
+"technical"
+],
+"bm/morgne": [
+1,
+"ok"
+],
+"bm/muge": [
+1,
+"ok"
+],
+"bm/mulle": [
+1,
+"ok"
+],
+"bm/muntrasjon": [
+1,
+"ok"
+],
+"bm/muskateller": [
+0,
+"common"
+],
+"bm/myhank": [
+1,
+"ok"
+],
+"bm/mørje": [
+1,
+"ok"
+],
+"bm/mørklett": [
+0,
+"dull"
+],
+"bm/nativistisk": [
+0,
+"technical"
+],
+"bm/navnlig": [
+0,
+"common"
+],
+"bm/nemme": [
+1,
+"ok"
+],
+"bm/nimbus": [
+1,
+"ok"
+],
+"bm/noksagt": [
+1,
+"ok"
+],
+"bm/noss": [
+1,
+"ok"
+],
+"bm/nudde": [
+0,
+"technical"
+],
+"bm/nufse": [
+1,
+"ok"
+],
+"bm/nugg": [
+0,
+"dull"
+],
+"bm/nugge": [
+1,
+"ok"
+],
+"bm/nuske": [
+1,
+"ok"
+],
+"bm/nusselig": [
+0,
+"common"
+],
+"bm/nussete": [
+1,
+"ok"
+],
+"bm/nøff": [
+0,
+"dull"
+],
+"bm/nøffe": [
+1,
+"ok"
+],
+"bm/nøring": [
+0,
+"dull"
+],
+"bm/obskurantisk": [
+1,
+"ok"
+],
+"bm/obstanasig": [
+1,
+"ok"
+],
+"bm/ofse": [
+0,
+"dull"
+],
+"bm/okke": [
+1,
+"ok"
+],
+"bm/okklusiv": [
+0,
+"technical"
+],
+"bm/omkalfatre": [
+1,
+"ok"
+],
+"bm/omsonst": [
+1,
+"ok"
+],
+"bm/opulens": [
+1,
+"ok"
+],
+"bm/ordhitten": [
+1,
+"ok"
+],
+"bm/ostentativ": [
+1,
+"ok"
+],
+"bm/ottefull": [
+1,
+"ok"
+],
+"bm/pale": [
+0,
+"dialect"
+],
+"bm/pamfilius": [
+1,
+"ok"
+],
+"bm/panasj": [
+1,
+"ok"
+],
+"bm/panegyrere": [
+1,
+"ok"
+],
+"bm/panegyrisk": [
+1,
+"ok"
+],
+"bm/pardong": [
+1,
+"ok"
+],
+"bm/pargas": [
+1,
+"ok"
+],
+"bm/partout": [
+1,
+"ok"
+],
+"bm/paskvill": [
+1,
+"ok"
+],
+"bm/passiare": [
+1,
+"ok"
+],
+"bm/patronym": [
+1,
+"restored by user"
+],
+"bm/paulun": [
+1,
+"ok"
+],
+"bm/pell": [
+0,
+"archaic"
+],
+"bm/perfektibel": [
+1,
+"ok"
+],
+"bm/perial": [
+1,
+"ok"
+],
+"bm/pinadø": [
+1,
+"ok"
+],
+"bm/piskadausen": [
+1,
+"ok"
+],
+"bm/pistre": [
+1,
+"ok"
+],
+"bm/pjalle": [
+1,
+"ok"
+],
+"bm/pjank": [
+1,
+"ok"
+],
+"bm/pjolter": [
+1,
+"ok"
+],
+"bm/pjutre": [
+1,
+"ok"
+],
+"bm/plapre": [
+1,
+"ok"
+],
+"bm/plette": [
+0,
+"common"
+],
+"bm/plire": [
+1,
+"ok"
+],
+"bm/plundre": [
+0,
+"common"
+],
+"bm/pluriform": [
+1,
+"ok"
+],
+"bm/pløse": [
+1,
+"ok"
+],
+"bm/pløsen": [
+1,
+"ok"
+],
+"bm/pokulere": [
+1,
+"ok"
+],
+"bm/populas": [
+1,
+"ok"
+],
+"bm/possement": [
+1,
+"ok"
+],
+"bm/prakken": [
+1,
+"ok"
+],
+"bm/praktikus": [
+1,
+"ok"
+],
+"bm/prale": [
+0,
+"common"
+],
+"bm/prasle": [
+0,
+"common"
+],
+"bm/pregnans": [
+1,
+"ok"
+],
+"bm/prette": [
+1,
+"ok"
+],
+"bm/probat": [
+1,
+"ok"
+],
+"bm/proponere": [
+1,
+"ok"
+],
+"bm/proselytt": [
+1,
+"ok"
+],
+"bm/prov": [
+0,
+"common"
+],
+"bm/prunke": [
+1,
+"ok"
+],
+"bm/prås": [
+1,
+"ok"
+],
+"bm/ptrotte": [
+0,
+"dull"
+],
+"bm/pueril": [
+1,
+"ok"
+],
+"bm/puerilitet": [
+1,
+"ok"
+],
+"bm/puger": [
+1,
+"ok"
+],
+"bm/pugilist": [
+1,
+"ok"
+],
+"bm/pulder": [
+0,
+"dull"
+],
+"bm/puldre": [
+1,
+"ok"
+],
+"bm/påver": [
+1,
+"ok"
+],
+"bm/pønitent": [
+1,
+"ok"
+],
+"bm/rabulisme": [
+1,
+"ok"
+],
+"bm/raka": [
+0,
+"common"
+],
+"bm/raljere": [
+1,
+"ok"
+],
+"bm/ralle": [
+0,
+"technical"
+],
+"bm/rapse": [
+1,
+"ok"
+],
+"bm/rasmus": [
+1,
+"ok"
+],
+"bm/ravasje": [
+1,
+"ok"
+],
+"bm/redebon": [
+1,
+"ok"
+],
+"bm/redingot": [
+0,
+"technical"
+],
+"bm/rekel": [
+1,
+"ok"
+],
+"bm/rempling": [
+1,
+"ok"
+],
+"bm/renke": [
+1,
+"ok"
+],
+"bm/renons": [
+1,
+"restored by user"
+],
+"bm/resolvere": [
+1,
+"ok"
+],
+"bm/resong": [
+1,
+"ok"
+],
+"bm/rikle": [
+1,
+"ok"
+],
+"bm/rine": [
+0,
+"dull"
+],
+"bm/romtent": [
+0,
+"dull"
+],
+"bm/rubben": [
+0,
+"dialect"
+],
+"bm/rulten": [
+1,
+"ok"
+],
+"bm/rutle": [
+0,
+"dialect"
+],
+"bm/råbarka": [
+0,
+"common"
+],
+"bm/råsken": [
+1,
+"ok"
+],
+"bm/røffel": [
+1,
+"ok"
+],
+"bm/røfle": [
+1,
+"ok"
+],
+"bm/rønner": [
+1,
+"ok"
+],
+"bm/sabbete": [
+1,
+"ok"
+],
+"bm/saltomortale": [
+1,
+"ok"
+],
+"bm/samdrektig": [
+1,
+"ok"
+],
+"bm/samfengt": [
+1,
+"ok"
+],
+"bm/samstave": [
+1,
+"ok"
+],
+"bm/seksa": [
+1,
+"ok"
+],
+"bm/seleber": [
+1,
+"ok"
+],
+"bm/sellende": [
+1,
+"ok"
+],
+"bm/selotisk": [
+1,
+"ok"
+],
+"bm/sentensiøs": [
+1,
+"ok"
+],
+"bm/serafisk": [
+1,
+"ok"
+],
+"bm/serai": [
+0,
+"technical"
+],
+"bm/sesse": [
+1,
+"ok"
+],
+"bm/sibyllinsk": [
+1,
+"ok"
+],
+"bm/sigen": [
+1,
+"ok"
+],
+"bm/signifikativ": [
+0,
+"dull"
+],
+"bm/sindre": [
+1,
+"ok"
+],
+"bm/sjagreng": [
+0,
+"technical"
+],
+"bm/sjakre": [
+1,
+"ok"
+],
+"bm/sjevrå": [
+0,
+"technical"
+],
+"bm/sjibbolett": [
+1,
+"ok"
+],
+"bm/sjirting": [
+0,
+"technical"
+],
+"bm/sjofle": [
+1,
+"ok"
+],
+"bm/sjoge": [
+1,
+"ok"
+],
+"bm/skabilken": [
+1,
+"ok"
+],
+"bm/skalte": [
+1,
+"ok"
+],
+"bm/skat": [
+0,
+"dialect"
+],
+"bm/skauleies": [
+1,
+"ok"
+],
+"bm/skave": [
+0,
+"common"
+],
+"bm/skeivle": [
+1,
+"ok"
+],
+"bm/skinnbarlig": [
+1,
+"ok"
+],
+"bm/skiple": [
+1,
+"ok"
+],
+"bm/skjelm": [
+0,
+"technical"
+],
+"bm/skjelme": [
+0,
+"dialect"
+],
+"bm/skjemte": [
+1,
+"ok"
+],
+"bm/skjerr": [
+1,
+"ok"
+],
+"bm/skjesse": [
+1,
+"ok"
+],
+"bm/skjolde": [
+0,
+"dull"
+],
+"bm/skjøtte": [
+0,
+"common"
+],
+"bm/skofte": [
+1,
+"ok"
+],
+"bm/skogre": [
+1,
+"ok"
+],
+"bm/skolm": [
+0,
+"technical"
+],
+"bm/skolme": [
+0,
+"technical"
+],
+"bm/skolt": [
+0,
+"common"
+],
+"bm/skrappe": [
+0,
+"dull"
+],
+"bm/skratl": [
+0,
+"dull"
+],
+"bm/skratle": [
+1,
+"ok"
+],
+"bm/skratte": [
+0,
+"common"
+],
+"bm/skreppe": [
+1,
+"ok"
+],
+"bm/skrie": [
+1,
+"restored by user"
+],
+"bm/skripen": [
+1,
+"ok"
+],
+"bm/skripet": [
+1,
+"ok"
+],
+"bm/skruv": [
+0,
+"dialect"
+],
+"bm/skrømte": [
+1,
+"ok"
+],
+"bm/skuddermudder": [
+1,
+"ok"
+],
+"bm/skulse": [
+1,
+"restored by user"
+],
+"bm/skumple": [
+1,
+"ok"
+],
+"bm/skusle": [
+1,
+"ok"
+],
+"bm/skutle": [
+0,
+"spelling"
+],
+"bm/skvalder": [
+1,
+"ok"
+],
+"bm/skvale": [
+1,
+"ok"
+],
+"bm/skyldsette": [
+0,
+"technical"
+],
+"bm/slabbe": [
+1,
+"ok"
+],
+"bm/sladde": [
+0,
+"common"
+],
+"bm/slafse": [
+1,
+"ok"
+],
+"bm/slamp": [
+1,
+"ok"
+],
+"bm/slampe": [
+1,
+"ok"
+],
+"bm/slampet": [
+0,
+"dull"
+],
+"bm/slamse": [
+1,
+"ok"
+],
+"bm/slarke": [
+1,
+"ok"
+],
+"bm/slaske": [
+0,
+"common"
+],
+"bm/sleiken": [
+1,
+"ok"
+],
+"bm/sleske": [
+0,
+"derived"
+],
+"bm/sliske": [
+1,
+"ok"
+],
+"bm/sloe": [
+0,
+"dialect"
+],
+"bm/slubbe": [
+0,
+"dull"
+],
+"bm/slubre": [
+1,
+"ok"
+],
+"bm/sludre": [
+0,
+"common"
+],
+"bm/sluffe": [
+1,
+"ok"
+],
+"bm/slufs": [
+1,
+"ok"
+],
+"bm/slufse": [
+1,
+"ok"
+],
+"bm/slumpe": [
+0,
+"common"
+],
+"bm/smatre": [
+1,
+"ok"
+],
+"bm/smeik": [
+1,
+"ok"
+],
+"bm/smeike": [
+1,
+"ok"
+],
+"bm/smeiken": [
+1,
+"ok"
+],
+"bm/smeis": [
+1,
+"ok"
+],
+"bm/smekte": [
+1,
+"ok"
+],
+"bm/snadde": [
+1,
+"ok"
+],
+"bm/snadre": [
+1,
+"ok"
+],
+"bm/snak": [
+0,
+"dialect"
+],
+"bm/snaublåse": [
+0,
+"dull"
+],
+"bm/snavle": [
+0,
+"dull"
+],
+"bm/snedden": [
+1,
+"ok"
+],
+"bm/snerpe": [
+1,
+"ok"
+],
+"bm/snirkle": [
+0,
+"common"
+],
+"bm/snubbe": [
+0,
+"dull"
+],
+"bm/snubbet": [
+0,
+"common"
+],
+"bm/snultre": [
+1,
+"ok"
+],
+"bm/snupt": [
+1,
+"ok"
+],
+"bm/snurrepiperi": [
+1,
+"ok"
+],
+"bm/snåp": [
+1,
+"ok"
+],
+"bm/snåve": [
+1,
+"ok"
+],
+"bm/snøfle": [
+0,
+"dull"
+],
+"bm/snøflet": [
+1,
+"ok"
+],
+"bm/snøgge": [
+0,
+"dull"
+],
+"bm/snøse": [
+0,
+"dull"
+],
+"bm/snøye": [
+0,
+"dull"
+],
+"bm/soignert": [
+1,
+"ok"
+],
+"bm/sondre": [
+1,
+"ok"
+],
+"bm/spandabel": [
+1,
+"ok"
+],
+"bm/spanke": [
+1,
+"ok"
+],
+"bm/spekse": [
+1,
+"ok"
+],
+"bm/spikk": [
+1,
+"ok"
+],
+"bm/spildre": [
+1,
+"ok"
+],
+"bm/spilkum": [
+1,
+"ok"
+],
+"bm/spjert": [
+1,
+"ok"
+],
+"bm/spjåke": [
+1,
+"ok"
+],
+"bm/spjælet": [
+1,
+"ok"
+],
+"bm/sporenstreks": [
+0,
+"common"
+],
+"bm/sprade": [
+0,
+"common"
+],
+"bm/sprake": [
+1,
+"ok"
+],
+"bm/springsk": [
+1,
+"ok"
+],
+"bm/statarisk": [
+1,
+"ok"
+],
+"bm/stendig": [
+1,
+"restored by user"
+],
+"bm/stenke": [
+0,
+"common"
+],
+"bm/sterte": [
+1,
+"ok"
+],
+"bm/stette": [
+0,
+"common"
+],
+"bm/stevje": [
+0,
+"technical"
+],
+"bm/stiltre": [
+1,
+"ok"
+],
+"bm/stimmel": [
+1,
+"ok"
+],
+"bm/stinge": [
+1,
+"restored by user"
+],
+"bm/stinkador": [
+1,
+"ok"
+],
+"bm/stolpre": [
+1,
+"ok"
+],
+"bm/stoltsere": [
+1,
+"ok"
+],
+"bm/strabas": [
+0,
+"common"
+],
+"bm/strant": [
+1,
+"ok"
+],
+"bm/stundom": [
+1,
+"ok"
+],
+"bm/sturte": [
+1,
+"ok"
+],
+"bm/styven": [
+1,
+"ok"
+],
+"bm/støkken": [
+1,
+"ok"
+],
+"bm/subtrahend": [
+1,
+"restored by user"
+],
+"bm/sukle": [
+1,
+"ok"
+],
+"bm/sulke": [
+1,
+"ok"
+],
+"bm/sull": [
+0,
+"common"
+],
+"bm/suppedas": [
+1,
+"ok"
+],
+"bm/surkle": [
+1,
+"ok"
+],
+"bm/surle": [
+1,
+"ok"
+],
+"bm/susl": [
+0,
+"dull"
+],
+"bm/svang": [
+1,
+"ok"
+],
+"bm/sveise": [
+1,
+"ok"
+],
+"bm/svinte": [
+0,
+"dialect"
+],
+"bm/svive": [
+1,
+"ok"
+],
+"bm/sybaritt": [
+1,
+"ok"
+],
+"bm/sybarittisk": [
+1,
+"ok"
+],
+"bm/synkverve": [
+1,
+"ok"
+],
+"bm/tagne": [
+1,
+"restored by user"
+],
+"bm/tarv": [
+1,
+"ok"
+],
+"bm/tasal": [
+1,
+"restored by user"
+],
+"bm/telgje": [
+0,
+"common"
+],
+"bm/tess": [
+0,
+"common"
+],
+"bm/teve": [
+0,
+"dialect"
+],
+"bm/tisle": [
+1,
+"ok"
+],
+"bm/tistret": [
+1,
+"ok"
+],
+"bm/tistrete": [
+1,
+"ok"
+],
+"bm/tjadder": [
+1,
+"ok"
+],
+"bm/tjafse": [
+1,
+"ok"
+],
+"bm/tjatre": [
+0,
+"dull"
+],
+"bm/tjatt": [
+0,
+"dull"
+],
+"bm/tjon": [
+1,
+"restored by user"
+],
+"bm/tjåke": [
+1,
+"ok"
+],
+"bm/trabelere": [
+1,
+"ok"
+],
+"bm/trakte": [
+1,
+"ok"
+],
+"bm/traktement": [
+1,
+"ok"
+],
+"bm/trangviksk": [
+1,
+"ok"
+],
+"bm/trasen": [
+1,
+"ok"
+],
+"bm/traurig": [
+1,
+"ok"
+],
+"bm/treven": [
+1,
+"ok"
+],
+"bm/trinse": [
+1,
+"ok"
+],
+"bm/trivle": [
+1,
+"ok"
+],
+"bm/trulte": [
+1,
+"ok"
+],
+"bm/tufs": [
+1,
+"ok"
+],
+"bm/tufse": [
+1,
+"ok"
+],
+"bm/tuske": [
+0,
+"common"
+],
+"bm/tuskete": [
+1,
+"ok"
+],
+"bm/tuslen": [
+1,
+"ok"
+],
+"bm/tylft": [
+1,
+"ok"
+],
+"bm/tøve": [
+0,
+"common"
+],
+"bm/ufortrøden": [
+1,
+"ok"
+],
+"bm/ulke": [
+1,
+"ok"
+],
+"bm/urgere": [
+1,
+"ok"
+],
+"bm/urven": [
+1,
+"ok"
+],
+"bm/uterlig": [
+1,
+"ok"
+],
+"bm/utferdige": [
+0,
+"common"
+],
+"bm/vabbe": [
+1,
+"ok"
+],
+"bm/vademekum": [
+1,
+"ok"
+],
+"bm/vadre": [
+1,
+"ok"
+],
+"bm/valandere": [
+1,
+"ok"
+],
+"bm/valhendt": [
+1,
+"ok"
+],
+"bm/vande": [
+1,
+"ok"
+],
+"bm/vandle": [
+1,
+"restored by user"
+],
+"bm/vatre": [
+1,
+"ok"
+],
+"bm/vavre": [
+1,
+"ok"
+],
+"bm/vederfares": [
+1,
+"ok"
+],
+"bm/veidn": [
+1,
+"restored by user"
+],
+"bm/velin": [
+0,
+"technical"
+],
+"bm/veritabel": [
+1,
+"ok"
+],
+"bm/verp": [
+1,
+"restored by user"
+],
+"bm/veum": [
+1,
+"restored by user"
+],
+"bm/vever": [
+1,
+"ok"
+],
+"bm/viderverdig": [
+1,
+"ok"
+],
+"bm/vigle": [
+0,
+"archaic"
+],
+"bm/vildre": [
+1,
+"ok"
+],
+"bm/vildren": [
+1,
+"ok"
+],
+"bm/vilske": [
+1,
+"ok"
+],
+"bm/vinnskipelig": [
+1,
+"restored by user"
+],
+"bm/vita": [
+0,
+"dull"
+],
+"bm/vivasitet": [
+1,
+"ok"
+],
+"bm/vranten": [
+0,
+"common"
+],
+"bm/vringel": [
+0,
+"derived"
+],
+"bm/vringle": [
+1,
+"ok"
+],
+"bm/vriompeiseri": [
+1,
+"ok"
+],
+"bm/vriste": [
+0,
+"common"
+],
+"bm/våle": [
+1,
+"ok"
+],
+"bm/vøle": [
+1,
+"ok"
+],
+"bm/xenofil": [
+1,
+"ok"
+],
+"bm/ydde": [
+1,
+"ok"
+],
+"bm/ymis": [
+0,
+"common"
+],
+"bm/yppal": [
+1,
+"ok"
+],
+"bm/ærbødig": [
+0,
+"common"
+],
+"bm/æreskjelle": [
+1,
+"ok"
+],
+"bm/økonomisere": [
+0,
+"derived"
+],
+"bm/øksel": [
+1,
+"restored by user"
+],
+"bm/ørske": [
+0,
+"common"
+],
+"bm/ørsken": [
+1,
+"ok"
+],
+"nn/allmenneskeleg": [
+1,
+"ok"
+],
+"nn/ampe": [
+1,
+"ok"
+],
+"nn/andast": [
+1,
+"ok"
+],
+"nn/andvarpe": [
+1,
+"ok"
+],
+"nn/andæres": [
+0,
+"dialect"
+],
+"nn/antren": [
+1,
+"ok"
+],
+"nn/approbere": [
+1,
+"ok"
+],
+"nn/armodsam": [
+0,
+"derived"
+],
+"nn/atalsleg": [
+1,
+"ok"
+],
+"nn/baldre": [
+1,
+"ok"
+],
+"nn/bangle": [
+1,
+"ok"
+],
+"nn/bangse": [
+1,
+"ok"
+],
+"nn/bardage": [
+1,
+"ok"
+],
+"nn/baus": [
+1,
+"restored by user"
+],
+"nn/beinsemd": [
+0,
+"derived"
+],
+"nn/beisle": [
+0,
+"common"
+],
+"nn/belgje": [
+1,
+"ok"
+],
+"nn/bendast": [
+0,
+"dialect"
+],
+"nn/bendsle": [
+0,
+"technical"
+],
+"nn/bengle": [
+1,
+"ok"
+],
+"nn/berke": [
+0,
+"dialect"
+],
+"nn/bevendt": [
+1,
+"ok"
+],
+"nn/bibre": [
+1,
+"restored by user"
+],
+"nn/bidlund": [
+1,
+"restored by user"
+],
+"nn/bidlundsam": [
+0,
+"dialect"
+],
+"nn/bingse": [
+1,
+"ok"
+],
+"nn/bisneleg": [
+1,
+"ok"
+],
+"nn/bitande": [
+0,
+"common"
+],
+"nn/bivre": [
+1,
+"ok"
+],
+"nn/blekte": [
+0,
+"dialect"
+],
+"nn/blikte": [
+1,
+"ok"
+],
+"nn/blistre": [
+0,
+"common"
+],
+"nn/bløkte": [
+1,
+"ok"
+],
+"nn/bragde": [
+1,
+"ok"
+],
+"nn/bragle": [
+1,
+"ok"
+],
+"nn/brammeleg": [
+1,
+"ok"
+],
+"nn/braske": [
+1,
+"ok"
+],
+"nn/brauten": [
+1,
+"ok"
+],
+"nn/brestfeldig": [
+1,
+"ok"
+],
+"nn/brigde": [
+1,
+"ok"
+],
+"nn/brigsle": [
+1,
+"ok"
+],
+"nn/briken": [
+1,
+"ok"
+],
+"nn/brikje": [
+1,
+"ok"
+],
+"nn/brolte": [
+1,
+"ok"
+],
+"nn/brolten": [
+1,
+"ok"
+],
+"nn/brosten": [
+1,
+"restored by user"
+],
+"nn/brålyndt": [
+1,
+"ok"
+],
+"nn/brøysk": [
+1,
+"ok"
+],
+"nn/byrg": [
+1,
+"ok"
+],
+"nn/bæle": [
+1,
+"ok"
+],
+"nn/bællang": [
+1,
+"restored by user"
+],
+"nn/bærle": [
+1,
+"restored by user"
+],
+"nn/børel": [
+0,
+"dialect"
+],
+"nn/bøykje": [
+0,
+"technical"
+],
+"nn/denotere": [
+1,
+"restored by user"
+],
+"nn/dildre": [
+1,
+"ok"
+],
+"nn/dissosiere": [
+1,
+"restored by user"
+],
+"nn/dosmen": [
+1,
+"ok"
+],
+"nn/dote": [
+1,
+"ok"
+],
+"nn/drabeleg": [
+1,
+"ok"
+],
+"nn/dralte": [
+1,
+"ok"
+],
+"nn/dramb": [
+1,
+"ok"
+],
+"nn/drambsleg": [
+0,
+"dull"
+],
+"nn/drangle": [
+0,
+"dialect"
+],
+"nn/draske": [
+0,
+"spelling"
+],
+"nn/drasle": [
+1,
+"ok"
+],
+"nn/draule": [
+0,
+"dull"
+],
+"nn/draulen": [
+1,
+"restored by user"
+],
+"nn/drette": [
+0,
+"dialect"
+],
+"nn/drifse": [
+1,
+"ok"
+],
+"nn/drivle": [
+0,
+"dialect"
+],
+"nn/drubbe": [
+1,
+"ok"
+],
+"nn/drulte": [
+1,
+"restored by user"
+],
+"nn/druns": [
+1,
+"ok"
+],
+"nn/drunse": [
+1,
+"ok"
+],
+"nn/drunt": [
+1,
+"restored by user"
+],
+"nn/drunten": [
+0,
+"dialect"
+],
+"nn/drupse": [
+0,
+"dialect"
+],
+"nn/drust": [
+1,
+"ok"
+],
+"nn/drusteleg": [
+1,
+"ok"
+],
+"nn/drusten": [
+0,
+"spelling"
+],
+"nn/drylert": [
+1,
+"ok"
+],
+"nn/drynje": [
+1,
+"ok"
+],
+"nn/drysje": [
+1,
+"ok"
+],
+"nn/drøype": [
+0,
+"dialect"
+],
+"nn/dumbe": [
+0,
+"dialect"
+],
+"nn/dupere": [
+1,
+"ok"
+],
+"nn/dusemang": [
+1,
+"ok"
+],
+"nn/dvelje": [
+0,
+"common"
+],
+"nn/dyvje": [
+1,
+"restored by user"
+],
+"nn/egle": [
+1,
+"ok"
+],
+"nn/einske": [
+1,
+"ok"
+],
+"nn/erts": [
+0,
+"technical"
+],
+"nn/evinneleg": [
+1,
+"ok"
+],
+"nn/evlug": [
+0,
+"dialect"
+],
+"nn/faksete": [
+1,
+"ok"
+],
+"nn/fandenivaldsk": [
+1,
+"ok"
+],
+"nn/farkete": [
+1,
+"ok"
+],
+"nn/fergje": [
+0,
+"dialect"
+],
+"nn/fikt": [
+1,
+"ok"
+],
+"nn/fjakle": [
+1,
+"ok"
+],
+"nn/fjamsen": [
+1,
+"ok"
+],
+"nn/fjante": [
+1,
+"ok"
+],
+"nn/fjaske": [
+1,
+"ok"
+],
+"nn/fjelgde": [
+1,
+"restored by user"
+],
+"nn/fjelgsleg": [
+1,
+"restored by user"
+],
+"nn/fjerre": [
+1,
+"ok"
+],
+"nn/fjom": [
+0,
+"dialect"
+],
+"nn/fjukte": [
+1,
+"ok"
+],
+"nn/fjuntre": [
+1,
+"ok"
+],
+"nn/flakkefør": [
+1,
+"ok"
+],
+"nn/flangre": [
+1,
+"ok"
+],
+"nn/fleine": [
+0,
+"dialect"
+],
+"nn/flekkomtil": [
+1,
+"ok"
+],
+"nn/flinkert": [
+0,
+"derived"
+],
+"nn/fliske": [
+1,
+"ok"
+],
+"nn/flister": [
+1,
+"ok"
+],
+"nn/flogse": [
+1,
+"ok"
+],
+"nn/flotne": [
+1,
+"ok"
+],
+"nn/flugse": [
+1,
+"ok"
+],
+"nn/flurete": [
+1,
+"ok"
+],
+"nn/flygse": [
+0,
+"dialect"
+],
+"nn/fløygje": [
+1,
+"restored by user"
+],
+"nn/fløyten": [
+0,
+"common"
+],
+"nn/fondere": [
+1,
+"restored by user"
+],
+"nn/forbala": [
+1,
+"ok"
+],
+"nn/forbina": [
+1,
+"ok"
+],
+"nn/fordølje": [
+0,
+"derived"
+],
+"nn/forfjetra": [
+1,
+"ok"
+],
+"nn/forflogen": [
+1,
+"ok"
+],
+"nn/forfælande": [
+1,
+"ok"
+],
+"nn/forfæld": [
+1,
+"ok"
+],
+"nn/forgjengeleg": [
+0,
+"common"
+],
+"nn/forgjere": [
+1,
+"ok"
+],
+"nn/forhippa": [
+1,
+"ok"
+],
+"nn/forkleine": [
+1,
+"ok"
+],
+"nn/forkunn": [
+1,
+"ok"
+],
+"nn/forkvifsa": [
+1,
+"ok"
+],
+"nn/formasteleg": [
+1,
+"ok"
+],
+"nn/forn": [
+1,
+"ok"
+],
+"nn/forpligga": [
+0,
+"dialect"
+],
+"nn/forsigna": [
+1,
+"ok"
+],
+"nn/forstirt": [
+1,
+"ok"
+],
+"nn/forsuffa": [
+1,
+"ok"
+],
+"nn/fortryteleg": [
+1,
+"ok"
+],
+"nn/fortusta": [
+1,
+"ok"
+],
+"nn/forurette": [
+0,
+"common"
+],
+"nn/forøven": [
+1,
+"ok"
+],
+"nn/fullne": [
+0,
+"derived"
+],
+"nn/furdast": [
+1,
+"ok"
+],
+"nn/furdeleg": [
+1,
+"ok"
+],
+"nn/fælske": [
+0,
+"dull"
+],
+"nn/galnast": [
+0,
+"derived"
+],
+"nn/gantast": [
+1,
+"ok"
+],
+"nn/gare": [
+1,
+"restored by user"
+],
+"nn/gasterere": [
+1,
+"ok"
+],
+"nn/gaumsam": [
+1,
+"ok"
+],
+"nn/gauske": [
+1,
+"ok"
+],
+"nn/gauve": [
+1,
+"ok"
+],
+"nn/geiple": [
+0,
+"dialect"
+],
+"nn/geivle": [
+1,
+"ok"
+],
+"nn/gjavyrde": [
+1,
+"ok"
+],
+"nn/gjednigen": [
+1,
+"restored by user"
+],
+"nn/gjegne": [
+0,
+"dialect"
+],
+"nn/gjenegen": [
+1,
+"restored by user"
+],
+"nn/gjenverdig": [
+1,
+"ok"
+],
+"nn/gjenverdug": [
+0,
+"spelling"
+],
+"nn/gjeppe": [
+0,
+"dialect"
+],
+"nn/gjæs": [
+1,
+"ok"
+],
+"nn/gjøleleg": [
+1,
+"restored by user"
+],
+"nn/gjølme": [
+1,
+"restored by user"
+],
+"nn/gjønstre": [
+1,
+"ok"
+],
+"nn/glamse": [
+0,
+"dull"
+],
+"nn/glante": [
+1,
+"ok"
+],
+"nn/gleime": [
+1,
+"ok"
+],
+"nn/gleine": [
+1,
+"restored by user"
+],
+"nn/gleipe": [
+1,
+"restored by user"
+],
+"nn/gleivre": [
+1,
+"ok"
+],
+"nn/glense": [
+1,
+"ok"
+],
+"nn/glindre": [
+0,
+"dialect"
+],
+"nn/glispe": [
+0,
+"dialect"
+],
+"nn/glufse": [
+1,
+"ok"
+],
+"nn/glumeleg": [
+1,
+"ok"
+],
+"nn/glumse": [
+1,
+"ok"
+],
+"nn/glunke": [
+0,
+"dialect"
+],
+"nn/glyfse": [
+1,
+"ok"
+],
+"nn/glygge": [
+1,
+"ok"
+],
+"nn/glymje": [
+1,
+"ok"
+],
+"nn/glåpe": [
+1,
+"ok"
+],
+"nn/gløype": [
+1,
+"ok"
+],
+"nn/gnallande": [
+1,
+"restored by user"
+],
+"nn/gnarre": [
+1,
+"ok"
+],
+"nn/gnaule": [
+0,
+"spelling"
+],
+"nn/gnaure": [
+1,
+"ok"
+],
+"nn/gneste": [
+1,
+"ok"
+],
+"nn/gnitre": [
+1,
+"ok"
+],
+"nn/gnitter": [
+1,
+"ok"
+],
+"nn/gnuffe": [
+1,
+"ok"
+],
+"nn/gnurke": [
+1,
+"ok"
+],
+"nn/gnyst": [
+1,
+"ok"
+],
+"nn/godmølt": [
+1,
+"ok"
+],
+"nn/gravitetisk": [
+1,
+"ok"
+],
+"nn/greipe": [
+0,
+"dull"
+],
+"nn/greisleg": [
+0,
+"derived"
+],
+"nn/gremjast": [
+0,
+"common"
+],
+"nn/groggy": [
+0,
+"common"
+],
+"nn/grovvaksen": [
+0,
+"derived"
+],
+"nn/grufse": [
+1,
+"ok"
+],
+"nn/grugge": [
+1,
+"ok"
+],
+"nn/grusten": [
+1,
+"ok"
+],
+"nn/gruvle": [
+1,
+"ok"
+],
+"nn/grymje": [
+1,
+"ok"
+],
+"nn/grysjeleg": [
+1,
+"ok"
+],
+"nn/gråtal": [
+1,
+"ok"
+],
+"nn/grøype": [
+1,
+"restored by user"
+],
+"nn/guve": [
+0,
+"dialect"
+],
+"nn/gysjeleg": [
+1,
+"ok"
+],
+"nn/gåig": [
+1,
+"restored by user"
+],
+"nn/handfrid": [
+1,
+"ok"
+],
+"nn/harvle": [
+1,
+"ok"
+],
+"nn/havang": [
+1,
+"restored by user"
+],
+"nn/heidundrande": [
+1,
+"ok"
+],
+"nn/heiskleg": [
+0,
+"dialect"
+],
+"nn/heljaleg": [
+1,
+"ok"
+],
+"nn/heljarleg": [
+0,
+"dialect"
+],
+"nn/helorar": [
+1,
+"ok"
+],
+"nn/heluve": [
+1,
+"ok"
+],
+"nn/helvte": [
+1,
+"ok"
+],
+"nn/hengle": [
+0,
+"dull"
+],
+"nn/heppen": [
+1,
+"ok"
+],
+"nn/heseblesande": [
+0,
+"common"
+],
+"nn/heskjeleg": [
+1,
+"ok"
+],
+"nn/hikre": [
+1,
+"ok"
+],
+"nn/hjonsleg": [
+1,
+"ok"
+],
+"nn/hjåmete": [
+0,
+"dialect"
+],
+"nn/hjørneskakk": [
+1,
+"ok"
+],
+"nn/holl": [
+1,
+"ok"
+],
+"nn/hortug": [
+1,
+"restored by user"
+],
+"nn/hugnadleg": [
+0,
+"derived"
+],
+"nn/hugstolen": [
+1,
+"ok"
+],
+"nn/hugstor": [
+1,
+"ok"
+],
+"nn/hugsvale": [
+1,
+"ok"
+],
+"nn/hultre": [
+1,
+"ok"
+],
+"nn/hurgle": [
+1,
+"ok"
+],
+"nn/hurkle": [
+1,
+"ok"
+],
+"nn/huskeleg": [
+1,
+"restored by user"
+],
+"nn/hyfse": [
+1,
+"ok"
+],
+"nn/hædeleg": [
+1,
+"ok"
+],
+"nn/hækjeleg": [
+0,
+"dialect"
+],
+"nn/ibidem": [
+1,
+"restored by user"
+],
+"nn/idast": [
+0,
+"dialect"
+],
+"nn/idug": [
+1,
+"ok"
+],
+"nn/ilengast": [
+1,
+"ok"
+],
+"nn/illgøy": [
+0,
+"dialect"
+],
+"nn/illherveleg": [
+1,
+"ok"
+],
+"nn/illsviden": [
+1,
+"ok"
+],
+"nn/ilskast": [
+1,
+"ok"
+],
+"nn/infamerande": [
+1,
+"ok"
+],
+"nn/inkjevetta": [
+0,
+"archaic"
+],
+"nn/innarleg": [
+1,
+"ok"
+],
+"nn/jagster": [
+1,
+"ok"
+],
+"nn/jamføre": [
+0,
+"common"
+],
+"nn/jamnan": [
+1,
+"ok"
+],
+"nn/jitterbug": [
+0,
+"dull"
+],
+"nn/kalkere": [
+0,
+"common"
+],
+"nn/kaltre": [
+1,
+"ok"
+],
+"nn/kangle": [
+0,
+"dialect"
+],
+"nn/karnefle": [
+1,
+"ok"
+],
+"nn/katatonisk": [
+1,
+"restored by user"
+],
+"nn/keikete": [
+1,
+"ok"
+],
+"nn/kjafse": [
+0,
+"dull"
+],
+"nn/kjøgle": [
+1,
+"restored by user"
+],
+"nn/klabben": [
+1,
+"restored by user"
+],
+"nn/kleinsleg": [
+1,
+"ok"
+],
+"nn/klemre": [
+0,
+"dull"
+],
+"nn/klesse": [
+1,
+"ok"
+],
+"nn/klessen": [
+0,
+"dialect"
+],
+"nn/kløkken": [
+1,
+"ok"
+],
+"nn/kløkksam": [
+1,
+"ok"
+],
+"nn/knarre": [
+0,
+"dull"
+],
+"nn/knultrete": [
+0,
+"derived"
+],
+"nn/knuspe": [
+1,
+"ok"
+],
+"nn/kokle": [
+0,
+"dull"
+],
+"nn/kolke": [
+0,
+"dialect"
+],
+"nn/kolten": [
+0,
+"dialect"
+],
+"nn/kosteleg": [
+0,
+"common"
+],
+"nn/koven": [
+0,
+"dialect"
+],
+"nn/krakilsk": [
+1,
+"ok"
+],
+"nn/kraklen": [
+0,
+"dialect"
+],
+"nn/krame": [
+1,
+"restored by user"
+],
+"nn/krasse": [
+0,
+"common"
+],
+"nn/kraule": [
+0,
+"dull"
+],
+"nn/kraune": [
+1,
+"ok"
+],
+"nn/kreiste": [
+0,
+"dialect"
+],
+"nn/krekseleg": [
+1,
+"ok"
+],
+"nn/kringmælt": [
+1,
+"ok"
+],
+"nn/kropne": [
+0,
+"dialect"
+],
+"nn/krungle": [
+1,
+"ok"
+],
+"nn/kruslen": [
+1,
+"ok"
+],
+"nn/kræv": [
+1,
+"restored by user"
+],
+"nn/kukelur": [
+1,
+"ok"
+],
+"nn/kunstla": [
+0,
+"common"
+],
+"nn/kvapsete": [
+1,
+"ok"
+],
+"nn/kvavne": [
+0,
+"dialect"
+],
+"nn/kvelle": [
+1,
+"ok"
+],
+"nn/kvelve": [
+1,
+"ok"
+],
+"nn/kverr": [
+1,
+"restored by user"
+],
+"nn/kverven": [
+1,
+"ok"
+],
+"nn/kvervle": [
+1,
+"ok"
+],
+"nn/kvetje": [
+1,
+"restored by user"
+],
+"nn/kvidesam": [
+1,
+"ok"
+],
+"nn/kvimsen": [
+0,
+"dialect"
+],
+"nn/kvinkre": [
+1,
+"ok"
+],
+"nn/kvisle": [
+1,
+"ok"
+],
+"nn/kvæm": [
+0,
+"dialect"
+],
+"nn/kvæv": [
+1,
+"ok"
+],
+"nn/kødd": [
+1,
+"restored by user"
+],
+"nn/lentug": [
+1,
+"ok"
+],
+"nn/likke": [
+0,
+"dialect"
+],
+"nn/lingse": [
+0,
+"dialect"
+],
+"nn/liskre": [
+1,
+"ok"
+],
+"nn/livande": [
+0,
+"dialect"
+],
+"nn/ljoske": [
+0,
+"dialect"
+],
+"nn/logn": [
+1,
+"ok"
+],
+"nn/lufse": [
+1,
+"ok"
+],
+"nn/lynsk": [
+1,
+"ok"
+],
+"nn/maktstele": [
+1,
+"ok"
+],
+"nn/matfrek": [
+0,
+"derived"
+],
+"nn/meinsleg": [
+1,
+"ok"
+],
+"nn/mergstele": [
+1,
+"ok"
+],
+"nn/mildsleg": [
+0,
+"derived"
+],
+"nn/monaleg": [
+0,
+"common"
+],
+"nn/morgne": [
+1,
+"ok"
+],
+"nn/motsvare": [
+0,
+"dull"
+],
+"nn/myalgisk": [
+0,
+"technical"
+],
+"nn/myklast": [
+1,
+"ok"
+],
+"nn/mylske": [
+0,
+"dialect"
+],
+"nn/mødast": [
+1,
+"ok"
+],
+"nn/mødesam": [
+1,
+"ok"
+],
+"nn/møyrne": [
+0,
+"dialect"
+],
+"nn/nappast": [
+1,
+"ok"
+],
+"nn/naudven": [
+1,
+"ok"
+],
+"nn/naukre": [
+1,
+"ok"
+],
+"nn/nauten": [
+1,
+"ok"
+],
+"nn/nauteskap": [
+1,
+"restored by user"
+],
+"nn/neise": [
+1,
+"ok"
+],
+"nn/neitte": [
+0,
+"dialect"
+],
+"nn/nerk": [
+1,
+"ok"
+],
+"nn/niglane": [
+1,
+"ok"
+],
+"nn/nogg": [
+0,
+"dialect"
+],
+"nn/noggrann": [
+0,
+"dull"
+],
+"nn/nuve": [
+1,
+"restored by user"
+],
+"nn/nyggje": [
+1,
+"restored by user"
+],
+"nn/nækje": [
+0,
+"dialect"
+],
+"nn/nøgge": [
+1,
+"restored by user"
+],
+"nn/olstre": [
+1,
+"ok"
+],
+"nn/onnug": [
+1,
+"ok"
+],
+"nn/ormektast": [
+0,
+"dialect"
+],
+"nn/ormekte": [
+1,
+"restored by user"
+],
+"nn/orminnast": [
+1,
+"ok"
+],
+"nn/orvhendt": [
+0,
+"dialect"
+],
+"nn/ottesam": [
+1,
+"ok"
+],
+"nn/panfobi": [
+0,
+"technical"
+],
+"nn/pirøygd": [
+1,
+"ok"
+],
+"nn/prange": [
+1,
+"ok"
+],
+"nn/pyrrhossiger": [
+1,
+"restored by user"
+],
+"nn/påsegla": [
+1,
+"ok"
+],
+"nn/rabalsk": [
+1,
+"ok"
+],
+"nn/radl": [
+1,
+"restored by user"
+],
+"nn/raklete": [
+1,
+"ok"
+],
+"nn/rengast": [
+0,
+"dialect"
+],
+"nn/rengle": [
+0,
+"dialect"
+],
+"nn/roglete": [
+1,
+"ok"
+],
+"nn/ruple": [
+1,
+"ok"
+],
+"nn/ryggjast": [
+1,
+"ok"
+],
+"nn/røseleg": [
+1,
+"ok"
+],
+"nn/røyndeting": [
+1,
+"ok"
+],
+"nn/samfengd": [
+0,
+"dull"
+],
+"nn/sangvinsk": [
+1,
+"ok"
+],
+"nn/sanndrøymd": [
+1,
+"ok"
+],
+"nn/sannkjenne": [
+1,
+"restored by user"
+],
+"nn/sellande": [
+1,
+"ok"
+],
+"nn/singott": [
+1,
+"restored by user"
+],
+"nn/situng": [
+1,
+"ok"
+],
+"nn/sjakse": [
+1,
+"ok"
+],
+"nn/sjølvare": [
+1,
+"restored by user"
+],
+"nn/skaldre": [
+1,
+"ok"
+],
+"nn/skalkete": [
+1,
+"ok"
+],
+"nn/skarke": [
+1,
+"ok"
+],
+"nn/skarken": [
+1,
+"restored by user"
+],
+"nn/skarveleg": [
+0,
+"derived"
+],
+"nn/skeike": [
+1,
+"ok"
+],
+"nn/skingle": [
+0,
+"dialect"
+],
+"nn/skinnblaut": [
+1,
+"ok"
+],
+"nn/skirleitt": [
+1,
+"restored by user"
+],
+"nn/skirsle": [
+0,
+"archaic"
+],
+"nn/skittørd": [
+0,
+"derived"
+],
+"nn/skjale": [
+1,
+"ok"
+],
+"nn/skjaltre": [
+0,
+"dialect"
+],
+"nn/skjegle": [
+0,
+"dialect"
+],
+"nn/skjekke": [
+1,
+"restored by user"
+],
+"nn/skjekle": [
+1,
+"ok"
+],
+"nn/skjerre": [
+1,
+"ok"
+],
+"nn/skjessen": [
+0,
+"dialect"
+],
+"nn/skjønug": [
+0,
+"derived"
+],
+"nn/skokle": [
+1,
+"ok"
+],
+"nn/skolle": [
+1,
+"restored by user"
+],
+"nn/skotung": [
+0,
+"dialect"
+],
+"nn/skrakal": [
+0,
+"dialect"
+],
+"nn/skrasle": [
+1,
+"ok"
+],
+"nn/skrate": [
+0,
+"dialect"
+],
+"nn/skrauve": [
+1,
+"ok"
+],
+"nn/skreide": [
+0,
+"dialect"
+],
+"nn/skrimsel": [
+1,
+"ok"
+],
+"nn/skrimsle": [
+1,
+"ok"
+],
+"nn/skripe": [
+0,
+"dialect"
+],
+"nn/skripete": [
+0,
+"derived"
+],
+"nn/skriple": [
+1,
+"ok"
+],
+"nn/skrubbsvolten": [
+1,
+"ok"
+],
+"nn/skrulten": [
+1,
+"ok"
+],
+"nn/skrumle": [
+1,
+"ok"
+],
+"nn/skruslen": [
+0,
+"dialect"
+],
+"nn/skrykke": [
+1,
+"restored by user"
+],
+"nn/skrynje": [
+1,
+"ok"
+],
+"nn/skråle": [
+0,
+"common"
+],
+"nn/skrålsam": [
+0,
+"derived"
+],
+"nn/skrøkke": [
+1,
+"restored by user"
+],
+"nn/skrøyve": [
+1,
+"ok"
+],
+"nn/skudre": [
+1,
+"ok"
+],
+"nn/skvaldre": [
+1,
+"ok"
+],
+"nn/skvape": [
+1,
+"ok"
+],
+"nn/skvitre": [
+0,
+"dialect"
+],
+"nn/skyrpe": [
+0,
+"dull"
+],
+"nn/skøyre": [
+1,
+"restored by user"
+],
+"nn/slamsen": [
+1,
+"ok"
+],
+"nn/slankre": [
+1,
+"ok"
+],
+"nn/slapse": [
+0,
+"dull"
+],
+"nn/slarkete": [
+0,
+"derived"
+],
+"nn/slarpe": [
+1,
+"ok"
+],
+"nn/slarre": [
+1,
+"ok"
+],
+"nn/slatre": [
+0,
+"dialect"
+],
+"nn/slaure": [
+1,
+"ok"
+],
+"nn/sleinen": [
+0,
+"dialect"
+],
+"nn/sleiske": [
+1,
+"ok"
+],
+"nn/sleive": [
+1,
+"ok"
+],
+"nn/slevje": [
+1,
+"restored by user"
+],
+"nn/slinke": [
+1,
+"ok"
+],
+"nn/sliskete": [
+0,
+"derived"
+],
+"nn/sløyme": [
+0,
+"technical"
+],
+"nn/smeikje": [
+1,
+"ok"
+],
+"nn/smolle": [
+1,
+"ok"
+],
+"nn/smuske": [
+1,
+"ok"
+],
+"nn/smålog": [
+0,
+"dialect"
+],
+"nn/smætte": [
+1,
+"restored by user"
+],
+"nn/smøyeleg": [
+1,
+"restored by user"
+],
+"nn/snaldre": [
+1,
+"ok"
+],
+"nn/snarfengen": [
+0,
+"derived"
+],
+"nn/snarfløygd": [
+0,
+"derived"
+],
+"nn/snarke": [
+0,
+"common"
+],
+"nn/snippen": [
+1,
+"restored by user"
+],
+"nn/snugge": [
+1,
+"ok"
+],
+"nn/snulle": [
+1,
+"ok"
+],
+"nn/snurkle": [
+1,
+"ok"
+],
+"nn/snuvle": [
+1,
+"ok"
+],
+"nn/snykte": [
+1,
+"ok"
+],
+"nn/snyrel": [
+0,
+"dialect"
+],
+"nn/snøype": [
+1,
+"ok"
+],
+"nn/snøypen": [
+0,
+"dialect"
+],
+"nn/spauke": [
+1,
+"restored by user"
+],
+"nn/speike": [
+1,
+"ok"
+],
+"nn/spjarre": [
+0,
+"dialect"
+],
+"nn/spjerre": [
+1,
+"ok"
+],
+"nn/spjerten": [
+1,
+"ok"
+],
+"nn/spjette": [
+1,
+"ok"
+],
+"nn/sprale": [
+1,
+"ok"
+],
+"nn/spratle": [
+0,
+"dull"
+],
+"nn/spritle": [
+1,
+"ok"
+],
+"nn/sprone": [
+1,
+"ok"
+],
+"nn/spræne": [
+1,
+"ok"
+],
+"nn/spurvis": [
+1,
+"ok"
+],
+"nn/stakre": [
+1,
+"ok"
+],
+"nn/stauke": [
+1,
+"ok"
+],
+"nn/stelpe": [
+1,
+"ok"
+],
+"nn/sterre": [
+1,
+"restored by user"
+],
+"nn/stevjast": [
+1,
+"ok"
+],
+"nn/stikne": [
+0,
+"dialect"
+],
+"nn/stikte": [
+1,
+"restored by user"
+],
+"nn/stivle": [
+0,
+"dialect"
+],
+"nn/stjoltre": [
+1,
+"ok"
+],
+"nn/stjorne": [
+1,
+"ok"
+],
+"nn/storlåten": [
+1,
+"ok"
+],
+"nn/strangle": [
+1,
+"ok"
+],
+"nn/strante": [
+1,
+"ok"
+],
+"nn/stratt": [
+1,
+"restored by user"
+],
+"nn/stridøygd": [
+1,
+"ok"
+],
+"nn/strile": [
+1,
+"ok"
+],
+"nn/strinte": [
+0,
+"dialect"
+],
+"nn/striple": [
+1,
+"restored by user"
+],
+"nn/stropen": [
+0,
+"dialect"
+],
+"nn/stropne": [
+1,
+"restored by user"
+],
+"nn/strunteleg": [
+1,
+"ok"
+],
+"nn/strylle": [
+0,
+"dialect"
+],
+"nn/stryllete": [
+0,
+"dialect"
+],
+"nn/stultre": [
+1,
+"ok"
+],
+"nn/stumre": [
+1,
+"ok"
+],
+"nn/styrje": [
+1,
+"ok"
+],
+"nn/styrven": [
+1,
+"restored by user"
+],
+"nn/stødve": [
+1,
+"ok"
+],
+"nn/sulkesam": [
+0,
+"dialect"
+],
+"nn/sundre": [
+0,
+"dull"
+],
+"nn/svabbe": [
+1,
+"ok"
+],
+"nn/svakke": [
+0,
+"dialect"
+],
+"nn/svalke": [
+1,
+"restored by user"
+],
+"nn/svall": [
+1,
+"ok"
+],
+"nn/svalle": [
+1,
+"restored by user"
+],
+"nn/svallig": [
+1,
+"ok"
+],
+"nn/svallug": [
+1,
+"ok"
+],
+"nn/svamle": [
+1,
+"ok"
+],
+"nn/svarpe": [
+0,
+"dialect"
+],
+"nn/svasse": [
+1,
+"ok"
+],
+"nn/sveivle": [
+0,
+"dialect"
+],
+"nn/svenge": [
+0,
+"dull"
+],
+"nn/svervle": [
+1,
+"ok"
+],
+"nn/svevnig": [
+0,
+"dull"
+],
+"nn/svimre": [
+0,
+"spelling"
+],
+"nn/svipleg": [
+0,
+"dialect"
+],
+"nn/svirpe": [
+1,
+"ok"
+],
+"nn/svirte": [
+1,
+"ok"
+],
+"nn/svitte": [
+1,
+"ok"
+],
+"nn/svåsse": [
+1,
+"ok"
+],
+"nn/sykjast": [
+0,
+"dialect"
+],
+"nn/syvje": [
+0,
+"dialect"
+],
+"nn/sælast": [
+1,
+"restored by user"
+],
+"nn/tabuere": [
+0,
+"derived"
+],
+"nn/talmast": [
+0,
+"dialect"
+],
+"nn/talme": [
+0,
+"dialect"
+],
+"nn/tandle": [
+0,
+"dialect"
+],
+"nn/tandre": [
+1,
+"ok"
+],
+"nn/taskenspel": [
+1,
+"ok"
+],
+"nn/taumkøyre": [
+0,
+"dialect"
+],
+"nn/tauvre": [
+0,
+"archaic"
+],
+"nn/teksle": [
+0,
+"technical"
+],
+"nn/tendre": [
+0,
+"archaic"
+],
+"nn/tevje": [
+0,
+"dialect"
+],
+"nn/tilbrigde": [
+0,
+"dialect"
+],
+"nn/timlusete": [
+1,
+"ok"
+],
+"nn/tindre": [
+0,
+"common"
+],
+"nn/tistete": [
+1,
+"restored by user"
+],
+"nn/tistren": [
+1,
+"ok"
+],
+"nn/titevill": [
+1,
+"ok"
+],
+"nn/tjonete": [
+0,
+"dialect"
+],
+"nn/tokig": [
+1,
+"ok"
+],
+"nn/tortimast": [
+1,
+"ok"
+],
+"nn/trafsete": [
+1,
+"ok"
+],
+"nn/traspe": [
+1,
+"restored by user"
+],
+"nn/traud": [
+1,
+"ok"
+],
+"nn/trauken": [
+1,
+"ok"
+],
+"nn/trautal": [
+1,
+"ok"
+],
+"nn/trette": [
+0,
+"common"
+],
+"nn/trumpen": [
+1,
+"restored by user"
+],
+"nn/truske": [
+0,
+"dialect"
+],
+"nn/tryste": [
+1,
+"restored by user"
+],
+"nn/trågjengd": [
+1,
+"ok"
+],
+"nn/trælke": [
+1,
+"restored by user"
+],
+"nn/trøyste": [
+1,
+"ok"
+],
+"nn/tumultuarisk": [
+1,
+"ok"
+],
+"nn/tunnen": [
+1,
+"ok"
+],
+"nn/turrbanke": [
+1,
+"ok"
+],
+"nn/turrbanne": [
+1,
+"ok"
+],
+"nn/turrsymje": [
+1,
+"ok"
+],
+"nn/turvast": [
+0,
+"dull"
+],
+"nn/tuskeleg": [
+1,
+"ok"
+],
+"nn/tvarle": [
+0,
+"dialect"
+],
+"nn/tveite": [
+0,
+"dialect"
+],
+"nn/tverke": [
+1,
+"ok"
+],
+"nn/tvibykse": [
+1,
+"ok"
+],
+"nn/tvikrokete": [
+1,
+"ok"
+],
+"nn/tville": [
+0,
+"dull"
+],
+"nn/tvingle": [
+1,
+"ok"
+],
+"nn/tvinle": [
+0,
+"dialect"
+],
+"nn/tvinte": [
+1,
+"ok"
+],
+"nn/tvirle": [
+1,
+"ok"
+],
+"nn/tvitutla": [
+0,
+"spelling"
+],
+"nn/tynsle": [
+0,
+"archaic"
+],
+"nn/typisere": [
+1,
+"restored by user"
+],
+"nn/tæpe": [
+1,
+"ok"
+],
+"nn/ubjåleg": [
+1,
+"restored by user"
+],
+"nn/ufansleg": [
+1,
+"ok"
+],
+"nn/ukjuren": [
+1,
+"ok"
+],
+"nn/umegd": [
+1,
+"ok"
+],
+"nn/unelaus": [
+1,
+"ok"
+],
+"nn/unoggen": [
+1,
+"restored by user"
+],
+"nn/utarleg": [
+1,
+"ok"
+],
+"nn/uterleg": [
+1,
+"ok"
+],
+"nn/utjonsleg": [
+1,
+"ok"
+],
+"nn/utnista": [
+1,
+"ok"
+],
+"nn/utormåta": [
+1,
+"ok"
+],
+"nn/utæva": [
+1,
+"ok"
+],
+"nn/valdre": [
+1,
+"ok"
+],
+"nn/valtre": [
+1,
+"ok"
+],
+"nn/vargsvolten": [
+1,
+"ok"
+],
+"nn/vedkjømeleg": [
+1,
+"ok"
+],
+"nn/veivle": [
+1,
+"ok"
+],
+"nn/venesæl": [
+1,
+"ok"
+],
+"nn/vermsle": [
+0,
+"dialect"
+],
+"nn/versjuk": [
+1,
+"ok"
+],
+"nn/veteleg": [
+0,
+"dull"
+],
+"nn/vidforig": [
+1,
+"ok"
+],
+"nn/viktualie": [
+1,
+"ok"
+],
+"nn/vinnskipeleg": [
+1,
+"ok"
+],
+"nn/visshendt": [
+1,
+"ok"
+],
+"nn/vondle": [
+0,
+"dialect"
+],
+"nn/vrante": [
+1,
+"ok"
+],
+"nn/vrengle": [
+1,
+"ok"
+],
+"nn/vyrdeleg": [
+1,
+"ok"
+],
+"nn/vyrdsleg": [
+0,
+"derived"
+],
+"nn/vyrk": [
+1,
+"ok"
+],
+"nn/vyrktaleg": [
+1,
+"ok"
+],
+"nn/våleg": [
+1,
+"ok"
+],
+"nn/våme": [
+1,
+"ok"
+],
+"nn/våskøytt": [
+1,
+"restored by user"
+],
+"nn/vørdsle": [
+1,
+"ok"
+],
+"nn/yllast": [
+0,
+"technical"
+],
+"nn/ylmen": [
+1,
+"ok"
+],
+"nn/ymisleg": [
+1,
+"ok"
+],
+"nn/åbyrgjast": [
+1,
+"restored by user"
+],
+"nn/ågangsam": [
+1,
+"ok"
+],
+"nn/åhugfull": [
+0,
+"derived"
+],
+"nn/åleiten": [
+0,
+"dialect"
+],
+"nn/åmellom": [
+0,
+"dull"
+],
+"nn/årast": [
+0,
+"dialect"
+],
+"nn/åskodeleg": [
+0,
+"derived"
+],
+"nn/åtsøken": [
+1,
+"ok"
+],
+"nn/ærug": [
+1,
+"ok"
+],
+"nn/ævordleg": [
+1,
+"ok"
+],
+"nn/ølne": [
+1,
+"ok"
+],
+"nn/ørmekte": [
+1,
+"ok"
+],
+"nn/ørvæn": [
+1,
+"ok"
+],
+"nn/ørvænast": [
+1,
+"ok"
+],
+"nn/ørvæne": [
+1,
+"ok"
+],
+"nn/øsnad": [
+0,
+"dialect"
+],
+"nn/øygle": [
+1,
+"ok"
+],
+"nn/øygne": [
+1,
+"ok"
+]
+}

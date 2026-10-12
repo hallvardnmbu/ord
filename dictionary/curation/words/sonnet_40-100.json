@@ -1,0 +1,298 @@
+[
+ {
+  "d": "bm",
+  "w": "bjekso",
+  "src": "unused",
+  "m": "høy lærstøvel med oppbøyd tupp foran",
+  "e": "",
+  "p_sonnet": 55.0
+ },
+ {
+  "d": "nn",
+  "w": "skripe",
+  "src": "db",
+  "m": "kjæle for, med; smeikje; skjemme bort (eit barn)",
+  "e": "",
+  "p_sonnet": 52.5
+ },
+ {
+  "d": "bm",
+  "w": "blakkert",
+  "src": "unused",
+  "m": "lysestake med fotstykke formet som en skål med håndtak",
+  "e": "",
+  "p_sonnet": 50.0
+ },
+ {
+  "d": "bm",
+  "w": "snøfle",
+  "src": "db",
+  "m": "være frekk",
+  "e": "",
+  "p_sonnet": 47.5
+ },
+ {
+  "d": "nn",
+  "w": "bendast",
+  "src": "db",
+  "m": "vri seg; dragast, stridast; stri, streve",
+  "e": "fjølene bendest",
+  "p_sonnet": 45.0
+ },
+ {
+  "d": "nn",
+  "w": "tandle",
+  "src": "db",
+  "m": "tyggje, gnage; streve",
+  "e": "",
+  "p_sonnet": 45.0
+ },
+ {
+  "d": "nn",
+  "w": "drambsleg",
+  "src": "db",
+  "m": "staseleg; stolt",
+  "e": "",
+  "p_sonnet": 45.0
+ },
+ {
+  "d": "nn",
+  "w": "glindre",
+  "src": "db",
+  "m": "myse, glire",
+  "e": "auga glindrar mot sola",
+  "p_sonnet": 45.0
+ },
+ {
+  "d": "bm",
+  "w": "tuske",
+  "src": "unused",
+  "m": "drive byttehandel med kjøpslåing og knep; skaffe seg på uhederlig vis; lure til seg",
+  "e": "tuske til seg millioner",
+  "p_sonnet": 45.0
+ },
+ {
+  "d": "nn",
+  "w": "drusten",
+  "src": "db",
+  "m": "drusteleg",
+  "e": "",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "geiple",
+  "src": "db",
+  "m": "geipe; terge; skjemte",
+  "e": "",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "drangle",
+  "src": "db",
+  "m": "dragse uvørde; søle, spille; gå seint",
+  "e": "drangle vatn",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "bm",
+  "w": "manuduksjon",
+  "src": "unused",
+  "m": "privatundervisning i universitetsfag med tanke på eksamen",
+  "e": "",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "skjegle",
+  "src": "db",
+  "m": "ikkje kunne sjå i same leia med begge auga på grunn av synsfeil; sjå til sida",
+  "e": "skjegle til det sidemannen gjer",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "tvinle",
+  "src": "db",
+  "m": "tvinne, surre; fløkje; kvervle, røre",
+  "e": "tvinle i hop garnet",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "bm",
+  "w": "snøse",
+  "src": "unused",
+  "m": "lukte, snuse; blåse i nesen; fnyse",
+  "e": "snøse borti alt",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "bm",
+  "w": "ptrotte",
+  "src": "unused",
+  "m": "si ‘pro’ (el ‘ptro’) til hest for å få den til å stanse",
+  "e": "",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "skjaltre",
+  "src": "db",
+  "m": "lage kvasse lydar; gøy",
+  "e": "",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "rengle",
+  "src": "db",
+  "m": "vere vrang og vrien i tale; tverke, krangle, trette",
+  "e": "vrengle seg inn på folk",
+  "p_sonnet": 42.5
+ },
+ {
+  "d": "nn",
+  "w": "illgøy",
+  "src": "db",
+  "m": "gøy høgt og skarpt",
+  "e": "hunden illgøydde",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "drunten",
+  "src": "db",
+  "m": "sein, tung",
+  "e": "",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "bm",
+  "w": "snavle",
+  "src": "db",
+  "m": "snakke på en brummende måte",
+  "e": "",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "nogg",
+  "src": "unused",
+  "m": "støyt, skump; lita skramme; rift i klede el skinn",
+  "e": "eit nogg i bringa",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "hjåmete",
+  "src": "db",
+  "m": "tynnskya; døkk; mørk",
+  "e": "",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "bidlundsam",
+  "src": "db",
+  "m": "tolmodig",
+  "e": "",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "tveite",
+  "src": "db",
+  "m": "lage innhogg i (trestamme); hogge av; vere tverr og vrang",
+  "e": "tveite tre, stokkar",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "kokle",
+  "src": "unused",
+  "m": "kakle; kjæle for; kokre",
+  "e": "",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "fjom",
+  "src": "unused",
+  "m": "liten og lett ting; fnugg",
+  "e": "vere lett som eit fjom",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "bm",
+  "w": "jalme",
+  "src": "unused",
+  "m": "ljome; huie",
+  "e": "",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "idast",
+  "src": "unused",
+  "m": "vilje umake seg med; gidde",
+  "e": "han idest ikkje røre seg",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "teksle",
+  "src": "db",
+  "m": "hole ut, hogge ut med teksle; lage hakkande lyd; skjenne, gøy",
+  "e": "",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "bm",
+  "w": "kvivitt",
+  "src": "db",
+  "m": "brukt til å gjengi kvitring fra fugl",
+  "e": "småfuglene kvitret: kvivitt, kvivitt!",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "bm",
+  "w": "ørske",
+  "src": "unused",
+  "m": "sterkt forvirret el åndsfraværende sinnstilstand; helt meningsløst; i hytt og vær",
+  "e": "gå i ørska",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "ormektast",
+  "src": "db",
+  "m": "bli eller vere kraftlaus og forkomen; ormekte",
+  "e": "",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "kvimsen",
+  "src": "db",
+  "m": "kvimen; forfjamsa",
+  "e": "",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "bm",
+  "w": "redingot",
+  "src": "unused",
+  "m": "dobbeltknappet, knelang frakk; bonjour; lang rettskåret jakke el kåpe for kvinner",
+  "e": "",
+  "p_sonnet": 40.0
+ },
+ {
+  "d": "nn",
+  "w": "skrålsam",
+  "src": "db",
+  "m": "svær til å skråle; høgmælt og ståksam",
+  "e": "",
+  "p_sonnet": 40.0
+ }
+]
