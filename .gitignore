@@ -7,5 +7,6 @@ bun.lockb
 bun.lock
 
 .env
-dictionary/curation/cache/
 __pycache__/
+
+dictionary/curation/
