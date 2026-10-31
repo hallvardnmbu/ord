@@ -1,5 +1,10 @@
 import { Database } from "bun:sqlite";
-import { join } from "path";
+import { join, resolve, sep } from "path";
+
+const publicDir = join(import.meta.dir, "public");
+
+const esc = (v) =>
+  String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
 const db = new Database(join(import.meta.dir, "ord.db"), { readonly: true });
 
@@ -242,7 +247,7 @@ function renderWord(word) {
 
 function renderPage({ words, dictionary, date, week, day, error }) {
   const sel = (v) => (dictionary === v ? "selected" : "");
-  const dictVal = dictionary || "bm";
+  const dictVal = esc(dictionary || "bm");
 
   return `<!doctype html>
 <html lang="nb">
@@ -272,7 +277,7 @@ function renderPage({ words, dictionary, date, week, day, error }) {
         day && week && date
           ? `<div>${day.charAt(0).toUpperCase() + day.slice(1)}</div><div>•</div><div>Uke ${week}</div><div>•</div><div>${date}</div>`
           : day
-            ? `<div>Søkte etter <b>${day}</b>.</div>`
+            ? `<div>Søkte etter <b>${esc(day)}</b>.</div>`
             : `<div></div>`
       }
     </header>
@@ -293,7 +298,7 @@ function renderPage({ words, dictionary, date, week, day, error }) {
               })
               .join("")
           : error
-            ? `<section><div class="message">Noe gikk galt: ${error}</div></section>`
+            ? `<section><div class="message">Noe gikk galt: ${esc(error)}</div></section>`
             : `<section><div class="message">Fant ikke dette ordet i databasen.</div></section>`
       }
     </main>
@@ -413,7 +418,15 @@ export default function ord(request) {
     }
   }
 
-  const file = Bun.file(join(import.meta.dir, "public", pathname));
+  let decoded;
+  try {
+    decoded = decodeURIComponent(pathname);
+  } catch {
+    return new Response("Bad request", { status: 400 });
+  }
+  const path = resolve(publicDir, "." + decoded);
+  if (decoded.includes("\0") || !path.startsWith(publicDir + sep)) return new Response("Not found", { status: 404 });
+  const file = Bun.file(path);
   return file.exists().then((exists) => (exists ? new Response(file) : new Response("Not found", { status: 404 })));
 }
 
